@@ -1,0 +1,25 @@
+version: v1
+domain: radio
+description: 전파장해 관련 규칙 (1개) — 풍력발전 전파장해 검토
+rules:
+- rule_id: RAD-001
+  rule_version: v1
+  title: 풍력발전 사업 전파장해 검토 필요
+  trigger_dataset: 과기정통부 전파환경측정 / 사업유형 분석
+  condition:
+    field: radio.radio_interference_risk
+    operator: eq
+    value: true
+  severity: review
+  rationale: '풍력발전 사업의 경우 대형 블레이드 회전이 인근 레이더·방송·통신시설에 전파장해를 일으킬 수 있습니다. 전파법에 따라 전파간섭
+    영향 검토가 필요하며, 국방부·항공 레이더와의 이격거리 확보가 중요합니다.
+
+    '
+  evidence: 과기정통부 전파환경측정 데이터 / 군사시설·레이더 배치 현황
+  next_action: 전파간섭 영향 분석 실시. 레이더·방송시설 이격거리 확인
+  legal_basis: 전파법 제47조의2 (전파환경의 보호), 환경영향평가법 시행령 별표1
+  confidence: 0.65
+  human_review_required: true
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

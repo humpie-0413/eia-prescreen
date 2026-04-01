@@ -1,0 +1,152 @@
+version: v1
+domain: land_regulation
+description: 토지이용규제 관련 규칙 (8개) — 용도지역 충돌, 보전지역, 개발제한구역, 군사시설보호, 농업진흥지역, 산지전용제한, 하천구역,
+  접도구역
+rules:
+- rule_id: LAND-001
+  rule_version: v1
+  title: 용도지역 상충 — 사업 용도와 지정 용도지역 불일치
+  trigger_dataset: 토지이용규제정보서비스(토지이음)
+  condition:
+    field: land_use.zone_conflict
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지의 지정 용도지역과 계획 사업 용도가 상충합니다. 예를 들어 보전녹지지역에 공장을 입지하거나, 자연녹지지역에 대규모
+    주거단지를 계획하는 경우에 해당합니다. 용도지역 변경(도시관리계획 변경)이 수반되지 않으면 사업 인허가가 불가합니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 용도지역/용도지구/용도구역 조회 결과
+  next_action: 해당 지자체 도시계획과에 용도지역 변경 가능성을 사전 협의하고, 관련 도시관리계획 변경 절차 확인
+  legal_basis: 국토의 계획 및 이용에 관한 법률 제76조 (용도지역 안에서의 건축물의 건축 제한)
+  confidence: 0.9
+  human_review_required: true
+- rule_id: LAND-002
+  rule_version: v1
+  title: 보전지역 중첩 — 자연환경보전지역·수산자원보호구역 포함
+  trigger_dataset: 토지이용규제정보서비스(토지이음)
+  condition:
+    field: land_use.conservation_zone_overlap
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지가 자연환경보전지역 또는 수산자원보호구역과 중첩됩니다. 이 지역에서는 건축물 건축, 토지 형질변경 등이 원칙적으로
+    금지되며, 극히 제한적인 예외만 인정됩니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 자연환경보전지역/수산자원보호구역 중첩 조회
+  next_action: 부지 대안 검토를 우선 권고. 불가피한 경우 환경부·해양수산부 사전 협의 필수
+  legal_basis: 국토의 계획 및 이용에 관한 법률 제76조, 자연환경보전법 제15조
+  confidence: 0.95
+  human_review_required: true
+- rule_id: LAND-003
+  rule_version: v1
+  title: 개발제한구역(그린벨트) 중첩
+  trigger_dataset: 토지이용규제정보서비스(토지이음)
+  condition:
+    field: land_use.greenbelt_overlap
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지가 개발제한구역(그린벨트)에 포함되어 있습니다. 개발제한구역 내에서는 건축물 건축, 공작물 설치, 토지 형질변경
+    등이 원칙적으로 금지되며, 해제 또는 예외 허가를 받아야 합니다. 해제 절차는 통상 1~3년이 소요됩니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 개발제한구역 중첩 조회
+  next_action: 개발제한구역 해제 가능성 확인(국토부 GB 해제 가이드라인). 해제 불가 시 대안 부지 검토
+  legal_basis: 개발제한구역의 지정 및 관리에 관한 특별조치법 제12조, 제13조
+  confidence: 0.95
+  human_review_required: true
+- rule_id: LAND-004
+  rule_version: v1
+  title: 군사시설보호구역 중첩
+  trigger_dataset: 토지이용규제정보서비스(토지이음)
+  condition:
+    field: land_use.military_zone_overlap
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 군사시설보호구역(통제보호구역 또는 제한보호구역)과 중첩됩니다. 통제보호구역 내에서는 사실상 개발이 불가하며,
+    제한보호구역에서도 국방부(관할 부대)의 협의가 필수입니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 군사시설보호구역 중첩 조회
+  next_action: 관할 군부대에 사업 가능 여부 사전 협의. 통제보호구역인 경우 대안 부지 검토
+  legal_basis: 군사기지 및 군사시설 보호법 제13조
+  confidence: 0.85
+  human_review_required: true
+- rule_id: LAND-005
+  rule_version: v1
+  title: 농업진흥지역 중첩 — 전용 협의 필요
+  trigger_dataset: 토지이용규제정보서비스(토지이음)
+  condition:
+    field: land_use.agricultural_zone_overlap
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 농업진흥지역에 포함되어 있습니다. 농업진흥지역 내 농지는 전용이 엄격히 제한되며, 농지전용허가 또는 협의를 거쳐야
+    합니다. 대규모 전용 시 농림축산식품부 협의가 필요합니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 농업진흥지역 중첩 조회
+  next_action: 농지전용 가능성 확인(시·군 농업기술센터 또는 농지과). 전용부담금 산정 검토
+  legal_basis: 농지법 제34조 (농지의 전용허가), 농지법 제32조 (농업진흥지역의 지정)
+  confidence: 0.9
+  human_review_required: false
+- rule_id: LAND-006
+  rule_version: v1
+  title: 산지전용제한지역 중첩
+  trigger_dataset: 토지이용규제정보서비스(토지이음) / 산림청 산지구분도
+  condition:
+    field: land_use.forest_conservation_overlap
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지가 산지전용제한지역과 중첩됩니다. 산지전용제한지역은 보전산지 중에서도 특히 산림의 형상·기능 보전이 필요한 지역으로,
+    산지전용이 원칙적으로 금지됩니다. 공익용 산지전용의 극히 제한적인 예외만 인정되므로 사업 추진에 중대한 장애가 됩니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 산지전용제한지역 중첩 조회 / 산림청 산지구분도
+  next_action: 부지 대안 검토를 최우선 권고. 불가피한 경우 산림청 산지전용 협의 가능성 사전 확인
+  legal_basis: 산지관리법 제10조 (산지전용제한지역의 지정)
+  confidence: 0.9
+  human_review_required: true
+- rule_id: LAND-007
+  rule_version: v1
+  title: 하천구역 중첩
+  trigger_dataset: 토지이용규제정보서비스(토지이음) / 하천법 하천구역 고시
+  condition:
+    field: land_use.river_zone_overlap
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 하천구역과 중첩됩니다. 하천구역 내에서는 토지의 굴착·성토, 건축물 건축, 공작물 설치 등이 원칙적으로 금지되며,
+    하천 점용허가를 받아야 합니다. 허가 요건이 엄격하고 홍수 시 침수 위험도 고려해야 합니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 하천구역 중첩 조회 / 하천법 하천구역 고시
+  next_action: 하천관리청(국토부 또는 지자체)에 하천 점용허가 가능 여부 사전 협의. 홍수위 검토 포함
+  legal_basis: 하천법 제33조 (하천구역 안에서의 행위 제한)
+  confidence: 0.85
+  human_review_required: true
+- rule_id: LAND-008
+  rule_version: v1
+  title: 접도구역 중첩
+  trigger_dataset: 토지이용규제정보서비스(토지이음) / 도로관리청 접도구역 고시
+  condition:
+    field: land_use.road_buffer_zone_overlap
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지가 접도구역과 중첩됩니다. 접도구역은 도로 구조의 파손 방지, 미관 보존, 교통안전 확보를 위해 도로 경계선으로부터
+    일정 구간에 지정되며, 건축물 건축·공작물 설치 등이 제한됩니다. 도로관리청의 허가를 받으면 일부 행위가 가능합니다.
+
+    '
+  evidence: 토지이용규제정보서비스 — 접도구역 중첩 조회 / 도로관리청 고시
+  next_action: 도로관리청에 접도구역 내 행위 허가 가능 여부 사전 확인. 건축선 후퇴 등 대안 검토
+  legal_basis: 도로법 제40조 (접도구역의 지정)
+  confidence: 0.75
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

@@ -1,0 +1,138 @@
+version: v1
+domain: water
+description: 수질·수계 관련 규칙 (7개) — 수계 인접, 상수원보호구역, 수질 민감지역, 수질오염총량관리, 지하수보전구역, 홍수위 저지대,
+  유지유량 부족
+rules:
+- rule_id: WAT-001
+  rule_version: v1
+  title: 하천·수계 직접 인접 (100m 이내)
+  trigger_dataset: 물환경정보시스템(WEIS) / 하천망 데이터
+  condition:
+    field: water.river_distance_m
+    operator: within_buffer
+    value: 100
+    unit: m
+  severity: major
+  rationale: '사업 부지가 하천 또는 주요 수계로부터 100m 이내에 위치합니다. 시공 중 토사 유출, 운영 중 비점오염원 등으로 인한
+    수질 영향이 우려되며, 하천구역 내 행위 제한 여부를 확인해야 합니다.
+
+    '
+  evidence: 물환경정보시스템 하천 경계 데이터 / 하천법 하천구역 고시
+  next_action: 하천 점용허가 필요 여부 확인. 비점오염 저감시설 설치 계획 수립
+  legal_basis: 하천법 제33조 (하천구역 안에서의 행위 제한), 수질 및 수생태계 보전에 관한 법률 제53조
+  confidence: 0.8
+  human_review_required: false
+- rule_id: WAT-002
+  rule_version: v1
+  title: 상수원보호구역 중첩 또는 인접 (500m 이내)
+  trigger_dataset: 환경부 상수원보호구역 고시 / 토지이용규제정보
+  condition:
+    field: water.water_source_protection_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: critical
+  rationale: '사업 부지가 상수원보호구역과 중첩되거나 500m 이내에 위치합니다. 상수원보호구역 내에서는 수질 오염을 유발하는 시설의 설치가
+    엄격히 제한되며, 인접 지역에서도 오염원 관리가 강화됩니다.
+
+    '
+  evidence: 상수원보호구역 고시 / 토지이용규제정보서비스
+  next_action: 상수원보호구역 관할 지자체·환경부 사전 협의 필수. 오수·폐수 처리 계획 강화
+  legal_basis: 수도법 제7조 (상수원보호구역의 지정), 수질 및 수생태계 보전에 관한 법률 제4조
+  confidence: 0.9
+  human_review_required: true
+- rule_id: WAT-003
+  rule_version: v1
+  title: 수질 민감지역 — 특별대책지역·수변구역 포함
+  trigger_dataset: 환경부 수질보전 특별대책지역 / 4대강 수변구역 고시
+  condition:
+    field: water.sensitive_water_zone
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 수질보전 특별대책지역 또는 4대강 수변구역에 포함되어 있습니다. 해당 지역에서는 폐수 배출시설 설치가 제한되거나
+    강화된 배출허용기준이 적용되며, 오염총량관리제의 적용을 받을 수 있습니다.
+
+    '
+  evidence: 환경부 수질보전 특별대책지역 고시 / 4대강 수변구역 지정 현황
+  next_action: 오염총량 할당량 확보 방안 검토. 강화된 수질 배출기준 적용 확인
+  legal_basis: 수질 및 수생태계 보전에 관한 법률 제22조, 4대강수계법
+  confidence: 0.85
+  human_review_required: false
+- rule_id: WAT-004
+  rule_version: v1
+  title: 수질오염총량관리지역 포함
+  trigger_dataset: 환경부 오염총량관리 기본계획 / 지자체 시행계획
+  condition:
+    field: water.total_pollution_load_area
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 수질오염총량관리제 시행 지역에 포함되어 있습니다. 해당 지역에서는 개발사업 시 오염부하량 할당을 받아야 하며,
+    할당량 초과 시 삭감 방안을 제출해야 합니다. 대규모 오·폐수 배출 사업의 경우 할당량 확보가 사업 추진의 선결 조건이 될 수 있습니다.
+
+    '
+  evidence: 환경부 오염총량관리 기본계획 / 해당 시·도 오염총량관리 시행계획
+  next_action: 해당 지자체 오염총량관리 담당 부서에 할당 가능량 사전 확인. 삭감 방안 수립
+  legal_basis: 물환경보전법 제4조의2 (수질오염총량관리)
+  confidence: 0.8
+  human_review_required: false
+- rule_id: WAT-005
+  rule_version: v1
+  title: 지하수보전구역 인접 (300m 이내)
+  trigger_dataset: 지하수정보시스템(GIMS) / 환경부 지하수보전구역 고시
+  condition:
+    field: water.underground_water_protection_distance_m
+    operator: within_buffer
+    value: 300
+    unit: m
+  severity: review
+  rationale: '사업 부지가 지하수보전구역으로부터 300m 이내에 위치합니다. 지하수보전구역은 지하수의 적정한 개발·이용과 효율적인 보전·관리를
+    위해 지정된 구역으로, 인접 지역에서의 굴착·오염물질 배출 등이 지하수 수질에 영향을 미칠 수 있습니다. 지하수 오염 방지를 위한 별도 대책이
+    필요합니다.
+
+    '
+  evidence: 지하수정보시스템(GIMS) / 환경부 지하수보전구역 고시 현황
+  next_action: 지하수 영향조사 실시 여부 확인. 오염 방지시설 설치 계획 수립
+  legal_basis: 지하수법 제12조 (지하수보전구역의 지정)
+  confidence: 0.7
+  human_review_required: false
+- rule_id: HYD-001
+  rule_version: v1
+  title: 홍수위 이하 저지대 — 침수 위험
+  trigger_dataset: WAMIS 수문관측 / 하천기본계획 홍수위 데이터
+  condition:
+    field: hydrology.flood_risk_zone
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 하천 홍수위 이하 저지대에 위치하여 침수 위험이 있습니다. 하천 범람 시 사업 시설물 피해가 예상되며, 시공
+    중 토사 유출로 인한 하류 수질 영향도 우려됩니다. 하천기본계획의 계획홍수위를 확인하고, 사업 부지 표고와의 비교 분석이 필요합니다.
+
+    '
+  evidence: WAMIS 수문관측 데이터 / 하천기본계획 홍수위
+  next_action: 계획홍수위 대비 부지 표고 비교 분석. 우수 배제 계획 수립. 침수 방지 대책 마련
+  legal_basis: 하천법 제33조, 자연재해대책법 제12조
+  confidence: 0.75
+  human_review_required: true
+- rule_id: HYD-002
+  rule_version: v1
+  title: 하천 유지유량 부족 구간
+  trigger_dataset: WAMIS 수문관측 / 물환경보전법 유지유량
+  condition:
+    field: hydrology.low_flow_section
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지 인근 하천이 유지유량 부족 구간에 해당합니다. 갈수기에 하천 유량이 부족하여 사업으로 인한 추가 용수 사용이나
+    오폐수 방류 시 하류 수질에 미치는 영향이 커질 수 있습니다. 용수 수급 계획과 폐수 방류 계획을 수립할 때 갈수기 유량을 고려해야 합니다.
+
+    '
+  evidence: WAMIS 수문관측 갈수기 유량 데이터
+  next_action: 갈수기 유량 확인. 용수 수급 계획 수립. 방류수 수질 기준 강화 검토
+  legal_basis: 물환경보전법 제22조, 하천법 제51조 (하천의 유지·관리)
+  confidence: 0.65
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

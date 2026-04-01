@@ -1,0 +1,92 @@
+{
+  "tested_at": "2026-03-28T18:30:00",
+  "api_key": "DATA_GO_KR_API_KEY (9b65d...)",
+
+  "working_apis": {
+    "1_spatial_search": {
+      "url": "https://apis.data.go.kr/1480523/EnvrnAffcEvlBsnsInfoInqireService/getBsnsPlaceLnMyeonInfoInqire",
+      "status": "SUCCESS (15/15 gubun types)",
+      "note": "centerX=위도, centerY=경도 (반대). distance 파라미터는 자체 단위(미터 아님). distance=5000으로 전체 데이터 근접순 정렬 가능. 클라이언트 측 haversine 필터링 필요.",
+      "data_counts": {
+        "gubun_1_사업지_선": 698,
+        "gubun_2_사업지_면": 2846,
+        "gubun_3_멸종위기동물_점": 9564,
+        "gubun_4_멸종위기동물_선": 3975,
+        "gubun_5_멸종위기동물_면": 1686,
+        "gubun_6_멸종위기식물_점": 13413,
+        "gubun_7_멸종위기식물_면": 244,
+        "gubun_8_대기질_점": 20719,
+        "gubun_9_해양저질": 3272,
+        "gubun_10_해양수질": 4497,
+        "gubun_11_지표수질": 20103,
+        "gubun_12_지하수질": 8944,
+        "gubun_13_토양질": 11876,
+        "gubun_14_멸종위기동물_선2": 21132,
+        "gubun_15_진동": 17277
+      },
+      "response_fields": ["centerx(lon)", "centery(lat)", "distance", "name", "num", "rnum"],
+      "connector_updated": true
+    },
+    "2_detail_info": {
+      "url": "https://apis.data.go.kr/1480523/BeffatStrtgySmallScaleDscssSttusInfoInqireService/getBsnsStrtgySmallScaleDscssBsnsDetailInfoInqire",
+      "status": "SUCCESS",
+      "parameter": "perCd (NOT bizSeq)",
+      "response_fields": ["bizNm", "ccilOrganCd(협의기관)", "ctcMemEmail", "ctcMemFax", "ctcMemNm(담당자)", "ctcMemTel", "perCd"],
+      "tested_count": "5/5 성공",
+      "connector_updated": true
+    },
+    "3_consultation_progress": {
+      "url": "https://apis.data.go.kr/1480523/BeffatStrtgySmallScaleDscssSttusInfoInqireService/getBsnsStrtgySmallScaleDscssBsnsDetailIngInfoInqire",
+      "status": "SUCCESS",
+      "parameter": "perCd",
+      "response_fields": ["applyDt(접수일)", "ccilStep1Nm(협의단계)"],
+      "note": "사업별 복수 이력 반환 (검토서 초안 → 본안 → 협의의견 통보 등)",
+      "tested_count": "5/5 성공",
+      "connector_updated": true
+    },
+    "4_consultation_list": {
+      "url": "https://apis.data.go.kr/1480523/BeffatStrtgySmallScaleDscssSttusInfoInqireService/getBsnsStrtgySmallScaleDscssListInfoInqire",
+      "status": "SUCCESS (기존 수집에서 사용)",
+      "total_count": 9981,
+      "response_fields": ["bizNm", "bizSeq", "ccilStepCd", "perCd", "rnum"],
+      "note": "기존 bulk_collect 스크립트에서 이미 사용 중"
+    }
+  },
+
+  "failed_apis": {
+    "getDscssBsnsListInfoInqire": {
+      "status": "404 (Not Found)",
+      "note": "환평 본안 협의현황 목록 - 이 서비스에 미존재"
+    },
+    "getDecsnCnListInfoInqire": {
+      "status": "404 (Not Found)",
+      "note": "결정내용 목록 - 이 서비스에 미존재"
+    },
+    "getDraftPblancDsplayListInfoInqire": {
+      "status": "404 (Not Found)",
+      "note": "초안공람 목록 - 이 서비스에 미존재"
+    },
+    "B553748_eiainformation": {
+      "status": "500 (Server Error)",
+      "note": "기존 사용 URL - 현재 서버 오류. 1480523 서비스로 교체 완료"
+    }
+  },
+
+  "connector_changes": {
+    "file": "backend/app/connectors/eia_info.py",
+    "changes": [
+      "좌표 기반 주변 환평 사업 검색 (gubun=2) 추가",
+      "멸종위기 동물/식물 분포 조회 (gubun=3,6) 추가",
+      "환경 측정지점 조회: 대기(8), 지표수질(11), 토양(13) 추가",
+      "haversine 거리 계산으로 클라이언트 측 반경 필터링 구현",
+      "perCd 기반 사업 상세정보 조회 메서드 추가 (fetch_detail)",
+      "perCd 기반 협의진행 이력 조회 메서드 추가 (fetch_consultation_progress)",
+      "데모 데이터 확장 (nearby_eia_projects, endangered_species, 측정지점 수)"
+    ]
+  },
+
+  "test_results": {
+    "pytest": "38 passed (24 pattern + 14 eia_info)",
+    "pnpm_build": "clean"
+  }
+}

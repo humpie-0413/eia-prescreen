@@ -1,0 +1,85 @@
+version: v1
+domain: traffic
+description: 교통 관련 규칙 (4개) — 교통량 과밀, 통학로 인접, 교통영향평가 대상, 대중교통 접근성
+rules:
+- rule_id: TRF-001
+  rule_version: v1
+  title: 교통량 과밀지역 — 일평균 교통량 50,000대 초과
+  trigger_dataset: 국토교통부 교통량 조사 자료 / 도로교통공단 교통정보
+  condition:
+    field: traffic.traffic_volume_daily
+    operator: gt
+    value: 50000
+  severity: major
+  rationale: '사업 부지 인접 주요 도로의 일평균 교통량이 50,000대를 초과합니다. 이미 교통 혼잡이 심한 지역에서 대규모 개발 사업이
+    추진되면 교통 서비스 수준이 급격히 저하되며, 시공 중 공사 차량에 의한 추가 정체가 발생합니다. 교통영향평가 시 도로 용량 분석 및 교통
+    개선 대책 수립이 필수적입니다.
+
+    '
+  evidence: 국토교통부 도로교통량 조사 자료 / 도로교통공단 실시간 교통정보
+  next_action: 교통영향평가 대상 여부 확인. 주변 교차로 서비스수준(LOS) 분석 및 교통 개선 대책 수립
+  legal_basis: 도시교통정비 촉진법 제15조 (교통영향평가)
+  confidence: 0.8
+  human_review_required: false
+- rule_id: TRF-002
+  rule_version: v1
+  title: 통학로 인접 (300m 이내) — 어린이 보호구역 영향
+  trigger_dataset: 교육부 학교 위치 데이터 / 경찰청 어린이보호구역 현황
+  condition:
+    field: traffic.school_route_distance_m
+    operator: within_buffer
+    value: 300
+    unit: m
+  severity: major
+  rationale: '사업 부지 300m 이내에 통학로 또는 어린이보호구역(스쿨존)이 위치합니다. 시공 중 대형 공사 차량의 통행이 어린이 통학
+    안전을 위협할 수 있으며, 운영 단계에서도 교통량 증가에 의한 보행 안전 문제가 발생할 수 있습니다. 공사 차량 동선 계획 시 통학 시간대
+    통행 제한 등의 대책이 필요합니다.
+
+    '
+  evidence: 교육부 학교 위치 데이터 / 경찰청 어린이보호구역 지정 현황
+  next_action: 어린이보호구역 위치 및 범위 정밀 확인. 공사 차량 동선 계획 수립 시 통학 시간대 회피. 교통안전 대책 수립
+  legal_basis: 도로교통법 제12조 (어린이 보호구역의 지정 및 관리)
+  confidence: 0.8
+  human_review_required: false
+- rule_id: TRF-003
+  rule_version: v1
+  title: 교통영향평가 대상 사업
+  trigger_dataset: 도시교통정비촉진법 시행령 / 사업 규모 산정
+  condition:
+    field: traffic.traffic_impact_assessment_required
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업의 규모·유형이 교통영향평가 대상에 해당합니다. 도시교통정비촉진법에 따라 일정 규모 이상의 사업(주택·상업·업무시설 등)은
+    교통영향평가를 실시해야 하며, 평가 결과에 따른 교통 개선 대책의 이행이 사업 승인의 조건이 됩니다. 평가 기간(통상 3~6개월)을 사업 일정에
+    반영해야 합니다.
+
+    '
+  evidence: 도시교통정비촉진법 시행령 별표1 — 교통영향평가 대상 사업 규모 기준
+  next_action: 교통영향평가 실시 계획 수립. 평가 기간 및 비용을 사업 일정·예산에 반영
+  legal_basis: 도시교통정비 촉진법 제16조 (교통영향평가의 실시)
+  confidence: 0.85
+  human_review_required: false
+- rule_id: TRF-004
+  rule_version: v1
+  title: 대중교통 접근성 부족 — 최근접 정류장 1km 초과
+  trigger_dataset: 국가교통DB / 대중교통 노선·정류장 정보
+  condition:
+    field: traffic.public_transit_distance_m
+    operator: gt
+    value: 1000
+    unit: m
+  severity: info
+  rationale: '사업 부지에서 가장 가까운 대중교통 정류장(버스·철도)까지의 거리가 1km를 초과합니다. 대중교통 접근성이 부족한 지역에서는
+    자가용 의존도가 높아져 교통량 증가, 주차 수요 증가, 탄소 배출 증가 등의 문제가 발생할 수 있습니다. 대규모 주거·상업 개발의 경우 대중교통
+    연계 방안을 검토해야 합니다.
+
+    '
+  evidence: 국가교통DB 대중교통 노선 정보 / 버스·철도 정류장 위치 데이터
+  next_action: 대중교통 연계 방안(셔틀버스, 노선 신설 요청 등) 검토. 주차 수요 산정 시 대중교통 분담률 조정
+  legal_basis: 대중교통의 육성 및 이용촉진에 관한 법률
+  confidence: 0.6
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

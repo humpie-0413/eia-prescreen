@@ -1,0 +1,1336 @@
+{
+  "generated_at": "2026-03-28T17:30:00",
+  "source": "conslt_list_all.json (9,973건 분석)",
+  "types": {
+    "도로": {
+      "total_count": 858,
+      "consultation_results": {
+        "조건부협의": 752,
+        "협의": 48,
+        "재검토": 35,
+        "기타": 23
+      },
+      "result_pct": {
+        "조건부협의": 87.6,
+        "협의": 5.6,
+        "재검토": 4.1,
+        "기타": 2.7
+      },
+      "common_issues": [
+        {
+          "issue": "소음·진동 영향",
+          "count": 612,
+          "pct": 71.3
+        },
+        {
+          "issue": "생태계 단절·서식지 훼손",
+          "count": 489,
+          "pct": 57.0
+        },
+        {
+          "issue": "대기질 악화 (공사·운영)",
+          "count": 437,
+          "pct": 50.9
+        },
+        {
+          "issue": "수질 오염 (비점오염)",
+          "count": 381,
+          "pct": 44.4
+        },
+        {
+          "issue": "농지·산지 전용",
+          "count": 352,
+          "pct": 41.0
+        },
+        {
+          "issue": "경관 훼손",
+          "count": 298,
+          "pct": 34.7
+        },
+        {
+          "issue": "문화재 영향",
+          "count": 189,
+          "pct": 22.0
+        },
+        {
+          "issue": "교통량 변화",
+          "count": 176,
+          "pct": 20.5
+        },
+        {
+          "issue": "지형·지질 변화",
+          "count": 154,
+          "pct": 17.9
+        },
+        {
+          "issue": "주민 이주·생활권 영향",
+          "count": 128,
+          "pct": 14.9
+        }
+      ],
+      "avg_review_months": 8.2,
+      "supplement_required_pct": 41.0,
+      "mapped_project_type": "road"
+    },
+    "주거단지": {
+      "total_count": 408,
+      "consultation_results": {
+        "조건부협의": 358,
+        "협의": 22,
+        "재검토": 18,
+        "기타": 10
+      },
+      "result_pct": {
+        "조건부협의": 87.7,
+        "협의": 5.4,
+        "재검토": 4.4,
+        "기타": 2.5
+      },
+      "common_issues": [
+        {
+          "issue": "대기질 악화 (분진·차량)",
+          "count": 318,
+          "pct": 77.9
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 302,
+          "pct": 74.0
+        },
+        {
+          "issue": "수질 오염 (생활하수)",
+          "count": 285,
+          "pct": 69.9
+        },
+        {
+          "issue": "교통량 증가",
+          "count": 261,
+          "pct": 64.0
+        },
+        {
+          "issue": "녹지·생태 훼손",
+          "count": 224,
+          "pct": 54.9
+        },
+        {
+          "issue": "경관 변화",
+          "count": 198,
+          "pct": 48.5
+        },
+        {
+          "issue": "농지·산지 전용",
+          "count": 163,
+          "pct": 40.0
+        },
+        {
+          "issue": "일조권·조망권 영향",
+          "count": 142,
+          "pct": 34.8
+        },
+        {
+          "issue": "폐기물 처리 부하",
+          "count": 118,
+          "pct": 28.9
+        },
+        {
+          "issue": "기반시설 부족",
+          "count": 95,
+          "pct": 23.3
+        }
+      ],
+      "avg_review_months": 7.5,
+      "supplement_required_pct": 38.2,
+      "mapped_project_type": "housing"
+    },
+    "발전소": {
+      "total_count": 47,
+      "consultation_results": {
+        "조건부협의": 38,
+        "협의": 3,
+        "재검토": 5,
+        "기타": 1
+      },
+      "result_pct": {
+        "조건부협의": 80.9,
+        "협의": 6.4,
+        "재검토": 10.6,
+        "기타": 2.1
+      },
+      "common_issues": [
+        {
+          "issue": "대기질 악화 (배출가스)",
+          "count": 43,
+          "pct": 91.5
+        },
+        {
+          "issue": "온실가스 배출",
+          "count": 41,
+          "pct": 87.2
+        },
+        {
+          "issue": "수질 영향 (온배수·냉각수)",
+          "count": 38,
+          "pct": 80.9
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 35,
+          "pct": 74.5
+        },
+        {
+          "issue": "해양 생태계 영향",
+          "count": 28,
+          "pct": 59.6
+        },
+        {
+          "issue": "경관 훼손",
+          "count": 25,
+          "pct": 53.2
+        },
+        {
+          "issue": "주민 건강 영향",
+          "count": 22,
+          "pct": 46.8
+        },
+        {
+          "issue": "폐기물 처리",
+          "count": 19,
+          "pct": 40.4
+        },
+        {
+          "issue": "토양 오염",
+          "count": 15,
+          "pct": 31.9
+        },
+        {
+          "issue": "지형·지질 영향",
+          "count": 12,
+          "pct": 25.5
+        }
+      ],
+      "avg_review_months": 12.8,
+      "supplement_required_pct": 55.3,
+      "mapped_project_type": "power_plant"
+    },
+    "산업단지": {
+      "total_count": 393,
+      "consultation_results": {
+        "조건부협의": 341,
+        "협의": 25,
+        "재검토": 19,
+        "기타": 8
+      },
+      "result_pct": {
+        "조건부협의": 86.8,
+        "협의": 6.4,
+        "재검토": 4.8,
+        "기타": 2.0
+      },
+      "common_issues": [
+        {
+          "issue": "대기질 악화",
+          "count": 322,
+          "pct": 81.9
+        },
+        {
+          "issue": "수질 오염 (산업폐수)",
+          "count": 298,
+          "pct": 75.8
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 275,
+          "pct": 70.0
+        },
+        {
+          "issue": "교통량 증가",
+          "count": 248,
+          "pct": 63.1
+        },
+        {
+          "issue": "토양 오염",
+          "count": 201,
+          "pct": 51.1
+        },
+        {
+          "issue": "폐기물 처리",
+          "count": 189,
+          "pct": 48.1
+        },
+        {
+          "issue": "녹지·생태 훼손",
+          "count": 167,
+          "pct": 42.5
+        },
+        {
+          "issue": "경관 변화",
+          "count": 143,
+          "pct": 36.4
+        },
+        {
+          "issue": "농지·산지 전용",
+          "count": 131,
+          "pct": 33.3
+        },
+        {
+          "issue": "주민 건강·안전",
+          "count": 112,
+          "pct": 28.5
+        }
+      ],
+      "avg_review_months": 9.1,
+      "supplement_required_pct": 44.5,
+      "mapped_project_type": "factory"
+    },
+    "하천": {
+      "total_count": 2550,
+      "consultation_results": {
+        "조건부협의": 2280,
+        "협의": 125,
+        "재검토": 98,
+        "기타": 47
+      },
+      "result_pct": {
+        "조건부협의": 89.4,
+        "협의": 4.9,
+        "재검토": 3.8,
+        "기타": 1.9
+      },
+      "common_issues": [
+        {
+          "issue": "수질 영향",
+          "count": 2142,
+          "pct": 84.0
+        },
+        {
+          "issue": "수생태계 영향",
+          "count": 1836,
+          "pct": 72.0
+        },
+        {
+          "issue": "하천 생태 훼손",
+          "count": 1581,
+          "pct": 62.0
+        },
+        {
+          "issue": "소음·진동 (공사 중)",
+          "count": 1275,
+          "pct": 50.0
+        },
+        {
+          "issue": "어류 서식지 영향",
+          "count": 1122,
+          "pct": 44.0
+        },
+        {
+          "issue": "비점오염",
+          "count": 918,
+          "pct": 36.0
+        },
+        {
+          "issue": "지형 변화",
+          "count": 765,
+          "pct": 30.0
+        },
+        {
+          "issue": "경관 변화",
+          "count": 612,
+          "pct": 24.0
+        },
+        {
+          "issue": "문화재 영향",
+          "count": 382,
+          "pct": 15.0
+        },
+        {
+          "issue": "주민 생활 영향",
+          "count": 255,
+          "pct": 10.0
+        }
+      ],
+      "avg_review_months": 6.8,
+      "supplement_required_pct": 35.2,
+      "mapped_project_type": "other"
+    },
+    "도시계획": {
+      "total_count": 2042,
+      "consultation_results": {
+        "조건부협의": 1814,
+        "협의": 102,
+        "재검토": 82,
+        "기타": 44
+      },
+      "result_pct": {
+        "조건부협의": 88.8,
+        "협의": 5.0,
+        "재검토": 4.0,
+        "기타": 2.2
+      },
+      "common_issues": [
+        {
+          "issue": "대기질 악화",
+          "count": 1551,
+          "pct": 75.9
+        },
+        {
+          "issue": "교통량 증가",
+          "count": 1429,
+          "pct": 70.0
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 1347,
+          "pct": 66.0
+        },
+        {
+          "issue": "수질 오염",
+          "count": 1184,
+          "pct": 58.0
+        },
+        {
+          "issue": "녹지·생태 훼손",
+          "count": 1021,
+          "pct": 50.0
+        },
+        {
+          "issue": "경관 변화",
+          "count": 857,
+          "pct": 42.0
+        },
+        {
+          "issue": "농지·산지 전용",
+          "count": 714,
+          "pct": 35.0
+        },
+        {
+          "issue": "폐기물 증가",
+          "count": 571,
+          "pct": 28.0
+        },
+        {
+          "issue": "일조·조망 영향",
+          "count": 449,
+          "pct": 22.0
+        },
+        {
+          "issue": "기반시설 부하",
+          "count": 367,
+          "pct": 18.0
+        }
+      ],
+      "avg_review_months": 7.0,
+      "supplement_required_pct": 36.8,
+      "mapped_project_type": "other"
+    },
+    "관광단지": {
+      "total_count": 350,
+      "consultation_results": {
+        "조건부협의": 301,
+        "협의": 21,
+        "재검토": 19,
+        "기타": 9
+      },
+      "result_pct": {
+        "조건부협의": 86.0,
+        "협의": 6.0,
+        "재검토": 5.4,
+        "기타": 2.6
+      },
+      "common_issues": [
+        {
+          "issue": "생태계 훼손",
+          "count": 280,
+          "pct": 80.0
+        },
+        {
+          "issue": "경관 훼손",
+          "count": 259,
+          "pct": 74.0
+        },
+        {
+          "issue": "수질 오염",
+          "count": 228,
+          "pct": 65.0
+        },
+        {
+          "issue": "교통량 증가",
+          "count": 210,
+          "pct": 60.0
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 189,
+          "pct": 54.0
+        },
+        {
+          "issue": "대기질 악화",
+          "count": 161,
+          "pct": 46.0
+        },
+        {
+          "issue": "산지 전용",
+          "count": 147,
+          "pct": 42.0
+        },
+        {
+          "issue": "문화재 영향",
+          "count": 119,
+          "pct": 34.0
+        },
+        {
+          "issue": "주민 생활 영향",
+          "count": 91,
+          "pct": 26.0
+        },
+        {
+          "issue": "폐기물 증가",
+          "count": 70,
+          "pct": 20.0
+        }
+      ],
+      "avg_review_months": 10.2,
+      "supplement_required_pct": 48.6,
+      "mapped_project_type": "other"
+    },
+    "공원": {
+      "total_count": 534,
+      "consultation_results": {
+        "조건부협의": 472,
+        "협의": 32,
+        "재검토": 20,
+        "기타": 10
+      },
+      "result_pct": {
+        "조건부협의": 88.4,
+        "협의": 6.0,
+        "재검토": 3.7,
+        "기타": 1.9
+      },
+      "common_issues": [
+        {
+          "issue": "생태계 훼손",
+          "count": 395,
+          "pct": 74.0
+        },
+        {
+          "issue": "수질 영향",
+          "count": 342,
+          "pct": 64.0
+        },
+        {
+          "issue": "경관 변화",
+          "count": 310,
+          "pct": 58.0
+        },
+        {
+          "issue": "산지 전용",
+          "count": 267,
+          "pct": 50.0
+        },
+        {
+          "issue": "소음·진동 (공사)",
+          "count": 214,
+          "pct": 40.0
+        },
+        {
+          "issue": "교통 영향",
+          "count": 176,
+          "pct": 33.0
+        },
+        {
+          "issue": "문화재 영향",
+          "count": 139,
+          "pct": 26.0
+        },
+        {
+          "issue": "대기질 영향",
+          "count": 107,
+          "pct": 20.0
+        },
+        {
+          "issue": "지형 변화",
+          "count": 91,
+          "pct": 17.0
+        },
+        {
+          "issue": "주민 영향",
+          "count": 64,
+          "pct": 12.0
+        }
+      ],
+      "avg_review_months": 6.5,
+      "supplement_required_pct": 32.0,
+      "mapped_project_type": "other"
+    },
+    "항만": {
+      "total_count": 502,
+      "consultation_results": {
+        "조건부협의": 427,
+        "협의": 30,
+        "재검토": 32,
+        "기타": 13
+      },
+      "result_pct": {
+        "조건부협의": 85.1,
+        "협의": 6.0,
+        "재검토": 6.4,
+        "기타": 2.5
+      },
+      "common_issues": [
+        {
+          "issue": "해양 생태계 영향",
+          "count": 421,
+          "pct": 83.9
+        },
+        {
+          "issue": "수질 오염",
+          "count": 381,
+          "pct": 75.9
+        },
+        {
+          "issue": "대기질 악화",
+          "count": 316,
+          "pct": 63.0
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 286,
+          "pct": 57.0
+        },
+        {
+          "issue": "경관 훼손",
+          "count": 251,
+          "pct": 50.0
+        },
+        {
+          "issue": "교통량 증가",
+          "count": 226,
+          "pct": 45.0
+        },
+        {
+          "issue": "지형·해저지형 변화",
+          "count": 196,
+          "pct": 39.0
+        },
+        {
+          "issue": "어업 피해",
+          "count": 166,
+          "pct": 33.0
+        },
+        {
+          "issue": "폐기물·준설토 처리",
+          "count": 131,
+          "pct": 26.0
+        },
+        {
+          "issue": "주민 생활 영향",
+          "count": 101,
+          "pct": 20.0
+        }
+      ],
+      "avg_review_months": 11.5,
+      "supplement_required_pct": 50.2,
+      "mapped_project_type": "other"
+    },
+    "철도": {
+      "total_count": 187,
+      "consultation_results": {
+        "조건부협의": 153,
+        "협의": 8,
+        "재검토": 22,
+        "기타": 4
+      },
+      "result_pct": {
+        "조건부협의": 81.8,
+        "협의": 4.3,
+        "재검토": 11.8,
+        "기타": 2.1
+      },
+      "common_issues": [
+        {
+          "issue": "소음·진동 영향 (열차·공사)",
+          "count": 165,
+          "pct": 88.2
+        },
+        {
+          "issue": "생태계 단절·서식지 훼손",
+          "count": 140,
+          "pct": 74.9
+        },
+        {
+          "issue": "지형·지질 변화 (터널·절토)",
+          "count": 131,
+          "pct": 70.1
+        },
+        {
+          "issue": "수질 오염 (비점오염·터널용수)",
+          "count": 112,
+          "pct": 59.9
+        },
+        {
+          "issue": "농지·산지 전용",
+          "count": 103,
+          "pct": 55.1
+        },
+        {
+          "issue": "경관 영향 (고가·교량)",
+          "count": 86,
+          "pct": 46.0
+        },
+        {
+          "issue": "문화재 영향",
+          "count": 73,
+          "pct": 39.0
+        },
+        {
+          "issue": "교통체계 변화",
+          "count": 62,
+          "pct": 33.2
+        },
+        {
+          "issue": "주민 이주·생활권 영향",
+          "count": 52,
+          "pct": 27.8
+        },
+        {
+          "issue": "지하수 영향 (터널)",
+          "count": 45,
+          "pct": 24.1
+        }
+      ],
+      "avg_review_months": 15.2,
+      "supplement_required_pct": 58.0,
+      "mapped_project_type": "railway"
+    },
+    "공항": {
+      "total_count": 23,
+      "consultation_results": {
+        "조건부협의": 15,
+        "재검토": 5,
+        "협의": 2,
+        "기타": 1
+      },
+      "result_pct": {
+        "조건부협의": 65.2,
+        "재검토": 21.7,
+        "협의": 8.7,
+        "기타": 4.3
+      },
+      "common_issues": [
+        {
+          "issue": "소음·진동 영향 (항공기 소음)",
+          "count": 21,
+          "pct": 91.3
+        },
+        {
+          "issue": "조류충돌 위험",
+          "count": 18,
+          "pct": 78.3
+        },
+        {
+          "issue": "대기질 악화 (항공기 배출)",
+          "count": 16,
+          "pct": 69.6
+        },
+        {
+          "issue": "생태계 훼손 (서식지 단절)",
+          "count": 15,
+          "pct": 65.2
+        },
+        {
+          "issue": "경관 영향 (활주로·터미널)",
+          "count": 14,
+          "pct": 60.9
+        },
+        {
+          "issue": "지하수 함양률 저감",
+          "count": 12,
+          "pct": 52.2
+        },
+        {
+          "issue": "교통량 증가",
+          "count": 11,
+          "pct": 47.8
+        },
+        {
+          "issue": "지형·지질 변화 (절성토)",
+          "count": 10,
+          "pct": 43.5
+        },
+        {
+          "issue": "수질 오염 (비점오염)",
+          "count": 9,
+          "pct": 39.1
+        },
+        {
+          "issue": "주민 이주·생활권 영향",
+          "count": 8,
+          "pct": 34.8
+        }
+      ],
+      "avg_review_months": 14.5,
+      "supplement_required_pct": 65.2,
+      "mapped_project_type": "airport"
+    },
+    "댐": {
+      "total_count": 89,
+      "consultation_results": {
+        "조건부협의": 68,
+        "협의": 8,
+        "재검토": 10,
+        "기타": 3
+      },
+      "result_pct": {
+        "조건부협의": 76.4,
+        "협의": 9.0,
+        "재검토": 11.2,
+        "기타": 3.4
+      },
+      "common_issues": [
+        {
+          "issue": "수질 영향 (저수지 부영양화)",
+          "count": 78,
+          "pct": 87.6
+        },
+        {
+          "issue": "수생태계 영향 (어류이동 차단)",
+          "count": 72,
+          "pct": 80.9
+        },
+        {
+          "issue": "수몰지역 주민 이주",
+          "count": 65,
+          "pct": 73.0
+        },
+        {
+          "issue": "지형·지질 변화",
+          "count": 58,
+          "pct": 65.2
+        },
+        {
+          "issue": "하류 유량 변화",
+          "count": 53,
+          "pct": 59.6
+        },
+        {
+          "issue": "생태계 훼손 (수변림)",
+          "count": 48,
+          "pct": 53.9
+        },
+        {
+          "issue": "퇴적물 이동 변화",
+          "count": 41,
+          "pct": 46.1
+        },
+        {
+          "issue": "문화재 수몰",
+          "count": 32,
+          "pct": 36.0
+        },
+        {
+          "issue": "경관 변화",
+          "count": 27,
+          "pct": 30.3
+        },
+        {
+          "issue": "소음·진동 (공사)",
+          "count": 22,
+          "pct": 24.7
+        }
+      ],
+      "avg_review_months": 16.5,
+      "supplement_required_pct": 62.0,
+      "mapped_project_type": "water_resource"
+    },
+    "채석": {
+      "total_count": 124,
+      "consultation_results": {
+        "조건부협의": 98,
+        "협의": 10,
+        "재검토": 12,
+        "기타": 4
+      },
+      "result_pct": {
+        "조건부협의": 79.0,
+        "협의": 8.1,
+        "재검토": 9.7,
+        "기타": 3.2
+      },
+      "common_issues": [
+        {
+          "issue": "지형·지질 훼손 (절개면)",
+          "count": 109,
+          "pct": 87.9
+        },
+        {
+          "issue": "소음·진동 영향 (발파)",
+          "count": 99,
+          "pct": 79.8
+        },
+        {
+          "issue": "비산먼지 (대기질)",
+          "count": 93,
+          "pct": 75.0
+        },
+        {
+          "issue": "산지 전용·녹지 훼손",
+          "count": 84,
+          "pct": 67.7
+        },
+        {
+          "issue": "수질 오염 (토사유출)",
+          "count": 74,
+          "pct": 59.7
+        },
+        {
+          "issue": "경관 훼손",
+          "count": 68,
+          "pct": 54.8
+        },
+        {
+          "issue": "토양 침식·유실",
+          "count": 57,
+          "pct": 46.0
+        },
+        {
+          "issue": "생태계 교란",
+          "count": 50,
+          "pct": 40.3
+        },
+        {
+          "issue": "지하수 영향",
+          "count": 40,
+          "pct": 32.3
+        },
+        {
+          "issue": "교통 영향 (운반차량)",
+          "count": 31,
+          "pct": 25.0
+        }
+      ],
+      "avg_review_months": 8.8,
+      "supplement_required_pct": 45.0,
+      "mapped_project_type": "mountain"
+    },
+    "체육": {
+      "total_count": 156,
+      "consultation_results": {
+        "조건부협의": 128,
+        "협의": 12,
+        "재검토": 11,
+        "기타": 5
+      },
+      "result_pct": {
+        "조건부협의": 82.1,
+        "협의": 7.7,
+        "재검토": 7.1,
+        "기타": 3.2
+      },
+      "common_issues": [
+        {
+          "issue": "산지 전용·녹지 훼손",
+          "count": 122,
+          "pct": 78.2
+        },
+        {
+          "issue": "경관 변화",
+          "count": 112,
+          "pct": 71.8
+        },
+        {
+          "issue": "수질 오염 (비점오염)",
+          "count": 98,
+          "pct": 62.8
+        },
+        {
+          "issue": "생태계 훼손",
+          "count": 89,
+          "pct": 57.1
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 78,
+          "pct": 50.0
+        },
+        {
+          "issue": "교통량 증가",
+          "count": 70,
+          "pct": 44.9
+        },
+        {
+          "issue": "지형·지질 변화",
+          "count": 61,
+          "pct": 39.1
+        },
+        {
+          "issue": "대기질 악화",
+          "count": 50,
+          "pct": 32.1
+        },
+        {
+          "issue": "폐기물 증가",
+          "count": 39,
+          "pct": 25.0
+        },
+        {
+          "issue": "토양 오염 (농약·비료)",
+          "count": 31,
+          "pct": 19.9
+        }
+      ],
+      "avg_review_months": 9.5,
+      "supplement_required_pct": 42.0,
+      "mapped_project_type": "sports"
+    },
+    "폐기물": {
+      "total_count": 198,
+      "consultation_results": {
+        "조건부협의": 152,
+        "협의": 18,
+        "재검토": 22,
+        "기타": 6
+      },
+      "result_pct": {
+        "조건부협의": 76.8,
+        "협의": 9.1,
+        "재검토": 11.1,
+        "기타": 3.0
+      },
+      "common_issues": [
+        {
+          "issue": "대기질 악화 (소각가스·악취)",
+          "count": 174,
+          "pct": 87.9
+        },
+        {
+          "issue": "수질 오염 (침출수)",
+          "count": 162,
+          "pct": 81.8
+        },
+        {
+          "issue": "토양·지하수 오염",
+          "count": 146,
+          "pct": 73.7
+        },
+        {
+          "issue": "주민 건강 영향",
+          "count": 131,
+          "pct": 66.2
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 109,
+          "pct": 55.1
+        },
+        {
+          "issue": "경관 훼손",
+          "count": 93,
+          "pct": 47.0
+        },
+        {
+          "issue": "교통량 증가 (운반차량)",
+          "count": 81,
+          "pct": 40.9
+        },
+        {
+          "issue": "생태계 영향",
+          "count": 67,
+          "pct": 33.8
+        },
+        {
+          "issue": "악취 확산",
+          "count": 59,
+          "pct": 29.8
+        },
+        {
+          "issue": "지형 변화",
+          "count": 44,
+          "pct": 22.2
+        }
+      ],
+      "avg_review_months": 11.8,
+      "supplement_required_pct": 52.0,
+      "mapped_project_type": "waste"
+    },
+    "군사": {
+      "total_count": 73,
+      "consultation_results": {
+        "조건부협의": 58,
+        "협의": 6,
+        "재검토": 7,
+        "기타": 2
+      },
+      "result_pct": {
+        "조건부협의": 79.5,
+        "협의": 8.2,
+        "재검토": 9.6,
+        "기타": 2.7
+      },
+      "common_issues": [
+        {
+          "issue": "소음·진동 영향 (사격·폭발)",
+          "count": 61,
+          "pct": 83.6
+        },
+        {
+          "issue": "산지·녹지 훼손",
+          "count": 55,
+          "pct": 75.3
+        },
+        {
+          "issue": "생태계 영향",
+          "count": 49,
+          "pct": 67.1
+        },
+        {
+          "issue": "수질 오염",
+          "count": 42,
+          "pct": 57.5
+        },
+        {
+          "issue": "토양 오염 (유류·중금속)",
+          "count": 37,
+          "pct": 50.7
+        },
+        {
+          "issue": "경관 변화",
+          "count": 31,
+          "pct": 42.5
+        },
+        {
+          "issue": "지형·지질 변화",
+          "count": 27,
+          "pct": 37.0
+        },
+        {
+          "issue": "주민 생활 영향",
+          "count": 23,
+          "pct": 31.5
+        },
+        {
+          "issue": "대기질 영향",
+          "count": 19,
+          "pct": 26.0
+        },
+        {
+          "issue": "문화재 영향",
+          "count": 14,
+          "pct": 19.2
+        }
+      ],
+      "avg_review_months": 10.2,
+      "supplement_required_pct": 47.0,
+      "mapped_project_type": "military"
+    },
+    "토석": {
+      "total_count": 108,
+      "consultation_results": {
+        "조건부협의": 86,
+        "협의": 9,
+        "재검토": 10,
+        "기타": 3
+      },
+      "result_pct": {
+        "조건부협의": 79.6,
+        "협의": 8.3,
+        "재검토": 9.3,
+        "기타": 2.8
+      },
+      "common_issues": [
+        {
+          "issue": "지형·지질 훼손",
+          "count": 95,
+          "pct": 88.0
+        },
+        {
+          "issue": "비산먼지 (대기질)",
+          "count": 86,
+          "pct": 79.6
+        },
+        {
+          "issue": "소음·진동 영향 (발파·굴착)",
+          "count": 78,
+          "pct": 72.2
+        },
+        {
+          "issue": "수질 오염 (탁수·토사)",
+          "count": 70,
+          "pct": 64.8
+        },
+        {
+          "issue": "산지·녹지 훼손",
+          "count": 62,
+          "pct": 57.4
+        },
+        {
+          "issue": "경관 훼손",
+          "count": 54,
+          "pct": 50.0
+        },
+        {
+          "issue": "토양 침식",
+          "count": 46,
+          "pct": 42.6
+        },
+        {
+          "issue": "생태계 교란",
+          "count": 38,
+          "pct": 35.2
+        },
+        {
+          "issue": "지하수 영향",
+          "count": 32,
+          "pct": 29.6
+        },
+        {
+          "issue": "교통 영향 (운반차량)",
+          "count": 24,
+          "pct": 22.2
+        }
+      ],
+      "avg_review_months": 8.2,
+      "supplement_required_pct": 43.0,
+      "mapped_project_type": "mining"
+    },
+    "간척": {
+      "total_count": 142,
+      "consultation_results": {
+        "조건부협의": 108,
+        "협의": 12,
+        "재검토": 17,
+        "기타": 5
+      },
+      "result_pct": {
+        "조건부협의": 76.1,
+        "협의": 8.5,
+        "재검토": 12.0,
+        "기타": 3.5
+      },
+      "common_issues": [
+        {
+          "issue": "해양 생태계 영향 (갯벌 훼손)",
+          "count": 128,
+          "pct": 90.1
+        },
+        {
+          "issue": "수질 오염 (해수·담수)",
+          "count": 114,
+          "pct": 80.3
+        },
+        {
+          "issue": "조류(潮流) 변화",
+          "count": 99,
+          "pct": 69.7
+        },
+        {
+          "issue": "철새 서식지 영향",
+          "count": 85,
+          "pct": 59.9
+        },
+        {
+          "issue": "어업 피해",
+          "count": 74,
+          "pct": 52.1
+        },
+        {
+          "issue": "경관 변화",
+          "count": 64,
+          "pct": 45.1
+        },
+        {
+          "issue": "지형·퇴적환경 변화",
+          "count": 54,
+          "pct": 38.0
+        },
+        {
+          "issue": "대기질 영향",
+          "count": 43,
+          "pct": 30.3
+        },
+        {
+          "issue": "교통 영향",
+          "count": 33,
+          "pct": 23.2
+        },
+        {
+          "issue": "주민 생활 영향",
+          "count": 24,
+          "pct": 16.9
+        }
+      ],
+      "avg_review_months": 13.5,
+      "supplement_required_pct": 55.0,
+      "mapped_project_type": "reclamation"
+    },
+    "물류": {
+      "total_count": 165,
+      "consultation_results": {
+        "조건부협의": 138,
+        "협의": 12,
+        "재검토": 10,
+        "기타": 5
+      },
+      "result_pct": {
+        "조건부협의": 83.6,
+        "협의": 7.3,
+        "재검토": 6.1,
+        "기타": 3.0
+      },
+      "common_issues": [
+        {
+          "issue": "교통량 증가",
+          "count": 140,
+          "pct": 84.8
+        },
+        {
+          "issue": "대기질 악화 (차량배출)",
+          "count": 126,
+          "pct": 76.4
+        },
+        {
+          "issue": "소음·진동 영향",
+          "count": 112,
+          "pct": 67.9
+        },
+        {
+          "issue": "수질 오염",
+          "count": 92,
+          "pct": 55.8
+        },
+        {
+          "issue": "농지·산지 전용",
+          "count": 79,
+          "pct": 47.9
+        },
+        {
+          "issue": "경관 변화",
+          "count": 66,
+          "pct": 40.0
+        },
+        {
+          "issue": "생태계 영향",
+          "count": 53,
+          "pct": 32.1
+        },
+        {
+          "issue": "폐기물 증가",
+          "count": 43,
+          "pct": 26.1
+        },
+        {
+          "issue": "토양 오염",
+          "count": 33,
+          "pct": 20.0
+        },
+        {
+          "issue": "주민 생활 영향",
+          "count": 25,
+          "pct": 15.2
+        }
+      ],
+      "avg_review_months": 7.8,
+      "supplement_required_pct": 38.0,
+      "mapped_project_type": "etc"
+    }
+  }
+}

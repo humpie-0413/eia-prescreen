@@ -1,0 +1,25 @@
+version: v1
+domain: sunshine
+description: 일조장해 관련 규칙 (1개) — 도시개발 시 일조권 검토
+rules:
+- rule_id: SUN-001
+  rule_version: v1
+  title: 도시개발 사업 일조권 검토 필요
+  trigger_dataset: 기상청 ASOS 일조시간 / 사업유형 분석
+  condition:
+    field: climate.sunshine_review_required
+    operator: eq
+    value: true
+  severity: review
+  rationale: '도시개발 사업에서 고층 건물이 계획될 경우 인근 주거지역에 대한 일조권 침해가 우려됩니다. 건축법상 일조 확보 기준(동지일
+    기준 연속 2시간 또는 4시간 이상)을 충족해야 하며, 환경영향평가 시 일조 영향 분석이 필요합니다.
+
+    '
+  evidence: 기상청 ASOS 일조시간 데이터 / 사업 계획 분석
+  next_action: 일조 영향 분석 실시. 건물 배치 대안 검토. 일조권 확보 방안 수립
+  legal_basis: 건축법 시행령 제86조 (일조 등의 확보를 위한 건축물의 높이 제한)
+  confidence: 0.7
+  human_review_required: true
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

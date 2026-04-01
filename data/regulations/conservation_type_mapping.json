@@ -1,0 +1,815 @@
+[
+  {
+    "conservation_type": "eco_grade_1",
+    "name": "생태자연도 1등급",
+    "legal_basis": "자연환경보전법 제34조",
+    "restriction_level": "absolute",
+    "restrictions": [
+      "개발행위 원칙적 불허",
+      "자연환경보전 목적 이외 사용 금지",
+      "건축물 신축·증축 원칙적 불허",
+      "토지형질변경 불허"
+    ],
+    "permit_authority": "환경부장관",
+    "eia_implications": "환경영향평가 필수, 자연환경 영향 최소화 대안 제시 필요, 생태계 정밀조사 수행 필요",
+    "buffer_zone_m": 500,
+    "exceptions": ["국방·안보 목적의 불가피한 경우", "천재지변 시 긴급 복구"]
+  },
+  {
+    "conservation_type": "eco_grade_2",
+    "name": "생태자연도 2등급",
+    "legal_basis": "자연환경보전법 제34조",
+    "restriction_level": "high",
+    "restrictions": [
+      "개발행위 시 환경부장관 협의 필요",
+      "생태계 영향이 적은 소규모 개발만 허용",
+      "녹지율 확보 의무",
+      "자연지형 원형 보전 원칙"
+    ],
+    "permit_authority": "환경부장관 또는 지방환경관서장",
+    "eia_implications": "환경영향평가 또는 소규모 환경영향평가 대상, 생태계 보전방안 수립 필요",
+    "buffer_zone_m": 250,
+    "exceptions": ["공익사업으로서 환경부장관이 인정하는 경우", "기존 마을의 생활편의시설 설치"]
+  },
+  {
+    "conservation_type": "eco_grade_3",
+    "name": "생태자연도 3등급",
+    "legal_basis": "자연환경보전법 제34조",
+    "restriction_level": "moderate",
+    "restrictions": [
+      "개발행위 시 환경성 검토 필요",
+      "환경보전 방안 수립 의무",
+      "생태축 단절 방지 조치 필요"
+    ],
+    "permit_authority": "시·도지사 또는 시장·군수·구청장",
+    "eia_implications": "소규모 환경영향평가 대상이 될 수 있음, 개발사업 규모에 따라 결정",
+    "buffer_zone_m": 0,
+    "exceptions": ["일반적 개발행위 가능하나 환경보전 조건 부과"]
+  },
+  {
+    "conservation_type": "eco_separate_area",
+    "name": "별도관리지역 (생태자연도)",
+    "legal_basis": "자연환경보전법 제34조의2",
+    "restriction_level": "high",
+    "restrictions": [
+      "역사적·문화적·경관적 가치가 높은 지역으로 별도 관리",
+      "자연공원, 문화재보호구역 등과 중복 관리",
+      "해당 개별법에 따른 행위제한 적용"
+    ],
+    "permit_authority": "해당 개별법 소관 기관",
+    "eia_implications": "해당 개별법에 따른 환경영향평가 규정 적용",
+    "buffer_zone_m": null,
+    "exceptions": ["개별법에서 정한 예외 적용"]
+  },
+  {
+    "conservation_type": "wetland_protected",
+    "name": "습지보호지역",
+    "legal_basis": "습지보전법 제8조",
+    "restriction_level": "absolute",
+    "restrictions": [
+      "습지의 훼손 또는 형질변경 금지",
+      "건축물·공작물 신축·증축 금지",
+      "동식물 포획·채취 금지",
+      "수면 매립 금지",
+      "오염물질 유입 행위 금지"
+    ],
+    "permit_authority": "환경부장관 또는 해양수산부장관",
+    "eia_implications": "환경영향평가 필수, 습지영향평가 추가 수행, 대체습지 조성 의무",
+    "buffer_zone_m": 1000,
+    "exceptions": ["습지보전 목적의 학술연구", "천재지변 시 긴급 조치"]
+  },
+  {
+    "conservation_type": "wetland_surrounding",
+    "name": "습지주변관리지역",
+    "legal_basis": "습지보전법 제8조",
+    "restriction_level": "high",
+    "restrictions": [
+      "습지에 영향을 미칠 수 있는 행위 제한",
+      "오염물질 배출시설 설치 제한",
+      "대규모 토지형질변경 제한"
+    ],
+    "permit_authority": "환경부장관 또는 해양수산부장관",
+    "eia_implications": "소규모 환경영향평가 대상, 습지보호지역 영향 검토 필요",
+    "buffer_zone_m": 500,
+    "exceptions": ["기존 시설의 유지·보수", "주민 생활편의시설 소규모 설치"]
+  },
+  {
+    "conservation_type": "natural_park",
+    "name": "자연공원",
+    "legal_basis": "자연공원법 제18조, 제23조",
+    "restriction_level": "high",
+    "restrictions": [
+      "공원계획에 의하지 않은 건축물·공작물 설치 금지",
+      "공원 자연보존지구 내 출입 및 행위 제한",
+      "자연공원 내 광물 채굴 금지",
+      "토지형질변경 제한"
+    ],
+    "permit_authority": "환경부장관(국립공원), 시·도지사(도립공원), 시장·군수(군립공원)",
+    "eia_implications": "환경영향평가 필수(국립공원 내 사업), 공원관리계획 검토 필요",
+    "buffer_zone_m": 300,
+    "exceptions": ["공원시설 설치를 위한 공원계획에 포함된 사업", "비상재해 복구"]
+  },
+  {
+    "conservation_type": "wildlife_protection",
+    "name": "야생생물보호구역",
+    "legal_basis": "야생생물 보호 및 관리에 관한 법률 제27조, 제33조",
+    "restriction_level": "absolute",
+    "restrictions": [
+      "야생생물의 포획·채취·이식 금지",
+      "건축물·공작물 신축·증축 금지",
+      "토지 형질변경 금지",
+      "수면 매립 금지",
+      "야생생물 서식지 훼손 행위 금지"
+    ],
+    "permit_authority": "환경부장관 또는 시·도지사",
+    "eia_implications": "환경영향평가 필수, 야생생물 정밀조사 수행 필요, 멸종위기종 서식 여부 확인",
+    "buffer_zone_m": 500,
+    "exceptions": ["학술연구 목적(환경부장관 허가)", "천재지변 시 긴급 조치"]
+  },
+  {
+    "conservation_type": "wildlife_special_protection",
+    "name": "야생생물 특별보호구역",
+    "legal_basis": "야생생물 보호 및 관리에 관한 법률 제28조",
+    "restriction_level": "absolute",
+    "restrictions": [
+      "멸종위기 야생생물 I급 서식지 보호",
+      "일체의 개발행위 금지",
+      "출입 제한",
+      "야생생물의 포획·채취·방사 금지"
+    ],
+    "permit_authority": "환경부장관",
+    "eia_implications": "개발행위 원칙적 불가, 불가피한 경우 환경영향평가 및 멸종위기종 영향 저감방안 필수",
+    "buffer_zone_m": 1000,
+    "exceptions": ["멸종위기 야생생물 보호를 위한 학술연구"]
+  },
+  {
+    "conservation_type": "water_source_protection",
+    "name": "상수원보호구역",
+    "legal_basis": "수도법 제7조",
+    "restriction_level": "absolute",
+    "restrictions": [
+      "수질오염물질 배출시설 설치 금지",
+      "가축사육시설 설치 금지",
+      "건축물·공작물 신축·증축 원칙적 금지",
+      "토지형질변경 금지",
+      "오수·분뇨·하수 방류 금지"
+    ],
+    "permit_authority": "환경부장관, 특별시장·광역시장·도지사",
+    "eia_implications": "환경영향평가 필수, 수질영향조사 수행, 상수원 수질보전 대책 수립 의무",
+    "buffer_zone_m": 1000,
+    "exceptions": ["상수도 시설의 설치·관리를 위한 행위", "기존 건축물의 개축·재축(동일 규모)"]
+  },
+  {
+    "conservation_type": "riparian_zone",
+    "name": "수변구역",
+    "legal_basis": "한강수계 상수원수질개선 및 주민지원 등에 관한 법률 제4조, 4대강수계법",
+    "restriction_level": "high",
+    "restrictions": [
+      "폐수배출시설 신규 설치 금지",
+      "축산폐수배출시설 설치 금지",
+      "건축물 신축·증축 시 환경부장관 허가 필요",
+      "토지형질변경 제한",
+      "음식점 신규 입지 제한"
+    ],
+    "permit_authority": "환경부장관",
+    "eia_implications": "소규모 환경영향평가 대상, 수질영향 검토 필수",
+    "buffer_zone_m": 500,
+    "exceptions": ["농업·임업·어업용 건축물(일부)", "기존 시설의 유지·보수"]
+  },
+  {
+    "conservation_type": "special_countermeasure",
+    "name": "특별대책지역",
+    "legal_basis": "환경정책기본법 제38조",
+    "restriction_level": "high",
+    "restrictions": [
+      "오염물질 배출 총량 규제",
+      "특정 시설의 신규 입지 제한",
+      "환경기준 초과 우려 행위 제한",
+      "토지이용 제한 강화"
+    ],
+    "permit_authority": "환경부장관",
+    "eia_implications": "환경영향평가 시 특별대책지역 환경기준 강화 적용, 오염물질 총량관리 대책 포함 필요",
+    "buffer_zone_m": null,
+    "exceptions": ["대통령령으로 정하는 불가피한 사업"]
+  },
+  {
+    "conservation_type": "agricultural_promotion",
+    "name": "농업진흥지역",
+    "legal_basis": "농지법 제28조, 제32조",
+    "restriction_level": "high",
+    "restrictions": [
+      "농업 목적 이외 토지이용 원칙적 금지",
+      "농지전용 원칙적 불허",
+      "건축물 신축 시 농업 관련 시설로 제한",
+      "토석채취 금지"
+    ],
+    "permit_authority": "농림축산식품부장관, 시·도지사, 시장·군수·구청장",
+    "eia_implications": "농지전용 시 소규모 환경영향평가 대상, 대체농지 확보 또는 농지보전부담금 납부",
+    "buffer_zone_m": 0,
+    "exceptions": ["농어촌정비사업", "농업인 주택 신축(660㎡ 이하)", "농업용 시설"]
+  },
+  {
+    "conservation_type": "forest_conservation",
+    "name": "산지전용제한지역(보전산지)",
+    "legal_basis": "산지관리법 제9조, 제10조",
+    "restriction_level": "high",
+    "restrictions": [
+      "산지전용 원칙적 불허",
+      "임산물 소득원 조성을 위한 행위만 제한적 허용",
+      "건축물 신축 원칙적 불허",
+      "토석채취 제한"
+    ],
+    "permit_authority": "산림청장, 시·도지사",
+    "eia_implications": "산지전용 시 환경영향평가 또는 소규모 환경영향평가 대상, 대체산림자원조성비 납부, 산림환경영향조사 수행",
+    "buffer_zone_m": 0,
+    "exceptions": ["국방·군사시설의 설치", "광물 채굴(일부)", "공익용 산지(산림청장 허가)"]
+  },
+  {
+    "conservation_type": "military_facility_protection",
+    "name": "군사시설보호구역",
+    "legal_basis": "군사기지 및 군사시설 보호법 제4조, 제13조",
+    "restriction_level": "high",
+    "restrictions": [
+      "통제보호구역: 출입 통제, 건축물 신축·증축 금지",
+      "제한보호구역: 건축물 신축·증축 시 국방부장관 협의",
+      "토지형질변경 시 관할 부대장 동의 필요",
+      "촬영 제한"
+    ],
+    "permit_authority": "국방부장관, 관할 부대장",
+    "eia_implications": "환경영향평가 시 군사시설보호구역 중첩 여부 확인, 국방부 협의 절차 필요",
+    "buffer_zone_m": null,
+    "exceptions": ["군사 목적 사업", "기존 건축물의 개축·재축"]
+  },
+  {
+    "conservation_type": "greenbelt",
+    "name": "개발제한구역(그린벨트)",
+    "legal_basis": "개발제한구역의 지정 및 관리에 관한 특별조치법 제12조, 제13조",
+    "restriction_level": "high",
+    "restrictions": [
+      "건축물 신축·증축 원칙적 금지",
+      "토지형질변경 금지",
+      "토지분할 금지",
+      "도시계획사업 시행 금지",
+      "물건을 쌓아놓는 행위 금지"
+    ],
+    "permit_authority": "시장·군수·구청장 (국토교통부장관 해제 권한)",
+    "eia_implications": "개발제한구역 해제 시 환경영향평가 필수, 훼손지 복구계획 수립 의무, 보전부담금 부과",
+    "buffer_zone_m": 0,
+    "exceptions": [
+      "기존 건축물의 개축·재축·대수선",
+      "농업·임업·어업용 건축물(일부)",
+      "공익사업으로 개발제한구역이 해제된 경우"
+    ]
+  },
+  {
+    "conservation_type": "cultural_heritage_protection",
+    "name": "문화재보호구역",
+    "legal_basis": "문화재보호법 제13조, 제35조",
+    "restriction_level": "absolute",
+    "restrictions": [
+      "문화재 현상변경 금지",
+      "보호구역 내 건축물 신축·증축 금지",
+      "토지형질변경 금지",
+      "문화재 보존에 영향을 미칠 수 있는 행위 금지"
+    ],
+    "permit_authority": "문화재청장",
+    "eia_implications": "문화재 현상변경 허가 필요, 환경영향평가 시 문화재 영향 검토 항목 포함 필수",
+    "buffer_zone_m": null,
+    "exceptions": ["문화재 보수·복원 목적의 행위", "문화재청장이 허가한 학술조사"]
+  },
+  {
+    "conservation_type": "cultural_heritage_historical_area",
+    "name": "역사문화환경 보존지역",
+    "legal_basis": "문화재보호법 제13조제3항",
+    "restriction_level": "high",
+    "restrictions": [
+      "지정문화재 외곽경계 500m 이내 건설공사 시 문화재 영향 검토",
+      "역사문화환경 보존에 영향을 미칠 우려가 있는 행위 제한",
+      "높이·규모 등 건축 제한 가능"
+    ],
+    "permit_authority": "문화재청장, 시·도지사",
+    "eia_implications": "문화재 영향 검토(현상변경 허용기준 검토) 필요, 환경영향평가 시 문화재 항목 검토",
+    "buffer_zone_m": 500,
+    "exceptions": ["문화재청장이 문화재 보존에 영향이 없다고 인정하는 행위"]
+  },
+  {
+    "conservation_type": "buried_cultural_heritage",
+    "name": "매장문화재 보호구역",
+    "legal_basis": "매장문화재 보호 및 조사에 관한 법률 제4조, 제6조",
+    "restriction_level": "high",
+    "restrictions": [
+      "매장문화재 유존지역 내 건설공사 시 문화재 지표조사 의무",
+      "매장문화재 발견 시 공사 중지 및 신고 의무",
+      "발굴 허가 없이 매장문화재 발굴 금지"
+    ],
+    "permit_authority": "문화재청장",
+    "eia_implications": "환경영향평가 시 문화재 지표조사 결과 포함, 매장문화재 발굴조사 비용·기간 고려 필요",
+    "buffer_zone_m": 0,
+    "exceptions": ["학술목적의 발굴(문화재청장 허가)", "긴급 발굴(유실·훼손 우려 시)"]
+  },
+  {
+    "conservation_type": "water_quality_conservation",
+    "name": "수질보전특별대책지역",
+    "legal_basis": "물환경보전법 제22조, 환경정책기본법 제38조",
+    "restriction_level": "high",
+    "restrictions": [
+      "오염물질 배출업소 총량 규제",
+      "특정 수질유해물질 배출시설 설치 금지",
+      "축산시설 입지 제한",
+      "음식점 등 비점오염원 관리 강화"
+    ],
+    "permit_authority": "환경부장관",
+    "eia_implications": "환경영향평가 시 수질보전 대책 강화, 오염물질 총량관리 포함 필요",
+    "buffer_zone_m": null,
+    "exceptions": ["환경부장관이 수질보전에 지장이 없다고 인정하는 경우"]
+  },
+  {
+    "conservation_type": "air_quality_management",
+    "name": "대기관리권역",
+    "legal_basis": "대기관리권역의 대기환경개선에 관한 특별법 제2조, 제14조",
+    "restriction_level": "moderate",
+    "restrictions": [
+      "사업장 대기오염물질 총량 관리",
+      "배출허용기준 강화 적용",
+      "대기오염물질 배출시설 설치 허가제",
+      "저공해자동차 의무 구매"
+    ],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "환경영향평가 시 대기질 영향 평가 강화, 총량관리사업장 할당량 확보 필요",
+    "buffer_zone_m": 0,
+    "exceptions": ["총량관리 대상 외 소규모 사업장"]
+  },
+  {
+    "conservation_type": "marine_protected",
+    "name": "해양보호구역",
+    "legal_basis": "해양생태계의 보전 및 관리에 관한 법률 제25조",
+    "restriction_level": "absolute",
+    "restrictions": ["해양생태계 훼손 행위 금지", "매립·준설·간척 금지", "오염물질 유입 금지", "수산자원 남획 금지"],
+    "permit_authority": "해양수산부장관",
+    "eia_implications": "해양환경영향평가 필수, 해양생태계 정밀조사 수행",
+    "buffer_zone_m": 1000,
+    "exceptions": ["해양과학조사(해양수산부장관 허가)", "재해 복구"]
+  },
+  {
+    "conservation_type": "coastal_wetland",
+    "name": "연안습지보호지역",
+    "legal_basis": "습지보전법 제8조, 해양생태계법 제25조",
+    "restriction_level": "absolute",
+    "restrictions": ["갯벌 매립·간척 금지", "연안습지 형질변경 금지", "오염물질 배출 금지"],
+    "permit_authority": "해양수산부장관",
+    "eia_implications": "해양환경영향평가 필수, 연안습지 영향 검토",
+    "buffer_zone_m": 500,
+    "exceptions": ["습지보전 목적의 학술연구", "연안정비 목적(해양수산부 허가)"]
+  },
+  {
+    "conservation_type": "fishery_right",
+    "name": "어업권 설정 수역",
+    "legal_basis": "수산업법 제8조, 제40조",
+    "restriction_level": "high",
+    "restrictions": ["어업권 침해 행위 금지", "어장 환경 오염 금지", "수산자원 서식환경 훼손 금지"],
+    "permit_authority": "해양수산부장관, 시·도지사",
+    "eia_implications": "어업피해 보상 산정, 어장환경 영향 검토",
+    "buffer_zone_m": 0,
+    "exceptions": ["공익사업으로 어업권 소멸·제한(보상 전제)"]
+  },
+  {
+    "conservation_type": "tidal_flat",
+    "name": "갯벌 및 갯벌도립공원",
+    "legal_basis": "갯벌 및 그 주변지역의 지속가능한 관리와 복원에 관한 법률 제10조",
+    "restriction_level": "high",
+    "restrictions": ["갯벌 매립·간척 원칙적 금지", "갯벌생태계 훼손 행위 금지", "불법 어구 설치 금지"],
+    "permit_authority": "해양수산부장관",
+    "eia_implications": "갯벌영향평가 수행, 대체갯벌 조성 검토",
+    "buffer_zone_m": 300,
+    "exceptions": ["갯벌 복원·관리 사업", "해양수산부장관 허가 소규모 행위"]
+  },
+  {
+    "conservation_type": "marine_ecosystem_conservation",
+    "name": "해양생태계보전지역",
+    "legal_basis": "해양생태계의 보전 및 관리에 관한 법률 제25조",
+    "restriction_level": "absolute",
+    "restrictions": ["해양생태계 핵심지역 출입 통제", "건축물·공작물 설치 금지", "해양생물 포획·채취 금지"],
+    "permit_authority": "해양수산부장관",
+    "eia_implications": "해양환경영향평가 필수, 해양생태계 보전 대안 제시",
+    "buffer_zone_m": 500,
+    "exceptions": ["해양생태 학술연구(해양수산부장관 허가)"]
+  },
+  {
+    "conservation_type": "coastal_management",
+    "name": "연안관리지역",
+    "legal_basis": "연안관리법 제7조, 제22조",
+    "restriction_level": "moderate",
+    "restrictions": ["연안정비사업 외 해안 형질변경 제한", "연안오염 배출행위 제한", "연안침식 유발 행위 제한"],
+    "permit_authority": "해양수산부장관, 시·도지사",
+    "eia_implications": "연안환경 영향 검토, 연안침식 예방 대책 수립",
+    "buffer_zone_m": 0,
+    "exceptions": ["연안정비사업", "소규모 어항 시설"]
+  },
+  {
+    "conservation_type": "baekdudaegan_core",
+    "name": "백두대간보호지역(핵심구역)",
+    "legal_basis": "백두대간 보호에 관한 법률 제7조",
+    "restriction_level": "absolute",
+    "restrictions": ["일체의 개발행위 금지", "산림 훼손 금지", "건축물 건축 금지", "토석 채취 금지"],
+    "permit_authority": "산림청장",
+    "eia_implications": "개발행위 원칙적 불가, 생태축 보전 최우선",
+    "buffer_zone_m": 500,
+    "exceptions": ["군사 목적의 불가피한 경우", "천재지변 복구"]
+  },
+  {
+    "conservation_type": "baekdudaegan_buffer",
+    "name": "백두대간보호지역(완충구역)",
+    "legal_basis": "백두대간 보호에 관한 법률 제7조",
+    "restriction_level": "high",
+    "restrictions": ["건축물 건축 시 산림청장 허가 필요", "토석 채취 제한", "대규모 토지형질변경 제한"],
+    "permit_authority": "산림청장",
+    "eia_implications": "산림환경영향조사 수행, 생태 연결성 영향 검토",
+    "buffer_zone_m": 200,
+    "exceptions": ["산림청장 허가를 받은 소규모 시설", "임도 개설"]
+  },
+  {
+    "conservation_type": "forest_genetic_resource",
+    "name": "산림유전자원보호구역",
+    "legal_basis": "산림보호법 제7조",
+    "restriction_level": "absolute",
+    "restrictions": ["입목 벌채 금지", "산림 훼손 금지", "산림유전자원 채취 금지", "출입 제한"],
+    "permit_authority": "산림청장",
+    "eia_implications": "산림유전자원 영향 최소화 대책 필수",
+    "buffer_zone_m": 300,
+    "exceptions": ["산림유전자원 보호를 위한 학술연구", "산불 등 재해 복구"]
+  },
+  {
+    "conservation_type": "natural_recreation_forest",
+    "name": "자연휴양림",
+    "legal_basis": "산림문화·휴양에 관한 법률 제13조",
+    "restriction_level": "moderate",
+    "restrictions": ["휴양림 목적 외 건축물 건축 제한", "산림 훼손 최소화", "환경오염 행위 금지"],
+    "permit_authority": "산림청장, 시·도지사",
+    "eia_implications": "산림환경 영향 검토, 경관 영향 평가 포함",
+    "buffer_zone_m": 0,
+    "exceptions": ["자연휴양림 시설 설치", "산림 정비"]
+  },
+  {
+    "conservation_type": "mountain_village",
+    "name": "산촌진흥지역",
+    "legal_basis": "산림기본법 제27조, 산촌진흥법 제7조",
+    "restriction_level": "low",
+    "restrictions": ["산촌 환경 보전 의무", "대규모 개발 시 산림환경 검토"],
+    "permit_authority": "산림청장, 시장·군수",
+    "eia_implications": "산촌 환경 영향 최소화, 지역주민 의견 수렴",
+    "buffer_zone_m": 0,
+    "exceptions": ["산촌진흥 사업", "주민 생활편의시설"]
+  },
+  {
+    "conservation_type": "ramsar_wetland",
+    "name": "람사르습지",
+    "legal_basis": "습지보전법 제8조, 람사르협약",
+    "restriction_level": "absolute",
+    "restrictions": ["습지 훼손 금지", "국제적 보호 의무", "생물다양성 보전", "현명한 이용 원칙 적용"],
+    "permit_authority": "환경부장관, 해양수산부장관",
+    "eia_implications": "환경영향평가 필수, 국제 기준 적용, 대체습지 조성 의무",
+    "buffer_zone_m": 1000,
+    "exceptions": ["습지 보전 목적의 학술연구(국제 기준 준수)"]
+  },
+  {
+    "conservation_type": "biosphere_reserve",
+    "name": "유네스코 생물권보전지역",
+    "legal_basis": "자연환경보전법 제39조, UNESCO MAB 프로그램",
+    "restriction_level": "high",
+    "restrictions": ["핵심지역 개발행위 금지", "완충지역 환경친화적 이용만 허용", "전이지역 지속가능한 개발"],
+    "permit_authority": "환경부장관",
+    "eia_implications": "국제 기준 충족 여부 검토, 생물다양성 보전 대책 강화",
+    "buffer_zone_m": 500,
+    "exceptions": ["생물권보전 목적의 연구·교육"]
+  },
+  {
+    "conservation_type": "world_heritage",
+    "name": "유네스코 세계유산(자연유산)",
+    "legal_basis": "세계유산의 보존·관리 및 활용에 관한 특별법 제11조",
+    "restriction_level": "absolute",
+    "restrictions": ["세계유산 구역 내 현상변경 금지", "완충지대 건축 제한", "경관 훼손 금지"],
+    "permit_authority": "문화재청장",
+    "eia_implications": "세계유산 영향평가(HIA) 수행, 국제 기준 준수 의무",
+    "buffer_zone_m": 500,
+    "exceptions": ["세계유산 보존·관리 목적 행위"]
+  },
+  {
+    "conservation_type": "east_asian_flyway",
+    "name": "동아시아-대양주 철새이동경로 네트워크(EAAFP)",
+    "legal_basis": "야생생물 보호 및 관리에 관한 법률, EAAFP 파트너십",
+    "restriction_level": "high",
+    "restrictions": ["철새 도래지 훼손 금지", "서식지 보전 의무", "철새 이동기 공사 제한"],
+    "permit_authority": "환경부장관",
+    "eia_implications": "철새 이동시기(9~3월) 공사 제한 검토, 조류 충돌 방지 대책",
+    "buffer_zone_m": 500,
+    "exceptions": ["철새 보호를 위한 학술연구", "서식지 복원 사업"]
+  },
+  {
+    "conservation_type": "eco_landscape_conservation_core",
+    "name": "생태경관보전지역(핵심구역)",
+    "legal_basis": "자연환경보전법 제15조, 제16조",
+    "restriction_level": "absolute",
+    "restrictions": ["건축물 건축 금지", "토지형질변경 금지", "동식물 포획·채취 금지", "출입 제한"],
+    "permit_authority": "환경부장관",
+    "eia_implications": "개발행위 원칙적 불가, 부지 대안 최우선 검토",
+    "buffer_zone_m": 300,
+    "exceptions": ["생태 보전 학술연구(환경부장관 허가)"]
+  },
+  {
+    "conservation_type": "eco_landscape_conservation_buffer",
+    "name": "생태경관보전지역(완충구역)",
+    "legal_basis": "자연환경보전법 제15조, 제16조",
+    "restriction_level": "high",
+    "restrictions": ["핵심구역 보호를 위한 행위 제한", "환경부장관 허가 필요", "대규모 형질변경 금지"],
+    "permit_authority": "환경부장관",
+    "eia_implications": "환경영향평가 필수, 핵심구역 영향 최소화 방안 제시",
+    "buffer_zone_m": 200,
+    "exceptions": ["환경부장관 허가를 받은 소규모 행위"]
+  },
+  {
+    "conservation_type": "eco_landscape_conservation_transition",
+    "name": "생태경관보전지역(전이구역)",
+    "legal_basis": "자연환경보전법 제15조, 제16조",
+    "restriction_level": "moderate",
+    "restrictions": ["환경친화적 이용만 허용", "생태경관 훼손 최소화"],
+    "permit_authority": "환경부장관 또는 지방환경관서장",
+    "eia_implications": "소규모 환경영향평가 대상, 경관 영향 검토",
+    "buffer_zone_m": 0,
+    "exceptions": ["지역주민 생활편의시설", "환경교육 시설"]
+  },
+  {
+    "conservation_type": "nature_reserve",
+    "name": "천연보호구역",
+    "legal_basis": "문화재보호법 제25조, 자연환경보전법",
+    "restriction_level": "absolute",
+    "restrictions": ["일체의 현상변경 금지", "출입 제한", "동식물 포획·채취 금지"],
+    "permit_authority": "문화재청장, 환경부장관",
+    "eia_implications": "개발행위 원칙적 불가",
+    "buffer_zone_m": 1000,
+    "exceptions": ["보존 목적의 학술연구(문화재청장 허가)"]
+  },
+  {
+    "conservation_type": "specific_island",
+    "name": "특정도서",
+    "legal_basis": "독도 등 도서지역의 생태계보전에 관한 특별법 제4조",
+    "restriction_level": "absolute",
+    "restrictions": ["건축물 건축 금지", "토지형질변경 금지", "동식물 포획·채취 금지", "오염물질 유입 금지"],
+    "permit_authority": "환경부장관",
+    "eia_implications": "개발행위 원칙적 불가, 도서생태계 보전 최우선",
+    "buffer_zone_m": 0,
+    "exceptions": ["도서생태계 보전 학술연구"]
+  },
+  {
+    "conservation_type": "river_ecosystem",
+    "name": "하천생태구간",
+    "legal_basis": "하천법 제25조, 환경부 하천생태 등급 지정",
+    "restriction_level": "moderate",
+    "restrictions": ["하천 자연성 훼손 금지", "하천 구역 내 행위 제한", "수생태계 영향 최소화"],
+    "permit_authority": "환경부장관, 국토교통부장관",
+    "eia_implications": "수생태계 영향 검토, 하천환경 영향평가 포함",
+    "buffer_zone_m": 100,
+    "exceptions": ["하천 정비 사업", "치수 목적 긴급 공사"]
+  },
+  {
+    "conservation_type": "underground_water_protection",
+    "name": "지하수보전구역",
+    "legal_basis": "지하수법 제12조",
+    "restriction_level": "high",
+    "restrictions": ["지하수 오염 유발 시설 설치 금지", "대량 지하수 취수 제한", "토양오염 유발 행위 금지"],
+    "permit_authority": "환경부장관, 시장·군수",
+    "eia_implications": "지하수 영향 평가 수행, 지하수 오염 방지 대책 수립",
+    "buffer_zone_m": 300,
+    "exceptions": ["생활용 소규모 취수", "지하수 보전 학술연구"]
+  },
+  {
+    "conservation_type": "total_pollution_load",
+    "name": "오염총량관리지역",
+    "legal_basis": "물환경보전법 제4조의2, 4대강수계법",
+    "restriction_level": "high",
+    "restrictions": ["오염물질 배출 총량 규제", "신규 배출시설 설치 시 오염부하량 할당 필요", "기존 시설 저감 의무"],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "오염부하량 산정 및 할당 계획 수립 필수",
+    "buffer_zone_m": 0,
+    "exceptions": ["오염총량 할당 범위 내 사업"]
+  },
+  {
+    "conservation_type": "river_basic_plan_zone",
+    "name": "하천기본계획 구역",
+    "legal_basis": "하천법 제25조",
+    "restriction_level": "moderate",
+    "restrictions": ["하천 구역 내 행위 제한", "하천시설 외 시설 설치 허가 필요", "홍수위 이하 건축 금지"],
+    "permit_authority": "국토교통부장관, 시·도지사",
+    "eia_implications": "하천환경 영향 검토, 홍수 영향 분석 포함",
+    "buffer_zone_m": 0,
+    "exceptions": ["하천 정비 사업", "긴급 치수 사업"]
+  },
+  {
+    "conservation_type": "nonpoint_source_management",
+    "name": "비점오염원관리지역",
+    "legal_basis": "물환경보전법 제54조",
+    "restriction_level": "moderate",
+    "restrictions": ["비점오염원 저감시설 설치 의무", "토지이용 시 비점오염 저감 계획 수립", "불투수면 증가 최소화"],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "비점오염 저감 시설 설치 계획 포함, 저영향개발(LID) 기법 적용",
+    "buffer_zone_m": 0,
+    "exceptions": ["소규모 농업활동", "기존 불투수면 유지"]
+  },
+  {
+    "conservation_type": "drinking_water_management",
+    "name": "먹는물수질관리구역",
+    "legal_basis": "먹는물관리법 제6조",
+    "restriction_level": "high",
+    "restrictions": ["수질오염 우려 시설 설치 금지", "유해물질 배출 금지", "가축사육 제한"],
+    "permit_authority": "환경부장관",
+    "eia_implications": "먹는물 수질 영향 검토, 오염원 관리 대책 수립",
+    "buffer_zone_m": 500,
+    "exceptions": ["기존 시설의 유지·보수"]
+  },
+  {
+    "conservation_type": "emission_trading",
+    "name": "온실가스 배출권거래제 대상",
+    "legal_basis": "온실가스 배출권의 할당 및 거래에 관한 법률 제8조",
+    "restriction_level": "moderate",
+    "restrictions": ["온실가스 배출 총량 관리", "배출권 할당·거래 의무", "감축 이행 보고 의무"],
+    "permit_authority": "환경부장관",
+    "eia_implications": "온실가스 배출량 산정 및 감축 계획 수립, 배출권 확보 비용 고려",
+    "buffer_zone_m": 0,
+    "exceptions": ["할당량 범위 내 배출"]
+  },
+  {
+    "conservation_type": "climate_change_adaptation",
+    "name": "기후변화적응대책 관련 지역",
+    "legal_basis": "기후위기 대응을 위한 탄소중립·녹색성장 기본법 제40조",
+    "restriction_level": "low",
+    "restrictions": ["기후변화 취약성 평가 반영", "적응대책 수립 의무", "재해 취약지역 개발 유의"],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "기후변화 시나리오 반영, 적응 대책 포함",
+    "buffer_zone_m": 0,
+    "exceptions": ["기후변화 적응 사업"]
+  },
+  {
+    "conservation_type": "fine_dust_emergency",
+    "name": "미세먼지 비상저감조치 지역",
+    "legal_basis": "미세먼지 저감 및 관리에 관한 특별법 제18조",
+    "restriction_level": "moderate",
+    "restrictions": ["고농도 미세먼지 시 조업 단축·중지", "차량 운행 제한", "배출시설 가동 제한"],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "대기질 영향 평가 강화, 미세먼지 저감 대책 수립",
+    "buffer_zone_m": 0,
+    "exceptions": ["긴급 시설 운영"]
+  },
+  {
+    "conservation_type": "low_emission_zone",
+    "name": "저공해지역(녹색교통진흥지역)",
+    "legal_basis": "지속가능 교통물류 발전법 제37조",
+    "restriction_level": "moderate",
+    "restrictions": ["고배출 차량 운행 제한", "교통수요 관리", "친환경 교통수단 우선"],
+    "permit_authority": "국토교통부장관, 시·도지사",
+    "eia_implications": "교통 부문 탄소배출 저감 대책 포함",
+    "buffer_zone_m": 0,
+    "exceptions": ["긴급 차량", "장애인 이동수단"]
+  },
+  {
+    "conservation_type": "soil_contamination",
+    "name": "토양오염관리대상지역",
+    "legal_basis": "토양환경보전법 제17조",
+    "restriction_level": "high",
+    "restrictions": ["토양오염 유발 시설 신규 설치 금지", "토양정밀조사 의무", "정화조치 명령 이행"],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "토양오염 정밀조사 수행, 정화 비용·기간 반영",
+    "buffer_zone_m": 0,
+    "exceptions": ["토양정화 목적 사업"]
+  },
+  {
+    "conservation_type": "natural_cave",
+    "name": "천연동굴(보호 대상)",
+    "legal_basis": "문화재보호법 제25조, 자연환경보전법",
+    "restriction_level": "absolute",
+    "restrictions": ["동굴 내부 현상변경 금지", "출입 통제", "동굴 생태계 훼손 금지"],
+    "permit_authority": "문화재청장, 환경부장관",
+    "eia_implications": "동굴 환경 영향 최소화, 지하수 유동 변화 검토",
+    "buffer_zone_m": 500,
+    "exceptions": ["보존 목적의 학술연구"]
+  },
+  {
+    "conservation_type": "geological_heritage",
+    "name": "지질유산(천연기념물 지질·광물)",
+    "legal_basis": "문화재보호법 제25조, 자연공원법",
+    "restriction_level": "high",
+    "restrictions": ["지질유산 훼손 금지", "채석·굴착 금지", "경관 훼손 금지"],
+    "permit_authority": "문화재청장",
+    "eia_implications": "지형·지질 영향 검토, 지질유산 보존 대책 수립",
+    "buffer_zone_m": 300,
+    "exceptions": ["지질유산 보존 학술연구"]
+  },
+  {
+    "conservation_type": "natural_monument",
+    "name": "천연기념물(동물·식물·지질·광물)",
+    "legal_basis": "문화재보호법 제25조",
+    "restriction_level": "absolute",
+    "restrictions": ["천연기념물 및 서식지 현상변경 금지", "보호구역 내 건축 금지", "채취·포획 금지"],
+    "permit_authority": "문화재청장",
+    "eia_implications": "천연기념물 영향 검토, 보호구역 확인 필수",
+    "buffer_zone_m": 500,
+    "exceptions": ["보존 목적의 학술연구(문화재청장 허가)"]
+  },
+  {
+    "conservation_type": "scenic_spot",
+    "name": "명승",
+    "legal_basis": "문화재보호법 제25조",
+    "restriction_level": "high",
+    "restrictions": ["현상변경 금지", "경관 훼손 금지", "높이·규모 건축 제한"],
+    "permit_authority": "문화재청장",
+    "eia_implications": "경관 영향 평가 필수, 조망 훼손 검토",
+    "buffer_zone_m": 500,
+    "exceptions": ["명승 보존 목적 행위"]
+  },
+  {
+    "conservation_type": "traditional_village",
+    "name": "전통마을보존지구",
+    "legal_basis": "문화재보호법 제70조, 전통사찰의 보존 및 지원에 관한 법률",
+    "restriction_level": "high",
+    "restrictions": ["전통마을 경관 훼손 금지", "건축물 높이·형태 제한", "현대식 시설 설치 제한"],
+    "permit_authority": "문화재청장, 시·도지사",
+    "eia_implications": "문화재 영향 검토, 전통 경관 보전 대책 수립",
+    "buffer_zone_m": 200,
+    "exceptions": ["전통마을 보존·정비 사업"]
+  },
+  {
+    "conservation_type": "landscape_conservation",
+    "name": "경관보전지구",
+    "legal_basis": "국토의 계획 및 이용에 관한 법률 제37조제1항제6호",
+    "restriction_level": "high",
+    "restrictions": ["경관 훼손 건축물 금지", "높이·색채·형태 규제", "자연경관 보전 의무"],
+    "permit_authority": "시장·군수·구청장",
+    "eia_implications": "경관 영향 평가 포함, 경관심의 대상",
+    "buffer_zone_m": 0,
+    "exceptions": ["경관계획에 부합하는 건축물"]
+  },
+  {
+    "conservation_type": "landscape_management",
+    "name": "경관관리지역(시·도 지정)",
+    "legal_basis": "경관법 제9조",
+    "restriction_level": "moderate",
+    "restrictions": ["경관 가이드라인 준수", "건축물 형태·색채·높이 관리", "야간 조명 관리"],
+    "permit_authority": "시·도지사",
+    "eia_implications": "경관 영향 검토, 경관심의 대상",
+    "buffer_zone_m": 0,
+    "exceptions": ["경관계획 가이드라인 준수 시"]
+  },
+  {
+    "conservation_type": "national_landscape",
+    "name": "국가경관(주요조망점 포함)",
+    "legal_basis": "경관법 제25조",
+    "restriction_level": "moderate",
+    "restrictions": ["국가경관 훼손 행위 제한", "주요조망점에서의 경관 차폐 금지", "경관심의 의무"],
+    "permit_authority": "국토교통부장관, 시·도지사",
+    "eia_implications": "경관 영향 평가 포함, 주요조망점 시각 영향 분석",
+    "buffer_zone_m": 0,
+    "exceptions": ["경관 개선 사업"]
+  },
+  {
+    "conservation_type": "noise_countermeasure_zone",
+    "name": "소음대책지역",
+    "legal_basis": "소음·진동관리법 제27조",
+    "restriction_level": "moderate",
+    "restrictions": ["소음 배출 기준 강화", "방음시설 설치 의무", "야간 공사 제한"],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "소음 영향 평가 강화, 방음대책 수립 필수",
+    "buffer_zone_m": 0,
+    "exceptions": ["소음 저감 사업"]
+  },
+  {
+    "conservation_type": "vibration_regulation_zone",
+    "name": "진동규제지역",
+    "legal_basis": "소음·진동관리법 제21조",
+    "restriction_level": "moderate",
+    "restrictions": ["진동 배출 허용기준 적용", "방진시설 설치 의무"],
+    "permit_authority": "환경부장관, 시·도지사",
+    "eia_implications": "진동 영향 평가, 방진 대책 수립",
+    "buffer_zone_m": 0,
+    "exceptions": ["진동 저감 목적 사업"]
+  },
+  {
+    "conservation_type": "disaster_risk_zone",
+    "name": "자연재해위험지구",
+    "legal_basis": "자연재해대책법 제12조",
+    "restriction_level": "high",
+    "restrictions": ["재해 취약 지역 개발 제한", "방재시설 설치 의무", "재해영향평가 수행"],
+    "permit_authority": "행정안전부장관, 시장·군수",
+    "eia_implications": "재해영향평가 수행, 방재대책 수립 필수",
+    "buffer_zone_m": 0,
+    "exceptions": ["방재 목적 사업", "긴급 복구 사업"]
+  },
+  {
+    "conservation_type": "steep_slope_risk",
+    "name": "급경사지 붕괴위험지역",
+    "legal_basis": "급경사지 재해예방에 관한 법률 제6조",
+    "restriction_level": "high",
+    "restrictions": ["급경사지 절취·성토 제한", "건축물 건축 시 안전성 검토 의무", "배수시설 설치 의무"],
+    "permit_authority": "행정안전부장관, 시장·군수",
+    "eia_implications": "지반안정성 검토, 사면 안정 대책 수립",
+    "buffer_zone_m": 0,
+    "exceptions": ["사면 안정화 공사", "재해 복구"]
+  }
+]

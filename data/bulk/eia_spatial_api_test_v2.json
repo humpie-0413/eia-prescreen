@@ -1,0 +1,169 @@
+{
+  "spatial_wider": {
+    "양평 20km gubun=2": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "서울 강남 5km gubun=2": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "서울 강남 10km gubun=2": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "��종 5km gubun=2": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "세종 10km gubun=2": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "서울 강남 5km gubun=1": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "서울 강남 10km gubun=3(멸종위기동물)": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "서울 강남 10km gubun=8(대기질)": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "서울 강남 10km gubun=11(지표수질)": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "서울 강남 10km gubun=13(토양질)": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "보령 10km gubun=2": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "보령 10km gubun=9(해양저질)": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    },
+    "보령 10km gubun=10(해양수질)": {
+      "status": "success_xml",
+      "code": "00",
+      "msg": "NORMAL SERVICE.",
+      "total": 0
+    }
+  },
+  "detail_paths": {
+    "EnvrnAffcEvlBsnsInfoInqireService_getBsnsStrtgySmallScaleDscssBsnsDetailInfoInqire": {
+      "status": "http_error",
+      "code": 404,
+      "text": "API not found\n"
+    },
+    "EnvrnAffcEvlBsnsInfoInqireService_getBsnsStrtgySmallScaleDscssBsnsDetailIngInfoInqire": {
+      "status": "http_error",
+      "code": 404,
+      "text": "API not found\n"
+    },
+    "EnvrnAffcEvlBsnsInfoInqireService_getDscssBsnsListInfoInqire": {
+      "status": "http_error",
+      "code": 404,
+      "text": "API not found\n"
+    },
+    "EnvrnAffcEvlBsnsInfoInqireService_getDecsnCnListInfoInqire": {
+      "status": "http_error",
+      "code": 404,
+      "text": "API not found\n"
+    },
+    "EnvrnAffcEvlBsnsInfoInqireService_getDraftPblancDsplayListInfoInqire": {
+      "status": "http_error",
+      "code": 404,
+      "text": "API not found\n"
+    },
+    "eiainformation_getBsnsStrtgySmallScaleDscssBsnsDetailInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "eiainformation_getBsnsStrtgySmallScaleDscssBsnsDetailIngInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "eiainformation_getDscssBsnsListInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "eiainformation_getDecsnCnListInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "eiainformation_getDraftPblancDsplayListInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "EvlBsnsInfoInqireService_getBsnsStrtgySmallScaleDscssBsnsDetailInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "EvlBsnsInfoInqireService_getBsnsStrtgySmallScaleDscssBsnsDetailIngInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "EvlBsnsInfoInqireService_getDscssBsnsListInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "EvlBsnsInfoInqireService_getDecsnCnListInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    },
+    "EvlBsnsInfoInqireService_getDraftPblancDsplayListInfoInqire": {
+      "status": "http_error",
+      "code": 500,
+      "text": "Unexpected errors\n"
+    }
+  },
+  "existing_api": {
+    "status": "http_error",
+    "code": 500,
+    "text": "Unexpected errors\n"
+  },
+  "existing_api_list": {
+    "status": "http_error",
+    "code": 500,
+    "text": "Unexpected errors\n"
+  }
+}

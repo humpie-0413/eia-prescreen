@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Next.js
+.next/
+out/
+
+# Environment (API keys, credentials)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code / Superpowers (local tool data)
+.claude/
+.superpowers/
+0_projecteia-prescreen*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+pgdata/
+
+# Reports — raw PDFs (6.3GB) + ChromaDB vectors (209MB)
+data/reports/raw/
+data/reports/chromadb/
+data/reports/.eiass_cookies.json
+
+# Cache / Snapshots (keep structure, ignore large files)
+data/snapshots/*.json
+!data/snapshots/.gitkeep
+
+# Playwright test artifacts
+frontend/playwright-report/
+frontend/test-results/
+
+# Logs
+*.log
+
+# Runtime / temporary data
+data/_report_tmp/
+data/_test_ids.txt
+data/test_results/
+data/screenings/
+data/new/
+data/e2e_results/
+
+# Ad-hoc test scripts (root level)
+test_api_*.py
+test_api_*.txt
+
+# Temporary analysis files
+data/bulk/analysis/_type_check.txt
+data/cases/_cases_58_84.txt
+
+# Source data (already processed into data/static/)
+docs/*.csv

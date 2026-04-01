@@ -1,0 +1,664 @@
+{
+  "generated_at": "2026-03-28T17:30:00",
+  "source": "과거 환경영향평가 보완 요구 패턴 분석",
+  "by_type": {
+    "도로": [
+      {
+        "issue": "소음·진동 영향",
+        "common_remediation": [
+          "방음벽 설치 (높이·위치 구체화)",
+          "저소음 포장 적용",
+          "공사시간 제한 (06:00~22:00)"
+        ],
+        "frequency": 0.71
+      },
+      {
+        "issue": "생태계 단절",
+        "common_remediation": [
+          "생태통로 설치 (Box형/Arch형)",
+          "4계절 생태조사 실시",
+          "멸종위기종 이동경로 조사"
+        ],
+        "frequency": 0.57
+      },
+      {
+        "issue": "대기질 악화",
+        "common_remediation": [
+          "비산먼지 저감시설 설치",
+          "살수차 운영",
+          "공사차량 세륜시설"
+        ],
+        "frequency": 0.51
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "침사지·침전지 설치",
+          "비점오염 저감시설",
+          "수질 모니터링 계획"
+        ],
+        "frequency": 0.44
+      },
+      {
+        "issue": "농지·산지 전용",
+        "common_remediation": [
+          "대체농지 조성",
+          "대체산림 조성 (면적 산정)",
+          "농지보전부담금 납부"
+        ],
+        "frequency": 0.41
+      }
+    ],
+    "주거단지": [
+      {
+        "issue": "대기질 악화",
+        "common_remediation": [
+          "분진 억제시설",
+          "완충녹지 조성",
+          "교통 분산 계획"
+        ],
+        "frequency": 0.78
+      },
+      {
+        "issue": "소음·진동 영향",
+        "common_remediation": [
+          "방음벽·방음림 설치",
+          "배치 계획 변경 (이격거리 확보)",
+          "저소음 장비 사용"
+        ],
+        "frequency": 0.74
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "하수처리시설 용량 확보",
+          "중수도 시설 설치",
+          "비점오염 저감시설"
+        ],
+        "frequency": 0.7
+      },
+      {
+        "issue": "교통량 증가",
+        "common_remediation": [
+          "교차로 개선",
+          "대중교통 연계 방안",
+          "주차장 확충"
+        ],
+        "frequency": 0.64
+      },
+      {
+        "issue": "녹지·생태 훼손",
+        "common_remediation": [
+          "대체서식지 조성",
+          "생태면적률 확보",
+          "가로수·완충녹지 식재"
+        ],
+        "frequency": 0.55
+      }
+    ],
+    "발전소": [
+      {
+        "issue": "대기질 악화",
+        "common_remediation": [
+          "배출가스 저감시설 (SCR, 전기집진기)",
+          "굴뚝 높이 산정 (AERMOD)",
+          "대기확산 모델링"
+        ],
+        "frequency": 0.92
+      },
+      {
+        "issue": "온실가스 배출",
+        "common_remediation": [
+          "온실가스 감축 계획",
+          "탄소상쇄 방안",
+          "에너지 효율 개선 계획"
+        ],
+        "frequency": 0.87
+      },
+      {
+        "issue": "수질 영향",
+        "common_remediation": [
+          "온배수 확산 예측",
+          "냉각수 순환 시스템",
+          "폐수처리시설 설치"
+        ],
+        "frequency": 0.81
+      },
+      {
+        "issue": "소음·진동 영향",
+        "common_remediation": [
+          "방음벽 설치",
+          "저소음 발전기",
+          "이격거리 확보"
+        ],
+        "frequency": 0.75
+      },
+      {
+        "issue": "해양 생태계 영향",
+        "common_remediation": [
+          "인공어초 설치",
+          "해양생태 모니터링",
+          "온배수 영향 최소화"
+        ],
+        "frequency": 0.6
+      }
+    ],
+    "산업단지": [
+      {
+        "issue": "대기질 악화",
+        "common_remediation": [
+          "방지시설 설치 의무화",
+          "완충녹지대 확보 (50m 이상)",
+          "대기확산 모델링"
+        ],
+        "frequency": 0.82
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "폐수종말처리시설 확보",
+          "산업폐수 전처리 의무화",
+          "방류수 수질 기준 강화"
+        ],
+        "frequency": 0.76
+      },
+      {
+        "issue": "소음·진동 영향",
+        "common_remediation": [
+          "방음벽·방음림",
+          "이격거리 확보",
+          "저소음 장비 의무화"
+        ],
+        "frequency": 0.7
+      },
+      {
+        "issue": "교통량 증가",
+        "common_remediation": [
+          "진입도로 확장",
+          "우회도로 설치",
+          "물류 동선 분리"
+        ],
+        "frequency": 0.63
+      },
+      {
+        "issue": "토양 오염",
+        "common_remediation": [
+          "토양 오염 방지시설",
+          "지하수 모니터링정 설치",
+          "위해성 평가"
+        ],
+        "frequency": 0.51
+      }
+    ],
+    "철도": [
+      {
+        "issue": "소음·진동 영향",
+        "common_remediation": [
+          "방음벽·방진벽 설치 (주거지 인접 구간)",
+          "궤도 진동 저감 (플로팅 슬래브·탄성체결구)",
+          "저소음 장비 사용·공사시간 제한"
+        ],
+        "frequency": 0.88
+      },
+      {
+        "issue": "생태계 단절",
+        "common_remediation": [
+          "생태통로 설치 (Box형/Arch형, 500m 간격)",
+          "4계절 생태조사 실시",
+          "야생동물 이동 유도 울타리 설치"
+        ],
+        "frequency": 0.75
+      },
+      {
+        "issue": "지형·지질 변화",
+        "common_remediation": [
+          "터널 굴착 공법 선정 (NATM/TBM)",
+          "사면 안정성 분석 및 보강 설계",
+          "절토면 녹화·법면보호공 시행"
+        ],
+        "frequency": 0.7
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "터널 용출수 처리시설 설치",
+          "비점오염 저감시설 (침사지·침전지)",
+          "공사 중 탁수 처리 계획"
+        ],
+        "frequency": 0.6
+      },
+      {
+        "issue": "농지·산지 전용",
+        "common_remediation": [
+          "대체산림 조성 (면적 산정)",
+          "대체농지 조성",
+          "최적 선형 설계 (전용면적 최소화)"
+        ],
+        "frequency": 0.55
+      }
+    ],
+    "공항": [
+      {
+        "issue": "소음·진동 영향",
+        "common_remediation": [
+          "소음저감 운항 절차(NADP) 도입",
+          "소음방지대책지역 지정·보상",
+          "방음시설 설치 (방음벽·방음창)"
+        ],
+        "frequency": 0.91
+      },
+      {
+        "issue": "조류충돌 위험",
+        "common_remediation": [
+          "조류 레이더 모니터링 시스템",
+          "서식지 관리 (풀 높이, 물웅덩이 제거)",
+          "조류퇴치 장비 설치"
+        ],
+        "frequency": 0.78
+      },
+      {
+        "issue": "대기질 악화",
+        "common_remediation": [
+          "지상조업 장비 전기화",
+          "공사 중 비산먼지 저감",
+          "교통량 분산 계획"
+        ],
+        "frequency": 0.7
+      },
+      {
+        "issue": "생태계 훼손",
+        "common_remediation": [
+          "대체서식지 조성",
+          "생태통로 설치",
+          "4계절 생태조사 실시"
+        ],
+        "frequency": 0.65
+      },
+      {
+        "issue": "경관 영향",
+        "common_remediation": [
+          "경관 시뮬레이션(포토몽타주)",
+          "시설물 높이·색채 조정",
+          "완충녹지대 조성"
+        ],
+        "frequency": 0.61
+      }
+    ],
+    "댐": [
+      {
+        "issue": "수질 영향",
+        "common_remediation": [
+          "선택적 방류 시스템",
+          "부영양화 방지대책",
+          "수질 모니터링 계획"
+        ],
+        "frequency": 0.88
+      },
+      {
+        "issue": "수생태계 영향",
+        "common_remediation": [
+          "어도(魚道) 설치",
+          "수생태계 모니터링",
+          "인공산란장 조성"
+        ],
+        "frequency": 0.81
+      },
+      {
+        "issue": "수몰지역 이주",
+        "common_remediation": [
+          "이주대책 수립",
+          "생활대책 마련",
+          "문화재 이전 계획"
+        ],
+        "frequency": 0.73
+      },
+      {
+        "issue": "지형·지질 변화",
+        "common_remediation": [
+          "사면안정 대책",
+          "절성토량 최소화",
+          "지질조사 실시"
+        ],
+        "frequency": 0.65
+      },
+      {
+        "issue": "생태계 훼손",
+        "common_remediation": [
+          "대체서식지 조성",
+          "4계절 생태조사",
+          "녹화 복원 계획"
+        ],
+        "frequency": 0.54
+      }
+    ],
+    "채석": [
+      {
+        "issue": "지형·지질 훼손",
+        "common_remediation": [
+          "단계적 복원 계획",
+          "절개면 녹화",
+          "사후 복원 기금 적립"
+        ],
+        "frequency": 0.88
+      },
+      {
+        "issue": "소음·진동 (발파)",
+        "common_remediation": [
+          "발파 시간 제한",
+          "제어발파 적용",
+          "방음벽 설치"
+        ],
+        "frequency": 0.8
+      },
+      {
+        "issue": "비산먼지",
+        "common_remediation": [
+          "살수시설 설치",
+          "분진포집장치",
+          "운반차량 세륜시설"
+        ],
+        "frequency": 0.75
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "침사지 설치",
+          "탁수처리시설",
+          "수질 모니터링"
+        ],
+        "frequency": 0.6
+      },
+      {
+        "issue": "산지 전용",
+        "common_remediation": [
+          "대체산림 조성",
+          "최소 면적 개발",
+          "단계별 복원"
+        ],
+        "frequency": 0.55
+      }
+    ],
+    "체육": [
+      {
+        "issue": "산지 전용·녹지 훼손",
+        "common_remediation": [
+          "대체산림 조성",
+          "녹지율 30% 이상 확보",
+          "자연지형 최대 활용"
+        ],
+        "frequency": 0.78
+      },
+      {
+        "issue": "경관 변화",
+        "common_remediation": [
+          "경관심의 실시",
+          "건축물 높이 제한",
+          "차폐식재 계획"
+        ],
+        "frequency": 0.72
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "비점오염 저감시설",
+          "오수처리시설",
+          "수질 모니터링"
+        ],
+        "frequency": 0.63
+      },
+      {
+        "issue": "생태계 훼손",
+        "common_remediation": [
+          "생태통로 설치",
+          "4계절 생태조사",
+          "비오톱 조성"
+        ],
+        "frequency": 0.57
+      },
+      {
+        "issue": "소음·진동",
+        "common_remediation": [
+          "방음벽 설치",
+          "공사시간 제한",
+          "저소음 장비 사용"
+        ],
+        "frequency": 0.5
+      }
+    ],
+    "폐기물": [
+      {
+        "issue": "대기질 악화",
+        "common_remediation": [
+          "최적방지시설 설치",
+          "굴뚝 높이 최적화",
+          "TMS 설치·운영"
+        ],
+        "frequency": 0.88
+      },
+      {
+        "issue": "수질 오염 (침출수)",
+        "common_remediation": [
+          "침출수 처리시설",
+          "차수막 이중 설치",
+          "지하수 모니터링"
+        ],
+        "frequency": 0.82
+      },
+      {
+        "issue": "토양·지하수 오염",
+        "common_remediation": [
+          "토양오염 모니터링",
+          "지하수 관측정 설치",
+          "차수시설 강화"
+        ],
+        "frequency": 0.74
+      },
+      {
+        "issue": "주민 건강 영향",
+        "common_remediation": [
+          "건강영향평가 실시",
+          "악취저감시설",
+          "주민 모니터링 참여"
+        ],
+        "frequency": 0.66
+      },
+      {
+        "issue": "악취 확산",
+        "common_remediation": [
+          "밀폐형 시설 설계",
+          "탈취설비 설치",
+          "악취 모니터링"
+        ],
+        "frequency": 0.55
+      }
+    ],
+    "군사": [
+      {
+        "issue": "소음·진동 (사격·폭발)",
+        "common_remediation": [
+          "방음림 조성",
+          "사격장 방음벽",
+          "훈련시간 제한"
+        ],
+        "frequency": 0.84
+      },
+      {
+        "issue": "산지·녹지 훼손",
+        "common_remediation": [
+          "대체산림 조성",
+          "녹지축 보전",
+          "단계별 복원"
+        ],
+        "frequency": 0.75
+      },
+      {
+        "issue": "생태계 영향",
+        "common_remediation": [
+          "생태통로 설치",
+          "야생동물 조사",
+          "서식지 보전 계획"
+        ],
+        "frequency": 0.67
+      },
+      {
+        "issue": "토양 오염",
+        "common_remediation": [
+          "오염토양 정화",
+          "유류 저장시설 안전관리",
+          "토양 모니터링"
+        ],
+        "frequency": 0.51
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "오수처리시설",
+          "비점오염 저감",
+          "수질 모니터링"
+        ],
+        "frequency": 0.58
+      }
+    ],
+    "토석": [
+      {
+        "issue": "지형·지질 훼손",
+        "common_remediation": [
+          "단계적 복원 계획",
+          "절개면 안정화",
+          "복원 이행보증금"
+        ],
+        "frequency": 0.88
+      },
+      {
+        "issue": "비산먼지",
+        "common_remediation": [
+          "살수시설 운영",
+          "분진억제 덮개",
+          "세륜시설 설치"
+        ],
+        "frequency": 0.8
+      },
+      {
+        "issue": "소음·진동 (발파)",
+        "common_remediation": [
+          "제어발파 적용",
+          "발파시간 제한",
+          "진동 모니터링"
+        ],
+        "frequency": 0.72
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "침사지 설치",
+          "탁수처리",
+          "수질 모니터링"
+        ],
+        "frequency": 0.65
+      },
+      {
+        "issue": "경관 훼손",
+        "common_remediation": [
+          "차폐식재",
+          "단계적 녹화",
+          "복원 계획"
+        ],
+        "frequency": 0.5
+      }
+    ],
+    "간척": [
+      {
+        "issue": "해양 생태계 영향",
+        "common_remediation": [
+          "대체서식지 조성",
+          "해양생태 모니터링",
+          "갯벌 복원 계획"
+        ],
+        "frequency": 0.9
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "수질정화시설",
+          "담·해수 순환시스템",
+          "수질 모니터링"
+        ],
+        "frequency": 0.8
+      },
+      {
+        "issue": "철새 서식지",
+        "common_remediation": [
+          "대체습지 조성",
+          "조류 모니터링",
+          "서식지 보전 구역 지정"
+        ],
+        "frequency": 0.6
+      },
+      {
+        "issue": "어업 피해",
+        "common_remediation": [
+          "어업손실보상",
+          "인공어초 설치",
+          "어장 이전 지원"
+        ],
+        "frequency": 0.52
+      },
+      {
+        "issue": "조류 변화",
+        "common_remediation": [
+          "수치모델링 실시",
+          "배수갑문 운영 최적화",
+          "해안 침식 방지"
+        ],
+        "frequency": 0.7
+      }
+    ],
+    "물류": [
+      {
+        "issue": "교통량 증가",
+        "common_remediation": [
+          "교통영향분석",
+          "진출입 도로 개선",
+          "교통신호 최적화"
+        ],
+        "frequency": 0.85
+      },
+      {
+        "issue": "대기질 악화",
+        "common_remediation": [
+          "비산먼지 저감",
+          "살수차 운영",
+          "공사차량 세륜"
+        ],
+        "frequency": 0.76
+      },
+      {
+        "issue": "소음·진동",
+        "common_remediation": [
+          "방음벽 설치",
+          "공사시간 제한",
+          "저소음 장비"
+        ],
+        "frequency": 0.68
+      },
+      {
+        "issue": "수질 오염",
+        "common_remediation": [
+          "비점오염 저감시설",
+          "오수처리시설",
+          "우수저류시설"
+        ],
+        "frequency": 0.56
+      },
+      {
+        "issue": "농지 전용",
+        "common_remediation": [
+          "대체농지 조성",
+          "농지보전부담금",
+          "표토 보전"
+        ],
+        "frequency": 0.48
+      }
+    ]
+  }
+}

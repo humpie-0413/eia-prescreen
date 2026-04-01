@@ -1,0 +1,238 @@
+{
+  "title": "환경영향평가서 표준 구조",
+  "version": "1.0",
+  "description": "환경영향평가서 작성 안내서(환경부) 기반 표준 목차 구조",
+
+  "chapters": [
+    {
+      "chapter_id": "ch1",
+      "title": "사업의 개요",
+      "sections": [
+        {
+          "section_id": "ch1_s1",
+          "title": "사업의 목적 및 필요성",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["project_input"],
+          "description": "사업의 배경, 목적, 필요성을 기술한다."
+        },
+        {
+          "section_id": "ch1_s2",
+          "title": "사업의 내용",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["project_input"],
+          "description": "사업의 종류, 규모, 위치, 기간, 공사 개요 등을 기술한다."
+        },
+        {
+          "section_id": "ch1_s3",
+          "title": "관련 법규 및 계획",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["regulation_matcher", "risk_engine"],
+          "description": "사업과 관련된 법률, 상위 계획, 인허가 사항을 정리한다."
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch2",
+      "title": "지역 개황",
+      "sections": [
+        {
+          "section_id": "ch2_s1",
+          "title": "자연환경 현황",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["ecology", "weather", "geology"],
+          "description": "기후, 지형, 지질, 토양, 동식물상 등 자연환경 현황을 기술한다."
+        },
+        {
+          "section_id": "ch2_s2",
+          "title": "생활환경 현황",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["air_quality", "water_quality", "noise", "soil"],
+          "description": "대기질, 수질, 소음·진동, 토양 등 생활환경 현황을 기술한다."
+        },
+        {
+          "section_id": "ch2_s3",
+          "title": "사회·경제 환경 현황",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["population", "land_use", "traffic"],
+          "description": "인구, 토지이용, 교통, 문화재 등 사회·경제 환경을 기술한다."
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch3",
+      "title": "평가 항목별 현황 및 영향 예측",
+      "sections": [
+        {
+          "section_id": "ch3_s1",
+          "title": "대기질",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["air_quality", "weather", "pattern_advisor"],
+          "description": "대기질 현황, 배출원 현황, 영향 예측을 기술한다."
+        },
+        {
+          "section_id": "ch3_s2",
+          "title": "수질",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["water_quality", "marine", "pattern_advisor"],
+          "description": "수질 현황 및 오염원 분석, 수질 영향 예측을 기술한다."
+        },
+        {
+          "section_id": "ch3_s3",
+          "title": "소음·진동",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["noise", "traffic", "pattern_advisor"],
+          "description": "소음·진동 현황 측정치와 공사·운영 시 영향 예측을 기술한다."
+        },
+        {
+          "section_id": "ch3_s4",
+          "title": "토양·지하수",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["soil", "geology", "pattern_advisor"],
+          "description": "토양 오염도, 지하수 현황 및 영향 예측을 기술한다."
+        },
+        {
+          "section_id": "ch3_s5",
+          "title": "생태계",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["ecology", "eia_info", "pattern_advisor"],
+          "description": "동식물상, 생태자연도, 멸종위기종 및 생태계 영향 예측을 기술한다."
+        },
+        {
+          "section_id": "ch3_s6",
+          "title": "경관",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["land_use", "pattern_advisor"],
+          "description": "주요 경관 자원, 경관 영향 예측 및 시뮬레이션 결과를 기술한다."
+        },
+        {
+          "section_id": "ch3_s7",
+          "title": "해양환경",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["marine", "ocean", "pattern_advisor"],
+          "description": "해양수질, 해양생태계, 조류 등 해양환경 현황 및 영향 예측을 기술한다. 항만건설, 매립간척, 하천이용개발 유형에서 중점 평가.",
+          "applicable_types": ["port", "reclamation", "river"]
+        },
+        {
+          "section_id": "ch3_s8",
+          "title": "온실가스",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["greenhouse", "pattern_advisor"],
+          "description": "온실가스 배출량 산정 및 저감 방안을 기술한다. 에너지개발, 산업입지, 폐기물처리 유형에서 중점 평가.",
+          "applicable_types": ["energy", "industrial", "waste"]
+        },
+        {
+          "section_id": "ch3_s9",
+          "title": "악취",
+          "auto_generable": true,
+          "field_survey_required": true,
+          "data_sources": ["odor", "pattern_advisor"],
+          "description": "악취 현황 및 배출원 분석, 영향 예측을 기술한다. 산업입지, 폐기물처리, 매립간척 유형에서 중점 평가.",
+          "applicable_types": ["industrial", "waste", "reclamation"]
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch4",
+      "title": "환경영향 저감 방안",
+      "sections": [
+        {
+          "section_id": "ch4_s1",
+          "title": "공사 시 저감 방안",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["pattern_advisor", "case_search"],
+          "description": "공사 단계에서의 환경영향 저감 방안을 항목별로 기술한다."
+        },
+        {
+          "section_id": "ch4_s2",
+          "title": "운영 시 저감 방안",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["pattern_advisor", "case_search"],
+          "description": "운영 단계에서의 환경영향 저감 방안을 항목별로 기술한다."
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch5",
+      "title": "종합 평가 및 결론",
+      "sections": [
+        {
+          "section_id": "ch5_s1",
+          "title": "환경영향 종합 평가",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["risk_engine", "regulation_matcher", "llm_interpreter"],
+          "description": "각 평가항목의 영향을 종합하여 전체 환경영향을 평가한다."
+        },
+        {
+          "section_id": "ch5_s2",
+          "title": "결론 및 건의사항",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["risk_engine", "pattern_advisor"],
+          "description": "환경영향평가 결과를 종합하고 건의사항을 제시한다."
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch6",
+      "title": "사후환경영향조사 계획",
+      "sections": [
+        {
+          "section_id": "ch6_s1",
+          "title": "조사 항목 및 방법",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["risk_engine", "pattern_advisor"],
+          "description": "사후환경영향조사의 항목, 주기, 방법을 계획한다."
+        },
+        {
+          "section_id": "ch6_s2",
+          "title": "조사 지점 및 주기",
+          "auto_generable": false,
+          "field_survey_required": true,
+          "data_sources": [],
+          "description": "현장 여건을 반영한 조사 지점 및 주기를 설정한다. 전문가 검토 필요."
+        }
+      ]
+    }
+    ,
+    {
+      "chapter_id": "ch7",
+      "title": "대안 검토",
+      "sections": [
+        {
+          "section_id": "ch7_s1",
+          "title": "대안 설정 및 비교 분석",
+          "auto_generable": true,
+          "field_survey_required": false,
+          "data_sources": ["compare", "risk_engine"],
+          "description": "부지 대안, 공법 대안 등을 설정하고 환경성을 비교 분석한다. 부지비교 결과 연동 가능."
+        }
+      ]
+    }
+  ],
+
+  "metadata": {
+    "total_chapters": 7,
+    "total_sections": 22,
+    "auto_generable_sections": 21,
+    "field_survey_required_sections": 9,
+    "disclaimer": "이 초안은 AI가 생성한 참고 자료이며 전문가 검토가 필요합니다"
+  }
+}

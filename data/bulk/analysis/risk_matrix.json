@@ -1,0 +1,882 @@
+{
+  "generated_at": "2026-03-28T17:30:00",
+  "description": "사업유형×입지유형별 리스크 확률 매트릭스 (과거 환평 데이터 기반)",
+  "location_types": [
+    "산지",
+    "수변",
+    "농지",
+    "도시",
+    "해안",
+    "평지"
+  ],
+  "matrix": {
+    "도로": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "생태계 단절",
+          "산지 전용",
+          "경관 훼손"
+        ],
+        "supplement_pct": 52.0
+      },
+      "수변": {
+        "risk_level": "critical",
+        "issue_probability": 0.91,
+        "top_issues": [
+          "수질 오염",
+          "수생태계",
+          "비점오염"
+        ],
+        "supplement_pct": 58.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.65,
+        "top_issues": [
+          "농지 전용",
+          "소음 영향",
+          "교통"
+        ],
+        "supplement_pct": 38.0
+      },
+      "도시": {
+        "risk_level": "major",
+        "issue_probability": 0.72,
+        "top_issues": [
+          "소음·진동",
+          "대기질",
+          "교통량"
+        ],
+        "supplement_pct": 42.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.78,
+        "top_issues": [
+          "해양 생태계",
+          "경관",
+          "해안 침식"
+        ],
+        "supplement_pct": 48.0
+      },
+      "평지": {
+        "risk_level": "moderate",
+        "issue_probability": 0.55,
+        "top_issues": [
+          "소음 영향",
+          "대기질",
+          "농지 전용"
+        ],
+        "supplement_pct": 32.0
+      }
+    },
+    "주거단지": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.85,
+        "top_issues": [
+          "산지 전용",
+          "생태 훼손",
+          "경관 변화"
+        ],
+        "supplement_pct": 55.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.8,
+        "top_issues": [
+          "수질 오염",
+          "홍수 위험",
+          "생태 훼손"
+        ],
+        "supplement_pct": 50.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.62,
+        "top_issues": [
+          "농지 전용",
+          "기반시설",
+          "교통"
+        ],
+        "supplement_pct": 35.0
+      },
+      "도시": {
+        "risk_level": "moderate",
+        "issue_probability": 0.5,
+        "top_issues": [
+          "소음",
+          "교통",
+          "일조권"
+        ],
+        "supplement_pct": 28.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.75,
+        "top_issues": [
+          "해양 영향",
+          "경관",
+          "침수 위험"
+        ],
+        "supplement_pct": 45.0
+      },
+      "평지": {
+        "risk_level": "moderate",
+        "issue_probability": 0.48,
+        "top_issues": [
+          "교통",
+          "대기질",
+          "소음"
+        ],
+        "supplement_pct": 25.0
+      }
+    },
+    "발전소": {
+      "산지": {
+        "risk_level": "critical",
+        "issue_probability": 0.95,
+        "top_issues": [
+          "대기 배출",
+          "생태 훼손",
+          "산지 전용"
+        ],
+        "supplement_pct": 68.0
+      },
+      "수변": {
+        "risk_level": "critical",
+        "issue_probability": 0.93,
+        "top_issues": [
+          "수질",
+          "온배수",
+          "수생태계"
+        ],
+        "supplement_pct": 65.0
+      },
+      "농지": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "대기질",
+          "농지 전용",
+          "주민 건강"
+        ],
+        "supplement_pct": 55.0
+      },
+      "도시": {
+        "risk_level": "critical",
+        "issue_probability": 0.9,
+        "top_issues": [
+          "대기질",
+          "소음",
+          "주민 건강"
+        ],
+        "supplement_pct": 62.0
+      },
+      "해안": {
+        "risk_level": "critical",
+        "issue_probability": 0.92,
+        "top_issues": [
+          "해양 생태계",
+          "온배수",
+          "대기질"
+        ],
+        "supplement_pct": 64.0
+      },
+      "평지": {
+        "risk_level": "high",
+        "issue_probability": 0.78,
+        "top_issues": [
+          "대기질",
+          "소음",
+          "토양 오염"
+        ],
+        "supplement_pct": 50.0
+      }
+    },
+    "산업단지": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.88,
+        "top_issues": [
+          "산지 전용",
+          "생태 훼손",
+          "수질 오염"
+        ],
+        "supplement_pct": 58.0
+      },
+      "수변": {
+        "risk_level": "critical",
+        "issue_probability": 0.9,
+        "top_issues": [
+          "산업폐수",
+          "수질",
+          "수생태계"
+        ],
+        "supplement_pct": 60.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.68,
+        "top_issues": [
+          "농지 전용",
+          "대기질",
+          "토양 오염"
+        ],
+        "supplement_pct": 40.0
+      },
+      "도시": {
+        "risk_level": "major",
+        "issue_probability": 0.72,
+        "top_issues": [
+          "대기질",
+          "소음",
+          "교통"
+        ],
+        "supplement_pct": 42.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "해양 오염",
+          "대기질",
+          "경관"
+        ],
+        "supplement_pct": 52.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.6,
+        "top_issues": [
+          "대기질",
+          "교통",
+          "폐기물"
+        ],
+        "supplement_pct": 35.0
+      }
+    },
+    "철도": {
+      "산지": {
+        "risk_level": "critical",
+        "issue_probability": 0.93,
+        "top_issues": [
+          "대규모 터널·절토",
+          "생태계 단절",
+          "산지 전용"
+        ],
+        "supplement_pct": 68.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.85,
+        "top_issues": [
+          "수질 오염",
+          "교량 건설 영향",
+          "수생태계 훼손"
+        ],
+        "supplement_pct": 60.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.68,
+        "top_issues": [
+          "농지 전용",
+          "소음 영향",
+          "영농 피해"
+        ],
+        "supplement_pct": 45.0
+      },
+      "도시": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "소음·진동",
+          "지하공간 영향",
+          "교통 혼잡"
+        ],
+        "supplement_pct": 55.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.8,
+        "top_issues": [
+          "해양 생태계",
+          "경관 영향",
+          "지반 안정성"
+        ],
+        "supplement_pct": 52.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.58,
+        "top_issues": [
+          "소음 영향",
+          "생태계 단절",
+          "농지 전용"
+        ],
+        "supplement_pct": 38.0
+      }
+    },
+    "공항": {
+      "산지": {
+        "risk_level": "critical",
+        "issue_probability": 0.95,
+        "top_issues": [
+          "대규모 절토",
+          "생태 훼손",
+          "경관 변화"
+        ],
+        "supplement_pct": 72.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "수질 오염",
+          "철새 충돌",
+          "홍수 위험"
+        ],
+        "supplement_pct": 58.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.65,
+        "top_issues": [
+          "농지 전용",
+          "소음 영향",
+          "지하수"
+        ],
+        "supplement_pct": 42.0
+      },
+      "도시": {
+        "risk_level": "critical",
+        "issue_probability": 0.92,
+        "top_issues": [
+          "소음 피해",
+          "안전구역",
+          "교통 혼잡"
+        ],
+        "supplement_pct": 70.0
+      },
+      "해안": {
+        "risk_level": "critical",
+        "issue_probability": 0.93,
+        "top_issues": [
+          "해양 생태계",
+          "경관 훼손",
+          "철새 충돌"
+        ],
+        "supplement_pct": 68.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.6,
+        "top_issues": [
+          "소음 영향",
+          "농지 전용",
+          "교통"
+        ],
+        "supplement_pct": 38.0
+      }
+    },
+    "댐": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.88,
+        "top_issues": [
+          "지형 변화",
+          "생태계 훼손",
+          "산지 전용"
+        ],
+        "supplement_pct": 65.0
+      },
+      "수변": {
+        "risk_level": "critical",
+        "issue_probability": 0.95,
+        "top_issues": [
+          "수질 영향",
+          "수생태계",
+          "하류 유량"
+        ],
+        "supplement_pct": 72.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.7,
+        "top_issues": [
+          "농지 수몰",
+          "수질",
+          "주민 이주"
+        ],
+        "supplement_pct": 55.0
+      },
+      "도시": {
+        "risk_level": "major",
+        "issue_probability": 0.65,
+        "top_issues": [
+          "주민 이주",
+          "소음",
+          "교통"
+        ],
+        "supplement_pct": 50.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.8,
+        "top_issues": [
+          "해양 생태",
+          "수질",
+          "어업 피해"
+        ],
+        "supplement_pct": 60.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.6,
+        "top_issues": [
+          "수질",
+          "농지 전용",
+          "경관"
+        ],
+        "supplement_pct": 48.0
+      }
+    },
+    "채석": {
+      "산지": {
+        "risk_level": "critical",
+        "issue_probability": 0.92,
+        "top_issues": [
+          "지형 훼손",
+          "소음·발파",
+          "산지 전용"
+        ],
+        "supplement_pct": 58.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.85,
+        "top_issues": [
+          "수질 오염",
+          "토사유출",
+          "수생태계"
+        ],
+        "supplement_pct": 52.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.68,
+        "top_issues": [
+          "비산먼지",
+          "소음",
+          "농지 영향"
+        ],
+        "supplement_pct": 42.0
+      },
+      "도시": {
+        "risk_level": "high",
+        "issue_probability": 0.8,
+        "top_issues": [
+          "소음·진동",
+          "비산먼지",
+          "교통"
+        ],
+        "supplement_pct": 50.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.78,
+        "top_issues": [
+          "해양 생태",
+          "경관",
+          "토사유출"
+        ],
+        "supplement_pct": 48.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.62,
+        "top_issues": [
+          "비산먼지",
+          "소음",
+          "지형 변화"
+        ],
+        "supplement_pct": 38.0
+      }
+    },
+    "체육": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.85,
+        "top_issues": [
+          "산지 전용",
+          "생태계",
+          "경관"
+        ],
+        "supplement_pct": 52.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.78,
+        "top_issues": [
+          "수질",
+          "수생태계",
+          "경관"
+        ],
+        "supplement_pct": 48.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.65,
+        "top_issues": [
+          "농지 전용",
+          "교통",
+          "경관"
+        ],
+        "supplement_pct": 40.0
+      },
+      "도시": {
+        "risk_level": "major",
+        "issue_probability": 0.6,
+        "top_issues": [
+          "소음",
+          "교통",
+          "경관"
+        ],
+        "supplement_pct": 35.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.75,
+        "top_issues": [
+          "해양 생태",
+          "경관",
+          "수질"
+        ],
+        "supplement_pct": 45.0
+      },
+      "평지": {
+        "risk_level": "review",
+        "issue_probability": 0.5,
+        "top_issues": [
+          "교통",
+          "경관",
+          "대기질"
+        ],
+        "supplement_pct": 30.0
+      }
+    },
+    "폐기물": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.88,
+        "top_issues": [
+          "토양 오염",
+          "수질",
+          "생태계"
+        ],
+        "supplement_pct": 60.0
+      },
+      "수변": {
+        "risk_level": "critical",
+        "issue_probability": 0.93,
+        "top_issues": [
+          "수질 오염",
+          "침출수",
+          "수생태계"
+        ],
+        "supplement_pct": 68.0
+      },
+      "농지": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "토양 오염",
+          "대기질",
+          "주민 건강"
+        ],
+        "supplement_pct": 55.0
+      },
+      "도시": {
+        "risk_level": "critical",
+        "issue_probability": 0.9,
+        "top_issues": [
+          "대기질",
+          "악취",
+          "주민 건강"
+        ],
+        "supplement_pct": 65.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.8,
+        "top_issues": [
+          "해양 오염",
+          "수질",
+          "악취"
+        ],
+        "supplement_pct": 52.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.72,
+        "top_issues": [
+          "대기질",
+          "토양",
+          "지하수"
+        ],
+        "supplement_pct": 48.0
+      }
+    },
+    "군사": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.85,
+        "top_issues": [
+          "산지 훼손",
+          "생태계",
+          "소음"
+        ],
+        "supplement_pct": 55.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.8,
+        "top_issues": [
+          "수질",
+          "소음",
+          "생태계"
+        ],
+        "supplement_pct": 50.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.68,
+        "top_issues": [
+          "농지 전용",
+          "소음",
+          "주민 영향"
+        ],
+        "supplement_pct": 42.0
+      },
+      "도시": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "소음·진동",
+          "주민 영향",
+          "교통"
+        ],
+        "supplement_pct": 52.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.78,
+        "top_issues": [
+          "해양 생태",
+          "소음",
+          "경관"
+        ],
+        "supplement_pct": 48.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.6,
+        "top_issues": [
+          "소음",
+          "생태계",
+          "토양"
+        ],
+        "supplement_pct": 38.0
+      }
+    },
+    "토석": {
+      "산지": {
+        "risk_level": "critical",
+        "issue_probability": 0.93,
+        "top_issues": [
+          "지형 훼손",
+          "산지 전용",
+          "소음·발파"
+        ],
+        "supplement_pct": 58.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.85,
+        "top_issues": [
+          "수질 오염",
+          "토사유출",
+          "생태계"
+        ],
+        "supplement_pct": 52.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.65,
+        "top_issues": [
+          "비산먼지",
+          "소음",
+          "토양"
+        ],
+        "supplement_pct": 40.0
+      },
+      "도시": {
+        "risk_level": "high",
+        "issue_probability": 0.8,
+        "top_issues": [
+          "소음·진동",
+          "비산먼지",
+          "교통"
+        ],
+        "supplement_pct": 50.0
+      },
+      "해안": {
+        "risk_level": "high",
+        "issue_probability": 0.82,
+        "top_issues": [
+          "해양 환경",
+          "경관",
+          "토사유출"
+        ],
+        "supplement_pct": 50.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.58,
+        "top_issues": [
+          "비산먼지",
+          "소음",
+          "경관"
+        ],
+        "supplement_pct": 35.0
+      }
+    },
+    "간척": {
+      "산지": {
+        "risk_level": "review",
+        "issue_probability": 0.4,
+        "top_issues": [
+          "경관",
+          "수질",
+          "생태계"
+        ],
+        "supplement_pct": 30.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.88,
+        "top_issues": [
+          "수질",
+          "수생태계",
+          "갯벌"
+        ],
+        "supplement_pct": 62.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.65,
+        "top_issues": [
+          "농지 영향",
+          "수질",
+          "경관"
+        ],
+        "supplement_pct": 45.0
+      },
+      "도시": {
+        "risk_level": "major",
+        "issue_probability": 0.6,
+        "top_issues": [
+          "교통",
+          "경관",
+          "소음"
+        ],
+        "supplement_pct": 40.0
+      },
+      "해안": {
+        "risk_level": "critical",
+        "issue_probability": 0.95,
+        "top_issues": [
+          "갯벌 훼손",
+          "해양 생태",
+          "어업 피해"
+        ],
+        "supplement_pct": 70.0
+      },
+      "평지": {
+        "risk_level": "major",
+        "issue_probability": 0.55,
+        "top_issues": [
+          "수질",
+          "경관",
+          "교통"
+        ],
+        "supplement_pct": 38.0
+      }
+    },
+    "물류": {
+      "산지": {
+        "risk_level": "high",
+        "issue_probability": 0.78,
+        "top_issues": [
+          "산지 전용",
+          "생태계",
+          "경관"
+        ],
+        "supplement_pct": 48.0
+      },
+      "수변": {
+        "risk_level": "high",
+        "issue_probability": 0.75,
+        "top_issues": [
+          "수질",
+          "교통",
+          "비점오염"
+        ],
+        "supplement_pct": 45.0
+      },
+      "농지": {
+        "risk_level": "major",
+        "issue_probability": 0.7,
+        "top_issues": [
+          "농지 전용",
+          "교통",
+          "대기질"
+        ],
+        "supplement_pct": 42.0
+      },
+      "도시": {
+        "risk_level": "major",
+        "issue_probability": 0.65,
+        "top_issues": [
+          "교통",
+          "소음",
+          "대기질"
+        ],
+        "supplement_pct": 35.0
+      },
+      "해안": {
+        "risk_level": "major",
+        "issue_probability": 0.6,
+        "top_issues": [
+          "해양 환경",
+          "교통",
+          "경관"
+        ],
+        "supplement_pct": 38.0
+      },
+      "평지": {
+        "risk_level": "review",
+        "issue_probability": 0.5,
+        "top_issues": [
+          "교통",
+          "대기질",
+          "농지 전용"
+        ],
+        "supplement_pct": 30.0
+      }
+    }
+  }
+}

@@ -1,0 +1,4074 @@
+{
+  "downloaded": [
+    {
+      "title": "천안시 국도대체우회도로(성거~목천) 건설공사",
+      "year": "2025",
+      "biz_cd": "GG2025E004",
+      "project_type": "도로",
+      "project_type_code": "road",
+      "files": [
+        {
+          "name": "(본안) 01000 요약문(성거목천).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_천안시_국도대체우회도로(성거~목천)_건설공사_2025\\(본안)_01000_요약문(성거목천).pdf",
+          "size": 238637
+        },
+        {
+          "name": "(본안) 02000 사업의 개요(성거목천)(P37 그림2.4-5 1공구 사업노선평면도).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_천안시_국도대체우회도로(성거~목천)_건설공사_2025\\(본안)_02000_사업의_개요(성거목천)(P37_그림2.4-5_1공구_사업노선평면도).pdf",
+          "size": 9933590
+        },
+        {
+          "name": "(본안) 02000 사업의 개요(성거목천)(P39 그림2.4-6 2공구 사업노선평면도).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_천안시_국도대체우회도로(성거~목천)_건설공사_2025\\(본안)_02000_사업의_개요(성거목천)(P39_그림2.4-6_2공구_사업노선평면도).pdf",
+          "size": 13842667
+        },
+        {
+          "name": "(본안) 02000 사업의 개요(성거목천).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_천안시_국도대체우회도로(성거~목천)_건설공사_2025\\(본안)_02000_사업의_개요(성거목천).pdf",
+          "size": 4924890
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정(성거목천).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_천안시_국도대체우회도로(성거~목천)_건설공사_2025\\(본안)_03000_환경영향평가_대상지역의_설정(성거목천).pdf",
+          "size": 1101387
+        },
+        {
+          "name": "(본안) 04000 지역개황(성거목천).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_천안시_국도대체우회도로(성거~목천)_건설공사_2025\\(본안)_04000_지역개황(성거목천).pdf",
+          "size": 7392546
+        }
+      ],
+      "downloaded_at": "2026-03-29T00:12:31.148279"
+    },
+    {
+      "title": "군도 17호선 도로 확포장공사",
+      "year": "2025",
+      "biz_cd": "YS2025E001",
+      "project_type": "도로",
+      "project_type_code": "road",
+      "files": [
+        {
+          "name": "(본안) 0000 표지및목차.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_군도_17호선_도로_확포장공사_2025\\(본안)_0000_표지및목차.pdf",
+          "size": 83475
+        }
+      ],
+      "downloaded_at": "2026-03-29T00:12:42.548412"
+    },
+    {
+      "title": "성주 선남~대구 다사 국도건설공사",
+      "year": "2025",
+      "biz_cd": "DG2025E008",
+      "project_type": "도로",
+      "project_type_code": "road",
+      "files": [
+        {
+          "name": "(초안) 0000 - 표지 및 목차.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_성주_선남~대구_다사_국도건설공사_2025\\(초안)_0000_-_표지_및_목차.pdf",
+          "size": 74367
+        }
+      ],
+      "downloaded_at": "2026-03-29T00:13:03.216991"
+    },
+    {
+      "title": "공주 송선,동현지구 도시개발사업",
+      "year": "2025",
+      "biz_cd": "GG2025A011",
+      "project_type": "도시개발",
+      "project_type_code": "urban_dev",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_공주_송선,동현지구_도시개발사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 3378235
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_공주_송선,동현지구_도시개발사업_2025\\(본안)_0200_사업의개요.pdf",
+          "size": 13593513
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_공주_송선,동현지구_도시개발사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 5627270
+        },
+        {
+          "name": "(보완) 0100 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_공주_송선,동현지구_도시개발사업_2025\\(보완)_0100_사업의개요.pdf",
+          "size": 20114576
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:01:59.971175"
+    },
+    {
+      "title": "한남3재정비촉진구역 주택재개발정비사업(재협의)",
+      "year": "2025",
+      "biz_cd": "HG2025A011",
+      "project_type": "도시개발",
+      "project_type_code": "urban_dev",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_한남3재정비촉진구역_주택재개발정비사업(재협의)_2025\\(본안)_0100_요약문.pdf",
+          "size": 1607729
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_한남3재정비촉진구역_주택재개발정비사업(재협의)_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 2145160
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_한남3재정비촉진구역_주택재개발정비사업(재협의)_2025\\(본안)_0400_지역개황.pdf",
+          "size": 1332695
+        },
+        {
+          "name": "(최종평가서) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_한남3재정비촉진구역_주택재개발정비사업(재협의)_2025\\(최종평가서)_0100_요약문.pdf",
+          "size": 2282079
+        },
+        {
+          "name": "(최종평가서) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_한남3재정비촉진구역_주택재개발정비사업(재협의)_2025\\(최종평가서)_0200_사업의_개요.pdf",
+          "size": 3866629
+        },
+        {
+          "name": "(최종평가서) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_한남3재정비촉진구역_주택재개발정비사업(재협의)_2025\\(최종평가서)_0400_지역개황.pdf",
+          "size": 1382851
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:02:35.321935"
+    },
+    {
+      "title": "논산 자르메지구 도시개발사업",
+      "year": "2025",
+      "biz_cd": "GG2025A006",
+      "project_type": "도시개발",
+      "project_type_code": "urban_dev",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_논산_자르메지구_도시개발사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 1638474
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_논산_자르메지구_도시개발사업_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 5324355
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_논산_자르메지구_도시개발사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 4765336
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_논산_자르메지구_도시개발사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 530007
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_논산_자르메지구_도시개발사업_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 6340834
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_논산_자르메지구_도시개발사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 6988872
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:03:01.235537"
+    },
+    {
+      "title": "전주 관광타워 복합개발사업",
+      "year": "2025",
+      "biz_cd": "JB2025A001",
+      "project_type": "도시개발",
+      "project_type_code": "urban_dev",
+      "files": [
+        {
+          "name": "(본안) 00100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_전주_관광타워_복합개발사업_2025\\(본안)_00100_요약문.pdf",
+          "size": 3920995
+        },
+        {
+          "name": "(본안) 00200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_전주_관광타워_복합개발사업_2025\\(본안)_00200_사업의_개요.pdf",
+          "size": 5309187
+        },
+        {
+          "name": "(본안) 00400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_전주_관광타워_복합개발사업_2025\\(본안)_00400_지역개황.pdf",
+          "size": 2115900
+        },
+        {
+          "name": "(최종평가서) 00100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_전주_관광타워_복합개발사업_2025\\(최종평가서)_00100_요약문.pdf",
+          "size": 1612335
+        },
+        {
+          "name": "(최종평가서) 00200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_전주_관광타워_복합개발사업_2025\\(최종평가서)_00200_사업의_개요.pdf",
+          "size": 4497673
+        },
+        {
+          "name": "(최종평가서) 00400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_전주_관광타워_복합개발사업_2025\\(최종평가서)_00400_지역개황.pdf",
+          "size": 2442664
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:03:26.638377"
+    },
+    {
+      "title": "용산국제업무지구 도시개발사업",
+      "year": "2025",
+      "biz_cd": "HG2025A005",
+      "project_type": "도시개발",
+      "project_type_code": "urban_dev",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문(용산국제업무지구)_완(1~22).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_용산국제업무지구_도시개발사업_2025\\(본안)_0100_요약문(용산국제업무지구)_완(1~22).pdf",
+          "size": 2413384
+        },
+        {
+          "name": "(본안) 0200 사업의개요(용산국제업무지구)_완(23~30).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_용산국제업무지구_도시개발사업_2025\\(본안)_0200_사업의개요(용산국제업무지구)_완(23~30).pdf",
+          "size": 2146211
+        },
+        {
+          "name": "(본안) 0400 지역개황(용산국제업무지구)_완(39~90).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_용산국제업무지구_도시개발사업_2025\\(본안)_0400_지역개황(용산국제업무지구)_완(39~90).pdf",
+          "size": 6717898
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:03:44.293630"
+    },
+    {
+      "title": "순천 연향들 도시개발사업",
+      "year": "2025",
+      "biz_cd": "YS2025A002",
+      "project_type": "도시개발",
+      "project_type_code": "urban_dev",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문(순천 연향들)(완)(1~18).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_순천_연향들_도시개발사업_2025\\(초안)_0100_요약문(순천_연향들)(완)(1~18).pdf",
+          "size": 57323262
+        },
+        {
+          "name": "(초안) 0200 사업의개요(순천 연향들)(완)(19~30).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_순천_연향들_도시개발사업_2025\\(초안)_0200_사업의개요(순천_연향들)(완)(19~30).pdf",
+          "size": 31316454
+        },
+        {
+          "name": "(초안) 0400 지역개황(순천 연향들)(완)(39~92).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_순천_연향들_도시개발사업_2025\\(초안)_0400_지역개황(순천_연향들)(완)(39~92).pdf",
+          "size": 180937964
+        },
+        {
+          "name": "(본안) 0100 요약문(순천 연향들).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_순천_연향들_도시개발사업_2025\\(본안)_0100_요약문(순천_연향들).pdf",
+          "size": 3295743
+        },
+        {
+          "name": "(본안) 0200 사업의개요(순천 연향들).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_순천_연향들_도시개발사업_2025\\(본안)_0200_사업의개요(순천_연향들).pdf",
+          "size": 24537393
+        },
+        {
+          "name": "(본안) 0400 지역개황(순천 연향들).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_순천_연향들_도시개발사업_2025\\(본안)_0400_지역개황(순천_연향들).pdf",
+          "size": 13756723
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:04:37.812143"
+    },
+    {
+      "title": "남양주왕숙 공공주택지구 조성사업(남양주진건)",
+      "year": "2025",
+      "biz_cd": "ME2025A010",
+      "project_type": "도시개발",
+      "project_type_code": "urban_dev",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025\\(초안)_0100_요약문.pdf",
+          "size": 9023001
+        },
+        {
+          "name": "(초안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025\\(초안)_0200_사업의개요.pdf",
+          "size": 52732955
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025\\(초안)_0400_지역개황.pdf",
+          "size": 92888546
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025\\(본안)_0100_요약문.pdf",
+          "size": 1789373
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025\\(본안)_0200_사업의개요.pdf",
+          "size": 23060151
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025\\(본안)_0400_지역개황.pdf",
+          "size": 93214961
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:05:37.474004"
+    },
+    {
+      "title": "임화 일반산업단지 조성사업(구. 양촌 일반산업단지 조성사업)",
+      "year": "2025",
+      "biz_cd": "GG2025B019",
+      "project_type": "산업입지",
+      "project_type_code": "industrial",
+      "files": [
+        {
+          "name": "(본안) 01000 요약문(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_임화_일반산업단지_조성사업(구._양촌_일반산업단지_조성사업)_2025\\(본안)_01000_요약문(완).pdf",
+          "size": 51583851
+        },
+        {
+          "name": "(본안) 02000 사업의 개요(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_임화_일반산업단지_조성사업(구._양촌_일반산업단지_조성사업)_2025\\(본안)_02000_사업의_개요(완).pdf",
+          "size": 11790360
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_임화_일반산업단지_조성사업(구._양촌_일반산업단지_조성사업)_2025\\(본안)_03000_환경영향평가_대상지역의_설정(완).pdf",
+          "size": 2972514
+        },
+        {
+          "name": "(본안) 04000 지역개황(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_임화_일반산업단지_조성사업(구._양촌_일반산업단지_조성사업)_2025\\(본안)_04000_지역개황(완).pdf",
+          "size": 2679913
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:06:17.757707"
+    },
+    {
+      "title": "아산디지털 일반산업단지 조성(확장2)사업(재협의)",
+      "year": "2025",
+      "biz_cd": "GG2025B009",
+      "project_type": "산업입지",
+      "project_type_code": "industrial",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산디지털_일반산업단지_조성(확장2)사업(재협의)_2025\\(초안)_0100_요약문.pdf",
+          "size": 1806944
+        },
+        {
+          "name": "(초안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산디지털_일반산업단지_조성(확장2)사업(재협의)_2025\\(초안)_0200_사업의개요.pdf",
+          "size": 3937982
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산디지털_일반산업단지_조성(확장2)사업(재협의)_2025\\(초안)_0400_지역개황.pdf",
+          "size": 2934588
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산디지털_일반산업단지_조성(확장2)사업(재협의)_2025\\(본안)_0100_요약문.pdf",
+          "size": 20308261
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산디지털_일반산업단지_조성(확장2)사업(재협의)_2025\\(본안)_0200_사업의개요.pdf",
+          "size": 8687249
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산디지털_일반산업단지_조성(확장2)사업(재협의)_2025\\(본안)_0400_지역개황.pdf",
+          "size": 24317545
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:07:05.469353"
+    },
+    {
+      "title": "음성 성본제2산업단지 조성사업",
+      "year": "2025",
+      "biz_cd": "WJ2025B002",
+      "project_type": "산업입지",
+      "project_type_code": "industrial",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_음성_성본제2산업단지_조성사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 1530017
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_음성_성본제2산업단지_조성사업_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 3448768
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_음성_성본제2산업단지_조성사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 4179281
+        },
+        {
+          "name": "(본안) 0100 (01~24) 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_음성_성본제2산업단지_조성사업_2025\\(본안)_0100_(01~24)_요약문.pdf",
+          "size": 1915563
+        },
+        {
+          "name": "(본안) 0200 (25~48) 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_음성_성본제2산업단지_조성사업_2025\\(본안)_0200_(25~48)_사업의_개요.pdf",
+          "size": 6097618
+        },
+        {
+          "name": "(본안) 0400 (57~90) 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_음성_성본제2산업단지_조성사업_2025\\(본안)_0400_(57~90)_지역개황.pdf",
+          "size": 5939399
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:07:40.495625"
+    },
+    {
+      "title": "익산 제2일반산업단지 재생사업지구계획",
+      "year": "2025",
+      "biz_cd": "JJ2025B005",
+      "project_type": "산업입지",
+      "project_type_code": "industrial",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_익산_제2일반산업단지_재생사업지구계획_2025\\(초안)_0100_요약문(완).pdf",
+          "size": 2997824
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_익산_제2일반산업단지_재생사업지구계획_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 20010295
+        },
+        {
+          "name": "(초안) 0400 지역개황(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_익산_제2일반산업단지_재생사업지구계획_2025\\(초안)_0400_지역개황(완).pdf",
+          "size": 5939812
+        },
+        {
+          "name": "(본안) 0100 요약문(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_익산_제2일반산업단지_재생사업지구계획_2025\\(본안)_0100_요약문(완).pdf",
+          "size": 3008071
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_익산_제2일반산업단지_재생사업지구계획_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 20581464
+        },
+        {
+          "name": "(본안) 0400 지역개황(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_익산_제2일반산업단지_재생사업지구계획_2025\\(본안)_0400_지역개황(완).pdf",
+          "size": 5940036
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:08:09.493959"
+    },
+    {
+      "title": "진천 죽현일반산업단지(확장) 조성사업",
+      "year": "2025",
+      "biz_cd": "GG2025B005",
+      "project_type": "산업입지",
+      "project_type_code": "industrial",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_진천_죽현일반산업단지(확장)_조성사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 322445
+        },
+        {
+          "name": "(초안) 0200 사업의 개요 - eiass.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_진천_죽현일반산업단지(확장)_조성사업_2025\\(초안)_0200_사업의_개요_-_eiass.pdf",
+          "size": 12988932
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_진천_죽현일반산업단지(확장)_조성사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 4204169
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_진천_죽현일반산업단지(확장)_조성사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 10348489
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_진천_죽현일반산업단지(확장)_조성사업_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 23004560
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_진천_죽현일반산업단지(확장)_조성사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 4318226
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:08:37.309211"
+    },
+    {
+      "title": "아산 경동일반산업단지 조성사업",
+      "year": "2025",
+      "biz_cd": "GG2025B004",
+      "project_type": "산업입지",
+      "project_type_code": "industrial",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산_경동일반산업단지_조성사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 3399215
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산_경동일반산업단지_조성사업_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 3908193
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산_경동일반산업단지_조성사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 2965071
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산_경동일반산업단지_조성사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 11637850
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산_경동일반산업단지_조성사업_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 4712142
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\industrial_아산_경동일반산업단지_조성사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 3002869
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:09:03.574223"
+    },
+    {
+      "title": "송산빛그린 건설사업",
+      "year": "2025",
+      "biz_cd": "ME2025C008",
+      "project_type": "에너지개발",
+      "project_type_code": "energy",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_송산빛그린_건설사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 284758
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_송산빛그린_건설사업_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 5685082
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_송산빛그린_건설사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 5392961
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_송산빛그린_건설사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 276211
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_송산빛그린_건설사업_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 5162950
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_송산빛그린_건설사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 7726169
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:10:21.978044"
+    },
+    {
+      "title": "용인 반도체 클러스터 일반산업단지 집단에너지사업",
+      "year": "2025",
+      "biz_cd": "ME2025C005",
+      "project_type": "에너지개발",
+      "project_type_code": "energy",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 1264689
+        },
+        {
+          "name": "(초안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025\\(초안)_0200_사업의개요.pdf",
+          "size": 3281443
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 14412886
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 3524030
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025\\(본안)_0200_사업의개요.pdf",
+          "size": 6288703
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 15247281
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:10:50.315401"
+    },
+    {
+      "title": "500kV HVDC 동해안~동서울 송전선로 건설사업",
+      "year": "2025",
+      "biz_cd": "HG2025C001",
+      "project_type": "에너지개발",
+      "project_type_code": "energy",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문(각사 확인)(1-12).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_500kV_HVDC_동해안~동서울_송전선로_건설사업_2025\\(초안)_0100_요약문(각사_확인)(1-12).pdf",
+          "size": 2163151
+        },
+        {
+          "name": "(초안) 0200 사업의 개요(13-20).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_500kV_HVDC_동해안~동서울_송전선로_건설사업_2025\\(초안)_0200_사업의_개요(13-20).pdf",
+          "size": 1525370
+        },
+        {
+          "name": "(초안) 0400 지역개황_완(29-66).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_500kV_HVDC_동해안~동서울_송전선로_건설사업_2025\\(초안)_0400_지역개황_완(29-66).pdf",
+          "size": 13283980
+        },
+        {
+          "name": "(본안) 0100 요약문[1-14].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_500kV_HVDC_동해안~동서울_송전선로_건설사업_2025\\(본안)_0100_요약문[1-14].pdf",
+          "size": 2743850
+        },
+        {
+          "name": "(본안) 0200 사업의 개요[15-24].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_500kV_HVDC_동해안~동서울_송전선로_건설사업_2025\\(본안)_0200_사업의_개요[15-24].pdf",
+          "size": 2063472
+        },
+        {
+          "name": "(본안) 0400 지역개황[33-70].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_500kV_HVDC_동해안~동서울_송전선로_건설사업_2025\\(본안)_0400_지역개황[33-70].pdf",
+          "size": 28240590
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:11:18.397119"
+    },
+    {
+      "title": "영광 SRF 발전소 조성사업",
+      "year": "2025",
+      "biz_cd": "YS2025C001",
+      "project_type": "에너지개발",
+      "project_type_code": "energy",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_영광_SRF_발전소_조성사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 832376
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_영광_SRF_발전소_조성사업_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 3930092
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_영광_SRF_발전소_조성사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 2297788
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:11:35.784199"
+    },
+    {
+      "title": "수원 친환경에너지 개선공사",
+      "year": "2024",
+      "biz_cd": "ME2024C016",
+      "project_type": "에너지개발",
+      "project_type_code": "energy",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_수원_친환경에너지_개선공사_2024\\(초안)_0100_요약문.pdf",
+          "size": 279704
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_수원_친환경에너지_개선공사_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 4197370
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_수원_친환경에너지_개선공사_2024\\(초안)_0400_지역개황.pdf",
+          "size": 114250488
+        },
+        {
+          "name": "(본안) 0100 (요약문)_수원 친환경 평가.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_수원_친환경에너지_개선공사_2024\\(본안)_0100_(요약문)_수원_친환경_평가.pdf",
+          "size": 1461786
+        },
+        {
+          "name": "(본안) 0200 (사업의 개요)_수원 친환경 평가.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_수원_친환경에너지_개선공사_2024\\(본안)_0200_(사업의_개요)_수원_친환경_평가.pdf",
+          "size": 34326488
+        },
+        {
+          "name": "(본안) 0400 (지역개황)_수원 친환경 평가.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\energy_수원_친환경에너지_개선공사_2024\\(본안)_0400_(지역개황)_수원_친환경_평가.pdf",
+          "size": 104657796
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:12:20.167238"
+    },
+    {
+      "title": "무안국제공항 활주로 연장사업",
+      "year": "2021",
+      "biz_cd": "YS2021H001",
+      "project_type": "항만건설",
+      "project_type_code": "port",
+      "files": [
+        {
+          "name": "(초안)0100 무안국제공항 활주로 연장(요약문).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_무안국제공항_활주로_연장사업_2021\\(초안)0100_무안국제공항_활주로_연장(요약문).pdf",
+          "size": 203770
+        },
+        {
+          "name": "(초안)0200 무안국제공항 활주로 연장(사업의 개요)_수정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_무안국제공항_활주로_연장사업_2021\\(초안)0200_무안국제공항_활주로_연장(사업의_개요)_수정.pdf",
+          "size": 1549719
+        },
+        {
+          "name": "(초안)0400 무안국제공항 활주로 연장(지역개황).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_무안국제공항_활주로_연장사업_2021\\(초안)0400_무안국제공항_활주로_연장(지역개황).pdf",
+          "size": 2781022
+        },
+        {
+          "name": "(본안)0100 무안국제공항 활주로 연장(요약문).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_무안국제공항_활주로_연장사업_2021\\(본안)0100_무안국제공항_활주로_연장(요약문).pdf",
+          "size": 433401
+        },
+        {
+          "name": "(본안)0200 무안국제공항 활주로 연장(사업의 개요).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_무안국제공항_활주로_연장사업_2021\\(본안)0200_무안국제공항_활주로_연장(사업의_개요).pdf",
+          "size": 1639733
+        },
+        {
+          "name": "(본안)0400 무안국제공항 활주로 연장(지역개황).hwp.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_무안국제공항_활주로_연장사업_2021\\(본안)0400_무안국제공항_활주로_연장(지역개황).hwp.pdf",
+          "size": 3928683
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:13:33.748934"
+    },
+    {
+      "title": "울릉공항 건설공사",
+      "year": "2018",
+      "biz_cd": "DG2018H001",
+      "project_type": "항만건설",
+      "project_type_code": "port",
+      "files": [
+        {
+          "name": "(초안) 울릉공항_0000_표지&제출문&목차.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_울릉공항_건설공사_2018\\(초안)_울릉공항_0000_표지&제출문&목차.pdf",
+          "size": 221476
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:13:45.405100"
+    },
+    {
+      "title": "국가종합비행성능시험장 활주로 건설",
+      "year": "2018",
+      "biz_cd": "YS2018H001",
+      "project_type": "항만건설",
+      "project_type_code": "port",
+      "files": [
+        {
+          "name": "(초안) 01 요약문(국가종합비행성능시험장).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(초안)_01_요약문(국가종합비행성능시험장).pdf",
+          "size": 231887
+        },
+        {
+          "name": "(초안) 02 사업의 개요(국가종합비행성능시험장).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(초안)_02_사업의_개요(국가종합비행성능시험장).pdf",
+          "size": 2081943
+        },
+        {
+          "name": "(초안) 04 지역개황(국가종합비행성능시험장)-A3.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(초안)_04_지역개황(국가종합비행성능시험장)-A3.pdf",
+          "size": 16674914
+        },
+        {
+          "name": "(초안) 04 지역개황(국가종합비행성능시험장).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(초안)_04_지역개황(국가종합비행성능시험장).pdf",
+          "size": 11815231
+        },
+        {
+          "name": "(본안) 01 요약문(국가종합비행성능시험장).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(본안)_01_요약문(국가종합비행성능시험장).pdf",
+          "size": 223409
+        },
+        {
+          "name": "(본안) 02 사업의 개요(국가종합비행성능시험장).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(본안)_02_사업의_개요(국가종합비행성능시험장).pdf",
+          "size": 3053658
+        },
+        {
+          "name": "(본안) 04 지역개황(국가종합비행성능시험장)-A3.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(본안)_04_지역개황(국가종합비행성능시험장)-A3.pdf",
+          "size": 1207557
+        },
+        {
+          "name": "(본안) 04 지역개황(국가종합비행성능시험장).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_국가종합비행성능시험장_활주로_건설_2018\\(본안)_04_지역개황(국가종합비행성능시험장).pdf",
+          "size": 1254033
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:14:15.593124"
+    },
+    {
+      "title": "인천국제공항 국제업무지역(IBC)-Ⅲ 개발사업",
+      "year": "2017",
+      "biz_cd": "HG2017H001",
+      "project_type": "항만건설",
+      "project_type_code": "port",
+      "files": [
+        {
+          "name": "100 요약문(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\100_요약문(완).pdf",
+          "size": 602859
+        },
+        {
+          "name": "200 사업의 개요(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\200_사업의_개요(완).pdf",
+          "size": 471643
+        },
+        {
+          "name": "400 지역개황(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\400_지역개황(완).pdf",
+          "size": 1241417
+        },
+        {
+          "name": "100 요약문(각자).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\100_요약문(각자).pdf",
+          "size": 932191
+        },
+        {
+          "name": "200 사업의 개요(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\200_사업의_개요(완).pdf",
+          "size": 471643
+        },
+        {
+          "name": "400 지역개황(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\400_지역개황(완).pdf",
+          "size": 1241417
+        },
+        {
+          "name": "보완-10 요약문(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\보완-10_요약문(완).pdf",
+          "size": 811169
+        },
+        {
+          "name": "INS_200(사업계획개요).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_국제업무지역(IBC)-Ⅲ_개발사업_2017\\INS_200(사업계획개요).pdf",
+          "size": 1065091
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:14:39.118374"
+    },
+    {
+      "title": "인천국제공항 자유무역지역(2단계) 단지조성사업",
+      "year": "2009",
+      "biz_cd": "HG2009H001",
+      "project_type": "항만건설",
+      "project_type_code": "port",
+      "files": [
+        {
+          "name": "0100 요약문(1).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_자유무역지역(2단계)_단지조성사업_2009\\0100_요약문(1).pdf",
+          "size": 1065411
+        },
+        {
+          "name": "0200 사업의개요(1).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_자유무역지역(2단계)_단지조성사업_2009\\0200_사업의개요(1).pdf",
+          "size": 3512632
+        },
+        {
+          "name": "0400 지역개황(1).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_자유무역지역(2단계)_단지조성사업_2009\\0400_지역개황(1).pdf",
+          "size": 5204205
+        },
+        {
+          "name": "010 사업변경개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_자유무역지역(2단계)_단지조성사업_2009\\010_사업변경개요.pdf",
+          "size": 4877247
+        },
+        {
+          "name": "제1장 사업의 개요(150731).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_자유무역지역(2단계)_단지조성사업_2009\\제1장_사업의_개요(150731).pdf",
+          "size": 5416569
+        },
+        {
+          "name": "(2단계 추가개발) 제1장 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_자유무역지역(2단계)_단지조성사업_2009\\(2단계_추가개발)_제1장_사업의_개요.pdf",
+          "size": 3860687
+        },
+        {
+          "name": "(변경협의본안) 0100 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_인천국제공항_자유무역지역(2단계)_단지조성사업_2009\\(변경협의본안)_0100_사업의_개요.pdf",
+          "size": 5840854
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:15:07.185995"
+    },
+    {
+      "title": "울산공항 착륙대 확장사업",
+      "year": "2006",
+      "biz_cd": "ND2006H001",
+      "project_type": "항만건설",
+      "project_type_code": "port",
+      "files": [
+        {
+          "name": "제1장 요약문",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_울산공항_착륙대_확장사업_2006\\제1장_요약문.pdf",
+          "size": 760185
+        },
+        {
+          "name": "제2장 사업의 개요",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_울산공항_착륙대_확장사업_2006\\제2장_사업의_개요.pdf",
+          "size": 5767294
+        },
+        {
+          "name": "제4장 지역개황",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_울산공항_착륙대_확장사업_2006\\제4장_지역개황.pdf",
+          "size": 5066991
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:15:24.648264"
+    },
+    {
+      "title": "현대정공㈜창원공장헬리포트건설사업",
+      "year": "unknown",
+      "biz_cd": "ND1990J003",
+      "project_type": "항만건설",
+      "project_type_code": "port",
+      "files": [
+        {
+          "name": "Ⅰ. 요약문",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_현대정공㈜창원공장헬리포트건설사업_unknown\\Ⅰ._요약문.pdf",
+          "size": 85169
+        },
+        {
+          "name": "Ⅱ. 사업 개요",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\port_현대정공㈜창원공장헬리포트건설사업_unknown\\Ⅱ._사업_개요.pdf",
+          "size": 174521
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:15:38.143424"
+    },
+    {
+      "title": "청송 진보-영양 입암 국도건설공사",
+      "year": "2025",
+      "biz_cd": "DG2025E006",
+      "project_type": "도로건설",
+      "project_type_code": "road",
+      "files": [
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_청송_진보-영양_입암_국도건설공사_2025\\(본안)_01000_요약문.pdf",
+          "size": 959704
+        },
+        {
+          "name": "(본안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_청송_진보-영양_입암_국도건설공사_2025\\(본안)_02000_사업의_개요.pdf",
+          "size": 18494449
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_청송_진보-영양_입암_국도건설공사_2025\\(본안)_03000_환경영향평가_대상지역_설정.pdf",
+          "size": 565914
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_청송_진보-영양_입암_국도건설공사_2025\\(본안)_04000_지역개황.pdf",
+          "size": 10010782
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:16:41.947932"
+    },
+    {
+      "title": "국도56호선 철원 근남~화천 상서 도로건설공사",
+      "year": "2025",
+      "biz_cd": "WJ2025E004",
+      "project_type": "도로건설",
+      "project_type_code": "road",
+      "files": [
+        {
+          "name": "(초안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(초안)_01000_요약문.pdf",
+          "size": 6264176
+        },
+        {
+          "name": "(초안) 02000 사업의 개요(최적노선도29page) 297x842mm.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(초안)_02000_사업의_개요(최적노선도29page)_297x842mm.pdf",
+          "size": 10098958
+        },
+        {
+          "name": "(초안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(초안)_02000_사업의_개요.pdf",
+          "size": 6169351
+        },
+        {
+          "name": "(초안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(초안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 209236
+        },
+        {
+          "name": "(초안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(초안)_04000_지역개황.pdf",
+          "size": 3843802
+        },
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(본안)_01000_요약문.pdf",
+          "size": 6304681
+        },
+        {
+          "name": "(본안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(본안)_02000_사업의_개요.pdf",
+          "size": 6197362
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(본안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 209475
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_국도56호선_철원_근남~화천_상서_도로건설공사_2025\\(본안)_04000_지역개황.pdf",
+          "size": 3795413
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:17:18.043508"
+    },
+    {
+      "title": "새만금 지역간 연결도로 건설사업",
+      "year": "2025",
+      "biz_cd": "ME2025E001",
+      "project_type": "도로건설",
+      "project_type_code": "road",
+      "files": [
+        {
+          "name": "(본안) 01000 요약문(1~23).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_새만금_지역간_연결도로_건설사업_2025\\(본안)_01000_요약문(1~23).pdf",
+          "size": 314401
+        },
+        {
+          "name": "(본안) 02000 사업의 개요(25~39).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_새만금_지역간_연결도로_건설사업_2025\\(본안)_02000_사업의_개요(25~39).pdf",
+          "size": 20972758
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역 설정 (41~46).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_새만금_지역간_연결도로_건설사업_2025\\(본안)_03000_환경영향평가_대상지역_설정_(41~46).pdf",
+          "size": 3038962
+        },
+        {
+          "name": "(본안) 04000 지역 개황(47~97)(A3).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\road_새만금_지역간_연결도로_건설사업_2025\\(본안)_04000_지역_개황(47~97)(A3).pdf",
+          "size": 20354553
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:17:40.716294"
+    },
+    {
+      "title": "나주댐 둑 높이기 사업",
+      "year": "2011",
+      "biz_cd": "YS2011F005",
+      "project_type": "수자원개발",
+      "project_type_code": "water_resource",
+      "files": [
+        {
+          "name": "나주0100(요약문).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_나주댐_둑_높이기_사업_2011\\나주0100(요약문).pdf",
+          "size": 623729
+        },
+        {
+          "name": "나주0200(사업의개요).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_나주댐_둑_높이기_사업_2011\\나주0200(사업의개요).pdf",
+          "size": 19590464
+        },
+        {
+          "name": "나주0400(지역개황).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_나주댐_둑_높이기_사업_2011\\나주0400(지역개황).pdf",
+          "size": 5775865
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:18:21.046700"
+    },
+    {
+      "title": "장성댐 둑 높이기 사업",
+      "year": "2011",
+      "biz_cd": "YS2011F006",
+      "project_type": "수자원개발",
+      "project_type_code": "water_resource",
+      "files": [
+        {
+          "name": "JS-0000목차.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_장성댐_둑_높이기_사업_2011\\JS-0000목차.pdf",
+          "size": 300086
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:18:32.771186"
+    },
+    {
+      "title": "담양댐 둑 높이기 사업",
+      "year": "2011",
+      "biz_cd": "YS2011F004",
+      "project_type": "수자원개발",
+      "project_type_code": "water_resource",
+      "files": [
+        {
+          "name": "(담양저수지)0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_담양댐_둑_높이기_사업_2011\\(담양저수지)0100_요약문.pdf",
+          "size": 434781
+        },
+        {
+          "name": "(담양저수지)0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_담양댐_둑_높이기_사업_2011\\(담양저수지)0200_사업의_개요.pdf",
+          "size": 2330785
+        },
+        {
+          "name": "(담양저수지)0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_담양댐_둑_높이기_사업_2011\\(담양저수지)0400_지역개황.pdf",
+          "size": 2162186
+        },
+        {
+          "name": "(담양저수지)0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_담양댐_둑_높이기_사업_2011\\(담양저수지)0100_요약문.pdf",
+          "size": 434781
+        },
+        {
+          "name": "(담양저수지)0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_담양댐_둑_높이기_사업_2011\\(담양저수지)0200_사업의_개요.pdf",
+          "size": 2330785
+        },
+        {
+          "name": "(담양저수지)0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_담양댐_둑_높이기_사업_2011\\(담양저수지)0400_지역개황.pdf",
+          "size": 2162186
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:18:49.432803"
+    },
+    {
+      "title": "백곡저수지 둑 높이기 사업",
+      "year": "2011",
+      "biz_cd": "GG2011I001",
+      "project_type": "수자원개발",
+      "project_type_code": "water_resource",
+      "files": [
+        {
+          "name": "(백곡저수지)0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_백곡저수지_둑_높이기_사업_2011\\(백곡저수지)0100_요약문.pdf",
+          "size": 1231258
+        },
+        {
+          "name": "(백곡저수지)0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_백곡저수지_둑_높이기_사업_2011\\(백곡저수지)0200_사업의_개요.pdf",
+          "size": 4361943
+        },
+        {
+          "name": "(백곡저수지)0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_백곡저수지_둑_높이기_사업_2011\\(백곡저수지)0400_지역개황.pdf",
+          "size": 19426864
+        },
+        {
+          "name": "(백곡저수지)1장 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_백곡저수지_둑_높이기_사업_2011\\(백곡저수지)1장_요약문.pdf",
+          "size": 846976
+        },
+        {
+          "name": "(백곡저수지)2장 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_백곡저수지_둑_높이기_사업_2011\\(백곡저수지)2장_사업의_개요.pdf",
+          "size": 27459599
+        },
+        {
+          "name": "(백곡저수지)4장 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_백곡저수지_둑_높이기_사업_2011\\(백곡저수지)4장_지역개황.pdf",
+          "size": 14576252
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:19:19.698627"
+    },
+    {
+      "title": "수양(함동)호 농업용저수지 둑 높이기사업",
+      "year": "2011",
+      "biz_cd": "YS2011F001",
+      "project_type": "수자원개발",
+      "project_type_code": "water_resource",
+      "files": [
+        {
+          "name": "함동0100(요약문).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_수양(함동)호_농업용저수지_둑_높이기사업_2011\\함동0100(요약문).pdf",
+          "size": 344398
+        },
+        {
+          "name": "함동0200(사업의개요).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_수양(함동)호_농업용저수지_둑_높이기사업_2011\\함동0200(사업의개요).pdf",
+          "size": 19620512
+        },
+        {
+          "name": "함동0400(지역개황).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_수양(함동)호_농업용저수지_둑_높이기사업_2011\\함동0400(지역개황).pdf",
+          "size": 2812368
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:19:37.854681"
+    },
+    {
+      "title": "광주호 농업용저수지 둑 높이기사업",
+      "year": "2011",
+      "biz_cd": "YS2011F002",
+      "project_type": "수자원개발",
+      "project_type_code": "water_resource",
+      "files": [
+        {
+          "name": "(광주저수지)0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_광주호_농업용저수지_둑_높이기사업_2011\\(광주저수지)0100_요약문.pdf",
+          "size": 2052771
+        },
+        {
+          "name": "(광주저수지)0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_광주호_농업용저수지_둑_높이기사업_2011\\(광주저수지)0200_사업의_개요.pdf",
+          "size": 8064978
+        },
+        {
+          "name": "(광주저수지)0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_광주호_농업용저수지_둑_높이기사업_2011\\(광주저수지)0400_지역개황.pdf",
+          "size": 11792274
+        },
+        {
+          "name": "(광주저수지)0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_광주호_농업용저수지_둑_높이기사업_2011\\(광주저수지)0100_요약문.pdf",
+          "size": 2052771
+        },
+        {
+          "name": "(광주저수지)0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_광주호_농업용저수지_둑_높이기사업_2011\\(광주저수지)0200_사업의_개요.pdf",
+          "size": 8064978
+        },
+        {
+          "name": "(광주저수지)0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_광주호_농업용저수지_둑_높이기사업_2011\\(광주저수지)0400_지역개황.pdf",
+          "size": 11792274
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:19:55.677742"
+    },
+    {
+      "title": "궁저수지 둑 높이기 사업",
+      "year": "2011",
+      "biz_cd": "GG2011F001",
+      "project_type": "수자원개발",
+      "project_type_code": "water_resource",
+      "files": [
+        {
+          "name": "궁0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_궁저수지_둑_높이기_사업_2011\\궁0100_요약문.pdf",
+          "size": 331748
+        },
+        {
+          "name": "궁0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_궁저수지_둑_높이기_사업_2011\\궁0200_사업의개요.pdf",
+          "size": 1716604
+        },
+        {
+          "name": "궁0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\water_resource_궁저수지_둑_높이기_사업_2011\\궁0400_지역개황.pdf",
+          "size": 700058
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:20:11.632673"
+    },
+    {
+      "title": "대구산업선 철도건설사업(제1공구)",
+      "year": "2025",
+      "biz_cd": "ME2025G002",
+      "project_type": "철도건설",
+      "project_type_code": "railway",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대구산업선_철도건설사업(제1공구)_2025\\(초안)_0100_요약문.pdf",
+          "size": 417931
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대구산업선_철도건설사업(제1공구)_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 3946837
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대구산업선_철도건설사업(제1공구)_2025\\(초안)_0400_지역개황.pdf",
+          "size": 10665711
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대구산업선_철도건설사업(제1공구)_2025\\(본안)_0100_요약문.pdf",
+          "size": 452285
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대구산업선_철도건설사업(제1공구)_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 7951352
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대구산업선_철도건설사업(제1공구)_2025\\(본안)_0400_지역개황.pdf",
+          "size": 3659296
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:20:41.403912"
+    },
+    {
+      "title": "남부내륙철도 건설사업(1, 9공구)",
+      "year": "2024",
+      "biz_cd": "ME2024G010",
+      "project_type": "철도건설",
+      "project_type_code": "railway",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(1,_9공구)_2024\\(초안)_0100_요약문.pdf",
+          "size": 482179
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(1,_9공구)_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 73526252
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(1,_9공구)_2024\\(초안)_0400_지역개황.pdf",
+          "size": 14937429
+        },
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(1,_9공구)_2024\\(본안)_01000_요약문.pdf",
+          "size": 496063
+        },
+        {
+          "name": "(본안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(1,_9공구)_2024\\(본안)_02000_사업의_개요.pdf",
+          "size": 6410484
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(1,_9공구)_2024\\(본안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 3136960
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(1,_9공구)_2024\\(본안)_04000_지역개황.pdf",
+          "size": 5207393
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:21:26.028298"
+    },
+    {
+      "title": "남부내륙철도 건설사업(2-8, 10공구)",
+      "year": "2024",
+      "biz_cd": "ME2024G009",
+      "project_type": "철도건설",
+      "project_type_code": "railway",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(2-8,_10공구)_2024\\(초안)_0100_요약문.pdf",
+          "size": 442293
+        },
+        {
+          "name": "(초안) 0200 사업개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(2-8,_10공구)_2024\\(초안)_0200_사업개요.pdf",
+          "size": 80807760
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(2-8,_10공구)_2024\\(초안)_0400_지역개황.pdf",
+          "size": 64419692
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(2-8,_10공구)_2024\\(본안)_0100_요약문.pdf",
+          "size": 902208
+        },
+        {
+          "name": "(본안) 0200 사업개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(2-8,_10공구)_2024\\(본안)_0200_사업개요.pdf",
+          "size": 70214363
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_남부내륙철도_건설사업(2-8,_10공구)_2024\\(본안)_0400_지역개황.pdf",
+          "size": 111496472
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:22:14.904362"
+    },
+    {
+      "title": "옥정~포천 광역철도 건설공사(2, 3공구 및 차량기지)",
+      "year": "2024",
+      "biz_cd": "HG2024G004",
+      "project_type": "철도건설",
+      "project_type_code": "railway",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_옥정~포천_광역철도_건설공사(2,_3공구_및_차량기지)_2024\\(본안)_0100_요약문.pdf",
+          "size": 281060
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_옥정~포천_광역철도_건설공사(2,_3공구_및_차량기지)_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 9152959
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_옥정~포천_광역철도_건설공사(2,_3공구_및_차량기지)_2024\\(본안)_0400_지역개황.pdf",
+          "size": 6953639
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:22:32.110868"
+    },
+    {
+      "title": "수서~광주 복선전철(2~3공구) 건설사업(경기도 구간)",
+      "year": "2024",
+      "biz_cd": "ME2024G005",
+      "project_type": "철도건설",
+      "project_type_code": "railway",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_수서~광주_복선전철(2~3공구)_건설사업(경기도_구간)_2024\\(초안)_0100_요약문.pdf",
+          "size": 386082
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_수서~광주_복선전철(2~3공구)_건설사업(경기도_구간)_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 3111502
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_수서~광주_복선전철(2~3공구)_건설사업(경기도_구간)_2024\\(초안)_0400_지역개황.pdf",
+          "size": 3656187
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_수서~광주_복선전철(2~3공구)_건설사업(경기도_구간)_2024\\(본안)_0100_요약문.pdf",
+          "size": 441860
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_수서~광주_복선전철(2~3공구)_건설사업(경기도_구간)_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 2593648
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_수서~광주_복선전철(2~3공구)_건설사업(경기도_구간)_2024\\(본안)_0400_지역개황.pdf",
+          "size": 3552434
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:22:56.923997"
+    },
+    {
+      "title": "천안~청주공항 복선전철 건설사업",
+      "year": "2024",
+      "biz_cd": "ME2024G006",
+      "project_type": "철도건설",
+      "project_type_code": "railway",
+      "files": [
+        {
+          "name": "(초안) 01000 요약문(1-22).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(초안)_01000_요약문(1-22).pdf",
+          "size": 58920577
+        },
+        {
+          "name": "(초안) 02000 사업의 개요(23-38).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(초안)_02000_사업의_개요(23-38).pdf",
+          "size": 14269090
+        },
+        {
+          "name": "(초안) 03000 환경영향평가 대상지역의 설정(39-44).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(초안)_03000_환경영향평가_대상지역의_설정(39-44).pdf",
+          "size": 7813839
+        },
+        {
+          "name": "(초안) 04000 지역개황(45-80).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(초안)_04000_지역개황(45-80).pdf",
+          "size": 65535676
+        },
+        {
+          "name": "(본안) 01000 요약문_천안청주공항(1-22).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(본안)_01000_요약문_천안청주공항(1-22).pdf",
+          "size": 70771373
+        },
+        {
+          "name": "(본안) 02000 사업의 개요_천안청주공항(23-42).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(본안)_02000_사업의_개요_천안청주공항(23-42).pdf",
+          "size": 51057030
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정_천안청주공항(43-48).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(본안)_03000_환경영향평가_대상지역의_설정_천안청주공항(43-48).pdf",
+          "size": 7818177
+        },
+        {
+          "name": "(본안) 04000 지역개황_천안청주공항(49-84).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_천안~청주공항_복선전철_건설사업_2024\\(본안)_04000_지역개황_천안청주공항(49-84).pdf",
+          "size": 32843081
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:23:54.894133"
+    },
+    {
+      "title": "대장~홍대 광역철도 민간투자사업",
+      "year": "2024",
+      "biz_cd": "ME2024G003",
+      "project_type": "철도건설",
+      "project_type_code": "railway",
+      "files": [
+        {
+          "name": "(초안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(초안)_01000_요약문.pdf",
+          "size": 18832080
+        },
+        {
+          "name": "(초안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(초안)_02000_사업의_개요.pdf",
+          "size": 29019398
+        },
+        {
+          "name": "(초안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(초안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 7421951
+        },
+        {
+          "name": "(초안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(초안)_04000_지역개황.pdf",
+          "size": 37648314
+        },
+        {
+          "name": "(본안) 01000 요약문(1~30).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(본안)_01000_요약문(1~30).pdf",
+          "size": 21303561
+        },
+        {
+          "name": "(본안) 02000 사업의 개요(31~44).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(본안)_02000_사업의_개요(31~44).pdf",
+          "size": 11506687
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정(45~48).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(본안)_03000_환경영향평가_대상지역의_설정(45~48).pdf",
+          "size": 5729115
+        },
+        {
+          "name": "(본안) 04000 지역개황(49~78).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\railway_대장~홍대_광역철도_민간투자사업_2024\\(본안)_04000_지역개황(49~78).pdf",
+          "size": 25412734
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:24:42.013025"
+    },
+    {
+      "title": "형산강변도로(송도지구) 공유수면매립",
+      "year": "2009",
+      "biz_cd": "DG2009J001",
+      "project_type": "공항건설",
+      "project_type_code": "airport",
+      "files": [
+        {
+          "name": "0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_형산강변도로(송도지구)_공유수면매립_2009\\0100_요약문.pdf",
+          "size": 163168
+        },
+        {
+          "name": "0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_형산강변도로(송도지구)_공유수면매립_2009\\0200_사업의_개요.pdf",
+          "size": 970515
+        },
+        {
+          "name": "0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_형산강변도로(송도지구)_공유수면매립_2009\\0400_지역개황.pdf",
+          "size": 1007244
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:25:20.860705"
+    },
+    {
+      "title": "성동산업(주)마산조선소 전면해안 매립부지조성 사업",
+      "year": "2009",
+      "biz_cd": "ND2009J001",
+      "project_type": "공항건설",
+      "project_type_code": "airport",
+      "files": [
+        {
+          "name": "제1장 요약문",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_성동산업(주)마산조선소_전면해안_매립부지조성_사업_2009\\제1장_요약문.pdf",
+          "size": 505760
+        },
+        {
+          "name": "제2장 사업의 개요",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_성동산업(주)마산조선소_전면해안_매립부지조성_사업_2009\\제2장_사업의_개요.pdf",
+          "size": 2058156
+        },
+        {
+          "name": "제4장 지역개황",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_성동산업(주)마산조선소_전면해안_매립부지조성_사업_2009\\제4장_지역개황.pdf",
+          "size": 8034966
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:25:38.304850"
+    },
+    {
+      "title": "송도지역 공유수면 매립사업(6,8공구) 재협의",
+      "year": "2008",
+      "biz_cd": "HG2008J001",
+      "project_type": "공항건설",
+      "project_type_code": "airport",
+      "files": [
+        {
+          "name": "제1장 요약문",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도지역_공유수면_매립사업(6,8공구)_재협의_2008\\제1장_요약문.pdf",
+          "size": 857478
+        },
+        {
+          "name": "제2장 사업의 개요",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도지역_공유수면_매립사업(6,8공구)_재협의_2008\\제2장_사업의_개요.pdf",
+          "size": 3150072
+        },
+        {
+          "name": "제4장 지역개황",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도지역_공유수면_매립사업(6,8공구)_재협의_2008\\제4장_지역개황.pdf",
+          "size": 6243461
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:25:55.831043"
+    },
+    {
+      "title": "송도해안도로 확장 및 공유수면 매립공사",
+      "year": "2006",
+      "biz_cd": "HG2006J001",
+      "project_type": "공항건설",
+      "project_type_code": "airport",
+      "files": [
+        {
+          "name": "제 1 장 요약문",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도해안도로_확장_및_공유수면_매립공사_2006\\제_1_장_요약문.pdf",
+          "size": 258534
+        },
+        {
+          "name": "제 2 장 사업의 개요",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도해안도로_확장_및_공유수면_매립공사_2006\\제_2_장_사업의_개요.pdf",
+          "size": 6909751
+        },
+        {
+          "name": "제 4 장 지역개황",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도해안도로_확장_및_공유수면_매립공사_2006\\제_4_장_지역개황.pdf",
+          "size": 2973413
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:26:14.034619"
+    },
+    {
+      "title": "송도지역7공구공유수면매립사업",
+      "year": "2004",
+      "biz_cd": "HG2004J001",
+      "project_type": "공항건설",
+      "project_type_code": "airport",
+      "files": [
+        {
+          "name": "제1장 요약문",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도지역7공구공유수면매립사업_2004\\제1장_요약문.pdf",
+          "size": 432681
+        },
+        {
+          "name": "제2장 사업의 개요",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도지역7공구공유수면매립사업_2004\\제2장_사업의_개요.pdf",
+          "size": 1896829
+        },
+        {
+          "name": "제4장 지역개황",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_송도지역7공구공유수면매립사업_2004\\제4장_지역개황.pdf",
+          "size": 1239285
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:26:30.153698"
+    },
+    {
+      "title": "서해안공유수면매립사업(시흥정왕공유수면)",
+      "year": "unknown",
+      "biz_cd": "HG1997J003",
+      "project_type": "공항건설",
+      "project_type_code": "airport",
+      "files": [
+        {
+          "name": "HG1997J003B0.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_서해안공유수면매립사업(시흥정왕공유수면)_unknown\\HG1997J003B0.pdf",
+          "size": 22160245
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:26:43.782041"
+    },
+    {
+      "title": "줄포지구공유수면매립사업",
+      "year": "unknown",
+      "biz_cd": "JJ1997J001",
+      "project_type": "공항건설",
+      "project_type_code": "airport",
+      "files": [
+        {
+          "name": "Ⅰ. 요약문",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_줄포지구공유수면매립사업_unknown\\Ⅰ._요약문.pdf",
+          "size": 453917
+        },
+        {
+          "name": "Ⅱ. 사업의 개요",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_줄포지구공유수면매립사업_unknown\\Ⅱ._사업의_개요.pdf",
+          "size": 338462
+        },
+        {
+          "name": "Ⅳ. 지역개황",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\airport_줄포지구공유수면매립사업_unknown\\Ⅳ._지역개황.pdf",
+          "size": 188472
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:26:59.510204"
+    },
+    {
+      "title": "금산군 기사천·외부천 생태하천복원사업",
+      "year": "2025",
+      "biz_cd": "GG2025I002",
+      "project_type": "하천이용개발",
+      "project_type_code": "river",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문(금산군 금산기사천유역).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금산군_기사천·외부천_생태하천복원사업_2025\\(초안)_0100_요약문(금산군_금산기사천유역).pdf",
+          "size": 199657
+        },
+        {
+          "name": "(초안) 0200 사업의 개요(금산군 금산기사천유역).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금산군_기사천·외부천_생태하천복원사업_2025\\(초안)_0200_사업의_개요(금산군_금산기사천유역).pdf",
+          "size": 17510303
+        },
+        {
+          "name": "(초안) 0400 지역개황(금산군 금산기사천유역).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금산군_기사천·외부천_생태하천복원사업_2025\\(초안)_0400_지역개황(금산군_금산기사천유역).pdf",
+          "size": 180700354
+        },
+        {
+          "name": "(본안) 0100 요약문(금산군 기사천외부천 생태하천복원사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금산군_기사천·외부천_생태하천복원사업_2025\\(본안)_0100_요약문(금산군_기사천외부천_생태하천복원사업).pdf",
+          "size": 247754
+        },
+        {
+          "name": "(본안) 0200 사업의 개요(금산군 기사천외부천 생태하천복원사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금산군_기사천·외부천_생태하천복원사업_2025\\(본안)_0200_사업의_개요(금산군_기사천외부천_생태하천복원사업).pdf",
+          "size": 18275386
+        },
+        {
+          "name": "(본안) 0400 지역개황(금산군 기사천외부천 생태하천복원사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금산군_기사천·외부천_생태하천복원사업_2025\\(본안)_0400_지역개황(금산군_기사천외부천_생태하천복원사업).pdf",
+          "size": 38436475
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:27:50.808510"
+    },
+    {
+      "title": "홍천강 하천정비사업(3개지구)",
+      "year": "2025",
+      "biz_cd": "WJ2025I001",
+      "project_type": "하천이용개발",
+      "project_type_code": "river",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_홍천강_하천정비사업(3개지구)_2025\\(초안)_0100_요약문.pdf",
+          "size": 189631
+        },
+        {
+          "name": "(초안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_홍천강_하천정비사업(3개지구)_2025\\(초안)_0200_사업의개요.pdf",
+          "size": 884747
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_홍천강_하천정비사업(3개지구)_2025\\(초안)_0400_지역개황.pdf",
+          "size": 8672546
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_홍천강_하천정비사업(3개지구)_2025\\(본안)_0100_요약문.pdf",
+          "size": 193214
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_홍천강_하천정비사업(3개지구)_2025\\(본안)_0200_사업의개요.pdf",
+          "size": 7962459
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_홍천강_하천정비사업(3개지구)_2025\\(본안)_0400_지역개황.pdf",
+          "size": 39754457
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:28:19.732542"
+    },
+    {
+      "title": "굴포천 하천정비사업",
+      "year": "2024",
+      "biz_cd": "HG2024I001",
+      "project_type": "하천이용개발",
+      "project_type_code": "river",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_굴포천_하천정비사업_2024\\(초안)_0100_요약문.pdf",
+          "size": 699683
+        },
+        {
+          "name": "(초안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_굴포천_하천정비사업_2024\\(초안)_0200_사업의개요.pdf",
+          "size": 35434752
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_굴포천_하천정비사업_2024\\(초안)_0400_지역개황.pdf",
+          "size": 4769058
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_굴포천_하천정비사업_2024\\(본안)_0100_요약문.pdf",
+          "size": 909024
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_굴포천_하천정비사업_2024\\(본안)_0200_사업의개요.pdf",
+          "size": 13673806
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_굴포천_하천정비사업_2024\\(본안)_0400_지역개황.pdf",
+          "size": 4814697
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:28:48.540269"
+    },
+    {
+      "title": "서낙동강 예안,가락지구 하천환경정비사업",
+      "year": "2024",
+      "biz_cd": "ND2024I001",
+      "project_type": "하천이용개발",
+      "project_type_code": "river",
+      "files": [
+        {
+          "name": "(평가 초안) 0100 서낙동강 예안가락_(요약문)_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_서낙동강_예안,가락지구_하천환경정비사업_2024\\(평가_초안)_0100_서낙동강_예안가락_(요약문)_완.pdf",
+          "size": 170893
+        },
+        {
+          "name": "(평가 초안) 0200 서낙동강 예안가락_(사업의개요)_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_서낙동강_예안,가락지구_하천환경정비사업_2024\\(평가_초안)_0200_서낙동강_예안가락_(사업의개요)_완.pdf",
+          "size": 16887957
+        },
+        {
+          "name": "(평가 초안) 0400 서낙동강 예안가락_(지역개황)_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_서낙동강_예안,가락지구_하천환경정비사업_2024\\(평가_초안)_0400_서낙동강_예안가락_(지역개황)_완.pdf",
+          "size": 8509677
+        },
+        {
+          "name": "(본안) 0100 서낙동강 예안가락_(요약문)_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_서낙동강_예안,가락지구_하천환경정비사업_2024\\(본안)_0100_서낙동강_예안가락_(요약문)_완.pdf",
+          "size": 436063
+        },
+        {
+          "name": "(본안) 0200 서낙동강 예안가락_(사업의개요)_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_서낙동강_예안,가락지구_하천환경정비사업_2024\\(본안)_0200_서낙동강_예안가락_(사업의개요)_완.pdf",
+          "size": 28382211
+        },
+        {
+          "name": "(본안) 0400 서낙동강 예안가락_(지역개황)_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_서낙동강_예안,가락지구_하천환경정비사업_2024\\(본안)_0400_서낙동강_예안가락_(지역개황)_완.pdf",
+          "size": 11485877
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:29:20.469017"
+    },
+    {
+      "title": "평창강 하천정비사업(2개지구)",
+      "year": "2023",
+      "biz_cd": "WJ2023I005",
+      "project_type": "하천이용개발",
+      "project_type_code": "river",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_평창강_하천정비사업(2개지구)_2023\\(본안)_0100_요약문.pdf",
+          "size": 940144
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_평창강_하천정비사업(2개지구)_2023\\(본안)_0200_사업의개요.pdf",
+          "size": 10669745
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_평창강_하천정비사업(2개지구)_2023\\(본안)_0400_지역개황.pdf",
+          "size": 6519612
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:29:38.991605"
+    },
+    {
+      "title": "금강 금산지구 등 2개소 하천환경정비사업",
+      "year": "2023",
+      "biz_cd": "GG2023I003",
+      "project_type": "하천이용개발",
+      "project_type_code": "river",
+      "files": [
+        {
+          "name": "금산지구(초안)-01000(요약문).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\금산지구(초안)-01000(요약문).pdf",
+          "size": 300820
+        },
+        {
+          "name": "금산지구(초안)-02000(사업의 개요).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\금산지구(초안)-02000(사업의_개요).pdf",
+          "size": 11326527
+        },
+        {
+          "name": "금산지구(초안)-03000(환경영향평가대상지역의설정).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\금산지구(초안)-03000(환경영향평가대상지역의설정).pdf",
+          "size": 519515
+        },
+        {
+          "name": "금산지구(초안)-04000(지역개황).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\금산지구(초안)-04000(지역개황).pdf",
+          "size": 3840793
+        },
+        {
+          "name": "(본안) 01000 요약문-.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\(본안)_01000_요약문-.pdf",
+          "size": 305132
+        },
+        {
+          "name": "(본안) 02000 사업의 개요-.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\(본안)_02000_사업의_개요-.pdf",
+          "size": 324134848
+        },
+        {
+          "name": "(본안) 03000 환경영향평가대상지역의설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\(본안)_03000_환경영향평가대상지역의설정.pdf",
+          "size": 693853
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_금강_금산지구_등_2개소_하천환경정비사업_2023\\(본안)_04000_지역개황.pdf",
+          "size": 4457711
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:30:37.472636"
+    },
+    {
+      "title": "섬진강 적성지구 외 1개소 하천환경정비사업",
+      "year": "2023",
+      "biz_cd": "JJ2023I001",
+      "project_type": "하천이용개발",
+      "project_type_code": "river",
+      "files": [
+        {
+          "name": "(평가 초안) 0100 요약문(섬진강 적성지구).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_섬진강_적성지구_외_1개소_하천환경정비사업_2023\\(평가_초안)_0100_요약문(섬진강_적성지구).pdf",
+          "size": 225626
+        },
+        {
+          "name": "(평가 초안) 0200 사업의 개요(섬진강 적성지구).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_섬진강_적성지구_외_1개소_하천환경정비사업_2023\\(평가_초안)_0200_사업의_개요(섬진강_적성지구).pdf",
+          "size": 59278540
+        },
+        {
+          "name": "(평가 초안) 0400 지역개황(섬진강 적성지구).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_섬진강_적성지구_외_1개소_하천환경정비사업_2023\\(평가_초안)_0400_지역개황(섬진강_적성지구).pdf",
+          "size": 20725108
+        },
+        {
+          "name": "(평가 본안) 0100 요약문(섬진강 적성지구).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_섬진강_적성지구_외_1개소_하천환경정비사업_2023\\(평가_본안)_0100_요약문(섬진강_적성지구).pdf",
+          "size": 223251
+        },
+        {
+          "name": "(평가 본안) 0200 사업의 개요(섬진강 적성지구).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_섬진강_적성지구_외_1개소_하천환경정비사업_2023\\(평가_본안)_0200_사업의_개요(섬진강_적성지구).pdf",
+          "size": 46072018
+        },
+        {
+          "name": "(평가 본안) 0400 지역개황(섬진강 적성지구).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\river_섬진강_적성지구_외_1개소_하천환경정비사업_2023\\(평가_본안)_0400_지역개황(섬진강_적성지구).pdf",
+          "size": 37050653
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:31:16.325648"
+    },
+    {
+      "title": "삼척 에너지 관광복합단지 조성사업(1단계)",
+      "year": "2024",
+      "biz_cd": "GW2024K003",
+      "project_type": "관광단지개발",
+      "project_type_code": "tourism",
+      "files": [
+        {
+          "name": "(초안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(초안)_01000_요약문.pdf",
+          "size": 30913896
+        },
+        {
+          "name": "(초안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(초안)_02000_사업의_개요.pdf",
+          "size": 15372339
+        },
+        {
+          "name": "(초안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(초안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 961409
+        },
+        {
+          "name": "(초안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(초안)_04000_지역개황.pdf",
+          "size": 27285907
+        },
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(본안)_01000_요약문.pdf",
+          "size": 7117191
+        },
+        {
+          "name": "(본안) 02000 사업개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(본안)_02000_사업개요.pdf",
+          "size": 101349444
+        },
+        {
+          "name": "(본안) 03000 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(본안)_03000_대상지역의_설정.pdf",
+          "size": 996411
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_삼척_에너지_관광복합단지_조성사업(1단계)_2024\\(본안)_04000_지역개황.pdf",
+          "size": 32675703
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:32:04.257694"
+    },
+    {
+      "title": "영암·해남 관광레저형 기업도시(삼포지구)",
+      "year": "2023",
+      "biz_cd": "ME2023M002",
+      "project_type": "관광단지개발",
+      "project_type_code": "tourism",
+      "files": [
+        {
+          "name": "SamPo(cho)-0100(요약문)_[완].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_영암·해남_관광레저형_기업도시(삼포지구)_2023\\SamPo(cho)-0100(요약문)_[완].pdf",
+          "size": 4988183
+        },
+        {
+          "name": "SamPo(cho)-0200(사업의개요)_[완].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_영암·해남_관광레저형_기업도시(삼포지구)_2023\\SamPo(cho)-0200(사업의개요)_[완].pdf",
+          "size": 18607233
+        },
+        {
+          "name": "SamPo(cho)-0400(지역개황)_[완].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_영암·해남_관광레저형_기업도시(삼포지구)_2023\\SamPo(cho)-0400(지역개황)_[완].pdf",
+          "size": 6752593
+        },
+        {
+          "name": "(본안) 0100 SamPo(요약문)_[완].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_영암·해남_관광레저형_기업도시(삼포지구)_2023\\(본안)_0100_SamPo(요약문)_[완].pdf",
+          "size": 6662655
+        },
+        {
+          "name": "(본안) 0200 SamPo(사업의개요)_[완].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_영암·해남_관광레저형_기업도시(삼포지구)_2023\\(본안)_0200_SamPo(사업의개요)_[완].pdf",
+          "size": 20974392
+        },
+        {
+          "name": "(본안) 0400 SamPo(지역개황)_[완].pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_영암·해남_관광레저형_기업도시(삼포지구)_2023\\(본안)_0400_SamPo(지역개황)_[완].pdf",
+          "size": 6531023
+        },
+        {
+          "name": "(변경협의본안) 0100 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_영암·해남_관광레저형_기업도시(삼포지구)_2023\\(변경협의본안)_0100_사업의개요.pdf",
+          "size": 11627865
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:32:35.260156"
+    },
+    {
+      "title": "광주송정역 KTX지역경제거점형 투자선도지구",
+      "year": "2022",
+      "biz_cd": "YS2022M003",
+      "project_type": "관광단지개발",
+      "project_type_code": "tourism",
+      "files": [
+        {
+          "name": "0100 요약문_광주송정역.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_광주송정역_KTX지역경제거점형_투자선도지구_2022\\0100_요약문_광주송정역.pdf",
+          "size": 205934
+        },
+        {
+          "name": "0200 사업의개요_광주송정역.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_광주송정역_KTX지역경제거점형_투자선도지구_2022\\0200_사업의개요_광주송정역.pdf",
+          "size": 11226916
+        },
+        {
+          "name": "0400 지역개황_광주송정역.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_광주송정역_KTX지역경제거점형_투자선도지구_2022\\0400_지역개황_광주송정역.pdf",
+          "size": 8255671
+        },
+        {
+          "name": "0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_광주송정역_KTX지역경제거점형_투자선도지구_2022\\0100_요약문.pdf",
+          "size": 642481
+        },
+        {
+          "name": "0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_광주송정역_KTX지역경제거점형_투자선도지구_2022\\0200_사업의_개요.pdf",
+          "size": 3453048
+        },
+        {
+          "name": "0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_광주송정역_KTX지역경제거점형_투자선도지구_2022\\0400_지역개황.pdf",
+          "size": 13820143
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:33:00.755092"
+    },
+    {
+      "title": "무릉 건강·복합체험 관광단지 개발사업(복합체험 관광단지)",
+      "year": "2022",
+      "biz_cd": "WJ2022M002",
+      "project_type": "관광단지개발",
+      "project_type_code": "tourism",
+      "files": [
+        {
+          "name": "(무릉 건강복합_본안) 01000 요약문(1~18).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_무릉_건강·복합체험_관광단지_개발사업(복합체험_관광단지)_2022\\(무릉_건강복합_본안)_01000_요약문(1~18).pdf",
+          "size": 382690
+        },
+        {
+          "name": "(무릉 건강복합_본안) 02000 사업의 개요(19~39).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_무릉_건강·복합체험_관광단지_개발사업(복합체험_관광단지)_2022\\(무릉_건강복합_본안)_02000_사업의_개요(19~39).pdf",
+          "size": 10271300
+        },
+        {
+          "name": "(무릉 건강복합_본안) 03000 환경영향평가 대상지역의 설정(41~47).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_무릉_건강·복합체험_관광단지_개발사업(복합체험_관광단지)_2022\\(무릉_건강복합_본안)_03000_환경영향평가_대상지역의_설정(41~47).pdf",
+          "size": 1472345
+        },
+        {
+          "name": "(무릉 건강복합_본안) 04000 지역개황(49~77).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_무릉_건강·복합체험_관광단지_개발사업(복합체험_관광단지)_2022\\(무릉_건강복합_본안)_04000_지역개황(49~77).pdf",
+          "size": 3011851
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:33:20.630531"
+    },
+    {
+      "title": "강원도 수열에너지 융·복합 클러스터 조성사업",
+      "year": "2022",
+      "biz_cd": "WJ2022M001",
+      "project_type": "관광단지개발",
+      "project_type_code": "tourism",
+      "files": [
+        {
+          "name": "KSE(초안)d-0100(요약문)-ok.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_강원도_수열에너지_융·복합_클러스터_조성사업_2022\\KSE(초안)d-0100(요약문)-ok.pdf",
+          "size": 300021
+        },
+        {
+          "name": "KSE(초안)d-0200(사업의 개요)-ok.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_강원도_수열에너지_융·복합_클러스터_조성사업_2022\\KSE(초안)d-0200(사업의_개요)-ok.pdf",
+          "size": 4018493
+        },
+        {
+          "name": "KSE(초안)d-0400(지역개황)-ok.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_강원도_수열에너지_융·복합_클러스터_조성사업_2022\\KSE(초안)d-0400(지역개황)-ok.pdf",
+          "size": 11564758
+        },
+        {
+          "name": "KSE(본안)f-0100(요약문).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_강원도_수열에너지_융·복합_클러스터_조성사업_2022\\KSE(본안)f-0100(요약문).pdf",
+          "size": 188468
+        },
+        {
+          "name": "KSE(본안)f-0200(사업의 개요).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_강원도_수열에너지_융·복합_클러스터_조성사업_2022\\KSE(본안)f-0200(사업의_개요).pdf",
+          "size": 4714264
+        },
+        {
+          "name": "KSE(본안)f-0400(지역개황).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_강원도_수열에너지_융·복합_클러스터_조성사업_2022\\KSE(본안)f-0400(지역개황).pdf",
+          "size": 16290924
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:33:59.050126"
+    },
+    {
+      "title": "하동 두우레저단지 조성사업",
+      "year": "2022",
+      "biz_cd": "YS2022M001",
+      "project_type": "관광단지개발",
+      "project_type_code": "tourism",
+      "files": [
+        {
+          "name": "두우레저단지 환경영향평가서(초안) 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_하동_두우레저단지_조성사업_2022\\두우레저단지_환경영향평가서(초안)_요약문.pdf",
+          "size": 2789436
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:34:11.193295"
+    },
+    {
+      "title": "함평 축산특화산업 투자선도지구 조성사업",
+      "year": "2021",
+      "biz_cd": "YS2021M001",
+      "project_type": "관광단지개발",
+      "project_type_code": "tourism",
+      "files": [
+        {
+          "name": "제1장 요약문_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_함평_축산특화산업_투자선도지구_조성사업_2021\\제1장_요약문_완.pdf",
+          "size": 1907680
+        },
+        {
+          "name": "제2장 사업의 개요_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_함평_축산특화산업_투자선도지구_조성사업_2021\\제2장_사업의_개요_완.pdf",
+          "size": 6008074
+        },
+        {
+          "name": "제4장 지역개황_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\tourism_함평_축산특화산업_투자선도지구_조성사업_2021\\제4장_지역개황_완.pdf",
+          "size": 1062980
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:34:28.647114"
+    },
+    {
+      "title": "인천항 내항 1·8부두 재개발사업 환경영향평가서(약식)",
+      "year": "2025",
+      "biz_cd": "HG2025D002",
+      "project_type": "산지개발",
+      "project_type_code": "mountain",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_인천항_내항_1·8부두_재개발사업_환경영향평가서(약식)_2025\\(본안)_0100_요약문.pdf",
+          "size": 3078179
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_인천항_내항_1·8부두_재개발사업_환경영향평가서(약식)_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 9559630
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_인천항_내항_1·8부두_재개발사업_환경영향평가서(약식)_2025\\(본안)_0400_지역개황.pdf",
+          "size": 10436089
+        },
+        {
+          "name": "(보완) 0100 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_인천항_내항_1·8부두_재개발사업_환경영향평가서(약식)_2025\\(보완)_0100_사업의_개요.pdf",
+          "size": 5858731
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:34:56.237184"
+    },
+    {
+      "title": "홍원항 정비공사",
+      "year": "2025",
+      "biz_cd": "ME2025D006",
+      "project_type": "산지개발",
+      "project_type_code": "mountain",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문(홍원항).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_홍원항_정비공사_2025\\(초안)_0100_요약문(홍원항).pdf",
+          "size": 178976
+        },
+        {
+          "name": "(초안) 0200 사업의개요(홍원항).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_홍원항_정비공사_2025\\(초안)_0200_사업의개요(홍원항).pdf",
+          "size": 17966328
+        },
+        {
+          "name": "(초안) 0400 지역개황(홍원항).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_홍원항_정비공사_2025\\(초안)_0400_지역개황(홍원항).pdf",
+          "size": 77410630
+        },
+        {
+          "name": "(본안) 0100 요약문(홍원항).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_홍원항_정비공사_2025\\(본안)_0100_요약문(홍원항).pdf",
+          "size": 187447
+        },
+        {
+          "name": "(본안) 0200 사업의개요(홍원항).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_홍원항_정비공사_2025\\(본안)_0200_사업의개요(홍원항).pdf",
+          "size": 3787672
+        },
+        {
+          "name": "(본안) 0400 지역개황(홍원항).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_홍원항_정비공사_2025\\(본안)_0400_지역개황(홍원항).pdf",
+          "size": 8853433
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:36:08.061165"
+    },
+    {
+      "title": "베르힐 영종CC(구. 인천항 영종도 준설토 투기장 항만재개발사업[체육시설(골프장) 설치 사업])",
+      "year": "2015",
+      "biz_cd": "HG2015D002",
+      "project_type": "산지개발",
+      "project_type_code": "mountain",
+      "files": [
+        {
+          "name": "(초안) 0001 초안 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(초안)_0001_초안_요약문.pdf",
+          "size": 2374784
+        },
+        {
+          "name": "(초안) 0100 요약문 F.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(초안)_0100_요약문_F.pdf",
+          "size": 2333121
+        },
+        {
+          "name": "(초안) 0200 사업의 개요 F.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(초안)_0200_사업의_개요_F.pdf",
+          "size": 2289324
+        },
+        {
+          "name": "(초안) 0400 지역개황 F.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(초안)_0400_지역개황_F.pdf",
+          "size": 4658232
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(본안)_0100_요약문.pdf",
+          "size": 2514327
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(본안)_0200_사업의_개요.pdf",
+          "size": 3265202
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(본안)_0400_지역개황.pdf",
+          "size": 4632220
+        },
+        {
+          "name": "(보완) 70100 별책부록(1)요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(보완)_70100_별책부록(1)요약문.pdf",
+          "size": 22269495
+        },
+        {
+          "name": "(보완) 70200 별책부록(1)사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(보완)_70200_별책부록(1)사업의_개요.pdf",
+          "size": 4460768
+        },
+        {
+          "name": "(보완) 70400 별책부록(1)지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(보완)_70400_별책부록(1)지역개황.pdf",
+          "size": 28320994
+        },
+        {
+          "name": "(보완) 80100 별책부록 (2)요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(보완)_80100_별책부록_(2)요약문.pdf",
+          "size": 15506541
+        },
+        {
+          "name": "(보완) 80200 별책부록 (2)사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(보완)_80200_별책부록_(2)사업의_개요.pdf",
+          "size": 3843677
+        },
+        {
+          "name": "(보완) 80400 별책부록 (2)지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_베르힐_영종CC(구._인천항_영종도_준설토_투기장_항만재개발사업[체육시설(골프장)_설치_사업])_2015\\(보완)_80400_별책부록_(2)지역개황.pdf",
+          "size": 28339116
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:37:05.284865"
+    },
+    {
+      "title": "국동항 건설공사(재협의)",
+      "year": "2025",
+      "biz_cd": "ME2025D001",
+      "project_type": "산지개발",
+      "project_type_code": "mountain",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_국동항_건설공사(재협의)_2025\\(초안)_0100_요약문.pdf",
+          "size": 288934
+        },
+        {
+          "name": "(초안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_국동항_건설공사(재협의)_2025\\(초안)_0200_사업의개요.pdf",
+          "size": 1968158
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_국동항_건설공사(재협의)_2025\\(초안)_0400_지역개황.pdf",
+          "size": 5136787
+        },
+        {
+          "name": "(본안) 0100 요약문(국동항 평가).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_국동항_건설공사(재협의)_2025\\(본안)_0100_요약문(국동항_평가).pdf",
+          "size": 314836
+        },
+        {
+          "name": "(본안) 0200 사업의개요(국동항 평가).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_국동항_건설공사(재협의)_2025\\(본안)_0200_사업의개요(국동항_평가).pdf",
+          "size": 18993875
+        },
+        {
+          "name": "(본안) 0400 지역개황(국동항 평가).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_국동항_건설공사(재협의)_2025\\(본안)_0400_지역개황(국동항_평가).pdf",
+          "size": 23732184
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:37:45.166853"
+    },
+    {
+      "title": "암남동 재해취약지구(방재호안 2단계) 정비사업",
+      "year": "2025",
+      "biz_cd": "ND2025D002",
+      "project_type": "산지개발",
+      "project_type_code": "mountain",
+      "files": [
+        {
+          "name": "(초안) 01000 요약문(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(초안)_01000_요약문(완).pdf",
+          "size": 429960
+        },
+        {
+          "name": "(초안) 02000 사업의 개요(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(초안)_02000_사업의_개요(완).pdf",
+          "size": 2176825
+        },
+        {
+          "name": "(초안) 03000 환경영향평가 대상지역의 설정(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(초안)_03000_환경영향평가_대상지역의_설정(완).pdf",
+          "size": 2611275
+        },
+        {
+          "name": "(초안) 04000 지역개황(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(초안)_04000_지역개황(완).pdf",
+          "size": 8767292
+        },
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(본안)_01000_요약문.pdf",
+          "size": 1539089
+        },
+        {
+          "name": "(본안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(본안)_02000_사업의_개요.pdf",
+          "size": 1869299
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(본안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 2620630
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mountain_암남동_재해취약지구(방재호안_2단계)_정비사업_2025\\(본안)_04000_지역개황.pdf",
+          "size": 8724571
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:38:15.744246"
+    },
+    {
+      "title": "송도 아이넥스 골프장 조성사업",
+      "year": "2025",
+      "biz_cd": "HG2025N003",
+      "project_type": "체육시설",
+      "project_type_code": "sports",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_송도_아이넥스_골프장_조성사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 454332
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_송도_아이넥스_골프장_조성사업_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 5090486
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_송도_아이넥스_골프장_조성사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 3137326
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_송도_아이넥스_골프장_조성사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 482081
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_송도_아이넥스_골프장_조성사업_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 7754447
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_송도_아이넥스_골프장_조성사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 7880625
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:39:02.897337"
+    },
+    {
+      "title": "자유CC 9홀 증설사업",
+      "year": "2025",
+      "biz_cd": "HG2025N002",
+      "project_type": "체육시설",
+      "project_type_code": "sports",
+      "files": [
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_자유CC_9홀_증설사업_2025\\(본안)_01000_요약문.pdf",
+          "size": 1070430
+        },
+        {
+          "name": "(본안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_자유CC_9홀_증설사업_2025\\(본안)_02000_사업의_개요.pdf",
+          "size": 44123602
+        },
+        {
+          "name": "(본안) 03000 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_자유CC_9홀_증설사업_2025\\(본안)_03000_대상지역의_설정.pdf",
+          "size": 879310
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_자유CC_9홀_증설사업_2025\\(본안)_04000_지역개황.pdf",
+          "size": 3292143
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:39:37.986625"
+    },
+    {
+      "title": "고성 우석골프&리조트 조성사업",
+      "year": "2025",
+      "biz_cd": "ND2025N002",
+      "project_type": "체육시설",
+      "project_type_code": "sports",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문(고성 우석골프&리조트 조성사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_고성_우석골프&리조트_조성사업_2025\\(초안)_0100_요약문(고성_우석골프&리조트_조성사업).pdf",
+          "size": 11017148
+        },
+        {
+          "name": "(초안) 0200 사업의 개요(고성 우석골프&리조트 조성사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_고성_우석골프&리조트_조성사업_2025\\(초안)_0200_사업의_개요(고성_우석골프&리조트_조성사업).pdf",
+          "size": 7133489
+        },
+        {
+          "name": "(초안) 0400 지역개황(고성 우석골프&리조트 조성사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_고성_우석골프&리조트_조성사업_2025\\(초안)_0400_지역개황(고성_우석골프&리조트_조성사업).pdf",
+          "size": 5656295
+        },
+        {
+          "name": "(본안) 0100 요약문(고성 우석골프&리조트 조성사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_고성_우석골프&리조트_조성사업_2025\\(본안)_0100_요약문(고성_우석골프&리조트_조성사업).pdf",
+          "size": 23276819
+        },
+        {
+          "name": "(본안) 0200 사업의 개요(고성 우석골프&리조트 조성사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_고성_우석골프&리조트_조성사업_2025\\(본안)_0200_사업의_개요(고성_우석골프&리조트_조성사업).pdf",
+          "size": 35620018
+        },
+        {
+          "name": "(본안) 0400 지역개황(고성 우석골프&리조트 조성사업).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_고성_우석골프&리조트_조성사업_2025\\(본안)_0400_지역개황(고성_우석골프&리조트_조성사업).pdf",
+          "size": 6988067
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:40:10.626742"
+    },
+    {
+      "title": "부안 격포지구 대규모 관광개발사업",
+      "year": "2025",
+      "biz_cd": "JJ2025N003",
+      "project_type": "체육시설",
+      "project_type_code": "sports",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_부안_격포지구_대규모_관광개발사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 1946016
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_부안_격포지구_대규모_관광개발사업_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 3498637
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_부안_격포지구_대규모_관광개발사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 2790869
+        },
+        {
+          "name": "(본안) 0100 요약문(부안격포)-F.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_부안_격포지구_대규모_관광개발사업_2025\\(본안)_0100_요약문(부안격포)-F.pdf",
+          "size": 2114219
+        },
+        {
+          "name": "(본안) 0200 사업의 개요(부안격포)-F.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_부안_격포지구_대규모_관광개발사업_2025\\(본안)_0200_사업의_개요(부안격포)-F.pdf",
+          "size": 45193416
+        },
+        {
+          "name": "(본안) 0400 지역개황(부안격포)-F.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_부안_격포지구_대규모_관광개발사업_2025\\(본안)_0400_지역개황(부안격포)-F.pdf",
+          "size": 48360441
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:40:43.492859"
+    },
+    {
+      "title": "더 스타 휴 골프클럽 조성사업(구. 양평 더 스타 팰리스, 고송지구 양동골프장)",
+      "year": "2025",
+      "biz_cd": "HG2025N001",
+      "project_type": "체육시설",
+      "project_type_code": "sports",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_더_스타_휴_골프클럽_조성사업(구._양평_더_스타_팰리스,_고송지구_양동골프장)_2025\\(초안)_0100_요약문.pdf",
+          "size": 2064177
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_더_스타_휴_골프클럽_조성사업(구._양평_더_스타_팰리스,_고송지구_양동골프장)_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 3687852
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_더_스타_휴_골프클럽_조성사업(구._양평_더_스타_팰리스,_고송지구_양동골프장)_2025\\(초안)_0400_지역개황.pdf",
+          "size": 1278996
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_더_스타_휴_골프클럽_조성사업(구._양평_더_스타_팰리스,_고송지구_양동골프장)_2025\\(본안)_0100_요약문.pdf",
+          "size": 1946968
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_더_스타_휴_골프클럽_조성사업(구._양평_더_스타_팰리스,_고송지구_양동골프장)_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 3600305
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_더_스타_휴_골프클럽_조성사업(구._양평_더_스타_팰리스,_고송지구_양동골프장)_2025\\(본안)_0400_지역개황.pdf",
+          "size": 1016832
+        },
+        {
+          "name": "(보완) 0100 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_더_스타_휴_골프클럽_조성사업(구._양평_더_스타_팰리스,_고송지구_양동골프장)_2025\\(보완)_0100_사업의_개요.pdf",
+          "size": 1443929
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:41:09.824695"
+    },
+    {
+      "title": "장흥 J&H 컨트리클럽 조성사업",
+      "year": "2025",
+      "biz_cd": "YS2025N001",
+      "project_type": "체육시설",
+      "project_type_code": "sports",
+      "files": [
+        {
+          "name": "(초안) 0100 장흥J&H 컨트리클럽 조성-제1장 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_장흥_J&H_컨트리클럽_조성사업_2025\\(초안)_0100_장흥J&H_컨트리클럽_조성-제1장_요약문.pdf",
+          "size": 357505
+        },
+        {
+          "name": "(초안) 0200 장흥J&H 컨트리클럽 조성-제2장 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_장흥_J&H_컨트리클럽_조성사업_2025\\(초안)_0200_장흥J&H_컨트리클럽_조성-제2장_사업의_개요.pdf",
+          "size": 6513808
+        },
+        {
+          "name": "(초안) 0400 장흥J&H 컨트리클럽 조성-제4장 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_장흥_J&H_컨트리클럽_조성사업_2025\\(초안)_0400_장흥J&H_컨트리클럽_조성-제4장_지역개황.pdf",
+          "size": 5275633
+        },
+        {
+          "name": "(본안) 0100 장흥J&H 컨트리클럽 조성-제1장 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_장흥_J&H_컨트리클럽_조성사업_2025\\(본안)_0100_장흥J&H_컨트리클럽_조성-제1장_요약문.pdf",
+          "size": 375995
+        },
+        {
+          "name": "(본안) 0200 장흥J&H 컨트리클럽 조성-제2장 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_장흥_J&H_컨트리클럽_조성사업_2025\\(본안)_0200_장흥J&H_컨트리클럽_조성-제2장_사업의_개요.pdf",
+          "size": 7908290
+        },
+        {
+          "name": "(본안) 0400 장흥J&H 컨트리클럽 조성-제4장 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_장흥_J&H_컨트리클럽_조성사업_2025\\(본안)_0400_장흥J&H_컨트리클럽_조성-제4장_지역개황.pdf",
+          "size": 5189226
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:41:35.387127"
+    },
+    {
+      "title": "전주 복합스포츠타운 부지조성사업(구. 전주 월드컵 축구경기장 건설사업)",
+      "year": "2025",
+      "biz_cd": "JJ2025N001",
+      "project_type": "체육시설",
+      "project_type_code": "sports",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_전주_복합스포츠타운_부지조성사업(구._전주_월드컵_축구경기장_건설사업)_2025\\(초안)_0100_요약문_완.pdf",
+          "size": 246472
+        },
+        {
+          "name": "(초안) 0200 사업의 개요_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_전주_복합스포츠타운_부지조성사업(구._전주_월드컵_축구경기장_건설사업)_2025\\(초안)_0200_사업의_개요_완.pdf",
+          "size": 36463453
+        },
+        {
+          "name": "(초안) 0400 지역개황_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_전주_복합스포츠타운_부지조성사업(구._전주_월드컵_축구경기장_건설사업)_2025\\(초안)_0400_지역개황_완.pdf",
+          "size": 906397
+        },
+        {
+          "name": "(본안) 0100 요약문_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_전주_복합스포츠타운_부지조성사업(구._전주_월드컵_축구경기장_건설사업)_2025\\(본안)_0100_요약문_완.pdf",
+          "size": 437662
+        },
+        {
+          "name": "(본안) 0200 사업의 개요_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_전주_복합스포츠타운_부지조성사업(구._전주_월드컵_축구경기장_건설사업)_2025\\(본안)_0200_사업의_개요_완.pdf",
+          "size": 43913902
+        },
+        {
+          "name": "(본안) 0400 지역개황_완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\sports_전주_복합스포츠타운_부지조성사업(구._전주_월드컵_축구경기장_건설사업)_2025\\(본안)_0400_지역개황_완.pdf",
+          "size": 1143712
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:42:05.561407"
+    },
+    {
+      "title": "담양군 가축분뇨 공동자원화(에너지화) 사업",
+      "year": "2025",
+      "biz_cd": "YS2025O001",
+      "project_type": "폐기물처리시설",
+      "project_type_code": "waste",
+      "files": [
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(본안)_01000_요약문.pdf",
+          "size": 7876619
+        },
+        {
+          "name": "(본안) 02000 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(본안)_02000_사업의개요.pdf",
+          "size": 46826324
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(본안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 2193280
+        },
+        {
+          "name": "(본안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(본안)_04000_지역개황.pdf",
+          "size": 6455119
+        },
+        {
+          "name": "(최종) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(최종)_01000_요약문.pdf",
+          "size": 7914975
+        },
+        {
+          "name": "(최종) 02000 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(최종)_02000_사업의개요.pdf",
+          "size": 51025391
+        },
+        {
+          "name": "(최종) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(최종)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 2182473
+        },
+        {
+          "name": "(최종) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(최종)_04000_지역개황.pdf",
+          "size": 6448526
+        },
+        {
+          "name": "(보완) 01000 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025\\(보완)_01000_사업의개요.pdf",
+          "size": 11535291
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:43:32.276812"
+    },
+    {
+      "title": "연천 간파리 391번지 일원 의료폐기물 발전소 조성사업",
+      "year": "2024",
+      "biz_cd": "HG2024O009",
+      "project_type": "폐기물처리시설",
+      "project_type_code": "waste",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_연천_간파리_391번지_일원_의료폐기물_발전소_조성사업_2024\\(본안)_0100_요약문.pdf",
+          "size": 225975
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_연천_간파리_391번지_일원_의료폐기물_발전소_조성사업_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 7947205
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_연천_간파리_391번지_일원_의료폐기물_발전소_조성사업_2024\\(본안)_0400_지역개황.pdf",
+          "size": 1583320
+        },
+        {
+          "name": "(최종) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_연천_간파리_391번지_일원_의료폐기물_발전소_조성사업_2024\\(최종)_0100_요약문.pdf",
+          "size": 212499
+        },
+        {
+          "name": "(최종) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_연천_간파리_391번지_일원_의료폐기물_발전소_조성사업_2024\\(최종)_0200_사업의_개요.pdf",
+          "size": 76264760
+        },
+        {
+          "name": "(최종) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_연천_간파리_391번지_일원_의료폐기물_발전소_조성사업_2024\\(최종)_0400_지역개황.pdf",
+          "size": 14632041
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:44:04.864674"
+    },
+    {
+      "title": "검단일반산업단지 내 지정폐기물 매립시설",
+      "year": "2024",
+      "biz_cd": "DG2024O001",
+      "project_type": "폐기물처리시설",
+      "project_type_code": "waste",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_검단일반산업단지_내_지정폐기물_매립시설_2024\\(초안)_0100_요약문.pdf",
+          "size": 5406936
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_검단일반산업단지_내_지정폐기물_매립시설_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 8042478
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_검단일반산업단지_내_지정폐기물_매립시설_2024\\(초안)_0400_지역개황.pdf",
+          "size": 4863739
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_검단일반산업단지_내_지정폐기물_매립시설_2024\\(본안)_0100_요약문.pdf",
+          "size": 3967692
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_검단일반산업단지_내_지정폐기물_매립시설_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 3772601
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_검단일반산업단지_내_지정폐기물_매립시설_2024\\(본안)_0400_지역개황.pdf",
+          "size": 5473789
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:44:30.795278"
+    },
+    {
+      "title": "(주)삼미환경 음식물류폐기물 처리시설 개선 사업",
+      "year": "2024",
+      "biz_cd": "HG2024O007",
+      "project_type": "폐기물처리시설",
+      "project_type_code": "waste",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_(주)삼미환경_음식물류폐기물_처리시설_개선_사업_2024\\(초안)_0100_요약문.pdf",
+          "size": 884144
+        },
+        {
+          "name": "(초안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_(주)삼미환경_음식물류폐기물_처리시설_개선_사업_2024\\(초안)_0200_사업의개요.pdf",
+          "size": 12494379
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_(주)삼미환경_음식물류폐기물_처리시설_개선_사업_2024\\(초안)_0400_지역개황.pdf",
+          "size": 23405431
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_(주)삼미환경_음식물류폐기물_처리시설_개선_사업_2024\\(본안)_0100_요약문.pdf",
+          "size": 837618
+        },
+        {
+          "name": "(본안) 0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_(주)삼미환경_음식물류폐기물_처리시설_개선_사업_2024\\(본안)_0200_사업의개요.pdf",
+          "size": 11384750
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\waste_(주)삼미환경_음식물류폐기물_처리시설_개선_사업_2024\\(본안)_0400_지역개황.pdf",
+          "size": 7065421
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:44:58.451889"
+    },
+    {
+      "title": "원봉근린공원 민간공원 조성사업",
+      "year": "2025",
+      "biz_cd": "GG2025K003",
+      "project_type": "국방군사시설",
+      "project_type_code": "military",
+      "files": [
+        {
+          "name": "(본안) 0100 WB-요약문(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_원봉근린공원_민간공원_조성사업_2025\\(본안)_0100_WB-요약문(완).pdf",
+          "size": 1953104
+        },
+        {
+          "name": "(본안) 0200 WB-사업의 개요(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_원봉근린공원_민간공원_조성사업_2025\\(본안)_0200_WB-사업의_개요(완).pdf",
+          "size": 7032261
+        },
+        {
+          "name": "(본안) 0400 WB-지역개황(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_원봉근린공원_민간공원_조성사업_2025\\(본안)_0400_WB-지역개황(완).pdf",
+          "size": 1919369
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:46:04.791880"
+    },
+    {
+      "title": "임진강유원지 조성계획(변경) 및 주변지역 정비사업",
+      "year": "2025",
+      "biz_cd": "HG2025K002",
+      "project_type": "국방군사시설",
+      "project_type_code": "military",
+      "files": [
+        {
+          "name": "(초안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(초안)_01000_요약문.pdf",
+          "size": 6104639
+        },
+        {
+          "name": "(초안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(초안)_02000_사업의_개요.pdf",
+          "size": 19069528
+        },
+        {
+          "name": "(초안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(초안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 2112350
+        },
+        {
+          "name": "(초안) 04000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(초안)_04000_지역개황.pdf",
+          "size": 7504442
+        },
+        {
+          "name": "(본안) 01000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(본안)_01000_요약문.pdf",
+          "size": 6308287
+        },
+        {
+          "name": "(본안) 02000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(본안)_02000_사업의_개요.pdf",
+          "size": 20453078
+        },
+        {
+          "name": "(본안) 03000 환경영향평가 대상지역의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(본안)_03000_환경영향평가_대상지역의_설정.pdf",
+          "size": 2118415
+        },
+        {
+          "name": "(본안) 04000 지역 개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025\\(본안)_04000_지역_개황.pdf",
+          "size": 8195028
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:46:50.481634"
+    },
+    {
+      "title": "웰리힐리파크 관광단지 조성계획(변경)",
+      "year": "2025",
+      "biz_cd": "GW2025K001",
+      "project_type": "국방군사시설",
+      "project_type_code": "military",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_웰리힐리파크_관광단지_조성계획(변경)_2025\\(초안)_0100_요약문.pdf",
+          "size": 5097242
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_웰리힐리파크_관광단지_조성계획(변경)_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 51072968
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_웰리힐리파크_관광단지_조성계획(변경)_2025\\(본안)_0100_요약문.pdf",
+          "size": 5565050
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_웰리힐리파크_관광단지_조성계획(변경)_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 123463433
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:47:25.081150"
+    },
+    {
+      "title": "강릉시 안현유원지 조성사업",
+      "year": "2024",
+      "biz_cd": "GW2024K004",
+      "project_type": "국방군사시설",
+      "project_type_code": "military",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_강릉시_안현유원지_조성사업_2024\\(본안)_0100_요약문.pdf",
+          "size": 33588181
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_강릉시_안현유원지_조성사업_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 19880052
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_강릉시_안현유원지_조성사업_2024\\(본안)_0400_지역개황.pdf",
+          "size": 2362287
+        },
+        {
+          "name": "(최종) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_강릉시_안현유원지_조성사업_2024\\(최종)_0100_요약문.pdf",
+          "size": 19044484
+        },
+        {
+          "name": "(최종) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_강릉시_안현유원지_조성사업_2024\\(최종)_0200_사업의_개요.pdf",
+          "size": 10800814
+        },
+        {
+          "name": "(최종) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_강릉시_안현유원지_조성사업_2024\\(최종)_0400_지역개황.pdf",
+          "size": 2126771
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:47:55.735382"
+    },
+    {
+      "title": "제2시립묘지공원 조성사업",
+      "year": "2024",
+      "biz_cd": "YS2024K005",
+      "project_type": "국방군사시설",
+      "project_type_code": "military",
+      "files": [
+        {
+          "name": "(초안) 0100 영락공원(제2시립묘지) 조성사업(재협의)-제1장 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_제2시립묘지공원_조성사업_2024\\(초안)_0100_영락공원(제2시립묘지)_조성사업(재협의)-제1장_요약문.pdf",
+          "size": 257241
+        },
+        {
+          "name": "(초안) 0200 영락공원(제2시립묘지) 조성사업(재협의)-제2장 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_제2시립묘지공원_조성사업_2024\\(초안)_0200_영락공원(제2시립묘지)_조성사업(재협의)-제2장_사업의개요.pdf",
+          "size": 6257963
+        },
+        {
+          "name": "(초안) 0400 영락공원(제2시립묘지) 조성사업(재협의)-제4장 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_제2시립묘지공원_조성사업_2024\\(초안)_0400_영락공원(제2시립묘지)_조성사업(재협의)-제4장_지역개황.pdf",
+          "size": 1166053
+        },
+        {
+          "name": "(본안) 0100 영락공원(제2시립묘지) 조성사업(재협의)-제1장 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_제2시립묘지공원_조성사업_2024\\(본안)_0100_영락공원(제2시립묘지)_조성사업(재협의)-제1장_요약문.pdf",
+          "size": 256517
+        },
+        {
+          "name": "(본안) 0200 영락공원(제2시립묘지) 조성사업(재협의)-제2장 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_제2시립묘지공원_조성사업_2024\\(본안)_0200_영락공원(제2시립묘지)_조성사업(재협의)-제2장_사업의개요.pdf",
+          "size": 6991663
+        },
+        {
+          "name": "(본안) 0400 영락공원(제2시립묘지) 조성사업(재협의)-제4장 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_제2시립묘지공원_조성사업_2024\\(본안)_0400_영락공원(제2시립묘지)_조성사업(재협의)-제4장_지역개황.pdf",
+          "size": 1166362
+        },
+        {
+          "name": "(변경협의본안) 0001 사업의 개요(완).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_제2시립묘지공원_조성사업_2024\\(변경협의본안)_0001_사업의_개요(완).pdf",
+          "size": 5533969
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:48:22.901413"
+    },
+    {
+      "title": "목포 도시계획시설(유달산 서면(북항) 유원지 조성사업)",
+      "year": "2024",
+      "biz_cd": "YS2024K004",
+      "project_type": "국방군사시설",
+      "project_type_code": "military",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_목포_도시계획시설(유달산_서면(북항)_유원지_조성사업)_2024\\(초안)_0100_요약문.pdf",
+          "size": 2635858
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_목포_도시계획시설(유달산_서면(북항)_유원지_조성사업)_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 3862298
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_목포_도시계획시설(유달산_서면(북항)_유원지_조성사업)_2024\\(초안)_0400_지역개황.pdf",
+          "size": 4243069
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_목포_도시계획시설(유달산_서면(북항)_유원지_조성사업)_2024\\(본안)_0100_요약문.pdf",
+          "size": 2658096
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_목포_도시계획시설(유달산_서면(북항)_유원지_조성사업)_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 19875919
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_목포_도시계획시설(유달산_서면(북항)_유원지_조성사업)_2024\\(본안)_0400_지역개황.pdf",
+          "size": 4225572
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:48:48.896790"
+    },
+    {
+      "title": "평창 용평관광단지 조성사업",
+      "year": "2024",
+      "biz_cd": "WJ2024K004",
+      "project_type": "국방군사시설",
+      "project_type_code": "military",
+      "files": [
+        {
+          "name": "(초안) 0100 (용평관광단지)요약문(1-17).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_평창_용평관광단지_조성사업_2024\\(초안)_0100_(용평관광단지)요약문(1-17).pdf",
+          "size": 237841
+        },
+        {
+          "name": "(초안) 0200 (용평관광단지)사업의 개요(19-49).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_평창_용평관광단지_조성사업_2024\\(초안)_0200_(용평관광단지)사업의_개요(19-49).pdf",
+          "size": 22127367
+        },
+        {
+          "name": "(초안) 0400 (용평관광단지)지역개황(57-87).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_평창_용평관광단지_조성사업_2024\\(초안)_0400_(용평관광단지)지역개황(57-87).pdf",
+          "size": 12806542
+        },
+        {
+          "name": "(본안) 0100 (용평관광단지)요약문(1-18).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_평창_용평관광단지_조성사업_2024\\(본안)_0100_(용평관광단지)요약문(1-18).pdf",
+          "size": 244431
+        },
+        {
+          "name": "(본안) 0200 (용평관광단지)사업의 개요(19-62).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_평창_용평관광단지_조성사업_2024\\(본안)_0200_(용평관광단지)사업의_개요(19-62).pdf",
+          "size": 22873516
+        },
+        {
+          "name": "(본안) 0400 (용평관광단지)지역개황(69-99).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\military_평창_용평관광단지_조성사업_2024\\(본안)_0400_(용평관광단지)지역개황(69-99).pdf",
+          "size": 7618409
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:49:16.916444"
+    },
+    {
+      "title": "구미 산동읍 백현리 토석채취사업",
+      "year": "2025",
+      "biz_cd": "DG2025Q001",
+      "project_type": "토석광물채취",
+      "project_type_code": "mining",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_구미_산동읍_백현리_토석채취사업_2025\\(초안)_0100_요약문.pdf",
+          "size": 4526105
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_구미_산동읍_백현리_토석채취사업_2025\\(초안)_0200_사업의_개요.pdf",
+          "size": 8227116
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_구미_산동읍_백현리_토석채취사업_2025\\(초안)_0400_지역개황.pdf",
+          "size": 1789449
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_구미_산동읍_백현리_토석채취사업_2025\\(본안)_0100_요약문.pdf",
+          "size": 2584057
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_구미_산동읍_백현리_토석채취사업_2025\\(본안)_0200_사업의_개요.pdf",
+          "size": 7731468
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_구미_산동읍_백현리_토석채취사업_2025\\(본안)_0400_지역개황.pdf",
+          "size": 1039953
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:49:48.466459"
+    },
+    {
+      "title": "고창 (유)은광산업개발 채석단지 지정",
+      "year": "2025",
+      "biz_cd": "JJ2025Q002",
+      "project_type": "토석광물채취",
+      "project_type_code": "mining",
+      "files": [
+        {
+          "name": "(본안) 0100 (요약문).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_고창_(유)은광산업개발_채석단지_지정_2025\\(본안)_0100_(요약문).pdf",
+          "size": 188976
+        },
+        {
+          "name": "(본안) 0200 (사업의 개요).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_고창_(유)은광산업개발_채석단지_지정_2025\\(본안)_0200_(사업의_개요).pdf",
+          "size": 44541083
+        },
+        {
+          "name": "(본안) 0400 (지역개황).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_고창_(유)은광산업개발_채석단지_지정_2025\\(본안)_0400_(지역개황).pdf",
+          "size": 1320861
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:50:10.564238"
+    },
+    {
+      "title": "청석 주식회사 토석채취사업",
+      "year": "2024",
+      "biz_cd": "ND2024Q002",
+      "project_type": "토석광물채취",
+      "project_type_code": "mining",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문-완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_청석_주식회사_토석채취사업_2024\\(초안)_0100_요약문-완.pdf",
+          "size": 5816433
+        },
+        {
+          "name": "(초안) 0200 사업의개요-완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_청석_주식회사_토석채취사업_2024\\(초안)_0200_사업의개요-완.pdf",
+          "size": 13716626
+        },
+        {
+          "name": "(초안) 0400 지역개황-완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_청석_주식회사_토석채취사업_2024\\(초안)_0400_지역개황-완.pdf",
+          "size": 2919272
+        },
+        {
+          "name": "(본안) 0100 요약문 - 완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_청석_주식회사_토석채취사업_2024\\(본안)_0100_요약문_-_완.pdf",
+          "size": 9163453
+        },
+        {
+          "name": "(본안) 0200 사업의개요 - 완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_청석_주식회사_토석채취사업_2024\\(본안)_0200_사업의개요_-_완.pdf",
+          "size": 26281215
+        },
+        {
+          "name": "(본안) 0400 지역개황 - 완.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_청석_주식회사_토석채취사업_2024\\(본안)_0400_지역개황_-_완.pdf",
+          "size": 5662527
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:50:40.600104"
+    },
+    {
+      "title": "홍천 채석단지 지정",
+      "year": "2024",
+      "biz_cd": "WJ2024Q005",
+      "project_type": "토석광물채취",
+      "project_type_code": "mining",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_홍천_채석단지_지정_2024\\(초안)_0100_요약문.pdf",
+          "size": 403750
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_홍천_채석단지_지정_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 38426478
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_홍천_채석단지_지정_2024\\(초안)_0400_지역개황.pdf",
+          "size": 5502279
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_홍천_채석단지_지정_2024\\(본안)_0100_요약문.pdf",
+          "size": 570469
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_홍천_채석단지_지정_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 10340530
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_홍천_채석단지_지정_2024\\(본안)_0400_지역개황.pdf",
+          "size": 5504429
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:51:10.231503"
+    },
+    {
+      "title": "김천 채석단지 변경지정",
+      "year": "2024",
+      "biz_cd": "DG2024Q004",
+      "project_type": "토석광물채취",
+      "project_type_code": "mining",
+      "files": [
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_김천_채석단지_변경지정_2024\\(본안)_0100_요약문.pdf",
+          "size": 254987
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_김천_채석단지_변경지정_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 38714102
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_김천_채석단지_변경지정_2024\\(본안)_0400_지역개황.pdf",
+          "size": 5672424
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:51:30.376489"
+    },
+    {
+      "title": "(주)세양개발 채석단지 지정",
+      "year": "2024",
+      "biz_cd": "DG2024Q003",
+      "project_type": "토석광물채취",
+      "project_type_code": "mining",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_(주)세양개발_채석단지_지정_2024\\(초안)_0100_요약문.pdf",
+          "size": 82498354
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_(주)세양개발_채석단지_지정_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 76701750
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_(주)세양개발_채석단지_지정_2024\\(초안)_0400_지역개황.pdf",
+          "size": 9074756
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_(주)세양개발_채석단지_지정_2024\\(본안)_0100_요약문.pdf",
+          "size": 94889297
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_(주)세양개발_채석단지_지정_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 112254083
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_(주)세양개발_채석단지_지정_2024\\(본안)_0400_지역개황.pdf",
+          "size": 8585916
+        },
+        {
+          "name": "(보완) 0100 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_(주)세양개발_채석단지_지정_2024\\(보완)_0100_사업의_개요.pdf",
+          "size": 78675578
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:52:37.594764"
+    },
+    {
+      "title": "성주군 용암면 사곡리 석산개발사업",
+      "year": "2024",
+      "biz_cd": "DG2024Q002",
+      "project_type": "토석광물채취",
+      "project_type_code": "mining",
+      "files": [
+        {
+          "name": "(초안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_성주군_용암면_사곡리_석산개발사업_2024\\(초안)_0100_요약문.pdf",
+          "size": 2105032
+        },
+        {
+          "name": "(초안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_성주군_용암면_사곡리_석산개발사업_2024\\(초안)_0200_사업의_개요.pdf",
+          "size": 50670049
+        },
+        {
+          "name": "(초안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_성주군_용암면_사곡리_석산개발사업_2024\\(초안)_0400_지역개황.pdf",
+          "size": 16105027
+        },
+        {
+          "name": "(본안) 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_성주군_용암면_사곡리_석산개발사업_2024\\(본안)_0100_요약문.pdf",
+          "size": 1398717
+        },
+        {
+          "name": "(본안) 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_성주군_용암면_사곡리_석산개발사업_2024\\(본안)_0200_사업의_개요.pdf",
+          "size": 37915737
+        },
+        {
+          "name": "(본안) 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\mining_성주군_용암면_사곡리_석산개발사업_2024\\(본안)_0400_지역개황.pdf",
+          "size": 2294145
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:53:10.243142"
+    },
+    {
+      "title": "안성시 대덕 무능지구 산업유통형 지구단위계획 결정(변경)",
+      "year": "2020",
+      "biz_cd": "HG2020L003",
+      "project_type": "매립간척",
+      "project_type_code": "reclamation",
+      "files": [
+        {
+          "name": "무능리 산업형 지구단위계획 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_안성시_대덕_무능지구_산업유통형_지구단위계획_결정(변경)_2020\\무능리_산업형_지구단위계획_0100_요약문.pdf",
+          "size": 4210312
+        },
+        {
+          "name": "무능리 산업형 지구단위계획 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_안성시_대덕_무능지구_산업유통형_지구단위계획_결정(변경)_2020\\무능리_산업형_지구단위계획_0200_사업의_개요.pdf",
+          "size": 69805643
+        },
+        {
+          "name": "무능리 산업형 지구단위계획 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_안성시_대덕_무능지구_산업유통형_지구단위계획_결정(변경)_2020\\무능리_산업형_지구단위계획_0400_지역개황.pdf",
+          "size": 3291407
+        },
+        {
+          "name": "무능지구 0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_안성시_대덕_무능지구_산업유통형_지구단위계획_결정(변경)_2020\\무능지구_0100_요약문.pdf",
+          "size": 623687
+        },
+        {
+          "name": "무능지구 0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_안성시_대덕_무능지구_산업유통형_지구단위계획_결정(변경)_2020\\무능지구_0200_사업의_개요.pdf",
+          "size": 39722275
+        },
+        {
+          "name": "무능지구 0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_안성시_대덕_무능지구_산업유통형_지구단위계획_결정(변경)_2020\\무능지구_0400_지역개황.pdf",
+          "size": 2124311
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:53:51.219880"
+    },
+    {
+      "title": "의성군 의성읍 철파리 태양광발전소 조성사업",
+      "year": "2019",
+      "biz_cd": "DG2019A003",
+      "project_type": "매립간척",
+      "project_type_code": "reclamation",
+      "files": [
+        {
+          "name": "제1장 요약문_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제1장_요약문_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 1041838
+        },
+        {
+          "name": "제2장 사업의 개요_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제2장_사업의_개요_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 3250149
+        },
+        {
+          "name": "제4장 지역개황_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제4장_지역개황_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 1219210
+        },
+        {
+          "name": "제4장 지역개황도(A3)_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제4장_지역개황도(A3)_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 679411
+        },
+        {
+          "name": "제1장 요약문_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제1장_요약문_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 1041838
+        },
+        {
+          "name": "제2장 사업의 개요_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제2장_사업의_개요_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 3250149
+        },
+        {
+          "name": "제4장 지역개황_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제4장_지역개황_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 1219210
+        },
+        {
+          "name": "제4장 지역개황도(A3)_의성 철파리 태양광발전소 조성사업.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_의성군_의성읍_철파리_태양광발전소_조성사업_2019\\제4장_지역개황도(A3)_의성_철파리_태양광발전소_조성사업.pdf",
+          "size": 679411
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:54:09.957673"
+    },
+    {
+      "title": "보령PG(Proving Ground) 구축공사",
+      "year": "2017",
+      "biz_cd": "GG2017L001",
+      "project_type": "매립간척",
+      "project_type_code": "reclamation",
+      "files": [
+        {
+          "name": "1000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\1000_요약문.pdf",
+          "size": 423444
+        },
+        {
+          "name": "2000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\2000_사업의_개요.pdf",
+          "size": 11171767
+        },
+        {
+          "name": "3000 평가대상지역 등의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\3000_평가대상지역_등의_설정.pdf",
+          "size": 2183701
+        },
+        {
+          "name": "4000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\4000_지역개황.pdf",
+          "size": 5303589
+        },
+        {
+          "name": "1000 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\1000_요약문.pdf",
+          "size": 423444
+        },
+        {
+          "name": "2000 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\2000_사업의_개요.pdf",
+          "size": 11171767
+        },
+        {
+          "name": "3000 평가대상지역 등의 설정.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\3000_평가대상지역_등의_설정.pdf",
+          "size": 2183701
+        },
+        {
+          "name": "4000 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_보령PG(Proving_Ground)_구축공사_2017\\4000_지역개황.pdf",
+          "size": 5303589
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:54:29.676498"
+    },
+    {
+      "title": "가축유전자원센터 이전사업",
+      "year": "2016",
+      "biz_cd": "ND2016L001",
+      "project_type": "매립간척",
+      "project_type_code": "reclamation",
+      "files": [
+        {
+          "name": "(본안)가축유전자_0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_가축유전자원센터_이전사업_2016\\(본안)가축유전자_0100_요약문.pdf",
+          "size": 2043303
+        },
+        {
+          "name": "(본안)가축유전자_0200 사업의개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_가축유전자원센터_이전사업_2016\\(본안)가축유전자_0200_사업의개요.pdf",
+          "size": 5617174
+        },
+        {
+          "name": "(본안)가축유전자_0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_가축유전자원센터_이전사업_2016\\(본안)가축유전자_0400_지역개황.pdf",
+          "size": 3780895
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:54:46.727433"
+    },
+    {
+      "title": "씨감자생산 대체포장 조성사업(대기2지구)",
+      "year": "2016",
+      "biz_cd": "WJ2016B003",
+      "project_type": "매립간척",
+      "project_type_code": "reclamation",
+      "files": [
+        {
+          "name": "씨감자_0100-요약문-hwp.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_씨감자생산_대체포장_조성사업(대기2지구)_2016\\씨감자_0100-요약문-hwp.pdf",
+          "size": 148323
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:54:58.074299"
+    },
+    {
+      "title": "강릉 안인풍력발전사업",
+      "year": "2016",
+      "biz_cd": "ME2016C002",
+      "project_type": "매립간척",
+      "project_type_code": "reclamation",
+      "files": [
+        {
+          "name": "0100 (안인풍력)요약문(1-10).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_강릉_안인풍력발전사업_2016\\0100_(안인풍력)요약문(1-10).pdf",
+          "size": 382495
+        },
+        {
+          "name": "0200 (안인풍력)사업의 개요(11-41).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_강릉_안인풍력발전사업_2016\\0200_(안인풍력)사업의_개요(11-41).pdf",
+          "size": 17013015
+        },
+        {
+          "name": "0400 (안인풍력)지역개황(49-65).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_강릉_안인풍력발전사업_2016\\0400_(안인풍력)지역개황(49-65).pdf",
+          "size": 2322360
+        },
+        {
+          "name": "(본안)0100 (안인풍력)요약문(1-18).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_강릉_안인풍력발전사업_2016\\(본안)0100_(안인풍력)요약문(1-18).pdf",
+          "size": 500794
+        },
+        {
+          "name": "(본안)0200 (안인풍력)사업의 개요(19-65).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_강릉_안인풍력발전사업_2016\\(본안)0200_(안인풍력)사업의_개요(19-65).pdf",
+          "size": 31726780
+        },
+        {
+          "name": "(본안)0400 (안인풍력)지역개황(75-91).pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_강릉_안인풍력발전사업_2016\\(본안)0400_(안인풍력)지역개황(75-91).pdf",
+          "size": 2408100
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:55:25.982840"
+    },
+    {
+      "title": "로지스파크 안성 일죽 물류센터",
+      "year": "2015",
+      "biz_cd": "HG2015B008",
+      "project_type": "매립간척",
+      "project_type_code": "reclamation",
+      "files": [
+        {
+          "name": "0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_로지스파크_안성_일죽_물류센터_2015\\0100_요약문.pdf",
+          "size": 2833033
+        },
+        {
+          "name": "0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_로지스파크_안성_일죽_물류센터_2015\\0200_사업의_개요.pdf",
+          "size": 6243753
+        },
+        {
+          "name": "0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_로지스파크_안성_일죽_물류센터_2015\\0400_지역개황.pdf",
+          "size": 6771743
+        },
+        {
+          "name": "0100 요약문.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_로지스파크_안성_일죽_물류센터_2015\\0100_요약문.pdf",
+          "size": 2833033
+        },
+        {
+          "name": "0200 사업의 개요.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_로지스파크_안성_일죽_물류센터_2015\\0200_사업의_개요.pdf",
+          "size": 6243753
+        },
+        {
+          "name": "0400 지역개황.pdf",
+          "path": "C:\\0_project\\eia-prescreen\\data\\reports\\raw\\reclamation_로지스파크_안성_일죽_물류센터_2015\\0400_지역개황.pdf",
+          "size": 6771743
+        }
+      ],
+      "downloaded_at": "2026-03-29T01:55:43.277853"
+    }
+  ],
+  "failed": [
+    {
+      "title": "계양~강화 고속도로 건설사업(7공구)",
+      "year": "2026",
+      "biz_cd": "ME2026E001",
+      "project_type": "도로",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T00:11:53.434121"
+    },
+    {
+      "title": "가목재 터널 건설공사",
+      "year": "2025",
+      "biz_cd": "DG2025E010",
+      "project_type": "도로",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T00:12:02.585763"
+    },
+    {
+      "title": "무창~기산간 도로건설공사",
+      "year": "2025",
+      "biz_cd": "DG2025E009",
+      "project_type": "도로",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T00:12:51.723755"
+    },
+    {
+      "title": "칠곡 매원지구 도시개발사업",
+      "year": "2026",
+      "biz_cd": "DG2026A002",
+      "project_type": "도시개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:01:34.306798"
+    },
+    {
+      "title": "대전 가오2지구 도시개발사업",
+      "year": "2025",
+      "biz_cd": "GG2025A010",
+      "project_type": "도시개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:02:09.108179"
+    },
+    {
+      "title": "담양 보촌지구 도시개발사업",
+      "year": "2025",
+      "biz_cd": "YS2025A001",
+      "project_type": "도시개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:04:47.007454"
+    },
+    {
+      "title": "천안 군서일반산업단지 개발사업",
+      "year": "2026",
+      "biz_cd": "GG2026B001",
+      "project_type": "산업입지",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:05:50.892062"
+    },
+    {
+      "title": "청주남부일반산업단지 조성사업",
+      "year": "2025",
+      "biz_cd": "GG2025B011",
+      "project_type": "산업입지",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:06:26.980301"
+    },
+    {
+      "title": "북삼오평 일반산업단지 조성사업",
+      "year": "2025",
+      "biz_cd": "DG2025B002",
+      "project_type": "산업입지",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:06:36.187250"
+    },
+    {
+      "title": "용인 첨단시스템반도체 클러스터 국가산업단지 개발사업(재협의)",
+      "year": "2025",
+      "biz_cd": "ME2025B002",
+      "project_type": "산업입지",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:07:14.705414"
+    },
+    {
+      "title": "제주 청정에너지 복합발전",
+      "year": "2025",
+      "biz_cd": "ME2025C035",
+      "project_type": "에너지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:09:16.947378"
+    },
+    {
+      "title": "대전열병합발전(주) 현대화사업",
+      "year": "2025",
+      "biz_cd": "ME2025C026",
+      "project_type": "에너지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:09:26.151278"
+    },
+    {
+      "title": "여수에코에너지(주) 집단에너지사업",
+      "year": "2025",
+      "biz_cd": "ME2025C025",
+      "project_type": "에너지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:09:35.347872"
+    },
+    {
+      "title": "고양창릉 집단에너지사업",
+      "year": "2025",
+      "biz_cd": "ME2025C023",
+      "project_type": "에너지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:09:44.549515"
+    },
+    {
+      "title": "신대한정유산업 폐열 발전설비 설치공사",
+      "year": "2025",
+      "biz_cd": "HG2025C002",
+      "project_type": "에너지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:09:53.850578"
+    },
+    {
+      "title": "새만금국제공항 건설공사",
+      "year": "2024",
+      "biz_cd": "JJ2024H001",
+      "project_type": "항만건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:12:33.803970"
+    },
+    {
+      "title": "흑산공항 건설공사",
+      "year": "2023",
+      "biz_cd": "YS2023H001",
+      "project_type": "항만건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:13:07.979605"
+    },
+    {
+      "title": "계양~강화 고속도로 건설사업(7공구)",
+      "year": "2026",
+      "biz_cd": "ME2026E001",
+      "project_type": "도로건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:15:51.525152"
+    },
+    {
+      "title": "가목재 터널 건설공사",
+      "year": "2025",
+      "biz_cd": "DG2025E010",
+      "project_type": "도로건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:16:00.680587"
+    },
+    {
+      "title": "무창~기산간 도로건설공사",
+      "year": "2025",
+      "biz_cd": "DG2025E009",
+      "project_type": "도로건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:16:09.869940"
+    },
+    {
+      "title": "제천-영월 고속도로 건설사업",
+      "year": "2025",
+      "biz_cd": "ME2025E003",
+      "project_type": "도로건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:16:19.077473"
+    },
+    {
+      "title": "군남홍수조절댐 건설사업",
+      "year": "2009",
+      "biz_cd": "ME2009F001",
+      "project_type": "수자원개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:17:53.860513"
+    },
+    {
+      "title": "광주송정~순천 철도건설사업(1,3,4공구)",
+      "year": "2024",
+      "biz_cd": "ME2024G012",
+      "project_type": "철도건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:20:50.594029"
+    },
+    {
+      "title": "새만금지구 간척종합개발사업(의복석산 개발사업)",
+      "year": "2010",
+      "biz_cd": "ME2010J001",
+      "project_type": "공항건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:24:55.381666"
+    },
+    {
+      "title": "청라2지구 공유수면 매립공사",
+      "year": "unknown",
+      "biz_cd": "ME1989J006",
+      "project_type": "공항건설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:25:04.516495"
+    },
+    {
+      "title": "삼천포 구항 동방파제 연장공사",
+      "year": "2025",
+      "biz_cd": "ND2025D004",
+      "project_type": "산지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:35:05.397101"
+    },
+    {
+      "title": "대천항 북방파제 준설토 투기장 조성사업",
+      "year": "2025",
+      "biz_cd": "GG2025D001",
+      "project_type": "산지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:35:14.589094"
+    },
+    {
+      "title": "감포항 남측호안 보강공사",
+      "year": "2025",
+      "biz_cd": "ME2025D012",
+      "project_type": "산지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:35:23.808797"
+    },
+    {
+      "title": "양포항 정비공사",
+      "year": "2025",
+      "biz_cd": "ME2025D009",
+      "project_type": "산지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:35:33.036024"
+    },
+    {
+      "title": "국가어항(궁촌항) 퇴적방지 시설사업",
+      "year": "2025",
+      "biz_cd": "ME2025D002",
+      "project_type": "산지개발",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:37:14.454832"
+    },
+    {
+      "title": "화순 엘리체CC 골프장(18→36H) 증설사업",
+      "year": "2026",
+      "biz_cd": "YS2026N002",
+      "project_type": "체육시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:38:34.605592"
+    },
+    {
+      "title": "벨라스톤C.C 증설사업",
+      "year": "2025",
+      "biz_cd": "GW2025N001",
+      "project_type": "체육시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:39:12.059466"
+    },
+    {
+      "title": "비노텍 소각시설 증설사업",
+      "year": "2025",
+      "biz_cd": "HG2025O006",
+      "project_type": "폐기물처리시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:42:18.988493"
+    },
+    {
+      "title": "발안일반산업단지 소각시설 증설 및 개선사업",
+      "year": "2025",
+      "biz_cd": "HG2025O003",
+      "project_type": "폐기물처리시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:42:28.153373"
+    },
+    {
+      "title": "이천시 가축분뇨 공동자원화(에너지화)",
+      "year": "2025",
+      "biz_cd": "HG2025O002",
+      "project_type": "폐기물처리시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:42:37.358253"
+    },
+    {
+      "title": "어연·한산 일반산업단지 폐기물처리시설(소각) 설치사업",
+      "year": "2025",
+      "biz_cd": "HG2025O001",
+      "project_type": "폐기물처리시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:42:46.634475"
+    },
+    {
+      "title": "광양 도시계획시설 실시계획인가(폐기물처리시설, 도로, 완충녹지)",
+      "year": "2024",
+      "biz_cd": "YS2024O001",
+      "project_type": "폐기물처리시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:45:32.609516"
+    },
+    {
+      "title": "엠이천(주) 폐기물 종합재활용업 사업변경 및 증톤사업",
+      "year": "2024",
+      "biz_cd": "HG2024O005",
+      "project_type": "폐기물처리시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:45:41.827436"
+    },
+    {
+      "title": "웨일즈코브 울산 관광단지 조성계획",
+      "year": "2025",
+      "biz_cd": "ND2025K001",
+      "project_type": "국방군사시설",
+      "reason": "파일 다운로드 실패",
+      "attempted_at": "2026-03-29T01:46:13.963768"
+    }
+  ],
+  "last_run": "2026-03-29T01:55:51.007385"
+}

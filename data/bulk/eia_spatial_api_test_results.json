@@ -1,0 +1,186 @@
+{
+  "spatial_api": {
+    "1": {
+      "label": "사업지_선",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "2": {
+      "label": "사업지_면",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "3": {
+      "label": "멸종위기동물_점",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "4": {
+      "label": "멸종위기동물_선",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "5": {
+      "label": "멸종위기동물_면",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "6": {
+      "label": "멸종위기식물_점",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "7": {
+      "label": "멸종위기식물_면",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "8": {
+      "label": "대기질_점",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "9": {
+      "label": "해양저질",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "10": {
+      "label": "해양수질",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "11": {
+      "label": "지표수질",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "12": {
+      "label": "지하수질",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "13": {
+      "label": "토양질",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "14": {
+      "label": "멸종위기동물_선(14)",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    },
+    "15": {
+      "label": "진동",
+      "status": "success_xml",
+      "http_status": 200,
+      "result_code": "00",
+      "total_count": 0,
+      "result_msg": "NORMAL SERVICE."
+    }
+  },
+  "detail_api": {
+    "detail_info_103964": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_info_103961": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_info_103958": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_info_103953": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_info_103941": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_ing_103964": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_ing_103961": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_ing_103958": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_ing_103953": {
+      "status": "http_error",
+      "http_status": 404
+    },
+    "detail_ing_103941": {
+      "status": "http_error",
+      "http_status": 404
+    }
+  },
+  "bulk_api": {
+    "conslt_list": {
+      "endpoint": "getDscssBsnsListInfoInqire",
+      "status": "http_error",
+      "http_status": 404,
+      "response_text": "API not found\n"
+    },
+    "decsn_list": {
+      "endpoint": "getDecsnCnListInfoInqire",
+      "status": "http_error",
+      "http_status": 404,
+      "response_text": "API not found\n"
+    },
+    "draft_list": {
+      "endpoint": "getDraftPblancDsplayListInfoInqire",
+      "status": "http_error",
+      "http_status": 404,
+      "response_text": "API not found\n"
+    }
+  }
+}

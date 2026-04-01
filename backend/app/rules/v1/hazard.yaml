@@ -1,0 +1,64 @@
+version: v1
+domain: hazard
+description: 재해·위험시설 관련 규칙 (3개) — 위험물 시설 인접, 자연재해위험지구, 지진안전성
+rules:
+- rule_id: HAZ-001
+  rule_version: v1
+  title: 위험물 저장·취급시설 인접 (500m 이내)
+  trigger_dataset: 소방청 위험물 시설 현황 / 화학물질안전원 화학사고 정보
+  condition:
+    field: hazard.hazardous_facility_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: major
+  rationale: '사업 부지 500m 이내에 위험물 저장·취급시설(주유소, 화학공장, LPG 저장소 등)이 위치합니다. 위험물 시설 인근에서의
+    개발은 화재·폭발·유출 사고 시 피해 범위 내에 포함될 수 있으며, 특히 주거·교육·의료 시설 계획 시 안전거리 확보가 필수적입니다. 시공
+    중 진동에 의한 기존 시설 영향도 검토해야 합니다.
+
+    '
+  evidence: 소방청 위험물 시설 설치 현황 / 화학물질안전원 사고 이력 데이터
+  next_action: 위험물 시설 종류 및 저장량 확인. 안전거리(이격거리) 충족 여부 검토. 비상 대피 계획 수립
+  legal_basis: 위험물안전관리법 제5조 (위험물의 저장 및 취급의 제한)
+  confidence: 0.8
+  human_review_required: true
+- rule_id: HAZ-002
+  rule_version: v1
+  title: 자연재해위험지구 포함
+  trigger_dataset: 행정안전부 자연재해위험지구 현황 / 지자체 풍수해저감종합계획
+  condition:
+    field: hazard.natural_disaster_risk_zone
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 자연재해위험지구(침수위험지구, 붕괴위험지구, 해일위험지구 등)에 포함되어 있습니다. 자연재해위험지구에서의 개발
+    사업은 재해 발생 시 인명·재산 피해가 우려되며, 재해위험성분석을 통해 안전성을 확보해야 합니다. 재해 저감 대책(배수시설, 옹벽, 방조제
+    등)의 설치가 사업 비용에 반영되어야 합니다.
+
+    '
+  evidence: 행정안전부 자연재해위험지구 지정 현황 / 지자체 풍수해저감종합계획
+  next_action: 자연재해위험지구 유형(침수·붕괴·해일 등) 확인. 재해위험성분석 실시. 재해 저감 대책 설계 반영
+  legal_basis: 자연재해대책법 제12조 (자연재해위험지구의 지정·관리)
+  confidence: 0.85
+  human_review_required: true
+- rule_id: HAZ-003
+  rule_version: v1
+  title: 지진안전성 평가 대상
+  trigger_dataset: 기상청 지진 관측 자료 / 행정안전부 내진설계 대상시설 목록
+  condition:
+    field: hazard.seismic_assessment_required
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업의 시설 규모·용도가 지진·화산재해대책법에 따른 지진안전성 평가 대상에 해당합니다. 지진 위험도가 높은 지역이거나 다중이용시설·위험물
+    저장시설 등 지진 시 대규모 피해가 우려되는 시설의 경우 내진설계 기준 적용이 의무화되며, 지진안전성 평가를 실시해야 합니다.
+
+    '
+  evidence: 기상청 지진 관측 자료 / 행정안전부 내진설계 대상시설 목록
+  next_action: 내진설계 기준 적용 여부 확인. 지진안전성 평가 실시 계획 수립. 내진 성능 목표 설정
+  legal_basis: 지진·화산재해대책법 제14조 (지진안전성 평가)
+  confidence: 0.75
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

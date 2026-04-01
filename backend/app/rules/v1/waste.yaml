@@ -1,0 +1,46 @@
+version: v1
+domain: waste
+description: 폐기물 관련 규칙 (2개) — 건설폐기물 대량발생, 폐기물 처리시설 부족
+rules:
+- rule_id: WST-001
+  rule_version: v1
+  title: 건설폐기물 대량발생 예상 — 1,000톤 초과
+  trigger_dataset: 사업계획서 폐기물 발생량 추정 / 건설폐기물 원단위
+  condition:
+    field: waste.estimated_construction_waste_ton
+    operator: gt
+    value: 1000
+    unit: 톤
+  severity: review
+  rationale: '사업의 시공 단계에서 건설폐기물(폐콘크리트, 폐아스팔트, 건설폐토석, 혼합건설폐기물 등)이 1,000톤 이상 발생할 것으로
+    추정됩니다. 대량의 건설폐기물은 적정 처리시설 확보, 재활용률 목표 달성, 운반 과정의 교통·비산먼지 영향 등을 종합적으로 검토해야 합니다.
+    건설폐기물 처리계획서 제출이 의무화됩니다.
+
+    '
+  evidence: 사업 규모·유형별 건설폐기물 원단위 기반 추정 / 환경부 건설폐기물 발생 현황
+  next_action: 건설폐기물 처리계획서 수립. 순환골재 재활용률 목표 설정. 인근 중간처리업체·최종처리업체 확보
+  legal_basis: 건설폐기물의 재활용촉진에 관한 법률 제13조 (건설폐기물 처리계획서)
+  confidence: 0.75
+  human_review_required: false
+- rule_id: WST-002
+  rule_version: v1
+  title: 폐기물 처리시설 부족지역
+  trigger_dataset: 환경부 폐기물 처리시설 현황 / 지자체 폐기물처리기본계획
+  condition:
+    field: waste.waste_facility_capacity_shortage
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지가 위치한 지역의 폐기물 처리시설(매립지, 소각장, 재활용시설 등) 잔여 용량이 부족한 상황입니다. 사업 운영 단계에서
+    발생하는 생활폐기물·사업장폐기물의 적정 처리가 어려울 수 있으며, 원거리 처리에 따른 비용 증가와 환경 부하가 발생합니다. 지자체 폐기물처리기본계획과의
+    정합성을 확인해야 합니다.
+
+    '
+  evidence: 환경부 폐기물 처리시설 현황 / 해당 지자체 폐기물처리기본계획
+  next_action: 지자체 폐기물 처리시설 잔여 용량 확인. 자체 처리시설 설치 필요 여부 검토. 폐기물 감량·재활용 계획 수립
+  legal_basis: 폐기물관리법 제11조 (폐기물처리기본계획의 수립)
+  confidence: 0.65
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

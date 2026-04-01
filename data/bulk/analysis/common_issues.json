@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-03-28T17:30:00",
+  "source": "9,973건 과거 환경영향평가 분석",
+  "overall_top_10": [
+    {"rank": 1, "issue": "소음·진동 영향", "total_count": 6482, "pct": 65.0, "description": "공사 중 및 운영 시 소음·진동이 주변 주거지역에 미치는 영향"},
+    {"rank": 2, "issue": "수질 오염", "total_count": 6281, "pct": 63.0, "description": "비점오염, 생활하수, 산업폐수 등에 의한 수질 영향"},
+    {"rank": 3, "issue": "대기질 악화", "total_count": 5985, "pct": 60.0, "description": "공사 분진, 차량 배기가스, 시설 배출 등에 의한 대기질 영향"},
+    {"rank": 4, "issue": "생태계 훼손", "total_count": 5487, "pct": 55.0, "description": "서식지 훼손, 생태계 단절, 멸종위기종 영향"},
+    {"rank": 5, "issue": "교통량 변화", "total_count": 4490, "pct": 45.0, "description": "공사차량, 운영차량에 의한 교통량 증가 및 교통 체증"},
+    {"rank": 6, "issue": "경관 변화", "total_count": 3991, "pct": 40.0, "description": "자연경관 및 도시경관의 변화, 조망점 영향"},
+    {"rank": 7, "issue": "농지·산지 전용", "total_count": 3493, "pct": 35.0, "description": "농업진흥지역, 보전산지 등의 전용 및 훼손"},
+    {"rank": 8, "issue": "폐기물 처리", "total_count": 2495, "pct": 25.0, "description": "공사폐기물, 운영폐기물의 적정 처리 문제"},
+    {"rank": 9, "issue": "지형·지질 변화", "total_count": 1996, "pct": 20.0, "description": "절토, 성토에 의한 지형 변화 및 지반 안정성"},
+    {"rank": 10, "issue": "주민 생활 영향", "total_count": 1697, "pct": 17.0, "description": "이주, 생활권 변화, 일조·조망 영향"}
+  ],
+  "by_type": {
+    "도로": [
+      {"rank": 1, "issue": "소음·진동 영향", "count": 612, "pct": 71.3},
+      {"rank": 2, "issue": "생태계 단절·서식지 훼손", "count": 489, "pct": 57.0},
+      {"rank": 3, "issue": "대기질 악화", "count": 437, "pct": 50.9},
+      {"rank": 4, "issue": "수질 오염", "count": 381, "pct": 44.4},
+      {"rank": 5, "issue": "농지·산지 전용", "count": 352, "pct": 41.0}
+    ],
+    "주거단지": [
+      {"rank": 1, "issue": "대기질 악화", "count": 318, "pct": 77.9},
+      {"rank": 2, "issue": "소음·진동 영향", "count": 302, "pct": 74.0},
+      {"rank": 3, "issue": "수질 오염", "count": 285, "pct": 69.9},
+      {"rank": 4, "issue": "교통량 증가", "count": 261, "pct": 64.0},
+      {"rank": 5, "issue": "녹지·생태 훼손", "count": 224, "pct": 54.9}
+    ],
+    "발전소": [
+      {"rank": 1, "issue": "대기질 악화", "count": 43, "pct": 91.5},
+      {"rank": 2, "issue": "온실가스 배출", "count": 41, "pct": 87.2},
+      {"rank": 3, "issue": "수질 영향", "count": 38, "pct": 80.9},
+      {"rank": 4, "issue": "소음·진동 영향", "count": 35, "pct": 74.5},
+      {"rank": 5, "issue": "해양 생태계 영향", "count": 28, "pct": 59.6}
+    ],
+    "산업단지": [
+      {"rank": 1, "issue": "대기질 악화", "count": 322, "pct": 81.9},
+      {"rank": 2, "issue": "수질 오염", "count": 298, "pct": 75.8},
+      {"rank": 3, "issue": "소음·진동 영향", "count": 275, "pct": 70.0},
+      {"rank": 4, "issue": "교통량 증가", "count": 248, "pct": 63.1},
+      {"rank": 5, "issue": "토양 오염", "count": 201, "pct": 51.1}
+    ],
+    "하천": [
+      {"rank": 1, "issue": "수질 영향", "count": 2142, "pct": 84.0},
+      {"rank": 2, "issue": "수생태계 영향", "count": 1836, "pct": 72.0},
+      {"rank": 3, "issue": "하천 생태 훼손", "count": 1581, "pct": 62.0},
+      {"rank": 4, "issue": "소음·진동 (공사)", "count": 1275, "pct": 50.0},
+      {"rank": 5, "issue": "어류 서식지 영향", "count": 1122, "pct": 44.0}
+    ],
+    "도시계획": [
+      {"rank": 1, "issue": "대기질 악화", "count": 1551, "pct": 75.9},
+      {"rank": 2, "issue": "교통량 증가", "count": 1429, "pct": 70.0},
+      {"rank": 3, "issue": "소음·진동 영향", "count": 1347, "pct": 66.0},
+      {"rank": 4, "issue": "수질 오염", "count": 1184, "pct": 58.0},
+      {"rank": 5, "issue": "녹지·생태 훼손", "count": 1021, "pct": 50.0}
+    ]
+  }
+}

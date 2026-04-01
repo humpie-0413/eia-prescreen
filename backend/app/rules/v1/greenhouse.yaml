@@ -1,0 +1,65 @@
+version: v1
+domain: greenhouse
+description: 온실가스·기후변화 관련 규칙 (3개) — 대규모 배출, 배출권거래제, 탄소중립 목표지역
+rules:
+- rule_id: GHG-001
+  rule_version: v1
+  title: 연간 온실가스 배출 25,000tCO2 이상 예상
+  trigger_dataset: 사업 규모 기반 온실가스 배출량 추정 / 환경부 배출원 정보
+  condition:
+    field: greenhouse.estimated_annual_emission_tco2
+    operator: gt
+    value: 25000
+    unit: tCO2/년
+  severity: major
+  rationale: '사업의 운영 단계에서 연간 온실가스 배출량이 25,000tCO2 이상으로 추정됩니다. 이 규모는 온실가스 배출권거래제 할당
+    대상 사업장 기준에 해당하며, 배출권 할당·구매 의무가 발생합니다. 사업 계획 단계에서 온실가스 감축 목표를 설정하고, 에너지 효율 향상·재생에너지
+    도입 등의 감축 방안을 반영해야 합니다.
+
+    '
+  evidence: 사업 규모·유형별 온실가스 배출 원단위 기반 추정 / 환경부 온실가스종합정보센터
+  next_action: 온실가스 배출량 정밀 산정. 배출권거래제 대상 여부 확인. 감축 목표 및 이행 계획 수립
+  legal_basis: 온실가스 배출권의 할당 및 거래에 관한 법률 제8조 (할당대상업체의 지정)
+  confidence: 0.75
+  human_review_required: true
+- rule_id: GHG-002
+  rule_version: v1
+  title: 배출권거래제 대상 사업장
+  trigger_dataset: 환경부 배출권거래제 할당대상업체 목록 / 사업 유형 분류
+  condition:
+    field: greenhouse.emission_trading_target
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업이 온실가스 배출권거래제 할당대상업체로 지정될 가능성이 있습니다. 할당대상업체로 지정되면 배출 허용량을 할당받고, 초과
+    배출 시 배출권을 구매하거나 과징금을 납부해야 합니다. 사업의 경제성 분석 시 배출권 비용을 반영하고, 장기적인 탄소 규제 강화 추세를 고려한
+    시설 설계가 필요합니다.
+
+    '
+  evidence: 환경부 배출권거래제 할당대상업체 목록 / 온실가스종합정보센터
+  next_action: 배출권거래제 할당대상 지정 기준 확인. 배출권 비용을 사업 경제성 분석에 반영. 저탄소 시설 설계 검토
+  legal_basis: 온실가스 배출권의 할당 및 거래에 관한 법률 제8조 (할당대상업체의 지정)
+  confidence: 0.7
+  human_review_required: false
+- rule_id: GHG-003
+  rule_version: v1
+  title: 탄소중립 목표 지역 내 대규모 배출시설
+  trigger_dataset: 환경부 탄소중립 지방정부 실천 현황 / 지자체 탄소중립 계획
+  condition:
+    field: greenhouse.carbon_neutral_zone
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지가 탄소중립을 선언하거나 탄소중립 목표를 수립한 지자체 관할 구역에 위치합니다. 해당 지역에서 대규모 온실가스 배출시설을
+    신설하는 것은 지자체의 탄소중립 목표 달성에 부정적 영향을 미치며, 인허가 과정에서 추가적인 감축 요구가 있을 수 있습니다. 탄소중립 기여
+    방안을 제시해야 합니다.
+
+    '
+  evidence: 환경부 탄소중립 지방정부 실천 현황 / 해당 지자체 탄소중립 기본계획
+  next_action: 지자체 탄소중립 목표 및 감축 로드맵 확인. 재생에너지 도입, 에너지 효율 향상 등 탄소중립 기여 방안 수립
+  legal_basis: 기후위기 대응을 위한 탄소중립·녹색성장 기본법 제25조 (지방탄소중립녹색성장위원회)
+  confidence: 0.65
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

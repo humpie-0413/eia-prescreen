@@ -1,0 +1,121 @@
+version: v1
+domain: marine
+description: 해양환경 관련 규칙 (6개) — 해양보호구역, 연안습지, 어업권, 해수욕장·해안경관, 조류 영향, 수심 변화
+rules:
+- rule_id: MAR-001
+  rule_version: v1
+  title: 해양보호구역 인접 (500m 이내)
+  trigger_dataset: 해양수산부 해양보호구역 고시 / 해양환경공단 해양공간정보
+  condition:
+    field: marine.marine_protected_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: critical
+  rationale: '사업 부지가 해양보호구역(해양생태계보전지역, 해양생물보호구역, 해양경관보호구역 등) 경계로부터 500m 이내에 위치합니다.
+    해양보호구역은 해양생태계의 보전 가치가 높은 지역으로, 구역 내 개발행위가 엄격히 제한되며 인접 지역에서도 오염물질 유입, 퇴적환경 변화 등
+    간접 영향에 대한 검토가 필수입니다.
+
+    '
+  evidence: 해양수산부 해양보호구역 고시 현황 / 해양환경공단 해양공간정보시스템
+  next_action: 해양수산부 사전 협의 필수. 해양환경영향평가 항목에 해양생태계 영향 검토 포함
+  legal_basis: 해양생태계의 보전 및 관리에 관한 법률 제25조 (해양보호구역의 지정)
+  confidence: 0.9
+  human_review_required: true
+- rule_id: MAR-002
+  rule_version: v1
+  title: 연안습지 직접 중첩
+  trigger_dataset: 환경부 습지 목록 / 해양수산부 연안습지 조사 자료
+  condition:
+    field: marine.coastal_wetland_overlap
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지가 연안습지(갯벌, 염습지 등)와 직접 중첩됩니다. 연안습지는 해양생물의 산란·서식지이자 자연 정화 기능을 가진
+    핵심 생태계로, 습지보전법에 의해 보호됩니다. 습지보호지역 내에서는 매립·간척 등이 원칙적으로 금지되며, 대안 부지 검토가 최우선입니다.
+
+    '
+  evidence: 환경부 습지 보호지역 목록 / 해양수산부 연안습지 면적·분포 현황
+  next_action: 부지 대안 검토를 최우선 권고. 불가피한 경우 환경부·해양수산부 공동 협의 필수. 습지 보전 방안 수립
+  legal_basis: 습지보전법 제13조 (습지보호지역에서의 행위 제한)
+  confidence: 0.95
+  human_review_required: true
+- rule_id: MAR-003
+  rule_version: v1
+  title: 어업권 구역 중첩
+  trigger_dataset: 해양수산부 어업권 등록 현황 / 수산업 허가 정보
+  condition:
+    field: marine.fishery_zone_overlap
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 어업권(면허어업·허가어업·신고어업)이 설정된 수역과 중첩됩니다. 어업권 구역 내에서 개발 사업을 추진할 경우
+    어업권 소멸·제한에 따른 보상이 필요하며, 어민과의 협의가 사업 추진의 핵심 변수가 됩니다. 보상 금액 산정 및 협의 기간이 사업 일정에 상당한
+    영향을 미칠 수 있습니다.
+
+    '
+  evidence: 해양수산부 어업권 등록 현황 / 지자체 수산과 허가 정보
+  next_action: 어업권 현황(면허·허가·신고) 정밀 조사. 어업 피해 보상 범위 및 금액 산정. 어민 사전 협의
+  legal_basis: 수산업법 제8조 (어업의 면허), 공익사업을 위한 토지 등의 취득 및 보상에 관한 법률
+  confidence: 0.8
+  human_review_required: true
+- rule_id: MAR-004
+  rule_version: v1
+  title: 해수욕장·해안경관 영향 (500m 이내)
+  trigger_dataset: 해양수산부 해수욕장 현황 / 지자체 해안경관 관리계획
+  condition:
+    field: marine.beach_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: review
+  rationale: '사업 부지 500m 이내에 해수욕장 또는 주요 해안경관 자원이 위치합니다. 해수욕장 인근의 대규모 개발은 수질 오염, 경관
+    훼손, 이용객 감소 등의 문제를 야기할 수 있으며, 관광 산업에 대한 경제적 영향도 고려해야 합니다. 시공 중 토사 유출에 의한 해수욕장 수질
+    영향이 특히 우려됩니다.
+
+    '
+  evidence: 해양수산부 해수욕장 현황 / 지자체 해안경관 관리계획
+  next_action: 해수욕장 이용 시기(하절기) 고려한 시공 계획 수립. 해안경관 시뮬레이션 및 토사 유출 방지 대책 수립
+  legal_basis: 해수욕장의 이용 및 관리에 관한 법률
+  confidence: 0.7
+  human_review_required: false
+- rule_id: OCN-001
+  rule_version: v1
+  title: 항만·매립 사업 조류 영향 검토
+  trigger_dataset: 국립해양조사원 조류 관측 / 해양환경 조사 자료
+  condition:
+    field: ocean.tidal_impact_review_needed
+    operator: eq
+    value: true
+  severity: review
+  rationale: '항만 건설 또는 매립·간척 사업 시 조류(조석 흐름) 변화에 대한 영향 검토가 필요합니다. 구조물 설치에 따른 조류 패턴
+    변화는 주변 해안 침식, 퇴적 환경 변화, 해양 생태계 영향 등을 유발할 수 있습니다. 조류 시뮬레이션(수치 모델링)을 통해 사업 전후 조류
+    변화를 예측해야 합니다.
+
+    '
+  evidence: 국립해양조사원 조류 관측 데이터 / 해양환경 모니터링 자료
+  next_action: 조류 수치 모델링 실시. 해안 침식·퇴적 영향 예측. 항내 정온도 검토
+  legal_basis: 해양환경관리법 제84조, 공유수면 관리 및 매립에 관한 법률
+  confidence: 0.7
+  human_review_required: true
+- rule_id: OCN-002
+  rule_version: v1
+  title: 수심 변화 예상 구역
+  trigger_dataset: 국립해양조사원 해저지형 조사 / 수심 데이터
+  condition:
+    field: ocean.depth_change_expected
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업으로 인해 해저 지형 및 수심 변화가 예상되는 구역입니다. 준설, 매립, 항만 구조물 설치 등은 해저면 교란을 일으키며,
+    부유사 확산에 따른 수질 악화, 저서생물 서식환경 변화 등이 우려됩니다. 사업 전후 수심 변화 예측 및 퇴적물 이동 시뮬레이션이 필요합니다.
+
+    '
+  evidence: 국립해양조사원 수심 측량 자료 / 해양환경 영향조사
+  next_action: 수심 변화 시뮬레이션 실시. 부유사 확산 모델링. 저서생물 영향 검토
+  legal_basis: 해양환경관리법 제84조, 해양생태계의 보전 및 관리에 관한 법률
+  confidence: 0.65
+  human_review_required: true
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

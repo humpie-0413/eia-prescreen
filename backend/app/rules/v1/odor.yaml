@@ -1,0 +1,62 @@
+version: v1
+domain: odor
+description: 악취 관련 규칙 (3개) — 악취관리지역 중첩, 악취배출시설 인접, 악취측정값 초과
+rules:
+- rule_id: ODR-001
+  rule_version: v1
+  title: 악취관리지역 직접 중첩
+  trigger_dataset: 국립환경과학원 악취측정망 / 환경부 악취관리지역 지정 현황
+  condition:
+    field: odor.management_area_overlap
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 악취관리지역에 직접 중첩됩니다. 악취관리지역에서는 악취 배출허용기준이 엄격하게 적용되며, 산업시설·폐기물처리시설
+    등 악취 유발 가능성이 높은 사업의 경우 주민 민원 리스크가 매우 높습니다. 악취방지법에 따른 악취 방지시설 설치가 의무화됩니다.
+
+    '
+  evidence: 환경부 악취관리지역 지정 현황 / 지자체 악취관리계획
+  next_action: 악취 영향 예측 실시. 악취 방지시설 설치 계획 수립. 주민 설명회 검토
+  legal_basis: 악취방지법 제6조 (악취관리지역의 지정), 제8조 (배출허용기준)
+  confidence: 0.85
+  human_review_required: true
+- rule_id: ODR-002
+  rule_version: v1
+  title: 악취배출시설 1km 이내
+  trigger_dataset: 국립환경과학원 악취측정망
+  condition:
+    field: odor.nearest_odor_facility_m
+    operator: within_buffer
+    value: 1000
+    unit: m
+  severity: review
+  rationale: '사업 부지 1km 이내에 악취배출시설이 위치합니다. 기존 악취 발생원과 신규 사업의 누적 악취 영향을 검토해야 합니다. 풍향·풍속에
+    따른 악취 확산 패턴 분석이 필요합니다.
+
+    '
+  evidence: 국립환경과학원 악취측정망 데이터
+  next_action: 악취 확산 모델링 실시. 풍향·풍속 분석 포함
+  legal_basis: 악취방지법 제8조 (배출허용기준)
+  confidence: 0.7
+  human_review_required: false
+- rule_id: ODR-003
+  rule_version: v1
+  title: 악취측정값 배출허용기준 초과
+  trigger_dataset: 국립환경과학원 악취측정망
+  condition:
+    field: odor.odor_exceed
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지 인근 악취측정소에서 배출허용기준을 초과하는 악취가 측정되었습니다. 기존 악취 문제가 있는 지역에서 추가 악취 발생
+    가능성이 있는 사업을 추진할 경우 주민 수용성이 매우 낮을 수 있습니다.
+
+    '
+  evidence: 국립환경과학원 악취측정망 측정 데이터
+  next_action: 기존 악취 현황 파악. 누적 악취 영향 검토. 주민 의견 수렴 방안 마련
+  legal_basis: 악취방지법 제6조, 제8조
+  confidence: 0.75
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

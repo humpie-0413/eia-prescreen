@@ -1,0 +1,179 @@
+version: v1
+domain: ecology
+description: 생태·자연환경 관련 규칙 (9개) — 생태민감구역 중첩, 보호종 서식지, 산림·습지, 자연공원, 백두대간, 생태경관보전, 생태통로,
+  멸종위기종
+rules:
+- rule_id: ECO-001
+  rule_version: v1
+  title: 생태자연도 1등급 권역 직접 중첩
+  trigger_dataset: 환경공간정보서비스(EGIS) — 생태자연도
+  condition:
+    field: ecology.eco_grade
+    operator: eq
+    value: 1
+  severity: critical
+  rationale: '사업 부지가 생태자연도 1등급 권역과 직접 중첩됩니다. 1등급 권역은 생태적 가치가 가장 높은 지역으로, 자연환경보전법에
+    따라 원칙적으로 개발이 제한됩니다. 환경부 사전 협의 시 가장 강력한 반대 사유가 됩니다.
+
+    '
+  evidence: 환경공간정보서비스(EGIS) 생태자연도 등급 조회
+  next_action: 부지 대안 검토 최우선. 불가피한 경우 생태계 정밀조사 실시 후 환경부 협의
+  legal_basis: 자연환경보전법 제34조 (생태자연도의 작성·활용), 환경영향평가법 시행령 별표2
+  confidence: 0.95
+  human_review_required: true
+- rule_id: ECO-002
+  rule_version: v1
+  title: 멸종위기종 서식지 인접 (1km 이내)
+  trigger_dataset: 국립생태원 멸종위기종 서식지 정보
+  condition:
+    field: ecology.endangered_species_distance_m
+    operator: within_buffer
+    value: 1000
+    unit: m
+  severity: major
+  rationale: '사업 부지 1km 이내에 멸종위기 야생생물 서식지가 확인됩니다. I급 또는 II급 멸종위기종의 서식·번식지가 인접한 경우
+    환경영향평가 시 생태계 항목에서 중점 평가가 요구되며, 보전 방안 수립이 필수입니다.
+
+    '
+  evidence: 국립생태원 멸종위기종 분포 DB / 환경공간정보서비스
+  next_action: 현장 생태조사(4계절) 실시 계획 수립. 보호종 목록 및 서식 현황 확인
+  legal_basis: 야생생물 보호 및 관리에 관한 법률 제14조
+  confidence: 0.75
+  human_review_required: true
+- rule_id: ECO-003
+  rule_version: v1
+  title: 산림·습지 인접 (500m 이내)
+  trigger_dataset: 산림청 산림공간정보 / 환경부 습지 목록
+  condition:
+    field: ecology.forest_wetland_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: review
+  rationale: '사업 부지 500m 이내에 보전산지 또는 습지보호지역이 위치합니다. 산림 훼손 또는 습지 수문 변화 가능성에 대해 검토가
+    필요하며, 산지전용허가 또는 습지보전계획과의 정합성을 확인해야 합니다.
+
+    '
+  evidence: 산림청 산림공간정보 / 환경부 습지 보호지역 목록
+  next_action: 산지전용 가능 여부 확인. 습지 인접 시 수문 영향 검토 포함
+  legal_basis: 산지관리법 제14조, 습지보전법 제13조
+  confidence: 0.7
+  human_review_required: false
+- rule_id: ECO-004
+  rule_version: v1
+  title: 자연공원 경계 인접 (1km 이내)
+  trigger_dataset: 국립공원공단 공원 경계 데이터 / 환경공간정보서비스
+  condition:
+    field: ecology.natural_park_distance_m
+    operator: within_buffer
+    value: 1000
+    unit: m
+  severity: review
+  rationale: '사업 부지가 자연공원(국립·도립·군립공원) 경계로부터 1km 이내에 위치합니다. 공원 구역 내부는 물론 인접 지역에서도 경관,
+    대기질, 소음 등의 간접 영향에 대한 검토가 요구됩니다.
+
+    '
+  evidence: 국립공원공단 공원 경계 / 환경공간정보서비스
+  next_action: 자연공원 관리청 사전 협의. 공원 경관 및 생태 영향 검토 항목 추가
+  legal_basis: 자연공원법 제18조 (공원 안에서의 행위 제한)
+  confidence: 0.7
+  human_review_required: false
+- rule_id: ECO-005
+  rule_version: v1
+  title: 백두대간보호지역 인접 (500m 이내)
+  trigger_dataset: 산림청 백두대간보호지역 경계 데이터 / 환경공간정보서비스
+  condition:
+    field: ecology.baekdudaegan_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: critical
+  rationale: '사업 부지가 백두대간보호지역 경계로부터 500m 이내에 위치합니다. 백두대간보호지역은 한반도 핵심 생태축으로, 핵심구역 내에서는
+    일체의 개발행위가 금지되며, 완충구역에서도 엄격한 행위 제한이 적용됩니다. 인접 지역에서도 생태 연결성 훼손 여부에 대한 검토가 필수입니다.
+
+    '
+  evidence: 산림청 백두대간보호지역 경계 데이터 / 환경공간정보서비스(EGIS)
+  next_action: 백두대간보호지역 핵심·완충구역 해당 여부 정밀 확인. 산림청 사전 협의 필수
+  legal_basis: 백두대간 보호에 관한 법률 제7조 (백두대간보호지역에서의 행위 제한)
+  confidence: 0.9
+  human_review_required: true
+- rule_id: ECO-006
+  rule_version: v1
+  title: 생태경관보전지역 중첩
+  trigger_dataset: 환경부 생태경관보전지역 고시 / 환경공간정보서비스
+  condition:
+    field: ecology.eco_landscape_conservation_overlap
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지가 생태경관보전지역과 중첩됩니다. 생태경관보전지역은 생물다양성이 풍부하거나 자연경관이 수려하여 특별히 보전할 가치가
+    있는 지역으로, 핵심·완충·전이구역으로 구분 관리됩니다. 핵심구역 내에서는 건축물 건축, 토지 형질변경 등이 금지되며, 완충·전이구역에서도
+    환경부장관의 허가가 필요합니다.
+
+    '
+  evidence: 환경부 생태경관보전지역 고시 현황 / 환경공간정보서비스(EGIS)
+  next_action: 부지 대안 검토를 최우선 권고. 불가피한 경우 환경부 사전 협의 및 생태계 정밀조사 실시
+  legal_basis: 자연환경보전법 제15조 (생태경관보전지역의 지정)
+  confidence: 0.95
+  human_review_required: true
+- rule_id: ECO-007
+  rule_version: v1
+  title: 생태통로 영향권 (200m 이내)
+  trigger_dataset: 환경부 생태통로 설치 현황 / 환경공간정보서비스
+  condition:
+    field: ecology.eco_corridor_distance_m
+    operator: within_buffer
+    value: 200
+    unit: m
+  severity: major
+  rationale: '사업 부지 200m 이내에 생태통로(야생동물 이동통로)가 설치되어 있습니다. 생태통로는 도로·철도 등에 의해 단절된 야생동물
+    서식지를 연결하는 핵심 인프라로, 인접 개발 시 소음·조명·진동 등에 의해 통로 기능이 저하될 수 있습니다. 생태통로 이용률 모니터링 결과를
+    확인하고 영향 저감 방안을 수립해야 합니다.
+
+    '
+  evidence: 환경부 생태통로 설치 및 모니터링 현황 / 환경공간정보서비스
+  next_action: 생태통로 이용 현황 확인. 야간 조명 차폐, 소음 저감, 식생 완충대 조성 등 저감 대책 수립
+  legal_basis: 자연환경보전법 제45조 (생태통로의 설치)
+  confidence: 0.75
+  human_review_required: true
+- rule_id: ECO-008
+  rule_version: v1
+  title: 멸종위기 I급 야생생물 서식지 직접 중첩
+  trigger_dataset: 국가생물종정보 API / 국립생태원 멸종위기종 DB
+  condition:
+    field: species.has_endangered_grade_1
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지 반경 5km 이내에 멸종위기 야생생물 I급 서식지가 확인됩니다. 멸종위기 I급은 자연적 또는 인위적 위협요인으로
+    개체수가 크게 줄어들어 멸종위기에 처한 종으로, 서식지 보전이 최우선입니다. 환경영향평가 시 해당 종의 서식 현황, 이동 경로, 번식지 등에
+    대한 정밀 생태조사가 필수적이며, 부지 대안 검토가 강력히 권고됩니다.
+
+    '
+  evidence: 국가생물종정보 API / 국립생태원 멸종위기종 분포 DB
+  next_action: 부지 대안 검토 최우선. 4계절 정밀 생태조사 실시. 해당 종 보전 방안 수립
+  legal_basis: 야생생물 보호 및 관리에 관한 법률 제14조 (멸종위기 야생생물의 포획·채취 등의 금지)
+  confidence: 0.9
+  human_review_required: true
+- rule_id: ECO-009
+  rule_version: v1
+  title: 멸종위기 II급 야생생물 서식지 인접 (5km 이내)
+  trigger_dataset: 국가생물종정보 API / 국립생태원 멸종위기종 DB
+  condition:
+    field: species.has_endangered_grade_2
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지 반경 5km 이내에 멸종위기 야생생물 II급 서식지가 확인됩니다. 멸종위기 II급은 개체수가 크게 줄어들고 있어
+    현재의 위협요인이 제거되거나 완화되지 않으면 가까운 장래에 멸종위기에 처할 우려가 있는 종입니다. 서식지 훼손 방지 및 이동 경로 보전 방안이
+    필요합니다.
+
+    '
+  evidence: 국가생물종정보 API / 국립생태원 멸종위기종 분포 DB
+  next_action: 현장 생태조사(4계절) 실시 계획 수립. 보호종 목록 및 서식 현황 확인. 서식지 보전 방안 마련
+  legal_basis: 야생생물 보호 및 관리에 관한 법률 제14조
+  confidence: 0.8
+  human_review_required: true
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

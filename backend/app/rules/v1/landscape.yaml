@@ -1,0 +1,63 @@
+version: v1
+domain: landscape
+description: 경관 관련 규칙 (3개) — 경관자원 인접, 조망권 영향, 야간경관(빛공해)
+rules:
+- rule_id: LAN-001
+  rule_version: v1
+  title: 주요 경관자원 인접 (500m 이내)
+  trigger_dataset: 경관계획 수립 현황 / 지자체 경관자원 목록
+  condition:
+    field: landscape.scenic_resource_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: review
+  rationale: '사업 부지 500m 이내에 주요 경관자원(자연경관, 역사문화경관, 조망점 등)이 위치합니다. 대규모 구조물 또는 시설이 들어설
+    경우 기존 경관의 조화를 해칠 수 있으며, 경관심의 또는 경관영향 검토가 요구될 수 있습니다.
+
+    '
+  evidence: 지자체 경관계획 / 경관자원 현황 조사
+  next_action: 경관 시뮬레이션(포토몽타주) 작성. 경관심의 대상 여부 확인
+  legal_basis: 경관법 제28조 (경관 심의), 환경영향평가법 시행령 별표2 (경관 항목)
+  confidence: 0.65
+  human_review_required: false
+- rule_id: LAN-002
+  rule_version: v1
+  title: 주요 조망점에서의 조망권 침해 가능성
+  trigger_dataset: 경관계획 조망점 목록 / 수치표고모델(DEM)
+  condition:
+    field: landscape.viewpoint_impact
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지에 계획된 시설물의 높이·규모가 주요 조망점에서의 조망을 차폐하거나 위화감을 줄 가능성이 있습니다. 특히 산 능선
+    스카이라인을 침해하거나 하천 조망을 차단하는 경우 문제가 됩니다.
+
+    '
+  evidence: 경관계획 조망점 현황 / 수치표고모델(DEM) 기반 조망 분석
+  next_action: 주요 조망점 현장 확인. 높이 제한 또는 디자인 조정 검토
+  legal_basis: 경관법 제28조, 건축법 제60조 (건축물의 높이 제한)
+  confidence: 0.6
+  human_review_required: true
+- rule_id: LAN-003
+  rule_version: v1
+  title: 야간경관 영향 가능성 — 빛공해 민감지역
+  trigger_dataset: 환경부 빛공해 방지계획 / 지자체 조명환경관리구역 지정 현황
+  condition:
+    field: landscape.light_pollution_sensitive
+    operator: eq
+    value: true
+  severity: info
+  rationale: '사업 부지가 빛공해 민감지역(조명환경관리구역 제1종·제2종 등)에 해당하거나 인접해 있습니다. 대규모 조명시설(옥외조명,
+    광고조명, 시설물 조명 등)이 설치될 경우 인접 주거지역·자연생태계에 대한 빛공해가 우려됩니다. 특히 야행성 생물 서식지 인근에서는 생태 교란이
+    발생할 수 있습니다.
+
+    '
+  evidence: 환경부 빛공해 방지계획 / 지자체 조명환경관리구역 지정 현황
+  next_action: 조명환경관리구역 등급 확인. 차광시설 설치, 조명 방향·시간 조절 등 빛공해 저감 대책 수립
+  legal_basis: 인공조명에 의한 빛공해 방지법 제12조 (조명환경관리구역에서의 제한)
+  confidence: 0.6
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

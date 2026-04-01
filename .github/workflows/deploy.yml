@@ -1,0 +1,35 @@
+name: Deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Deployment target"
+        required: true
+        default: staging
+        type: choice
+        options:
+          - staging
+          - production
+
+jobs:
+  deploy:
+    name: Deploy to ${{ inputs.environment }}
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build Docker images
+        run: |
+          docker build -t eia-backend ./backend
+          docker build -t eia-frontend ./frontend
+
+      # TODO: 실제 배포 환경에 맞게 구성
+      # 예: AWS ECS, GCP Cloud Run, 자체 서버 docker-compose
+      - name: Deploy (placeholder)
+        run: |
+          echo "Deploying to ${{ inputs.environment }}..."
+          echo "Backend image: eia-backend"
+          echo "Frontend image: eia-frontend"
+          echo "⚠️ 실제 배포 단계를 구성하세요."

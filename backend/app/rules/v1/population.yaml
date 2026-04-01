@@ -1,0 +1,65 @@
+version: v1
+domain: population
+description: 인구·주거 관련 규칙 (3개) — 고밀도 주거지역, 취약계층 밀집, 주거이전 세대
+rules:
+- rule_id: POP-001
+  rule_version: v1
+  title: 고밀도 주거지역 인접 — 인구밀도 10,000명/km² 초과
+  trigger_dataset: 통계청 인구총조사 / 주민등록인구 통계
+  condition:
+    field: population.population_density_per_km2
+    operator: gt
+    value: 10000
+    unit: 명/km²
+  severity: major
+  rationale: '사업 부지 인접 지역의 인구밀도가 10,000명/km²를 초과하는 고밀도 주거지역입니다. 고밀도 주거지역에서의 대규모 개발
+    사업은 소음·진동, 대기질, 교통, 경관 등 환경 영향의 수용체(주민)가 매우 많아 피해 규모가 커질 수 있습니다. 주민 민원 리스크가 높으며,
+    환경영향평가 시 인구·주거 항목의 중점 검토가 요구됩니다.
+
+    '
+  evidence: 통계청 인구총조사 / 주민등록인구 통계 / 행정구역별 인구밀도
+  next_action: 영향권 내 인구 현황 정밀 조사. 소음·대기질·교통 등 주요 항목의 피해 규모 산정 강화. 주민 설명회 조기 계획
+  legal_basis: 환경영향평가법 시행령 별표2 (인구·주거 항목)
+  confidence: 0.8
+  human_review_required: false
+- rule_id: POP-002
+  rule_version: v1
+  title: 취약계층 밀집지역 — 취약인구 비율 30% 초과
+  trigger_dataset: 통계청 인구총조사 / 보건복지부 취약계층 현황
+  condition:
+    field: population.vulnerable_population_ratio
+    operator: gt
+    value: 0.3
+  severity: review
+  rationale: '사업 부지 인접 지역에서 환경 취약계층(65세 이상 노인, 어린이, 기저질환자 등)의 비율이 30%를 초과합니다. 취약계층은
+    대기오염, 소음, 분진 등 환경 유해인자에 대한 건강 민감도가 높아 일반 인구 대비 더 엄격한 보호 기준이 필요합니다. 환경보건법에 따른 건강영향평가
+    대상 여부를 검토해야 합니다.
+
+    '
+  evidence: 통계청 인구총조사 — 연령별 인구 / 보건복지부 취약계층 현황
+  next_action: 취약계층 분포 정밀 조사. 건강영향평가 대상 여부 확인. 환경 유해인자 노출 저감 대책 강화
+  legal_basis: 환경보건법 제13조 (건강영향평가)
+  confidence: 0.7
+  human_review_required: true
+- rule_id: POP-003
+  rule_version: v1
+  title: 주거이전 필요 세대 50세대 이상
+  trigger_dataset: 사업계획서 보상 대상 현황 / 지적도·건축물대장
+  condition:
+    field: population.relocation_households
+    operator: gt
+    value: 50
+  severity: major
+  rationale: '사업 시행으로 인해 50세대 이상의 주거이전이 필요할 것으로 예상됩니다. 대규모 주거이전은 이주 대책 수립, 이주정착지 확보,
+    보상 협의 등 사회적 비용이 크며, 주민 반발에 의한 사업 지연의 주요 원인이 됩니다. 이주 대책의 적정성은 환경영향평가 협의 시 중점 검토
+    항목입니다.
+
+    '
+  evidence: 사업계획서 보상 대상 현황 / 지적도·건축물대장 기반 주거 현황 추정
+  next_action: 이주 대상 세대 수 정밀 산정. 이주 대책(이주정착지, 이주정착금 등) 수립. 주민 설명회 및 보상 협의 조기 착수
+  legal_basis: 공익사업을 위한 토지 등의 취득 및 보상에 관한 법률 제78조 (이주대책의 수립)
+  confidence: 0.75
+  human_review_required: true
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

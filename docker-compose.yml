@@ -1,0 +1,84 @@
+services:
+  # ── PostgreSQL + PostGIS ──
+  db:
+    image: postgis/postgis:16-3.4
+    container_name: eia-prescreen-db
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-eia_prescreen}
+      POSTGRES_USER: ${POSTGRES_USER:-eia_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-change_me_in_production}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-eia_user} -d ${POSTGRES_DB:-eia_prescreen}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ── FastAPI Backend (Production) ──
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: eia-prescreen-backend
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-eia_user}:${POSTGRES_PASSWORD:-change_me_in_production}@db:5432/${POSTGRES_DB:-eia_prescreen}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      LLM_MODEL: ${LLM_MODEL:-deepseek/deepseek-chat}
+      DEMO_MODE: ${DEMO_MODE:-true}
+      CACHE_DIR: /app/data/snapshots
+      SECRET_KEY: ${SECRET_KEY:-change_me_in_production}
+      ENVIRONMENT: ${ENVIRONMENT:-production}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+  # ── Next.js Frontend (Production) ──
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: eia-prescreen-frontend
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:${BACKEND_PORT:-8000}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  # ── Nginx Reverse Proxy ──
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: eia-prescreen-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./certbot/conf:/etc/letsencrypt:ro
+      - ./certbot/www:/var/www/certbot:ro
+    depends_on:
+      - backend
+      - frontend
+    restart: unless-stopped
+
+  # ── Certbot (Let's Encrypt) ──
+  certbot:
+    image: certbot/certbot
+    container_name: eia-prescreen-certbot
+    volumes:
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    profiles:
+      - certbot
+
+volumes:
+  pgdata:

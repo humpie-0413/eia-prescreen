@@ -1,0 +1,101 @@
+version: v1
+domain: air_quality
+description: 대기질 관련 규칙 (5개) — 배경농도 초과, 비산먼지 발생원, 대기환경규제지역, PM10 기준 초과, 악취관리지역
+rules:
+- rule_id: AIR-001
+  rule_version: v1
+  title: 대기오염물질 배경농도 기준 초과 지역
+  trigger_dataset: 에어코리아(AirKorea) 측정소 데이터
+  condition:
+    field: air_quality.pm25_annual_avg
+    operator: gt
+    value: 35
+    unit: μg/m³
+  severity: major
+  rationale: '사업 부지 인근 대기측정소의 PM2.5 연평균 농도가 환경기준(35μg/m³)을 초과합니다. 배경농도가 이미 높은 지역에서
+    추가 오염 부하가 발생하면 환경영향평가 시 대기질 항목에서 부정적 평가를 받을 가능성이 높습니다.
+
+    '
+  evidence: 에어코리아 대기질 측정 데이터 — PM2.5 연평균
+  next_action: 대기질 영향 예측(AERMOD 등) 시 배경농도 반영. 저감 대책 강화 검토
+  legal_basis: 환경정책기본법 시행령 별표1 (환경기준 — 미세먼지 PM2.5)
+  confidence: 0.85
+  human_review_required: false
+- rule_id: AIR-002
+  rule_version: v1
+  title: 대규모 비산먼지 발생원 인접 (2km 이내)
+  trigger_dataset: 에어코리아 / 지자체 비산먼지 발생사업장 목록
+  condition:
+    field: air_quality.dust_source_distance_m
+    operator: within_buffer
+    value: 2000
+    unit: m
+  severity: review
+  rationale: '사업 부지 2km 이내에 대규모 비산먼지 발생원(채석장, 시멘트공장, 대규모 건설현장 등)이 위치합니다. 시공 중 비산먼지와
+    기존 발생원의 누적 영향을 검토해야 합니다.
+
+    '
+  evidence: 비산먼지 발생사업장 목록 / 환경부 대기배출원 정보
+  next_action: 시공 중 비산먼지 저감 대책 수립. 누적 영향 검토 포함
+  legal_basis: 대기환경보전법 제43조 (비산먼지 발생 억제)
+  confidence: 0.65
+  human_review_required: false
+- rule_id: AIR-003
+  rule_version: v1
+  title: 대기환경규제지역 또는 대기관리권역 포함
+  trigger_dataset: 환경부 대기관리권역 고시 / 대기환경규제지역 지정 현황
+  condition:
+    field: air_quality.regulated_zone
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지가 대기환경규제지역 또는 대기관리권역에 포함되어 있습니다. 해당 지역에서는 대기오염물질 배출 허용기준이 강화되며,
+    총량규제가 적용될 수 있습니다. 인허가 시 추가 요건이 부과됩니다.
+
+    '
+  evidence: 환경부 대기관리권역 고시 / 대기환경규제지역 지정 현황
+  next_action: 강화된 배출허용기준 확인. 총량규제 대상 여부 및 배출권 확보 방안 검토
+  legal_basis: 대기관리권역의 대기환경개선에 관한 특별법 제2조, 제15조
+  confidence: 0.85
+  human_review_required: false
+- rule_id: AIR-004
+  rule_version: v1
+  title: PM10 연평균 환경기준 초과 지역
+  trigger_dataset: 에어코리아(AirKorea) 측정소 데이터
+  condition:
+    field: air_quality.pm10_annual_avg
+    operator: gt
+    value: 50
+    unit: μg/m³
+  severity: review
+  rationale: '사업 부지 인근 대기측정소의 PM10 연평균 농도가 환경기준(50μg/m³)을 초과합니다. PM10 배경농도가 높은 지역에서
+    건설 공사 등 비산먼지 발생 사업을 추진할 경우 대기질 악화가 심화될 수 있으며, 환경영향평가 시 누적 영향 검토가 요구됩니다. 특히 시공
+    단계의 비산먼지 관리 대책이 강화되어야 합니다.
+
+    '
+  evidence: 에어코리아 대기질 측정 데이터 — PM10 연평균
+  next_action: PM10 배경농도를 반영한 대기질 영향 예측 실시. 시공 중 살수·세륜 등 비산먼지 저감 대책 강화
+  legal_basis: 환경정책기본법 시행령 별표1 (환경기준 — 미세먼지 PM10)
+  confidence: 0.8
+  human_review_required: false
+- rule_id: AIR-005
+  rule_version: v1
+  title: 악취관리지역 포함
+  trigger_dataset: 환경부 악취관리지역 지정 현황 / 지자체 악취관리계획
+  condition:
+    field: air_quality.odor_management_zone
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지가 악취관리지역에 포함되어 있습니다. 악취관리지역에서는 악취 배출허용기준이 엄격하게 적용되며, 기존 악취 발생원과의
+    누적 영향도 고려해야 합니다. 축산·화학·식품가공 등 악취 유발 가능 사업의 경우 주민 민원 리스크가 특히 높습니다.
+
+    '
+  evidence: 환경부 악취관리지역 지정 현황 / 지자체 악취 민원 이력
+  next_action: 악취 영향 예측 실시. 악취 방지시설 설치 계획 수립 및 악취관리지역 강화 기준 확인
+  legal_basis: 악취방지법 제6조 (악취관리지역의 지정)
+  confidence: 0.75
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

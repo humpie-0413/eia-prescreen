@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-03-28T17:30:00",
+  "description": "기존 64개 규칙에서 커버되지 않는 과거 패턴 기반 신규 규칙 제안",
+  "suggestions": [
+    {
+      "suggestion_id": "SUG-001",
+      "title": "일조권·조망권 영향 검토 규칙 추가",
+      "source_type": "주거단지",
+      "issue": "일조권·조망권 영향",
+      "evidence": "과거 주거단지 사업에서 34.8% 빈도로 지적",
+      "recommended_severity": "review",
+      "recommended_rule_id": "SOC-010",
+      "rationale": "현재 규칙에서 일조·조망 영향에 대한 직접적 검토 규칙이 부재. 주거단지 사업 3건 중 1건 이상에서 지적되는 주요 항목.",
+      "suggested_condition": {
+        "field": "land_use.adjacent_residential_buildings",
+        "operator": "exists",
+        "value": true
+      }
+    },
+    {
+      "suggestion_id": "SUG-002",
+      "title": "기반시설 부족 검토 규칙 추가",
+      "source_type": "주거단지",
+      "issue": "기반시설 부족",
+      "evidence": "과거 주거단지 사업에서 23.3% 빈도로 지적",
+      "recommended_severity": "review",
+      "recommended_rule_id": "SOC-011",
+      "rationale": "대규모 주거단지에서 상·하수도, 도로, 학교 등 기반시설 수용 능력 부족이 반복 지적되나 현재 규칙에 미반영.",
+      "suggested_condition": {
+        "field": "population.planned_population",
+        "operator": "gte",
+        "value": 5000
+      }
+    },
+    {
+      "suggestion_id": "SUG-003",
+      "title": "주민 건강·안전 영향 검토 규칙 추가",
+      "source_type": "산업단지",
+      "issue": "주민 건강·안전",
+      "evidence": "과거 산업단지 사업에서 28.5% 빈도로 지적",
+      "recommended_severity": "major",
+      "recommended_rule_id": "SOC-012",
+      "rationale": "산업단지·발전소 인접 주민의 건강 영향 평가(HRA) 요구가 증가 추세. 현재 규칙에서 건강 영향 직접 평가 규칙이 부재.",
+      "suggested_condition": {
+        "field": "population.residential_distance_m",
+        "operator": "lte",
+        "value": 500
+      }
+    },
+    {
+      "suggestion_id": "SUG-004",
+      "title": "홍수·침수 위험 검토 규칙 추가",
+      "source_type": "주거단지",
+      "issue": "홍수·침수 위험",
+      "evidence": "수변 입지 주거단지에서 높은 빈도로 지적",
+      "recommended_severity": "major",
+      "recommended_rule_id": "WAT-010",
+      "rationale": "하천 인접 개발사업에서 홍수 위험성 평가가 필수화되는 추세이나, 현재 수질 관련 규칙에서 홍수·침수를 직접 다루지 않음.",
+      "suggested_condition": {
+        "field": "water.flood_risk_zone",
+        "operator": "eq",
+        "value": true
+      }
+    },
+    {
+      "suggestion_id": "SUG-005",
+      "title": "주민 이주·생활권 변화 검토 규칙 추가",
+      "source_type": "도로",
+      "issue": "주민 이주·생활권 영향",
+      "evidence": "과거 도로 사업에서 14.9% 빈도로 지적, 민원 발생 주요 원인",
+      "recommended_severity": "review",
+      "recommended_rule_id": "SOC-013",
+      "rationale": "사업으로 인한 주민 이주, 생활동선 단절, 커뮤니티 분리 등이 주민 갈등의 주요 원인. 사전 검토 규칙 필요.",
+      "suggested_condition": {
+        "field": "population.affected_households",
+        "operator": "gte",
+        "value": 10
+      }
+    }
+  ]
+}

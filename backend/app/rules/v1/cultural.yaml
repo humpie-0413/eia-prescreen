@@ -1,0 +1,64 @@
+version: v1
+domain: cultural
+description: 문화재 관련 규칙 (3개) — 문화재 보호구역 중첩, 매장문화재 인접, 천연기념물 서식지
+rules:
+- rule_id: CUL-001
+  rule_version: v1
+  title: 지정문화재 보호구역 중첩
+  trigger_dataset: 문화재공간정보서비스(GIS-Heritage) / 문화재청 지정문화재 목록
+  condition:
+    field: cultural.heritage_protection_overlap
+    operator: eq
+    value: true
+  severity: critical
+  rationale: '사업 부지가 지정문화재(국가지정·시도지정) 보호구역과 중첩됩니다. 문화재 보호구역 내에서는 현상변경이 원칙적으로 금지되며,
+    문화재청장 또는 시·도지사의 현상변경 허가를 받아야 합니다.
+
+    '
+  evidence: 문화재공간정보서비스 — 지정문화재 보호구역 중첩 조회
+  next_action: 문화재청 또는 관할 지자체 문화재과 사전 협의 필수. 부지 대안 우선 검토
+  legal_basis: 문화재보호법 제35조 (현상변경 등의 허가)
+  confidence: 0.95
+  human_review_required: true
+- rule_id: CUL-002
+  rule_version: v1
+  title: 매장문화재 유존지역 인접 (300m 이내)
+  trigger_dataset: 문화재공간정보서비스 / 매장문화재 유존지역 지도
+  condition:
+    field: cultural.buried_heritage_distance_m
+    operator: within_buffer
+    value: 300
+    unit: m
+  severity: major
+  rationale: '사업 부지 300m 이내에 매장문화재 유존지역(문화재지표조사 결과 유물 산포지 등)이 확인됩니다. 사업 면적이 3만㎡ 이상이거나
+    유존지역 인접 시 문화재 지표조사가 의무이며, 유물 출토 시 발굴조사로 이어질 수 있습니다.
+
+    '
+  evidence: 문화재공간정보서비스 매장문화재 유존지역 / 문화재 지표조사 보고서
+  next_action: 문화재 지표조사 실시 계획 수립. 조사 비용 및 일정(통상 2~6개월) 확보
+  legal_basis: 매장문화재 보호 및 조사에 관한 법률 제6조 (지표조사)
+  confidence: 0.8
+  human_review_required: false
+- rule_id: CUL-003
+  rule_version: v1
+  title: 천연기념물 서식지 인접 (500m 이내)
+  trigger_dataset: 문화재공간정보서비스(GIS-Heritage) / 문화재청 천연기념물 목록
+  condition:
+    field: cultural.natural_monument_distance_m
+    operator: within_buffer
+    value: 500
+    unit: m
+  severity: critical
+  rationale: '사업 부지 500m 이내에 천연기념물(동물, 식물, 지질·광물, 천연보호구역 등) 서식지 또는 지정구역이 위치합니다. 천연기념물은
+    학술적·역사적·경관적 가치가 높아 문화재보호법에 의해 엄격히 보호되며, 인접 개발에 의한 서식환경 변화, 진동·소음, 수문 변화 등이 천연기념물의
+    보존에 영향을 미칠 수 있습니다.
+
+    '
+  evidence: 문화재공간정보서비스 — 천연기념물 위치 및 보호구역 / 문화재청 천연기념물 목록
+  next_action: 문화재청 사전 협의 필수. 천연기념물 유형(동물·식물·지질)에 따른 영향 검토 항목 수립. 현상변경 허가 필요 여부 확인
+  legal_basis: 문화재보호법 제35조 (현상변경 등의 허가)
+  confidence: 0.9
+  human_review_required: true
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

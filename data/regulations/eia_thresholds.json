@@ -1,0 +1,470 @@
+[
+  {
+    "project_type": "road",
+    "project_type_name": "도로 건설사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제1호",
+    "threshold": "도로 길이 4km 이상",
+    "threshold_detail": {
+      "length_km": 4,
+      "width_m": null,
+      "area_m2": null
+    },
+    "small_scale_threshold": "도로 길이 2km 이상 4km 미만",
+    "small_scale_detail": {
+      "length_km": 2,
+      "width_m": null,
+      "area_m2": null
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["대기질", "소음·진동", "생태계", "경관", "토지이용"]
+  },
+  {
+    "project_type": "housing_development",
+    "project_type_name": "도시개발사업(주택건설)",
+    "legal_basis": "환경영향평가법 시행령 별표3 제2호",
+    "threshold": "사업면적 25만㎡ 이상",
+    "threshold_detail": {
+      "length_km": null,
+      "width_m": null,
+      "area_m2": 250000
+    },
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 25만㎡ 미만 (보전용도지역 5,000㎡ 이상)",
+    "small_scale_detail": {
+      "length_km": null,
+      "width_m": null,
+      "area_m2": 7500
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["대기질", "수질", "소음·진동", "교통", "경관", "일조권", "녹지"]
+  },
+  {
+    "project_type": "industrial_complex",
+    "project_type_name": "산업단지·산업기술단지 조성사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제3호",
+    "threshold": "사업면적 15만㎡ 이상",
+    "threshold_detail": {
+      "length_km": null,
+      "width_m": null,
+      "area_m2": 150000
+    },
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 15만㎡ 미만 (보전용도지역 5,000㎡ 이상)",
+    "small_scale_detail": {
+      "length_km": null,
+      "width_m": null,
+      "area_m2": 7500
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "산업통상자원부, 환경부",
+    "key_assessment_items": ["대기질", "수질", "토양", "폐기물", "소음·진동", "생태계"]
+  },
+  {
+    "project_type": "power_plant",
+    "project_type_name": "에너지 개발사업(발전소 건설)",
+    "legal_basis": "환경영향평가법 시행령 별표3 제4호",
+    "threshold": "발전시설 용량 1만kW 이상",
+    "threshold_detail": {
+      "capacity_kw": 10000,
+      "area_m2": null
+    },
+    "small_scale_threshold": "발전시설 용량 5,000kW 이상 1만kW 미만 (태양광: 10만㎡ 이상)",
+    "small_scale_detail": {
+      "capacity_kw": 5000,
+      "area_m2": 100000
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "산업통상자원부, 환경부",
+    "key_assessment_items": ["대기질", "수질(온배수)", "소음·진동", "전자파", "경관", "생태계", "온실가스"]
+  },
+  {
+    "project_type": "dam",
+    "project_type_name": "댐 건설사업(하천 개발)",
+    "legal_basis": "환경영향평가법 시행령 별표3 제5호",
+    "threshold": "댐 높이 15m 이상 또는 총저수용량 2,000만톤 이상",
+    "threshold_detail": {
+      "dam_height_m": 15,
+      "storage_capacity_m3": 20000000
+    },
+    "small_scale_threshold": "하천공사 길이 10km 이상 또는 댐 높이 5m 이상",
+    "small_scale_detail": {
+      "dam_height_m": 5,
+      "length_km": 10
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["수질", "수리·수문", "생태계(수생태계)", "어류이동", "퇴적물", "지형·지질"]
+  },
+  {
+    "project_type": "railway",
+    "project_type_name": "철도 건설사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제6호",
+    "threshold": "철도 길이 4km 이상",
+    "threshold_detail": {
+      "length_km": 4,
+      "area_m2": null
+    },
+    "small_scale_threshold": "철도 길이 2km 이상 4km 미만",
+    "small_scale_detail": {
+      "length_km": 2,
+      "area_m2": null
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["소음·진동", "대기질", "생태계", "경관", "지형·지질", "토지이용"]
+  },
+  {
+    "project_type": "port",
+    "project_type_name": "항만 건설사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제7호",
+    "threshold": "항만시설 면적 30만㎡ 이상 또는 매립면적 30만㎡ 이상",
+    "threshold_detail": {
+      "area_m2": 300000
+    },
+    "small_scale_threshold": "항만시설 면적 3만㎡ 이상 30만㎡ 미만",
+    "small_scale_detail": {
+      "area_m2": 30000
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "해양수산부, 환경부",
+    "key_assessment_items": ["해양환경", "수질", "해양생태계", "퇴적환경", "경관", "소음·진동"]
+  },
+  {
+    "project_type": "airport",
+    "project_type_name": "공항 건설사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제8호",
+    "threshold": "활주로 길이 1,500m 이상 또는 부지면적 25만㎡ 이상",
+    "threshold_detail": {
+      "runway_length_m": 1500,
+      "area_m2": 250000
+    },
+    "small_scale_threshold": "활주로 길이 500m 이상 1,500m 미만",
+    "small_scale_detail": {
+      "runway_length_m": 500,
+      "area_m2": null
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["소음", "대기질", "생태계(조류 충돌)", "수질", "토지이용", "경관"]
+  },
+  {
+    "project_type": "waste_facility",
+    "project_type_name": "폐기물 처리시설·분뇨처리시설 설치사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제9호",
+    "threshold": "매립시설 면적 33만㎡ 이상 또는 소각시설 처리용량 100톤/일 이상",
+    "threshold_detail": {
+      "area_m2": 330000,
+      "capacity_ton_per_day": 100
+    },
+    "small_scale_threshold": "매립시설 면적 2,500㎡ 이상 또는 소각시설 처리용량 25톤/일 이상",
+    "small_scale_detail": {
+      "area_m2": 2500,
+      "capacity_ton_per_day": 25
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "환경부",
+    "key_assessment_items": ["대기질", "악취", "수질", "토양", "지하수", "소음·진동", "경관"]
+  },
+  {
+    "project_type": "mining",
+    "project_type_name": "광물·골재 채취사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제10호",
+    "threshold": "사업면적 30만㎡ 이상",
+    "threshold_detail": {
+      "area_m2": 300000
+    },
+    "small_scale_threshold": "사업면적 5,000㎡ 이상 30만㎡ 미만 (보전용도지역 2,500㎡ 이상)",
+    "small_scale_detail": {
+      "area_m2": 5000
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "산업통상자원부, 환경부",
+    "key_assessment_items": ["지형·지질", "토양", "수질", "대기질(분진)", "소음·진동", "경관", "생태계"]
+  },
+  {
+    "project_type": "tourism_complex",
+    "project_type_name": "관광단지 개발사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제11호",
+    "threshold": "사업면적 30만㎡ 이상",
+    "threshold_detail": {
+      "area_m2": 300000
+    },
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 30만㎡ 미만 (보전용도지역 5,000㎡ 이상)",
+    "small_scale_detail": {
+      "area_m2": 7500
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "문화체육관광부, 환경부",
+    "key_assessment_items": ["경관", "생태계", "수질", "대기질", "소음·진동", "토지이용"]
+  },
+  {
+    "project_type": "reclamation",
+    "project_type_name": "공유수면 매립사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제12호",
+    "threshold": "매립면적 30만㎡ 이상",
+    "threshold_detail": {
+      "area_m2": 300000
+    },
+    "small_scale_threshold": "매립면적 1만㎡ 이상 30만㎡ 미만",
+    "small_scale_detail": {
+      "area_m2": 10000
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "해양수산부, 환경부",
+    "key_assessment_items": ["해양환경", "해양생태계", "수질", "퇴적환경", "조류(潮流)", "경관"]
+  },
+  {
+    "project_type": "military_facility",
+    "project_type_name": "국방·군사시설 설치사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제13호",
+    "threshold": "사업면적 30만㎡ 이상",
+    "threshold_detail": {
+      "area_m2": 300000
+    },
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 30만㎡ 미만 (보전용도지역 5,000㎡ 이상)",
+    "small_scale_detail": {
+      "area_m2": 7500
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국방부, 환경부",
+    "key_assessment_items": ["생태계", "소음·진동", "수질", "토양", "경관"]
+  },
+  {
+    "project_type": "new_town",
+    "project_type_name": "택지개발사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제14호",
+    "threshold": "사업면적 30만㎡ 이상",
+    "threshold_detail": {
+      "area_m2": 300000
+    },
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 30만㎡ 미만 (보전용도지역 5,000㎡ 이상)",
+    "small_scale_detail": {
+      "area_m2": 7500
+    },
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["대기질", "수질", "소음·진동", "교통", "녹지", "경관", "일조권", "생태계"]
+  },
+  {
+    "project_type": "urban_park",
+    "project_type_name": "도시공원 조성사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 도시공원 및 녹지 등에 관한 법률",
+    "threshold": "공원면적 25만㎡ 이상",
+    "threshold_detail": {"area_m2": 250000},
+    "small_scale_threshold": "공원면적 7,500㎡ 이상 25만㎡ 미만",
+    "small_scale_detail": {"area_m2": 7500},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["생태계", "경관", "수질", "토지이용"]
+  },
+  {
+    "project_type": "sports_facility",
+    "project_type_name": "체육시설 설치사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 체육시설의 설치·이용에 관한 법률",
+    "threshold": "사업면적 25만㎡ 이상",
+    "threshold_detail": {"area_m2": 250000},
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 25만㎡ 미만",
+    "small_scale_detail": {"area_m2": 7500},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "문화체육관광부, 환경부",
+    "key_assessment_items": ["소음·진동", "교통", "경관", "수질", "대기질"]
+  },
+  {
+    "project_type": "sewage_treatment",
+    "project_type_name": "하수종말처리시설 설치사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 하수도법",
+    "threshold": "처리용량 1만톤/일 이상",
+    "threshold_detail": {"capacity_ton_per_day": 10000},
+    "small_scale_threshold": "처리용량 5,000톤/일 이상 1만톤/일 미만",
+    "small_scale_detail": {"capacity_ton_per_day": 5000},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "환경부",
+    "key_assessment_items": ["수질", "악취", "소음·진동", "대기질"]
+  },
+  {
+    "project_type": "waterway",
+    "project_type_name": "수로 건설사업(운하)",
+    "legal_basis": "환경영향평가법 시행령 별표3",
+    "threshold": "수로 길이 10km 이상",
+    "threshold_detail": {"length_km": 10},
+    "small_scale_threshold": "수로 길이 5km 이상 10km 미만",
+    "small_scale_detail": {"length_km": 5},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["수질", "수생태계", "지형·지질", "경관"]
+  },
+  {
+    "project_type": "river_improvement",
+    "project_type_name": "하천정비사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 하천법",
+    "threshold": "하천공사 길이 10km 이상",
+    "threshold_detail": {"length_km": 10},
+    "small_scale_threshold": "하천공사 길이 2km 이상 10km 미만",
+    "small_scale_detail": {"length_km": 2},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["수질", "수생태계", "지형·지질", "경관", "생태계"]
+  },
+  {
+    "project_type": "forest_road",
+    "project_type_name": "임도 건설사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 산림자원의 조성 및 관리에 관한 법률",
+    "threshold": "임도 길이 20km 이상 또는 보전산지 내 10km 이상",
+    "threshold_detail": {"length_km": 20},
+    "small_scale_threshold": "임도 길이 8km 이상",
+    "small_scale_detail": {"length_km": 8},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "산림청, 환경부",
+    "key_assessment_items": ["생태계", "지형·지질", "경관", "수질", "토양"]
+  },
+  {
+    "project_type": "golf_course",
+    "project_type_name": "골프장 건설사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 체육시설의 설치·이용에 관한 법률",
+    "threshold": "사업면적 25만㎡ 이상",
+    "threshold_detail": {"area_m2": 250000},
+    "small_scale_threshold": "사업면적 10만㎡ 이상 25만㎡ 미만",
+    "small_scale_detail": {"area_m2": 100000},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "문화체육관광부, 환경부",
+    "key_assessment_items": ["생태계", "수질", "토양(농약)", "경관", "지형·지질"]
+  },
+  {
+    "project_type": "ski_resort",
+    "project_type_name": "스키장 건설사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 체육시설의 설치·이용에 관한 법률",
+    "threshold": "사업면적 30만㎡ 이상",
+    "threshold_detail": {"area_m2": 300000},
+    "small_scale_threshold": "사업면적 10만㎡ 이상 30만㎡ 미만",
+    "small_scale_detail": {"area_m2": 100000},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "문화체육관광부, 환경부",
+    "key_assessment_items": ["생태계", "경관", "수질", "지형·지질", "소음"]
+  },
+  {
+    "project_type": "cemetery",
+    "project_type_name": "묘지·화장시설·봉안시설 조성사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 장사 등에 관한 법률",
+    "threshold": "사업면적 15만㎡ 이상",
+    "threshold_detail": {"area_m2": 150000},
+    "small_scale_threshold": "사업면적 5,000㎡ 이상 15만㎡ 미만",
+    "small_scale_detail": {"area_m2": 5000},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "보건복지부, 환경부",
+    "key_assessment_items": ["수질(지하수)", "토양", "경관", "악취", "교통"]
+  },
+  {
+    "project_type": "special_economic_zone",
+    "project_type_name": "경제자유구역 개발사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 경제자유구역의 지정 및 운영에 관한 특별법",
+    "threshold": "사업면적 30만㎡ 이상",
+    "threshold_detail": {"area_m2": 300000},
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 30만㎡ 미만",
+    "small_scale_detail": {"area_m2": 7500},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "산업통상자원부, 환경부",
+    "key_assessment_items": ["대기질", "수질", "소음·진동", "교통", "생태계", "경관"]
+  },
+  {
+    "project_type": "logistics_complex",
+    "project_type_name": "물류단지 조성사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 물류시설의 개발 및 운영에 관한 법률",
+    "threshold": "사업면적 20만㎡ 이상",
+    "threshold_detail": {"area_m2": 200000},
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 20만㎡ 미만",
+    "small_scale_detail": {"area_m2": 7500},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["교통", "대기질", "소음·진동", "수질", "경관"]
+  },
+  {
+    "project_type": "marine_fishery",
+    "project_type_name": "어항시설·어장정비 사업",
+    "legal_basis": "환경영향평가법 시행령 별표3, 어촌·어항법",
+    "threshold": "사업면적 30만㎡ 이상 또는 매립면적 10만㎡ 이상",
+    "threshold_detail": {"area_m2": 300000},
+    "small_scale_threshold": "사업면적 3만㎡ 이상",
+    "small_scale_detail": {"area_m2": 30000},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "해양수산부, 환경부",
+    "key_assessment_items": ["해양환경", "수질", "해양생태계", "소음·진동"]
+  },
+  {
+    "project_type": "solar_power",
+    "project_type_name": "태양광 발전사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제4호, 전기사업법",
+    "threshold": "부지면적 10만㎡ 이상 (보전용도지역 5만㎡ 이상)",
+    "threshold_detail": {"area_m2": 100000},
+    "small_scale_threshold": "부지면적 5,000㎡ 이상 (보전용도지역 2,500㎡ 이상)",
+    "small_scale_detail": {"area_m2": 5000},
+    "assessment_type": "소규모 환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "산업통상자원부, 환경부",
+    "key_assessment_items": ["생태계", "경관", "토양", "수질", "토지이용"]
+  },
+  {
+    "project_type": "wind_power",
+    "project_type_name": "풍력 발전사업",
+    "legal_basis": "환경영향평가법 시행령 별표3 제4호, 전기사업법",
+    "threshold": "발전용량 10MW 이상",
+    "threshold_detail": {"capacity_kw": 10000},
+    "small_scale_threshold": "발전용량 3MW 이상 10MW 미만",
+    "small_scale_detail": {"capacity_kw": 3000},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "산업통상자원부, 환경부",
+    "key_assessment_items": ["소음·진동", "생태계(조류 충돌)", "경관", "그림자 깜박임"]
+  },
+  {
+    "project_type": "water_supply",
+    "project_type_name": "상수도 건설사업(취수·정수시설)",
+    "legal_basis": "환경영향평가법 시행령 별표3, 수도법",
+    "threshold": "취수량 3만톤/일 이상 또는 정수시설 용량 3만톤/일 이상",
+    "threshold_detail": {"capacity_ton_per_day": 30000},
+    "small_scale_threshold": "취수량 1만톤/일 이상 3만톤/일 미만",
+    "small_scale_detail": {"capacity_ton_per_day": 10000},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "환경부",
+    "key_assessment_items": ["수질", "수생태계", "지형·지질", "토지이용"]
+  },
+  {
+    "project_type": "urban_redevelopment",
+    "project_type_name": "도시재개발사업(정비사업)",
+    "legal_basis": "환경영향평가법 시행령 별표3, 도시 및 주거환경정비법",
+    "threshold": "사업면적 30만㎡ 이상",
+    "threshold_detail": {"area_m2": 300000},
+    "small_scale_threshold": "사업면적 7,500㎡ 이상 30만㎡ 미만",
+    "small_scale_detail": {"area_m2": 7500},
+    "assessment_type": "환경영향평가",
+    "small_scale_type": "소규모 환경영향평가",
+    "competent_authority": "국토교통부, 환경부",
+    "key_assessment_items": ["대기질", "소음·진동", "교통", "일조권", "경관", "폐기물"]
+  }
+]

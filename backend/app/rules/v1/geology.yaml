@@ -1,0 +1,64 @@
+version: v1
+domain: geology
+description: 지형·지질 관련 규칙 (3개) — 급경사지 붕괴위험, 지반침하, 절·성토량 과대
+rules:
+- rule_id: GEO-001
+  rule_version: v1
+  title: 급경사지 붕괴위험지역
+  trigger_dataset: 행정안전부 급경사지 관리 현황 / 한국지질자원연구원 지반정보
+  condition:
+    field: geology.steep_slope_risk
+    operator: eq
+    value: true
+  severity: major
+  rationale: '사업 부지 또는 인접 지역이 급경사지 붕괴위험지역으로 분류되어 있습니다. 급경사지(경사도 34도 이상)에서는 집중호우·지진
+    시 산사태·토석류·낙석 등의 재해가 발생할 수 있으며, 대규모 절토 공사 시 사면 안정성이 급격히 저하됩니다. 사면안정 해석 및 방재 대책
+    설계가 필수적입니다.
+
+    '
+  evidence: 행정안전부 급경사지 관리 현황 / 한국지질자원연구원 지반정보 데이터
+  next_action: 사면안정 해석(한계평형법·수치해석법) 실시. 옹벽·앵커·배수시설 등 방재 대책 설계 반영
+  legal_basis: 급경사지 재해예방에 관한 법률 제6조 (급경사지 관리)
+  confidence: 0.8
+  human_review_required: true
+- rule_id: GEO-002
+  rule_version: v1
+  title: 지반침하 우려지역
+  trigger_dataset: 행정안전부 지반침하 관리 현황 / 지하안전관리시스템
+  condition:
+    field: geology.subsidence_risk
+    operator: eq
+    value: true
+  severity: review
+  rationale: '사업 부지가 지반침하 우려지역에 해당합니다. 폐광 지역, 대규모 지하수 채취 이력 지역, 석회암 카르스트 지대 등에서는 지반침하(싱크홀)가
+    발생할 수 있으며, 대규모 굴착 공사나 지하수 양수가 기존 지반 불안정을 악화시킬 수 있습니다. 지하안전영향평가가 필요할 수 있습니다.
+
+    '
+  evidence: 행정안전부 지반침하 관리 현황 / 지하안전관리시스템 / 한국지질자원연구원
+  next_action: 지하안전영향평가 대상 여부 확인. 지반조사(시추·물리탐사) 실시. 지반 보강 대책 검토
+  legal_basis: 지하안전관리에 관한 특별법 제14조 (지하안전영향평가)
+  confidence: 0.7
+  human_review_required: false
+- rule_id: GEO-003
+  rule_version: v1
+  title: 절·성토량 과대 — 100,000m³ 초과
+  trigger_dataset: 사업계획서 토공량 산정 / 수치표고모델(DEM) 기반 추정
+  condition:
+    field: geology.cut_fill_volume_m3
+    operator: gt
+    value: 100000
+    unit: m³
+  severity: review
+  rationale: '사업의 절·성토량이 100,000m³를 초과할 것으로 추정됩니다. 대규모 절·성토는 지형 변화에 의한 경관 훼손, 토사 유출에
+    의한 수질 오염, 사면 불안정, 비산먼지 발생 등 다양한 환경 영향을 유발합니다. 또한 잔토 처리를 위한 토사 운반 과정에서 교통·소음 영향이
+    발생하며, 사토장 확보가 필요합니다.
+
+    '
+  evidence: 사업계획서 토공량 산정 / 수치표고모델(DEM) 기반 절·성토량 추정
+  next_action: 토공 균형(절토량 ≒ 성토량) 최적화 검토. 사토장 확보 계획 수립. 토사 유출 방지 대책 및 비산먼지 저감 대책 수립
+  legal_basis: 환경영향평가법 시행령 별표2 (토지이용 항목)
+  confidence: 0.7
+  human_review_required: false
+metadata:
+  legal_basis_version: '2025-02-18'
+  last_verified: '2026-03-31'

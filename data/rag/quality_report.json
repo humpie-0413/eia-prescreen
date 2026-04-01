@@ -1,0 +1,1300 @@
+{
+  "test_date": "2026-03-28T20:48:55.288400+00:00",
+  "total_types_tested": 16,
+  "with_llm": true,
+  "search_quality": {
+    "results": [
+      {
+        "query_type": "road",
+        "query": "도로 사업의 비산먼지 저감방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 86.7,
+          "source_quality": 80.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 91.3
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5779,
+          "avg_similarity": 0.5552,
+          "avg_content_length": 452,
+          "unique_reports": 3,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "road_청송_진보-영양_입암_국도건설공사_2025",
+            "project_name": "청송_진보-영양_입암_국도건설공사",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-40",
+            "similarity": 0.5779,
+            "excerpt": "조 제호 가목 및 나목에 따른 전용공업지역 및 일반공업지역\n30\n3\n「\n」 \n     2. \"도로란 자동차륜자동차는 제외한다가 한 줄로 안전하고 원활하게 주행하는 데에 필요한 일정 폭의 \n\"\n(2\n)\n차선이\n개 이상 있는 도로를 말한다\n 2\n. 이 소음환경기준은 항공기"
+          },
+          {
+            "report_id": "road_국도56호선_철원_근남~화천_상서_도로건설공사_2025",
+            "project_name": "국도56호선_철원_근남~화천_상서_도로건설공사",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.4 4\u0001 소음·진동",
+            "page_range": "25-25",
+            "similarity": 0.5673,
+            "excerpt": " 주행하는\u0001 데에\u0001 필요한\u0001 일정\u0001 폭의\u0001 차선이\u0001\n2개\u0001 이상\u0001 있는\u0001 도로를\u0001 말한다. 3.\u0001 이\u0001 소음환경기준은\u0001 항공기소음,\u0001 철도소음\u0001 및\u0001 건설작업\u0001 소음에는\u0001 적용하지\u0001 않는다. 자료\u0001 :\u0001 환경정책기본법\u0001 시행령\u0001 [별표1]"
+          },
+          {
+            "report_id": "road_새만금_지역간_연결도로_건설사업_2025",
+            "project_name": "새만금_지역간_연결도로_건설사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "0.5 이하",
+            "page_range": "25-26",
+            "similarity": 0.5519,
+            "excerpt": "정한 배출구에서 채취한다. 다. 가목 및 나목 외의 경우에는 부지경계선에서 채취한다. 4. 지정악취물질의 시료는 부지경계선에서 채취한다. 5. “희석배수”란 채취한 시료를 냄새가 없는 공기로 단계적으로 희석시켜 냄새를 느낄 수 없을 때까\n지 최대로 희석한 배수를 말한다"
+          }
+        ]
+      },
+      {
+        "query_type": "energy",
+        "query": "화력발전소의 대기오염물질 배출 저감 기술은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 82.5,
+          "source_quality": 70.0,
+          "content_richness": 77.1,
+          "type_match": 100.0,
+          "total": 83.3
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5499,
+          "avg_similarity": 0.5262,
+          "avg_content_length": 231,
+          "unique_reports": 2,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "energy_송산빛그린_건설사업_2025",
+            "project_name": "송산빛그린_건설사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.3.29 저황유 공급 및 사용지역",
+            "page_range": "24-24",
+            "similarity": 0.5499,
+            "excerpt": "¡ ｢대기환경보전법｣ 제41조 및 동법 시행령 제40조에 의거하여, 사업지구가 위치한\n화성시 및 주변 지역(안산시, 시흥시)에 황 함유기준 0.1%이하의 경유 및 0.3%이\n하의 중유(LSWR포함)를 공급·사용해야 하는 것으로 조사됨."
+          },
+          {
+            "report_id": "energy_송산빛그린_건설사업_2025",
+            "project_name": "송산빛그린_건설사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "0.05 이하",
+            "page_range": "27-27",
+            "similarity": 0.5349,
+            "excerpt": "이산화질소\n(NO2)\nppm\n연평균"
+          },
+          {
+            "report_id": "energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025",
+            "project_name": "용인_반도체_클러스터_일반산업단지_집단에너지사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.11.1 자연경관영향심의대상",
+            "page_range": "39-39",
+            "similarity": 0.5176,
+            "excerpt": "가협의대상개발사업등의세부범위(보호지역주변외지역)\n구      분\n개발사업등의 세부범위\n다. 에너지 개발\n(2)「전기사업법」제2조제16호에 따른 전기설비 중 다음의어느 하나에\n해당하는 설비의 설치사업[「집단에너지사업법」제2조제6호에 따른\n공급시설 중 발전시설용량이 1만킬"
+          }
+        ]
+      },
+      {
+        "query_type": "industrial",
+        "query": "산업단지 조성 시 수질 오염 방지 대책은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 96.1,
+          "source_quality": 100,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 98.6
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.6405,
+          "avg_similarity": 0.626,
+          "avg_content_length": 413,
+          "unique_reports": 5,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "industrial_진천_죽현일반산업단지(확장)_조성사업_2025",
+            "project_name": "진천_죽현일반산업단지(확장)_조성사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "0.9 ~ 4.0",
+            "page_range": "8-9",
+            "similarity": 0.6405,
+            "excerpt": ": 악취방지법 시행규칙 [별표 3]\n진천 죽현일반산업단지(확장) 조성사업\n- 62 -\n다. 수질 및 수생태계\n1) 지표수질\n◦지표수질 환경기준은 「환경정책기본법 시행령 제2조」 [별표]에 의한 하천 생활\n환경 기준 및 사람의 건강보호 기준을 적용함\n항목\n기준값(㎎/L)"
+          },
+          {
+            "report_id": "industrial_아산_경동일반산업단지_조성사업_2025",
+            "project_name": "아산_경동일반산업단지_조성사업",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-41",
+            "similarity": 0.6351,
+            "excerpt": "유역\n자료\n수질오염물질총량관리지역지정삽교호수계\n환경부고시제\n호\n:\n(\n),\n2017-260 아산경동일반산업단지조성사업환경영향평가서초안\n(\n)\n- 58 -\n사업지구\n그림\n[\n4.3-1] 수질오염총량단위유역삽교호수계\n(\n)\n자연환경분야\n4.3.3\n가\n야생생물보호구역\n.\n◦"
+          },
+          {
+            "report_id": "industrial_아산디지털_일반산업단지_조성(확장2)사업(재협의)_2025",
+            "project_name": "아산디지털_일반산업단지_조성(확장2)사업(재협의)",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "2.0 미만",
+            "page_range": "19-20",
+            "similarity": 0.6234,
+            "excerpt": "검토하여그\n에맞는처리방법에따라용수를처리하는경우에는해당등급보다높은등급의용도로도사용할\n수있음. 『 아산디지털 일반산업단지 조성(확장2)사업(재협의) 』 환경영향평가서(초안)\n76\n<표 4.4.3-2> 호소수질 생활환경기준\n등  급\n기     준\n수소\n이온\n농도\n(pH)\n화"
+          }
+        ]
+      },
+      {
+        "query_type": "urban_dev",
+        "query": "택지개발 사업의 교통 영향 저감방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 85.6,
+          "source_quality": 90.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 93.0
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.571,
+          "avg_similarity": 0.5419,
+          "avg_content_length": 422,
+          "unique_reports": 4,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "urban_dev_순천_연향들_도시개발사업_2025",
+            "project_name": "순천_연향들_도시개발사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.4.2 공항소음대책지역",
+            "page_range": "16-16",
+            "similarity": 0.571,
+            "excerpt": "◦「공항소음 방지 및 소음대책지역 지원에 관한 법률」에 따른 소음대책지역은 공항\n소음피해가 있는 지역으로서 동법 제5조제1항에 의거하여 장래의 항공수요를 고려한\n예상 소음영향도를 기준으로 공항주변의 소음대책지역을 대통령령으로 정하는 바에\n따라 제1종 구역, 제2종 구역"
+          },
+          {
+            "report_id": "urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025",
+            "project_name": "남양주왕숙_공공주택지구_조성사업(남양주진건)",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "지역개황",
+            "page_range": "17-19",
+            "similarity": 0.5396,
+            "excerpt": "성사업 지구계획 변경(남양주진건)에 따른 환경영향평가서(재협의) 초안\n-\u0001 72\u0001 -\n바. 폐기물매립시설 설치제한지역\n◦｢한강수계상수원수질개선및주민지원등에관한법률｣제15조의4 및같은법\n시행령제19조에따라한강본류의경계로부터1㎞, 한강본류에직접유입되는지류\n경계로부터500m"
+          },
+          {
+            "report_id": "urban_dev_남양주왕숙_공공주택지구_조성사업(남양주진건)_2025",
+            "project_name": "남양주왕숙_공공주택지구_조성사업(남양주진건)",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "1995.03 20",
+            "page_range": "19-21",
+            "similarity": 0.5341,
+            "excerpt": "성사업 지구계획 변경(남양주진건)에 따른 환경영향평가서(재협의) 초안\n-\u0001 74\u0001 -\n아. 상수원보호구역 외의 지역에서의 공장설립 제한지역\n◦“상수원보호구역외의지역에서의공장설립제한지역”은「수도법」제7조의2 및같은법\n시행령제14조의2, 제14조의3에따라상수원보호구역의상류"
+          }
+        ]
+      },
+      {
+        "query_type": "railway",
+        "query": "철도 건설 시 소음진동 대책은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 82.2,
+          "source_quality": 90.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 91.8
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5483,
+          "avg_similarity": 0.5269,
+          "avg_content_length": 368,
+          "unique_reports": 4,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "railway_대구산업선_철도건설사업(제1공구)_2025",
+            "project_name": "대구산업선_철도건설사업(제1공구)",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-41",
+            "similarity": 0.5483,
+            "excerpt": "5.3-3> \n단위 \n다이옥신 \n(\n: \n/\n, \n(pg-TEQ/g))\n㎎㎏\n­\n­\n­\n­ 대구산업선 철도건설사업제공구환경영향평가서초안\n(\n1\n) \n(\n)\n소음\n진동\n4.5.4 \n·\n가소음\n진동측정망\n. \n·\n표 \n소음측정망자동조사지점\n<\n4.5.4-1> \n(\n) \n표"
+          },
+          {
+            "report_id": "railway_옥정~포천_광역철도_건설공사(2,_3공구_및_차량기지)_2024",
+            "project_name": "옥정~포천_광역철도_건설공사(2,_3공구_및_차량기지)",
+            "year": "2024",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-34",
+            "similarity": 0.5361,
+            "excerpt": "자료 환경정책기본법시행령 별표\n개정 \n:\n[\n1] <\n2022.12.06.>\n｢\n｣ 옥정\n포천 광역철도 건설공사\n공구 및 차량기지\n환경영향평가\n-\n(2, 3\n) \n- 82 -\n표 \n생활소음 규제기준\n<\n4.4-7> \n단위\n     (\n: \n(A))\n㏈\n대상 지역\n시간대"
+          },
+          {
+            "report_id": "railway_남부내륙철도_건설사업(1,_9공구)_2024",
+            "project_name": "남부내륙철도_건설사업(1,_9공구)",
+            "year": "2024",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-44",
+            "similarity": 0.52,
+            "excerpt": "자료 제\n회 \n철도통계연보\n국토교통부\n한국철도공사\n: \n61\n2023 \n, 2024, \n· 남부내륙철도 건설사업 환경영향평가서초안\n공구\n(\n) - 1, 9\n제장 지역개황\n4\n4-40\n철도 수송 현황\n4.10.3 \n전체 사업노선 중 본 평가서의 \n공구 노선 주변 철도 경"
+          }
+        ]
+      },
+      {
+        "query_type": "port",
+        "query": "항만 준설 시 해양생태계 보호 방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 82.2,
+          "source_quality": 80.0,
+          "content_richness": 83.2,
+          "type_match": 100.0,
+          "total": 86.4
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5478,
+          "avg_similarity": 0.5339,
+          "avg_content_length": 250,
+          "unique_reports": 3,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "port_국가종합비행성능시험장_활주로_건설_2018",
+            "project_name": "국가종합비행성능시험장_활주로_건설",
+            "year": "2018",
+            "chapter": "제4장",
+            "section": "4.3.13 수산자원보호구역지정현황",
+            "page_range": "9-9",
+            "similarity": 0.5478,
+            "excerpt": "◦수산자원보호구역이란「국토의 계획 및 이용에 관한 법률」제40조에 따라 수산자원\n의 보호·육성을 위해 지정된 공유수면이나 그에 인접된 토지를 말하며, 고흥군에는\n사업지구와 약 2.5㎞이격하여 득량만, 여자만, 가막만이 수산자원보호구역으로 지정\n되어 있는 것으로 조사되었"
+          },
+          {
+            "report_id": "port_국가종합비행성능시험장_활주로_건설_2018",
+            "project_name": "국가종합비행성능시험장_활주로_건설",
+            "year": "2018",
+            "chapter": "제4장",
+            "section": "4.3.11 수질오염총량대상지역해당여부",
+            "page_range": "9-9",
+            "similarity": 0.5432,
+            "excerpt": "◦수질오염총량제도는 하천의 용수목적 등에 맞는 목표수질을 설정하고 해당 하천 수\n계의 배수구역에서 배출되는 오염부하 총량이 설정된 목표수질을 달성할 수 있는 허\n용량 이하가 되도록 관리하는 제도이며, 본 사업지구가 위치한 수계는 수질오염총량\n관리 대상지역이 아닌 것으로"
+          },
+          {
+            "report_id": "port_국가종합비행성능시험장_활주로_건설_2018",
+            "project_name": "국가종합비행성능시험장_활주로_건설",
+            "year": "2018",
+            "chapter": "제IV장",
+            "section": "0.00004 이하",
+            "page_range": "13-13",
+            "similarity": 0.5322,
+            "excerpt": "자료 : 환경정책기본법 시행령 [별표] 3. 수질 및 수생태계 환경기준 기준, 개정 2012. 11. 27"
+          }
+        ]
+      },
+      {
+        "query_type": "airport",
+        "query": "공항 건설의 조류 충돌 방지 대책은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 66.4,
+          "source_quality": 70.0,
+          "content_richness": 58.7,
+          "type_match": 100.0,
+          "total": 74.0
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.443,
+          "avg_similarity": 0.4256,
+          "avg_content_length": 176,
+          "unique_reports": 2,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "airport_송도지역_공유수면_매립사업(6,8공구)_재협의_2008",
+            "project_name": "송도지역_공유수면_매립사업(6,8공구)_재협의",
+            "year": "2008",
+            "chapter": "제4장",
+            "section": "4.3 환경관련지역 지정현황",
+            "page_range": "6-6",
+            "similarity": 0.443,
+            "excerpt": "송도지역 공유수면 매립사업(6,8공구) 환경영향평가(재협의)\n- 55 -\n<표 4.3.1-1>\n대기환경규제지역 지정현황\n구   분\n규  제  지  역\n대  상  오  염  물  질\n인  천\n광역시\n강화군, 옹진군을 제외한 지역\n(단, 옹진군 영흥면 포함)\n오존(휘발성유"
+          },
+          {
+            "report_id": "airport_형산강변도로(송도지구)_공유수면매립_2009",
+            "project_name": "형산강변도로(송도지구)_공유수면매립",
+            "year": "2009",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-21",
+            "similarity": 0.428,
+            "excerpt": "소음및건설작업소음에는적용하지아니한다\n4. . ･\n자료\n환경정책기본법시행령\n별표\n:\n[\n1] 제장지역개황\n4\n하천수질및해역수질\n4.4.3\n가하천\n."
+          },
+          {
+            "report_id": "airport_송도지역_공유수면_매립사업(6,8공구)_재협의_2008",
+            "project_name": "송도지역_공유수면_매립사업(6,8공구)_재협의",
+            "year": "2008",
+            "chapter": "제4장",
+            "section": "4.4 환경기준 및 녹지자연도",
+            "page_range": "10-10",
+            "similarity": 0.4247,
+            "excerpt": "송도지역 공유수면 매립사업(6,8공구) 환경영향평가(재협의)\n- 59 -"
+          }
+        ]
+      },
+      {
+        "query_type": "river",
+        "query": "하천 정비 사업의 수생태계 보전 방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 100,
+          "source_quality": 80.0,
+          "content_richness": 82.9,
+          "type_match": 100.0,
+          "total": 92.6
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.6718,
+          "avg_similarity": 0.6419,
+          "avg_content_length": 249,
+          "unique_reports": 3,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "river_금산군_기사천·외부천_생태하천복원사업_2025",
+            "project_name": "금산군_기사천·외부천_생태하천복원사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.5.1 수질, 대기오염총량관리지역",
+            "page_range": "14-14",
+            "similarity": 0.6718,
+            "excerpt": "가. 수질오염총량관리지역\n◦수질오염총량제도는 「금강수계 물관리 및 주민지원 등에 관한 법률」, 「낙동강수계물관\n리 및 주민지원 등에 관한 법률」, 「영산강·섬진강수계 물관리 및 주민지원 등에관한 법\n률」, 「한강수계 상수원수질개선 및 주민지원 등에 관한 법률」에 의거하"
+          },
+          {
+            "report_id": "river_금산군_기사천·외부천_생태하천복원사업_2025",
+            "project_name": "금산군_기사천·외부천_생태하천복원사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.4.5 수변구역",
+            "page_range": "7-7",
+            "similarity": 0.6652,
+            "excerpt": "◦수변구역은 금강수계, 낙동강수계, 영산강·섬진강수계 및 한강수계의 수질을 보전하기\n위하여 「금강수계 물관리 및 주민지원 등에 관한 법률」, 「낙동강수계 물관리 및 주민\n지원 등에 관한 법률」, 「영산강·섬진강수계 물관리 및 주민지원 등에 관한 법률」,\n「한강수계 상수"
+          },
+          {
+            "report_id": "river_서낙동강_예안,가락지구_하천환경정비사업_2024",
+            "project_name": "서낙동강_예안,가락지구_하천환경정비사업",
+            "year": "2024",
+            "chapter": "제4장",
+            "section": "4.3.28 국토환경성평가지도",
+            "page_range": "24-24",
+            "similarity": 0.627,
+            "excerpt": "◦사업하천은 하천특성상 1~3등급지역으로 조사되었으며, 주변지역은 개발지로 대부분\n4~5등급이 분포하는 것으로 조사됨\n(그림4.3-8)\n국토환경성평가지도"
+          }
+        ]
+      },
+      {
+        "query_type": "water_resource",
+        "query": "댐 건설 시 수몰 지역 주민 대책은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 75.0,
+          "source_quality": 90.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 89.2
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.4999,
+          "avg_similarity": 0.4929,
+          "avg_content_length": 718,
+          "unique_reports": 4,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "water_resource_수양(함동)호_농업용저수지_둑_높이기사업_2011",
+            "project_name": "수양(함동)호_농업용저수지_둑_높이기사업",
+            "year": "2011",
+            "chapter": "제4장",
+            "section": "지역개황",
+            "page_range": "9-10",
+            "similarity": 0.4999,
+            "excerpt": "- 47 -\n나. 주요보호대상 시설물\n1) 취·정수장 현황\n◦장성군에는취수장2개소, 정수장2개소가위치하고있으며, 계획저수지와가장\n인접한평림취·정수장은지구북동측약3.3㎞이격되어있고, 수계가상이하여\n본사업시행으로인한영향은없을것으로판단됨\n<표 4-7> 취수장 현황\n취수장명\n"
+          },
+          {
+            "report_id": "water_resource_담양댐_둑_높이기_사업_2011",
+            "project_name": "담양댐_둑_높이기_사업",
+            "year": "2011",
+            "chapter": "제4장",
+            "section": "1995.10 16",
+            "page_range": "6-6",
+            "similarity": 0.4994,
+            "excerpt": "신계제\n담양군 월산면\n6.4(수계상이)\n자료 : 전국 상수원 보호구역 지정현황 (2009년 8월 기준), 2010, 환경부\n다. 수변구역 지정 현황\n『영산강·섬진강수계 물관리 및 주민지원 등에 관한 법률』제4조에 의하여 영산\n강․섬진강은 총 298.641㎢가 수변구역으"
+          },
+          {
+            "report_id": "water_resource_광주호_농업용저수지_둑_높이기사업_2011",
+            "project_name": "광주호_농업용저수지_둑_높이기사업",
+            "year": "2011",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-42",
+            "similarity": 0.4946,
+            "excerpt": "\n이격되어있으나\n수계가상이하여본사업\n4\n2.9\n,\n㎞\n시행으로인한영향은미미할것으로판단된다. 표\n취수장현황\n표\n취수장현황\n표\n취수장현황\n표\n취수장현황\n<\n4.6.1-1>\n<\n4.6.1-1>\n<\n4.6.1-1>\n<\n4.6.1-1>\n구분\n명칭\n소재지\n시설용량\n일\n( / )\n"
+          }
+        ]
+      },
+      {
+        "query_type": "tourism",
+        "query": "골프장 건설의 산림 훼손 대응 방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 78.3,
+          "source_quality": 100,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 92.4
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5221,
+          "avg_similarity": 0.507,
+          "avg_content_length": 372,
+          "unique_reports": 5,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "tourism_광주송정역_KTX지역경제거점형_투자선도지구_2022",
+            "project_name": "광주송정역_KTX지역경제거점형_투자선도지구",
+            "year": "2022",
+            "chapter": "제4장",
+            "section": "4.3.11 습지보호지역",
+            "page_range": "13-13",
+            "similarity": 0.5221,
+            "excerpt": "◦습지보호지역은 「자연공원법」제4조에 의거하여 국립공원·군립공원·도립공원 및\n지질공원을 포함하며, 자연공원에서는 같은 법 제23조에 의거하여 건축물이나 그 밖의\n공작물을 신축·증축·개축·재축 또는 이축하는 행위시 공원관리청의 허가를 받아야 함\n◦광주광역시에는 담양 하천"
+          },
+          {
+            "report_id": "tourism_하동_두우레저단지_조성사업_2022",
+            "project_name": "하동_두우레저단지_조성사업",
+            "year": "2022",
+            "chapter": "제1장",
+            "section": "1.2 환경영향평가 실시근거",
+            "page_range": "2-3",
+            "similarity": 0.5123,
+            "excerpt": "2 -\n구 분\n환경영향평가대상사업의 종류 및 범위\n협의요청시기\n12. 산지의\n개발사업\n가. 「산지관리법」 제2조제1호에 따른 산지\n에서 시행되는 다음의 어느 하나에 해당\n하는 사업\n3) 「산지관리법」 제14조제1항에 따른 산지\n전용허가면적이 20만제곱미터 이상인 사\n업"
+          },
+          {
+            "report_id": "tourism_강원도_수열에너지_융·복합_클러스터_조성사업_2022",
+            "project_name": "강원도_수열에너지_융·복합_클러스터_조성사업",
+            "year": "2022",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-37",
+            "similarity": 0.5086,
+            "excerpt": "간에만 규제기준치에 \n을 보정한다\n자료 소음진동관리법 시행규칙 별표\n생활소음진동의 규제기준 - 59 -\n생태자연도는 \n자연환경보전법\n제\n조에 의거하여 자연환경조사\n정밀조사 및 \n생태계 변환관찰 등을 기초로 하여 작성되며\n사업지구 동측에 생태자연도 등급 \n권역식생보전등급"
+          }
+        ]
+      },
+      {
+        "query_type": "mountain",
+        "query": "채석 사업의 지형경관 영향 최소화 방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 91.3,
+          "source_quality": 80.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 93.0
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.6089,
+          "avg_similarity": 0.5772,
+          "avg_content_length": 525,
+          "unique_reports": 3,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "mountain_인천항_내항_1·8부두_재개발사업_환경영향평가서(약식)_2025",
+            "project_name": "인천항_내항_1·8부두_재개발사업_환경영향평가서(약식)",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "3-74",
+            "similarity": 0.6089,
+            "excerpt": " 최단 이격거리\n자료 \n국가유산청 국가유산공간정보서비스기준월 \n: \n(\n: 2025.09) 자연발생석면 관리지역은 \n석면안전관리법\n제\n조에 따라 지정되며\n환경부 석면관리 종합 \n14\n, \n◦ \n「\n」 \n정보망의 자연발생석면 지질도 확인 결과사업대상지로부터 반경 \n이내에"
+          },
+          {
+            "report_id": "mountain_홍원항_정비공사_2025",
+            "project_name": "홍원항_정비공사",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.5.8 자연재해위험개선지구",
+            "page_range": "19-19",
+            "similarity": 0.5965,
+            "excerpt": "◦자연재해위험개선지구는 「자연재해대책법」제12조제1항에 의거하여 상습침수지역,\n산사태위험지역 등 지형적인 여건 등으로 인하여 재해가 발생할 우려가 있는 지역으로\n시장, 군수, 구청장이 지정하는 지역을 말함\n◦서천군에는 총 3개소의 자연재해위험개선지구가 위치하는 것으로 "
+          },
+          {
+            "report_id": "mountain_국동항_건설공사(재협의)_2025",
+            "project_name": "국동항_건설공사(재협의)",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-47",
+            "similarity": 0.5634,
+            "excerpt": "지석묘군\n여수 금오산 향일암 일원\n여수 호명동 방재림\n자료 국가유산청 국가유산공간정보서비스 자연발생석면의 지질학적 정의는 지구 내부 순환과정에서 형성되어 암석 및 토양 내에\n존재하는 석면으로\n석면안전관리법\n제\n조에 따라 자연발생석면의 분포현황을 \n지질도를 작성하여 파악"
+          }
+        ]
+      },
+      {
+        "query_type": "sports",
+        "query": "스키장 건설의 생태계 영향은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 86.8,
+          "source_quality": 100,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 95.4
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5786,
+          "avg_similarity": 0.5402,
+          "avg_content_length": 318,
+          "unique_reports": 5,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "sports_자유CC_9홀_증설사업_2025",
+            "project_name": "자유CC_9홀_증설사업",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-35",
+            "similarity": 0.5786,
+            "excerpt": "위에\n환경영향\n2. ｣\n평가협의대상개발사업등의세부범위중타체육시설의설치\n체육시설의설치공사\n. (1)\n골프장업에해당함\n(\n)\n표\n[\n4-18] 자연경관영향의협의대상이되는거리\n기\n준\n해당유무\n1. 일반기준\n구\n분\n경계로부터의거리\n자연공원\n최고봉\n이상\n1,200m\n2,000m"
+          },
+          {
+            "report_id": "sports_고성_우석골프&리조트_조성사업_2025",
+            "project_name": "고성_우석골프&리조트_조성사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "지역개황",
+            "page_range": "3-4",
+            "similarity": 0.5541,
+            "excerpt": "   (남서측 약 19.9㎞ 이격)\n- 소치섬   (남서측 약 22.8㎞ 이격)\n주) 1. 영향예상지역은 사업지구 2km 내\n2. 이격거리는 사업지구와 환경관리지역･지구와의 이격거리\n74\n고성 우석골프&리조트 조성사업"
+          },
+          {
+            "report_id": "sports_장흥_J&H_컨트리클럽_조성사업_2025",
+            "project_name": "장흥_J&H_컨트리클럽_조성사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.8.2 생태자연도 현황",
+            "page_range": "23-23",
+            "similarity": 0.5387,
+            "excerpt": "자원이 존재⋅분포 하고 있는 지역\n5. 자연원시림이나 이에 가까운 산림 또는 고산초원\n6. 자연상태나 이에 가까운 하천･호소 또는 강하구\n2등급\n제1호(1등급권역) 각목에 준하는 지역으로서 장차 보전의 가치가 있는 지역 또는 1등급 권역의 외부지역으로\n서 1등급 권역의"
+          }
+        ]
+      },
+      {
+        "query_type": "waste",
+        "query": "소각시설 주변 다이옥신 저감 대책은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 85.0,
+          "source_quality": 80.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 90.7
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5666,
+          "avg_similarity": 0.5584,
+          "avg_content_length": 942,
+          "unique_reports": 3,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "waste_담양군_가축분뇨_공동자원화(에너지화)_사업_2025",
+            "project_name": "담양군_가축분뇨_공동자원화(에너지화)_사업",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-29",
+            "similarity": 0.5666,
+            "excerpt": " 후 공업용수로  \n, \n          사용할 수 있음. 마약간 나쁨\n       \n. : 상당량의 오염물질로 인하여 용존산소가 소모되는 생태계로 농업용수로 사용하거나  \n          여과침전활성탄 투입살균 등 고도의 정수처리 후 공업용수로 사용할 수 있음\n,"
+          },
+          {
+            "report_id": "waste_검단일반산업단지_내_지정폐기물_매립시설_2024",
+            "project_name": "검단일반산업단지_내_지정폐기물_매립시설",
+            "year": "2024",
+            "chapter": "제4장",
+            "section": "2019.06 04",
+            "page_range": "19-19",
+            "similarity": 0.5614,
+            "excerpt": "자료 : 2022 전국 폐기물발생 및 처리현황, 환경부\n<표 4.6.5-1> 자가중간처분(소각)시설 현황"
+          },
+          {
+            "report_id": "waste_(주)삼미환경_음식물류폐기물_처리시설_개선_사업_2024",
+            "project_name": "(주)삼미환경_음식물류폐기물_처리시설_개선_사업",
+            "year": "2024",
+            "chapter": "제4장",
+            "section": "지역개황 ┃ 69",
+            "page_range": "23-24",
+            "similarity": 0.556,
+            "excerpt": "역으로 배출하는\n사업장에 대한 배출허용기준은 공공폐수처리시설의 방류수 수질기준을 적용한다. 나.\u0001 페놀류\u0001 등\u0001 수질오염물질\u0001 (2021년\u0001 1월\u0001 1일부터\u0001 적용되는\u0001 기준)\n지역\u0001 구분\n항\u0001 \u0001 목\n청정지역\n가지역\n나지역\n특례지역\n수소이온농도\n5.8\u0001 ∼\u0001 8.6\n"
+          }
+        ]
+      },
+      {
+        "query_type": "military",
+        "query": "군사시설 건설의 자연환경 보전 방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 91.5,
+          "source_quality": 80.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 93.0
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.6101,
+          "avg_similarity": 0.5757,
+          "avg_content_length": 686,
+          "unique_reports": 3,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "military_평창_용평관광단지_조성사업_2024",
+            "project_name": "평창_용평관광단지_조성사업",
+            "year": "2024",
+            "chapter": "제4장",
+            "section": "4.1 환경관련 입지현황(총괄)",
+            "page_range": "1-2",
+            "similarity": 0.6101,
+            "excerpt": "구\u0001 분\n평창군\n사업지구\n환경관련\n보전ㆍ보호\n◦자연환경보전지역\n○\n×\n◦생태ㆍ경관보전지역\n1개소\n×\n◦상수원보호구역\n3개소\n×\n◦수변구역\n×\n×\n◦대기보전특별대책지역\n×\n×\n◦상수원 수질보전 특별대책지역\n×\n×\n◦자연공원\n○\n×\n◦습지보호지역 및 람사르습지\n1개소\n북측"
+          },
+          {
+            "report_id": "military_임진강유원지_조성계획(변경)_및_주변지역_정비사업_2025",
+            "project_name": "임진강유원지_조성계획(변경)_및_주변지역_정비사업",
+            "year": "2025",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-33",
+            "similarity": 0.569,
+            "excerpt": " 자연재해 피해액 현황\n<\n4-35> \n10\n \n단위 \n백만원\n         (\n: \n) 임진강유원지 조성계획변경및 주변지역 정비사업 \n(\n) \n환경영향평가서초안\n(\n)\n환경보전에 관한 사항\n4.9 \n생태\n자연도\n4.9.1 \n·\n그림 \n생태\n자연도\n(\n4-5) \n·\n"
+          },
+          {
+            "report_id": "military_원봉근린공원_민간공원_조성사업_2025",
+            "project_name": "원봉근린공원_민간공원_조성사업",
+            "year": "2025",
+            "chapter": "제4장",
+            "section": "4.3 환경관련지역 지정현황",
+            "page_range": "4-5",
+            "similarity": 0.5685,
+            "excerpt": "◦환경보전을 목적으로 하는 법령･조례 등에 의해 지정된 지역(자연환경보전지역, 수산자\n원보호구역, 생태･경관보전지역, 상수원보호구역, 지하수보전구역, 특별대책지역(수질,\n대기), 자연공원, 습지보호지역, 야생생물 (특별)보호구역, 백두대간보호지역, 수변구역,\n대기관리권"
+          }
+        ]
+      },
+      {
+        "query_type": "mining",
+        "query": "골재 채취의 하천 생태계 영향은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 86.6,
+          "source_quality": 80.0,
+          "content_richness": 100,
+          "type_match": 100.0,
+          "total": 91.3
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5772,
+          "avg_similarity": 0.5608,
+          "avg_content_length": 590,
+          "unique_reports": 3,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "mining_(주)세양개발_채석단지_지정_2024",
+            "project_name": "(주)세양개발_채석단지_지정",
+            "year": "2024",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-32",
+            "similarity": 0.5772,
+            "excerpt": "쁨 \n상당량의 오염물질로 인하여 용존산소가 소모되는 생태계로 농업용수로 사용하거나\n여과\n. : \n, \n, \n침전\n활성탄 투입\n살균 등 고도의 정수처리 후 공업용수로 사용할 수 있음\n, \n, \n바\n나쁨 \n다량의 오염물질로 인하여 용존산소가 소모되는 생태계로 산책등 국민의"
+          },
+          {
+            "report_id": "mining_김천_채석단지_변경지정_2024",
+            "project_name": "김천_채석단지_변경지정",
+            "year": "2024",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-30",
+            "similarity": 0.5624,
+            "excerpt": "김천 채석단지 변경지정에 따른 환경영향평가서재협의\n(\n)\n마\n수질오염총량관리제 대상지역\n. ◦김천시 및 사업지구는 오염총량관리제 실시 지역에 포함되어 있으며\n사업지구는\n낙본\n, \n“\nF”\n단위유역에 해당하는 것으로 확인됨\n표 \n<\n4.3-7>\n낙동강수계 목표수질 설정 "
+          },
+          {
+            "report_id": "mining_김천_채석단지_변경지정_2024",
+            "project_name": "김천_채석단지_변경지정",
+            "year": "2024",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-30",
+            "similarity": 0.5578,
+            "excerpt": "여야 한다고 인정되는 수역의 수질에 영향을 미치는 지역\n(Ia)\n      \n가지역 \n2. : 수질 및 수생태계 환경기준 좋음\n약간 좋음\n등급 정도의 수질을 보전하여야 한다고 인정되는 수역의 수질에 영향을 미치는 지역\n(Ib), \n( )\nⅡ\n      \n나지역 \n3. "
+          }
+        ]
+      },
+      {
+        "query_type": "reclamation",
+        "query": "매립 사업의 해양환경 영향 저감방안은?",
+        "hit_count": 5,
+        "has_results": true,
+        "scores": {
+          "relevance": 89.6,
+          "source_quality": 70.0,
+          "content_richness": 89.1,
+          "type_match": 100.0,
+          "total": 88.2
+        },
+        "issues": [],
+        "details": {
+          "top_similarity": 0.5972,
+          "avg_similarity": 0.5768,
+          "avg_content_length": 267,
+          "unique_reports": 2,
+          "type_match_count": 5,
+          "source_completeness": 1.0
+        },
+        "top_sources": [
+          {
+            "report_id": "reclamation_씨감자생산_대체포장_조성사업(대기2지구)_2016",
+            "project_name": "씨감자생산_대체포장_조성사업(대기2지구)",
+            "year": "2016",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-13",
+            "similarity": 0.5972,
+            "excerpt": "영향\n1.2\n환경영향저감방안\n1.3\n사후환경영향조사계획\n1.4\n대\n안\n1.5\n결\n론\n1.6 제장요약문\n1\n3\n제장요약문\n제장요약문\n제장요약문\n제장요약문\n1\n사업의내용\n1.1\n가\n사업명\n씨감자생산대체포장조성사업대기지구\n. :\n(\n2\n)\n나\n위\n치\n강원도강릉시왕산면대기리\n"
+          },
+          {
+            "report_id": "reclamation_씨감자생산_대체포장_조성사업(대기2지구)_2016",
+            "project_name": "씨감자생산_대체포장_조성사업(대기2지구)",
+            "year": "2016",
+            "chapter": "전체",
+            "section": "전문",
+            "page_range": "1-13",
+            "similarity": 0.5891,
+            "excerpt": "유발생및현장투입인부의분뇨발생에따른토양오염우려\n-\n공사시미확인된불법매립폐기물발견시영향예상\n- 씨감자생산대체포장조성사업대기지구환경영향평가서\n(\n2\n)\n6\n운영시\n汄\n작물재배를위한농약및비료사용에따른토양영향\n-\n다\n지형\n지질\n. 扔\n토공량\n지형변화지수\n: 2,183,743\n("
+          },
+          {
+            "report_id": "reclamation_보령PG(Proving_Ground)_구축공사_2017",
+            "project_name": "보령PG(Proving_Ground)_구축공사",
+            "year": "2017",
+            "chapter": "제4장",
+            "section": "4.3 환경기준, 식생보전등급, 생태‧자연도",
+            "page_range": "1-1",
+            "similarity": 0.5672,
+            "excerpt": "및 오염총량기준 등"
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total": 16,
+      "passed": 16,
+      "pass_rate": 100.0,
+      "avg_total_score": 90.3,
+      "min_score": 74.0,
+      "max_score": 98.6,
+      "by_metric": {
+        "avg_relevance": 85.4,
+        "avg_source_quality": 83.8,
+        "avg_content_richness": 93.2,
+        "avg_type_match": 100.0
+      }
+    }
+  },
+  "llm_quality": {
+    "results": [
+      {
+        "query_type": "road",
+        "query": "도로 사업의 비산먼지 저감방안은?",
+        "answer_length": 576,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "제공된 환경영향평가서 원문에서는 도로 사업의 비산먼지 저감방안에 대한 구체적인 내용이 명시적으로 언급되지 않았습니다. 다만, 관련된 환경 관리 조치로 다음과 같은 사항을 참고할 수 있습니다:\n\n1. **비점오염저감시설 설치**: 도로 건설 구간 중 상수원보호구역 및 수변구역에 비점오염저감시설을 설치하여 오염물질 유출을 방지하는 사례가 확인됩니다 [출처 5]. 비산먼지 유출 저감에도 일부 기여할 수 있을 것으로 추정됩니다.\n\n2. **공사장 소음·진동 관리 기준 준수**: 공사장에서의 소음 규제기준(예: 주간 60dB 이하)을 준수하기 위해 시공 시 먼지 발생을 최소화하는 공법 적용이 필요할 수 있습니다 [출처 4].\n\n3. **지역별 환경기준 적용**: 공업지역 또는 특정 관리지역의 환경기준을 준수하기 위해 건설 과정에서 먼지 발생원을 통제할 것으로 예상됩니다 [출처 3].\n\n다만, 구체적인 비산먼지 저감 기술(예: 물 살포, 차량 세척, 방진망 설치 등)은 원문에서 직접적으로 다루",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 100,
+          "domain_relevance": 75,
+          "total": 92.5
+        }
+      },
+      {
+        "query_type": "energy",
+        "query": "화력발전소의 대기오염물질 배출 저감 기술은?",
+        "answer_length": 768,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "제공된 환경영향평가서 원문에 근거하여 화력발전소의 대기오염물질 배출 저감 기술을 설명드리겠습니다.\n\n1. **저황연료 사용**\n   - 대기환경보전법에 따라 황 함유 기준이 0.1% 이하의 경유 및 0.3% 이하의 중유(LSWR 포함)를 사용하도록 규정되어 있습니다. 이는 황산화물(SOx) 배출을 효과적으로 저감하는 기술입니다. [출처 1]\n\n2. **질소산화물(NOx) 배출 기준 준수**\n   - 이산화질소(NO2)의 연평균 농도 기준을 0.05ppm 이하로 유지하도록 관리하고 있습니다. 이는 질소산화물 배출 저감 기술이 적용되었음을 나타냅니다. [출처 2]\n\n3. **청정연료 사용 의무화**\n   - 대기환경보전법 시행령에 따라 청정연료 사용이 의무화되어 있으며, 고체연료 사용이 제한되는 지역에서는 추가적인 배출 저감이 요구됩니다. [출처 5]\n\n4. **열병합 발전시설 활용**\n   - 발전폐열을 지역냉난방용으로 공급하는 산업용 열병합 발전시설은 환경부장관 승인 시설로 인정받아",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 100,
+          "domain_relevance": 100,
+          "total": 100.0
+        }
+      },
+      {
+        "query_type": "industrial",
+        "query": "산업단지 조성 시 수질 오염 방지 대책은?",
+        "answer_length": 762,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "산업단지 조성 시 수질 오염 방지 대책은 다음과 같이 수립할 수 있습니다. 제공된 환경영향평가서 원문을 근거로 주요 내용을 정리했습니다.\n\n1. **수질 환경기준 준수**\n   - 하천 및 호소의 생활환경기준(수소이온농도, BOD, COD, TOC, SS, DO, 총인, 총질소 등)을 엄격히 적용해야 합니다. [출처 1, 3, 4]\n   - 예를 들어, '매우 좋음(Ia)' 등급의 경우 BOD 1㎎/L 이하, COD 2㎎/L 이하 등의 기준을 충족해야 합니다. [출처 4]\n\n2. **수질오염총량관리 적용**\n   - 삽교호수계와 같은 수질오염총량관리지역에서는 유역 단위로 오염물질 배출 총량을 관리해야 합니다. [출처 2]\n\n3. **폐수처리 기준 준수**\n   - 공공폐수처리구역의 경우 방류수 수질기준을 적용하며, 특정 항목은 지역별 배출허용기준을 추가로 적용해야 합니다. [출처 5]\n   - 폐수처리 시 고도처리 기술 도입으로 COD, 총인 등 주요 오염물질을 저감해야 합니다. [",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 100,
+          "total": 97.5
+        }
+      },
+      {
+        "query_type": "urban_dev",
+        "query": "택지개발 사업의 교통 영향 저감방안은?",
+        "answer_length": 330,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "제공된 원문에는 택지개발 사업의 교통 영향 저감방안에 대한 직접적인 내용이 포함되어 있지 않습니다. \n\n원문에서 확인할 수 있는 관련 정보는 다음과 같습니다:\n1. 공항소음 대책지역 지정 현황 [출처 1]\n2. 폐기물매립시설 설치제한지역 규정 [출처 2]\n3. 상수원보호구역 외 공장설립 제한지역 [출처 3]\n4. 사업지구 주변 개발사업 현황 조사 방법 [출처 4]\n5. 토지이용행위제한지역 지정 현황(수질/대기 총량관리, 연료사용규제 등) [출처 5]\n\n교통 영향 저감방안에 대한 구체적인 내용이 없으므로, 해당 평가서의 다른 장이나 교통 분야 전문 평가서를 참조해야 할 것으로 보입니다.",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 75,
+          "total": 90.0
+        }
+      },
+      {
+        "query_type": "railway",
+        "query": "철도 건설 시 소음진동 대책은?",
+        "answer_length": 701,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "철도 건설 시 소음·진동 대책은 다음과 같이 환경기준 및 규제기준을 준수하여 수립됩니다.\n\n1. **소음 기준 적용**\n   - 주거지역·녹지지역 등에서는 시간대별(주간/야간)로 소음 규제기준을 적용합니다. 예를 들어 주거지역의 경우 주간(07:00~18:00) 55dB(A), 야간(22:00~05:00) 45dB(A) 이하로 관리합니다 [출처 2].\n   - 철도소음은 항공기소음·건설작업소음과 함께 일반 소음환경기준에서 제외될 수 있으나, 사업별로 별도 기준이 적용될 수 있습니다 [출처 4].\n\n2. **공사장 소음 관리**\n   - 공사장 소음은 작업 시간에 따라 보정치를 적용합니다. 예를 들어, 특정 장비 사용 시 작업시간이 3시간 초과 시 +5dB(A) 보정 [출처 5].\n   - 발파소음은 주간에 한해 기준치 +10dB(A) 보정이 가능하며, 의료시설·학교 인근 50m 이내 지역은 공휴일 기준 -5dB(A) 추가 보정이 적용됩니다 [출처 5].\n\n3. **진동 기준**\n  ",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 75,
+          "total": 90.0
+        }
+      },
+      {
+        "query_type": "port",
+        "query": "항만 준설 시 해양생태계 보호 방안은?",
+        "answer_length": 773,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "항만 준설 시 해양생태계 보호를 위한 주요 방안은 다음과 같습니다:\n\n1. **수산자원보호구역 인접 지역 관리 강화**\n   - 준설 사업지와 인접한 수산자원보호구역(득량만, 여자만, 가막만 등)과의 거리(약 2.5km 이격)를 고려하여 준설 범위를 최소화해야 합니다. [출처 1]\n   - 보성군, 순천시, 여수시 등 인근 지역의 수산자원보호구역 지정 현황(총 면적 373.91㎢ 등)을 참고하여 준설 작업 시 생태계 교란을 방지해야 합니다. [출처 1]\n\n2. **수질오염 총량 관리**\n   - 준설로 인한 부유물질 증가를 방지하기 위해 수질오염총량제도 기준(비적용 지역이라도)을 참고하여 오염 부하량을 관리해야 합니다. [출처 2]\n   - 환경정책기본법 시행령의 수질 및 수생태계 환경기준(예: SS 0.00004 이하)을 준수해야 합니다. [출처 3]\n\n3. **법적 절차 이행**\n   - 환경영향평가법 제33조 및 시행령 제55조에 따라 준설 계획 변경 시 환경보전방안을 재검토해",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 100,
+          "domain_relevance": 75,
+          "total": 92.5
+        }
+      },
+      {
+        "query_type": "airport",
+        "query": "공항 건설의 조류 충돌 방지 대책은?",
+        "answer_length": 415,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "제공된 원문에서는 공항 건설과 관련된 조류 충돌 방지 대책에 대한 직접적인 내용이 확인되지 않습니다. 다만, 다음과 같은 환경 관련 정보만 확인할 수 있습니다:\n\n1. 대기환경규제지역 지정현황(인천광역시)에서 오존, 이산화질소, 총먼지 등 대기오염 물질 규제 정보 [출처 1]\n\n2. 소음 및 건설작업 소음 관련 규정 적용 정보 [출처 2]\n\n3. 하수종말처리장 현황(인천광역시 내 위치한 9개 처리장 정보) [출처 4]\n\n제공된 자료는 송도지역 공유수면 매립사업 관련 환경영향평가서로, 공항 건설과 조류 충돌 방지 대책에 대한 내용은 포함되어 있지 않습니다. [출처 1,2,3,4,5]\n\n※ 참고: 조류 충돌 방지 대책은 일반적으로 공항 주변 조류 서식지 관리, 레이더 모니터링 시스템 설치, 조류 퇴치 장비 활용 등을 포함할 수 있습니다.",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 60,
+          "domain_relevance": 75,
+          "total": 82.5
+        }
+      },
+      {
+        "query_type": "river",
+        "query": "하천 정비 사업의 수생태계 보전 방안은?",
+        "answer_length": 649,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "하천 정비 사업의 수생태계 보전 방안은 다음과 같이 요약할 수 있습니다:\n\n1. **수질오염총량관리제도 적용**\n   - 하천의 용수 목적에 맞는 목표수질을 설정하고, 배출되는 오염부하총량이 허용량 이하로 관리됩니다. 이는 「금강수계 물관리 및 주민지원 등에 관한 법률」 등 관련 법률에 근거합니다 [출처 1].\n\n2. **수변구역 지정 및 관리**\n   - 수질 보전을 위해 환경부장관이 지정·고시하는 수변구역을 관리합니다. 이는 금강수계, 낙동강수계 등 주요 수계의 법률에 따라 시행됩니다 [출처 2].\n\n3. **국토환경성평가지도 활용**\n   - 하천의 특성에 따라 1~3등급 지역으로 구분하여 관리하며, 개발지(4~5등급)와의 조화를 고려합니다 [출처 3].\n\n4. **생태·자연도 평가**\n   - 사업하천의 생태·자연도를 평가하여 1등급(우수) 권역을 중심으로 보전 계획을 수립합니다. 일부 2등급 지역도 포함될 수 있습니다 [출처 4].\n\n5. **수질 목표기준 설정**\n   -",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 75,
+          "domain_relevance": 100,
+          "total": 93.8
+        }
+      },
+      {
+        "query_type": "water_resource",
+        "query": "댐 건설 시 수몰 지역 주민 대책은?",
+        "answer_length": 942,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "제공된 환경영향평가서 원문을 참조하여 댐 건설 시 수몰 지역 주민 대책에 대한 답변은 다음과 같습니다:\n\n1. **주민 생활 기반 시설 보호**\n   - 취·정수장 등 주요 상수원 시설은 수몰 지역과 수계가 상이하거나 충분히 이격되어 있어(3.3㎞ 이상) 영향을 받지 않도록 계획되었습니다 [출처 1, p.9-10].\n   - 예를 들어, 평림취·정수장은 계획저수지와 3.3㎞ 이격되어 있으며 수계가 달라 영향이 없는 것으로 판단되었습니다 [출처 1, p.9].\n\n2. **문화재 보호 대책**\n   - 수몰 예정 지역 내 문화재(국가지정 11점, 지방지정 24점 등)에 대해 현황을 정밀 조사하고, 보존 방안을 마련합니다 [출처 1, p.10].\n   - 삼계면의 문화재자료(기영정, 관수정 등)는 사업 영향 평가 후 필요한 경우 이전 또는 보존 조치가 이루어집니다 [출처 1, p.10].\n\n3. **수변구역 관리**\n   - 『영산강·섬진강수계 물관리법』에 따라 수변구역(298.641㎢)",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 100,
+          "total": 97.5
+        }
+      },
+      {
+        "query_type": "tourism",
+        "query": "골프장 건설의 산림 훼손 대응 방안은?",
+        "answer_length": 938,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "골프장 건설로 인한 산림 훼손 대응 방안은 다음과 같이 요약할 수 있습니다. 각 방안은 제공된 환경영향평가서 원문에 근거하여 제시되었습니다.\n\n1. **습지보호지역 보호**:  \n   - 골프장 건설 시 인접한 습지보호지역(예: 광주광역시 장록습지)을 보호하기 위해 「자연공원법」에 따라 공원관리청의 허가를 반드시 받아야 합니다.  \n   - 습지 내 멸종위기종 및 생물다양성 보호를 위해 충분한 이격거리(15km 이상)를 유지하거나 완충지대를 조성해야 합니다. [출처 1]  \n\n2. **산지전용 허가 및 규제 준수**:  \n   - 「산지관리법」에 따라 산지전용 면적이 20만㎡ 이상인 경우 허가를 받아야 하며, 지구단위계획 수립 시 환경영향평가를 실시해야 합니다.  \n   - 산림유전자원보호구역(예: 함평군 진귀한 임상)과의 충분한 이격거리를 확보하거나 보호구역 지정 면적을 고려한 설계가 필요합니다. [출처 2, 출처 4]  \n\n3. **생태자연도 및 국토환경성평가 반영**:  \n  ",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 75,
+          "total": 90.0
+        }
+      },
+      {
+        "query_type": "mountain",
+        "query": "채석 사업의 지형경관 영향 최소화 방안은?",
+        "answer_length": 661,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "채석 사업의 지형경관 영향 최소화 방안은 다음과 같이 제시할 수 있습니다:\n\n1. **사전 지질조사 강화**\n- 자연발생 석면이 없는 지역을 선정하여 채석을 진행해야 함 [출처 1]\n- 초염기성암, 사문암 등 석면 발생 가능성이 높은 암석 지대를 피할 것 [출처 3]\n\n2. **재해위험지역 회피**\n- 자연재해위험개선지구(침수위험지역 등)에서 최소 1.1km 이상 이격 거리 유지 [출처 1]\n- 사업지 인근 재해위험지역 현황을 반드시 확인할 것 [출처 2]\n\n3. **생태계 보호대책**\n- 철새도래지(광양만·갈사만 등)와는 충분한 이격 거리 확보 [출처 3]\n- 멸종위기종 서식지(저어새, 큰고니 등) 보호를 위한 완충구역 설정 [출처 3]\n\n4. **경관 보존 조치**\n- 산림보호구역, 자연공원, 천연기념물 지정구역 등 보호지역 개발 제한 [출처 4]\n- 「국토계획법」상 관리지역 구분에 따라 차등화된 개발 강도 적용 [출처 5]\n\n5. **작업 시간 관리**\n- 진동·소음 발생 작업",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 100,
+          "domain_relevance": 100,
+          "total": 100.0
+        }
+      },
+      {
+        "query_type": "sports",
+        "query": "스키장 건설의 생태계 영향은?",
+        "answer_length": 665,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "스키장 건설의 생태계 영향은 다음과 같이 요약할 수 있습니다:\n\n1. **보호지역 영향**: 스키장 건설 시 자연공원, 습지보호지역, 생태경관보전지역 등과의 거리 기준을 준수해야 합니다. 예를 들어, 자연공원 최고봉의 경우 경계로부터 1,200m~2,000m 이내 위치 시 영향을 받을 수 있습니다 [출처 1].\n\n2. **생태자연도 영향**: 개발지역이 1등급(자연원시림 등) 또는 2등급(보전 가치 지역) 생태자연도에 해당할 경우, 생태계 교란 우려가 큽니다. 특히 야생생물 특별보호구역이나 천연기념물 지정 구역과 인접 시 추가 관리가 필요합니다 [출처 3].\n\n3. **생태계변화관찰지역 영향**: 생물다양성이 풍부하거나 멸종위기 종 서식지가 0.8km 이내에 있을 경우, 관찰지역 지정으로 인한 개발 제약이 발생할 수 있습니다 [출처 4].\n\n4. **백두대간 영향**: 백두대간 보호지역 인근에서는 특별한 보호 조치가 필요하며, 해당 지역에 위치하지 않더라도 인접 시 생태축 단절 가능",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 75,
+          "domain_relevance": 75,
+          "total": 86.2
+        }
+      },
+      {
+        "query_type": "waste",
+        "query": "소각시설 주변 다이옥신 저감 대책은?",
+        "answer_length": 575,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "제공된 원문을 검토한 결과, 소각시설 주변 다이옥신 저감 대책에 대한 직접적인 내용은 명시적으로 언급되지 않았습니다. 다만, 관련 환경 기준 및 처리 기술에 대한 일부 정보를 확인할 수 있습니다.\n\n1. **폐수 처리 기준**:\n   - 펜타클로로페놀(다이옥신 유사물질)의 배출 허용 기준은 지역별로 최대 0.001~0.01 mg/L로 엄격히 규제됩니다 [출처 3, p.23-24].\n\n2. **고도 정수처리 기술**:\n   - 활성탄 투입, 역삼투압 공법 등 특수 정수처리 기술을 적용하면 오염물질을 효과적으로 제거할 수 있다는 내용이 있습니다 [출처 1, p.1-29].\n\n3. **토양 오염 우려 기준**:\n   - 벤조피렌 등 유해물질에 대한 토양오염우려기준이 설정되어 있으며, 이는 간접적으로 다이옥신 관리와 관련될 수 있습니다 [출처 4, p.1-29].\n\n다만, 제공된 자료에는 소각시설의 다이옥신 배출 저감을 위한 구체적인 운영 대책(예: 연소온도 관리, 배기가스 처리시설 등)이",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 75,
+          "total": 90.0
+        }
+      },
+      {
+        "query_type": "military",
+        "query": "군사시설 건설의 자연환경 보전 방안은?",
+        "answer_length": 1070,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "군사시설 건설 시 자연환경 보전을 위한 주요 방안은 다음과 같이 제시할 수 있습니다. (참조된 환경영향평가서 원문 기준)\n\n1. **환경보전지역 지정 현황 파악 및 회피**\n   - 자연환경보전지역, 생태경관보전지역, 습지보호지역 등 법정 보호지역을 사전 조사하여 입지 선정 시 회피해야 합니다. [출처 1, 출처 3]\n   - 백두대간 보호지역과 인접할 경우 동측 접촉을 최소화하는 설계가 필요합니다. [출처 1]\n\n2. **수계 보호 조치**\n   - 상수원보호구역(3개소 사례) 및 수변구역 내 작업을 제한하고, 수질오염총량관리지역(골지A 한강수계 사례)에서는 오염물질 배출 기준을 엄격히 적용해야 합니다. [출처 1, 출처 3]\n   - 폐수배출시설 설치제한 지역(대청호 영향권 사례)에서는 방류수 처리 시 \"청정\" 기준을 준수해야 합니다. [출처 1, 출처 3]\n\n3. **생태계 영향 최소화**\n   - 생태·자연도 1~3등급 지역 및 별도관리지역에서의 토목공사 시 생태통로 확보 등",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 100,
+          "domain_relevance": 100,
+          "total": 100.0
+        }
+      },
+      {
+        "query_type": "mining",
+        "query": "골재 채취의 하천 생태계 영향은?",
+        "answer_length": 1115,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "골재 채취 시 하천 생태계에 미치는 주요 영향은 다음과 같이 요약할 수 있습니다:\n\n1. **수질 악화 및 용존산소 감소**  \n   - 골재 채취로 인해 다량의 오염물질이 유입되면 용존산소(DO)가 급격히 소모되어 수생생물(예: 물고기)의 서식이 어려워질 수 있습니다. 특히 \"매우 나쁨\" 등급의 경우 용존산소가 거의 없어 생물이 생존하기 힘든 상태가 됩니다 [출처 1].  \n   - BOD(생물화학적 산소 요구량)와 T-P(총인) 농도 증가로 인해 수질 등급이 하락할 수 있으며, 이는 낙동강 수계의 목표수질(BOD 1.9 mg/L, T-P 0.040 mg/L)을 초과할 위험이 있습니다 [출처 2].\n\n2. **수생태계 등급 저하**  \n   - 하천의 수질 등급은 \"좋음(Ib)\"에서 \"매우 나쁨(VI)\"까지 구분되며, 골재 채취로 인한 부유물질(SS)이나 유기물질(COD) 증가로 등급이 악화될 수 있습니다. 예를 들어, \"나쁨(V)\" 등급에서는 BOD 10 mg/L 이상, DO 2",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 100,
+          "total": 97.5
+        }
+      },
+      {
+        "query_type": "reclamation",
+        "query": "매립 사업의 해양환경 영향 저감방안은?",
+        "answer_length": 614,
+        "source_count": 5,
+        "has_answer": true,
+        "answer_preview": "제공된 원문을 참조하여 매립 사업의 해양환경 영향 저감방안을 분석한 결과, 다음과 같은 내용을 확인할 수 있습니다:\n\n1. **불법매립 폐기물 관리 강화**\n   - 공사 시 미확인된 불법매립 폐기물 발견 시 적절한 처리 절차를 마련하여 해양 오염을 방지해야 함 [출처 2]\n\n2. **토양 유실 방지 조치**\n   - 대규모 토공량(2,183,743㎥)으로 인한 지형 변화 최소화 [출처 2]\n   - 최대 24.87m의 쌓기고와 22.50m의 비탈면 발생 시 침식 방지를 위한 구조물 설치 [출처 2]\n\n3. **비옥토 관리**\n   - 발생 예정인 비옥토(4,588㎥)를 적정하게 처리하여 유출 방지 [출처 2]\n\n4. **사후 환경영향 조사**\n   - 사업 기간 동안 지속적인 모니터링을 통해 해양 환경 영향 여부를 확인 [출처 5]\n   - 환경부 고시(2016-131호)에 따라 환경기준 항목을 중심으로 조사 [출처 5]\n\n다만, 제공된 원문에서는 매립 사업과 직접적으로 연관된 해",
+        "scores": {
+          "length": 100,
+          "citation": 100,
+          "specificity": 90,
+          "domain_relevance": 50,
+          "total": 82.5
+        }
+      }
+    ],
+    "summary": {
+      "total": 16,
+      "passed": 16,
+      "pass_rate": 100.0,
+      "avg_total_score": 92.7,
+      "avg_answer_length": 722
+    }
+  },
+  "draft_copilot_rag": {
+    "results": [
+      {
+        "section_topic": "대기질",
+        "project_type": "road",
+        "available": true,
+        "reference_length": 845,
+        "source_count": 3,
+        "sources": [
+          {
+            "report_id": "road_천안시_국도대체우회도로(성거~목천)_건설공사_2025",
+            "project_name": "천안시_국도대체우회도로(성거~목천)_건설공사",
+            "year": "2025",
+            "similarity": 0.649
+          },
+          {
+            "report_id": "road_새만금_지역간_연결도로_건설사업_2025",
+            "project_name": "새만금_지역간_연결도로_건설사업",
+            "year": "2025",
+            "similarity": 0.618
+          },
+          {
+            "report_id": "road_국도56호선_철원_근남~화천_상서_도로건설공사_2025",
+            "project_name": "국도56호선_철원_근남~화천_상서_도로건설공사",
+            "year": "2025",
+            "similarity": 0.614
+          }
+        ],
+        "reference_preview": "◦ 본 사업노선은 국토환경성평가등급 1·2·3·5등급 지역이 혼재되어 있는 것으로 조사되었음.\n<그림 4.3-5>\n사업노선 및 주변지역 국토환경성평가지도\n(출처: 천안시_국도대체우회도로(성거~목천)_건설공사 환경영향평가서, 2025, p.16-16)\n\n가 착공된 경우\n다. 다른 법령에 따라 지목변경 사유에 해\n당하는 공사가 착공된 경우\n7. 「공간정보의 구축 및 관리 등에 관한 법률」에\n따른 지목이 등록되어 있지 않은 토지에 대\n하여 법 제11조제3항, 제14조제1항, 제15조\n제1항 또는 같은 조 제3항 각 호에 따른 토양\n정밀조",
+        "pass": true
+      },
+      {
+        "section_topic": "수질",
+        "project_type": "road",
+        "available": true,
+        "reference_length": 886,
+        "source_count": 3,
+        "sources": [
+          {
+            "report_id": "road_청송_진보-영양_입암_국도건설공사_2025",
+            "project_name": "청송_진보-영양_입암_국도건설공사",
+            "year": "2025",
+            "similarity": 0.718
+          },
+          {
+            "report_id": "road_청송_진보-영양_입암_국도건설공사_2025",
+            "project_name": "청송_진보-영양_입암_국도건설공사",
+            "year": "2025",
+            "similarity": 0.646
+          },
+          {
+            "report_id": "road_청송_진보-영양_입암_국도건설공사_2025",
+            "project_name": "청송_진보-영양_입암_국도건설공사",
+            "year": "2025",
+            "similarity": 0.64
+          }
+        ],
+        "reference_preview": "제장 지역개황\n4\n \n- 65 -\n나수질 측정망\n. ∘사업노선 주변 수질 측정망을 조사한 결과사업노선이 인근에 하천 측정망 개소가 위치하고\n, \n1\n \n있는 것으로 조사됨\n  - 수질측정망을 활용한 \n년 기준 수질현황 조사결과\n환경정책기본법 시행령\n별표\n2022\n, \n[\n1]\n「\n」 \n \n환경기준에 제시된 하천의 생활환경 \n기준 \n매우좋음\n좋음등급인 것으로 조사됨\nBOD \na(\n)~\nb(\n)\nⅠ\nⅠ\n표 \n<\n4-23> 수질 측정망 위치\n구 분\n지점명\n위치\n대권역중권역\n/\n비 고\n하 천\n반변천2\n경상북도 영양군 입암면 흥구리낙동강임하",
+        "pass": true
+      },
+      {
+        "section_topic": "소음·진동",
+        "project_type": "road",
+        "available": true,
+        "reference_length": 795,
+        "source_count": 3,
+        "sources": [
+          {
+            "report_id": "road_청송_진보-영양_입암_국도건설공사_2025",
+            "project_name": "청송_진보-영양_입암_국도건설공사",
+            "year": "2025",
+            "similarity": 0.682
+          },
+          {
+            "report_id": "road_천안시_국도대체우회도로(성거~목천)_건설공사_2025",
+            "project_name": "천안시_국도대체우회도로(성거~목천)_건설공사",
+            "year": "2025",
+            "similarity": 0.657
+          },
+          {
+            "report_id": "road_청송_진보-영양_입암_국도건설공사_2025",
+            "project_name": "청송_진보-영양_입암_국도건설공사",
+            "year": "2025",
+            "similarity": 0.62
+          }
+        ],
+        "reference_preview": "\n착공된 경우\n다\n  \n. 다른 법령에 따라 지목변경 사유에 해당하는 공사가 \n착공된 경우 청송 진보영양 입암 국도건설공사\n-\n- 80 -\n소음진동\n4.3.4 \n·\n표 \n<\n4-42> 생활소음 규제기준\n단위 \n[\n: dB(A)]\n대상 지역\n시간대별\n             \n소음원\n \n아침저녁\n, \n(05:00~07:00,\n18:00~22:00)\n주간\n(07:00~18:00)\n야간\n(22:00~05:00)\n가. 주거지역\n녹지지역\n, \n, \n관리지역 중 취락지구 \n및 관광ㆍ휴양개발\n진흥지구\n자연환경\n, \n보전지역\n그 밖의 \n, \n지역에",
+        "pass": true
+      },
+      {
+        "section_topic": "대기질",
+        "project_type": "energy",
+        "available": true,
+        "reference_length": 996,
+        "source_count": 3,
+        "sources": [
+          {
+            "report_id": "energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025",
+            "project_name": "용인_반도체_클러스터_일반산업단지_집단에너지사업",
+            "year": "2025",
+            "similarity": 0.65
+          },
+          {
+            "report_id": "energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025",
+            "project_name": "용인_반도체_클러스터_일반산업단지_집단에너지사업",
+            "year": "2025",
+            "similarity": 0.637
+          },
+          {
+            "report_id": "energy_송산빛그린_건설사업_2025",
+            "project_name": "송산빛그린_건설사업",
+            "year": "2025",
+            "similarity": 0.617
+          }
+        ],
+        "reference_preview": "가협의대상개발사업등의세부범위(보호지역주변외지역)\n구      분\n개발사업등의 세부범위\n다. 에너지 개발\n(2)「전기사업법」제2조제16호에 따른 전기설비 중 다음의어느 하나에\n해당하는 설비의 설치사업[「집단에너지사업법」제2조제6호에 따른\n공급시설 중 발전시설용량이 1만킬로와트(공장용지 또는 산업용지 안\n에 설치하는 경우에는 3만킬로와트) 이상인 열발생설비의 설치사업은\n제외한다]\n자료 : 자연환경보전법 시행령 제20조제2항 [별표2]\n(출처: 용인_반도체_클러스터_일반산업단지_집단에너지사업 환경영향평가서, 2025, p.39-39)\n\n",
+        "pass": true
+      },
+      {
+        "section_topic": "해양환경",
+        "project_type": "energy",
+        "available": true,
+        "reference_length": 809,
+        "source_count": 3,
+        "sources": [
+          {
+            "report_id": "energy_용인_반도체_클러스터_일반산업단지_집단에너지사업_2025",
+            "project_name": "용인_반도체_클러스터_일반산업단지_집단에너지사업",
+            "year": "2025",
+            "similarity": 0.606
+          },
+          {
+            "report_id": "energy_송산빛그린_건설사업_2025",
+            "project_name": "송산빛그린_건설사업",
+            "year": "2025",
+            "similarity": 0.549
+          },
+          {
+            "report_id": "energy_송산빛그린_건설사업_2025",
+            "project_name": "송산빛그린_건설사업",
+            "year": "2025",
+            "similarity": 0.525
+          }
+        ],
+        "reference_preview": "가협의대상개발사업등의세부범위(보호지역주변외지역)\n구      분\n개발사업등의 세부범위\n다. 에너지 개발\n(2)「전기사업법」제2조제16호에 따른 전기설비 중 다음의어느 하나에\n해당하는 설비의 설치사업[「집단에너지사업법」제2조제6호에 따른\n공급시설 중 발전시설용량이 1만킬로와트(공장용지 또는 산업용지 안\n에 설치하는 경우에는 3만킬로와트) 이상인 열발생설비의 설치사업은\n제외한다]\n자료 : 자연환경보전법 시행령 제20조제2항 [별표2]\n(출처: 용인_반도체_클러스터_일반산업단지_집단에너지사업 환경영향평가서, 2025, p.39-39)\n\n",
+        "pass": true
+      }
+    ],
+    "summary": {
+      "total_tests": 5,
+      "passed": 5,
+      "pass_rate": 100.0
+    }
+  },
+  "overall": {
+    "search_avg_score": 90.3,
+    "search_pass_rate": 100.0,
+    "draft_pass_rate": 100.0,
+    "llm_avg_score": 92.7,
+    "llm_pass_rate": 100.0,
+    "overall_score": 94.0
+  }
+}
