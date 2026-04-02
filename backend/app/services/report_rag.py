@@ -1,7 +1,7 @@
 """환경영향평가서 RAG(Retrieval-Augmented Generation) 서비스.
 
 ChromaDB + sentence-transformers로 실제 평가서 원문을 벡터 검색하고,
-DeepSeek V3로 근거 기반 답변을 생성한다.
+LLM으로 근거 기반 답변을 생성한다.
 
 사용:
     rag = ReportRAG()
@@ -18,9 +18,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from openai import AsyncOpenAI
-
 from backend.app.core.config import settings
+from backend.app.core.llm_client import get_llm_client, get_llm_model, get_provider_name
 
 logger = logging.getLogger(__name__)
 
@@ -490,9 +489,10 @@ class ReportRAG:
         self, question: str, context: str, sources: list[dict],
     ) -> str:
         """검색된 컨텍스트를 기반으로 LLM 답변을 생성한다."""
-        if not settings.OPENROUTER_API_KEY:
+        client = get_llm_client()
+        if client is None:
             return (
-                "LLM API 키가 설정되지 않아 자동 답변을 생성할 수 없습니다.\n\n"
+                f"LLM API 키가 설정되지 않아 자동 답변을 생성할 수 없습니다 ({get_provider_name()}).\n\n"
                 "검색된 원문 내용을 직접 참조해 주세요."
             )
 
@@ -515,12 +515,9 @@ class ReportRAG:
         )
 
         try:
-            client = AsyncOpenAI(
-                api_key=settings.OPENROUTER_API_KEY,
-                base_url="https://openrouter.ai/api/v1",
-            )
             response = await client.chat.completions.create(
-                model=settings.LLM_MODEL,
+                model=get_llm_model(),
+                max_tokens=4096,
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": user_prompt},
@@ -528,5 +525,5 @@ class ReportRAG:
             )
             return response.choices[0].message.content or ""
         except Exception as exc:
-            logger.exception("RAG LLM 호출 실패: %s", exc)
+            logger.exception("RAG LLM 호출 실패 (%s): %s", get_provider_name(), exc)
             return f"[LLM 호출 실패] {exc}\n\n검색된 원문 내용을 직접 참조해 주세요."

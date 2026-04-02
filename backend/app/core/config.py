@@ -44,9 +44,12 @@ class Settings(BaseSettings):
     # ── Frontend ──
     NEXT_PUBLIC_API_URL: str = "http://localhost:8000"
 
-    # ── LLM (OpenRouter) ──
+    # ── LLM ──
+    LLM_PROVIDER: str = "gemini"  # "gemini" or "openrouter"
     OPENROUTER_API_KEY: str = ""
-    LLM_MODEL: str = "deepseek/deepseek-chat"
+    LLM_MODEL: str = "deepseek/deepseek-chat"  # OpenRouter model
+    GEMINI_API_KEY: str = ""
+    GEMINI_MODEL: str = "gemini-2.5-flash"
 
     # ── 공공데이터 API ──
     DATA_GO_KR_API_KEY: str = ""

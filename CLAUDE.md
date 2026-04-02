@@ -15,7 +15,7 @@ EIA Pre-Screen은 사업 위치와 유형을 입력하면 공식·캐시 데이�
 - LLM 리스크 종합 해석문
 - RAG 기반 평가서 원문 검색 (103건, 6,103 청크)
 - Draft Copilot: 7장 22섹션 초안 자동 생성 (사업유형별 중점 배지)
-- 검토의견 예측 + 품질 체크 (9,973건 과거 데이터 기반)
+- 검토의견 예측 + 품질 체크 (9,996건 과거 데이터 기반)
 - 1p 브리프 + 5~10p 환경현황 요약 보고서 PDF
 
 ### 이 도구가 하지 않는 것 (Non-Goals)
@@ -35,7 +35,7 @@ EIA Pre-Screen은 사업 위치와 유형을 입력하면 공식·캐시 데이�
 - **DB**: PostgreSQL 16 + PostGIS 3.4
 - **데이터 처리**: Python ETL + 캐시 스냅샷
 - **RAG**: ChromaDB + sentence-transformers (jhgan/ko-sroberta-multitask)
-- **LLM**: DeepSeek V3 via OpenRouter (무료) (사례 태깅, 리스크 해석문, RAG 답변 생성)
+- **LLM**: Google Gemini 2.5 Flash (기본, 무료) / OpenRouter DeepSeek V3 (대안) — llm_client.py 팩토리 패턴
 - **공간 질의**: V-world WFS/연속지적도 GetFeature
 - **출력**: PDF (ReportLab, Korean CID fonts)
 - **모니터링**: Prometheus metrics (/metrics 엔드포인트)
@@ -104,14 +104,14 @@ eia-prescreen/
 │   │   │   ├── regulation_matcher.py # 174개 규제 매칭
 │   │   │   ├── data_fetcher.py       # 22개 커넥터 병렬 호출
 │   │   │   ├── cache_manager.py      # 캐시/스냅샷 관리
-│   │   │   ├── llm_interpreter.py    # DeepSeek V3 해석문
+│   │   │   ├── llm_interpreter.py    # LLM 해석문 (Gemini/OpenRouter)
 │   │   │   ├── report_generator.py   # PDF 보고서 4종
 │   │   │   ├── case_search.py        # 유사사례 검색
 │   │   │   ├── checklist_generator.py # 체크리스트 생성
 │   │   │   ├── draft_copilot.py      # 7장 22섹션 초안
 │   │   │   ├── review_predictor.py   # 검토의견 예측
 │   │   │   ├── quality_checker.py    # 품질 체크 33항목
-│   │   │   ├── pattern_advisor.py    # 9,973건 패턴 분석
+│   │   │   ├── pattern_advisor.py    # 9,996건 패턴 분석
 │   │   │   ├── report_rag.py         # RAG 원문 검색
 │   │   │   └── legislation_monitor.py # 6개 법령 개정 감지
 │   │   ├── rules/          # 룰 엔진 YAML
@@ -126,7 +126,7 @@ eia-prescreen/
 │   ├── cases/              # 큐레이션 사례 JSON (89건)
 │   ├── regulations/        # 규제 매핑 테이블 (174개)
 │   ├── snapshots/          # API 캐시 스냅샷
-│   ├── bulk/               # 벌크 협의 데이터 (9,973건)
+│   ├── bulk/               # 벌크 협의 데이터 (9,996건)
 │   └── reports/            # EIASS 환평 원문 (103건)
 ├── docs/                    # 문서
 │   ├── API_REFERENCE.md
@@ -139,6 +139,9 @@ eia-prescreen/
 │   ├── ITERATION_PLAN.md
 │   ├── PROJECT_AUDIT.md
 │   ├── PROJECT_AUDIT_V2.md
+│   ├── PROJECT_AUDIT_V3.md
+│   ├── PROJECT_AUDIT_V4.md
+│   ├── FULL_TYPE_TEST_34.md
 │   └── FINAL_EXECUTION_PLAN.md
 ├── docker-compose.yml
 ├── .env.example
@@ -210,8 +213,8 @@ eia-prescreen/
 
 ### C계층: 수동 스냅샷 / 큐레이션
 - 유사사례 89건 (LLM 태깅 + 수동 검수), 반복 보완 포인트, 주민 민감 이슈
-- EIASS 원문 103건 (526 PDF, 16개 사업유형) → RAG 색인 6,104 청크
-- 벌크 협의 데이터 9,973건 → 패턴 분석 + 검토의견 예측
+- EIASS 원문 103건 (526 PDF, 16개 사업유형) → RAG 색인 6,103 청크
+- 벌크 협의 데이터 9,996건 → 패턴 분석 + 검토의견 예측
 - "자동 수집"보다 "정확한 태깅"이 더 중요
 
 **핵심**: 실시간 = 고급 기능, 캐시 = 기본 동작 보장, 연결 실패 = 빈 데이터로 graceful 처리
@@ -251,7 +254,7 @@ eia-prescreen/
 | 환경영향평가서 원문 | 103건 (526 PDF, 6.3GB, 16개 사업유형) |
 | RAG 청크 | 6,103개 |
 | RAG 검색 품질 | 90.3/100 |
-| 벌크 협의 데이터 | 9,973건 |
+| 벌크 협의 데이터 | 9,996건 |
 | 실연동 API | 16종 (34종 승인) |
 | 규칙 YAML | 77개 (19개 도메인) |
 | 유사사례 | 89건 (18개 유형) |
@@ -261,7 +264,8 @@ eia-prescreen/
 | 백엔드 엔드포인트 | 41개 (11 라우터) |
 | 프론트엔드 페이지 | 10개 (11 빌드 라우트) |
 | 프론트엔드 컴포넌트 | 27개 |
-| API 호출 함수 | 33개 |
+| API 호출 함수 | 34개 |
+| 풀테스트 (17유형×2건) | 340 API 호출, 100% 성공 |
 | 초안 템플릿 | 7장 22섹션 |
 | 별표1 커버리지 | 70% 완전, 30% 부분, 0% 미보유 |
 
@@ -323,7 +327,7 @@ eia-prescreen/
 | Step | 작업 | 상태 |
 |------|------|------|
 | 1~6 | 유사사례 89건, 규제 174개, 규칙 77개, 커넥터 26개, 통합검증 | ✅ |
-| 7~9 | 벌크 9,973건 수집, 패턴 분석, 서비스 통합 | ✅ |
+| 7~9 | 벌크 9,996건 수집, 패턴 분석, 서비스 통합 | ✅ |
 | 10~11 | Draft Copilot, 검토의견 예측 + 품질 체크 | ✅ |
 | 12~14 | EIASS 크롤링 103건, RAG 6,103 청크 | ✅ |
 | 15 | RAG 품질 테스트 (90.3/100) | ✅ |
@@ -362,7 +366,7 @@ eia-prescreen/
 | Rate Limiting (slowapi, 4단계) | ✅ Phase A |
 | 글로벌 에러 핸들러 (3종 한국어) | ✅ Phase A |
 | API 로깅 미들웨어 (순수 ASGI, JSON 구조화) | ✅ Phase A |
-| CI/CD (ci.yml 6 jobs) | ✅ Phase A |
+| CI/CD (ci.yml 5 jobs) | ✅ Phase A |
 | 프론트엔드 에러 바운더리 | ✅ Phase A |
 
 ### 잔여 운영 과제
@@ -391,7 +395,9 @@ eia-prescreen/
 | 이터레이션 | docs/ITERATION_PLAN.md | UI/UX 이터레이션 |
 | 전수조사 V1 | docs/PROJECT_AUDIT.md | 프로젝트 전수조사 (Phase A~D 이전) |
 | 전수조사 V2 | docs/PROJECT_AUDIT_V2.md | 프로젝트 전수조사 (Phase A~D 완료 기준) |
-| 전수조사 V3 | docs/PROJECT_AUDIT_V3.md | 프로젝트 전수조사 (API 실연동 + JWT 수정 완료 기준, 최신) |
+| 전수조사 V3 | docs/PROJECT_AUDIT_V3.md | 프로젝트 전수조사 (API 실연동 + JWT 수정 완료 기준) |
+| 전수조사 V4 | docs/PROJECT_AUDIT_V4.md | 프로젝트 전수조사 (Gemini + 풀테스트 기준, 최신) |
+| 풀테스트 결과 | docs/FULL_TYPE_TEST_34.md | 17유형 34건 풀테스트 결과 |
 | 실행 계획 | docs/FINAL_EXECUTION_PLAN.md | 15 Step 실무 확장 계획 |
 
 ## 실무 확장 진행 상태
@@ -403,30 +409,26 @@ eia-prescreen/
 | C 법령 최신성 | C-1~C-2 | ✅ 완료 |
 | D 보고서·UI | D-1~D-3 | ✅ 완료 |
 
-**전체 Phase A~D 완료 (2026-03-31)**
+**전체 Phase A~D + Gemini 전환 + 풀테스트 완료 (2026-04-03)**
 
-### 통합 테스트 결과 (2026-04-01, 3건 실 사례, 재검증)
+### 34건 풀테스트 결과 (2026-04-03, 17유형 × 2건)
 
-| 항목 | 부여 관광 | 울산 산업 | 영주 에너지 |
-|------|----------|----------|-----------|
-| 리스크 카드 | 9 (C:3 M:3 R:3) | 5 (M:2 R:3) | 10 (C:4 M:3 R:3) |
-| 규제 매칭 | 7 | 2 | 13 |
-| 유사사례 | 5건 (0.31~0.34) | 5건 (0.33~0.35) | 7건 (0.31~0.34) |
-| 검토의견 1순위 | 생태계 85% | 대기질 82% | 대기질 92% |
-| 품질 체크 | 35/37 (94점) | 30/31 (96점) | 35/37 (94점) |
-| RAG 답변 | 684자, 5출처 | 862자, 5출처 | 1,129자, 5출처 |
-| 커넥터 | 22/22 (100%) | 22/22 (100%) | 21/22 (95.5%) |
-| 초안 | 22섹션/7장 | 22섹션/7장 | 22섹션/7장 |
-| 인증 401 | ✅ 정상 차단 | ✅ 정상 차단 | ✅ 정상 차단 |
-| 신규 커넥터 | hydro✅ ocean✅ waste✅ species✅ | hydro✅ ocean✅ waste✅ species✅ | hydro✅ ocean❌(내륙) waste✅ species✅ |
+| 검증 기준 | 결과 |
+|-----------|------|
+| 34건 리스크 1건+ | **PASS** (최소 3건~최대 12건) |
+| 34건 규제 1건+ | **PASS** (최소 1건~최대 19건) |
+| 초안 22섹션/7장 | **PASS** (34/34) |
+| 품질 80점+ | **PASS** (93~100점) |
+| 커넥터 20개+ | **PASS** (20~22/22) |
+| 검토의견 유형별 차별화 | **PASS** (5개 패턴 그룹) |
 
-**전건 검증 통과**:
-- 리스크/규제 1건+, 유사사례 유효, 검토의견 유형별 차별화
-- 초안 22섹션/7장 정상 생성 (이전 18/6 → 수정 완료)
-- 커넥터 22개 전체 활성화 (이전 14 → 수정 완료)
-- JWT 인증 401 정상 적용 (이전 미적용 → BaseHTTPMiddleware→순수ASGI 전환으로 수정)
-- 신규 커넥터 4종 (hydrology/ocean/waste_data/species) 실데이터 반환 확인
-- 영주(내륙) ocean 커넥터: 50km 이내 관측소 없음 → 정상적 빈 데이터 반환
+**발견 이슈**: mining/forest 유사사례 0건 (라이브러리 미보유), reclamation 1건 (희소)
+
+### LLM 프로바이더 현황 (V4)
+- 기본: Google Gemini 2.5 Flash (무료, llm_client.py 팩토리)
+- 대안: OpenRouter DeepSeek V3 (LLM_PROVIDER 환경변수 전환)
+- ⚠️ JWT 인증 임시 해제 중 (테스트용, 코드 유지)
 
 실행 문서: docs/FINAL_EXECUTION_PLAN.md
-전수조사: docs/PROJECT_AUDIT_V3.md (최신)
+풀테스트: docs/FULL_TYPE_TEST_34.md
+전수조사: docs/PROJECT_AUDIT_V4.md (최신)

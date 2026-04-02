@@ -1,16 +1,14 @@
-"""DeepSeek V3 (via OpenRouter) LLM 해석 서비스.
+"""LLM 리스크 해석 서비스.
 
 리스크 카드와 규제 매칭 결과를 자연어(한국어)로 해석하여 반환한다.
-OpenAI SDK를 사용하며, OpenRouter를 통해 DeepSeek V3 모델을 호출한다.
+LLM_PROVIDER 설정에 따라 Gemini 또는 OpenRouter를 사용한다.
 """
 
 import logging
 from datetime import datetime, timezone
 from typing import Any, Optional
 
-from openai import AsyncOpenAI
-
-from backend.app.core.config import settings
+from backend.app.core.llm_client import get_llm_client, get_llm_model, get_provider_name
 
 logger = logging.getLogger(__name__)
 
@@ -34,10 +32,10 @@ _SYSTEM_PROMPT = f"""\
 
 
 class LLMInterpreter:
-    """OpenRouter + DeepSeek V3를 사용한 리스크 해석 서비스."""
+    """LLM을 사용한 리스크 해석 서비스."""
 
     def __init__(self) -> None:
-        self._model = settings.LLM_MODEL
+        self._model = get_llm_model()
 
     async def interpret(
         self,
@@ -61,24 +59,21 @@ class LLMInterpreter:
                 - ai_generated: AI 생성 여부 라벨
         """
         # ── API 키 검증 ──
-        if not settings.OPENROUTER_API_KEY or not settings.OPENROUTER_API_KEY.strip():
-            logger.error("OPENROUTER_API_KEY가 설정되지 않았습니다.")
+        client = get_llm_client()
+        if client is None:
             return self._error_response(
-                "LLM 해석을 수행할 수 없습니다: OPENROUTER_API_KEY가 설정되지 않았습니다. "
+                f"LLM 해석을 수행할 수 없습니다: {get_provider_name()} API 키가 설정되지 않았습니다. "
                 ".env 파일에 유효한 API 키를 설정해 주세요."
             )
 
         # ── 프롬프트 구성 ──
         user_prompt = self._build_prompt(risk_cards, regulation_matches, data_status)
 
-        # ── OpenRouter API 호출 ──
+        # ── LLM API 호출 ──
         try:
-            client = AsyncOpenAI(
-                api_key=settings.OPENROUTER_API_KEY,
-                base_url="https://openrouter.ai/api/v1",
-            )
             response = await client.chat.completions.create(
                 model=self._model,
+                max_tokens=4096,
                 messages=[
                     {"role": "system", "content": _SYSTEM_PROMPT},
                     {"role": "user", "content": user_prompt},
@@ -86,9 +81,9 @@ class LLMInterpreter:
             )
             interpretation_text = response.choices[0].message.content
         except Exception as exc:
-            logger.exception("OpenRouter API 호출 중 오류 발생: %s", exc)
+            logger.exception("LLM API 호출 중 오류 발생 (%s): %s", get_provider_name(), exc)
             return self._error_response(
-                f"LLM 해석 중 오류가 발생했습니다: {exc}. "
+                f"LLM 해석 중 오류가 발생했습니다 ({get_provider_name()}): {exc}. "
                 "잠시 후 다시 시도해 주세요."
             )
 

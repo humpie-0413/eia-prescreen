@@ -10,10 +10,10 @@
 |------|------|
 | **입지 리스크 카드** | Critical / Major / Review / Info 4단계 심각도 + 법적 근거 |
 | **규제 자동 매칭** | 용도지역·보호구역·EIA 임계값 기반 174개 법령 자동 매칭 |
-| **AI 리스크 해석** | DeepSeek V3가 결과를 2~3문단으로 종합 서술 |
+| **AI 리스크 해석** | Gemini 2.5 Flash가 결과를 2~3문단으로 종합 서술 |
 | **RAG 원문 검색** | 103건 실제 환경영향평가서 원문 기반 질의응답 (6,103 청크) |
 | **Draft Copilot** | 7장 22섹션 초안 자동 생성 (템플릿 + RAG 참조 + LLM 보완) |
-| **검토의견 예측** | 9,973건 과거 데이터 기반 예상 지적항목·확률 예측 |
+| **검토의견 예측** | 9,996건 과거 데이터 기반 예상 지적항목·확률 예측 |
 | **유사사례 라이브러리** | 89건 큐레이션 사례 태그 기반 필터·유사도 검색 |
 | **부지 비교** | 최대 3개 부지 Side-by-side 리스크 매트릭스 비교 |
 | **리스크 맵** | MapLibre GL 기반 500m/1km 버퍼 + 규제 레이어 시각화 |
@@ -40,7 +40,7 @@
                        │ (77규칙/19도메인)│ (174개)  │해석문  │
                        ├──────────┬────┴───────┬───────────┤
                        │ RAG 서비스│ Draft Copilot│ 패턴분석 │
-                       │ ChromaDB │ 7장 22섹션   │ 9,973건  │
+                       │ ChromaDB │ 7장 22섹션   │ 9,996건  │
                        │ 6,103청크 │ 초안 생성    │ 통계     │
                        ├──────────┴────────────┴───────────┤
                        │     26개 커넥터 (22개 DataFetcher)   │
@@ -79,7 +79,7 @@
 ### AI / 데이터
 | 기술 | 선택 근거 |
 |------|----------|
-| DeepSeek V3 (via OpenRouter) | 빠른 응답, 한국어 우수, 무료 |
+| Gemini 2.5 Flash (Google) | 빠른 응답, 한국어 우수, 무료 |
 | ChromaDB + ko-sroberta | 한국어 임베딩 RAG (103건 평가서 원문) |
 | 규칙 엔진 (YAML) | 77개 규칙 파일 관리, 버전 제어 |
 | 3-tier 데이터 전략 | A(실시간) / B(캐시 폴백) / C(수동 스냅샷) |
@@ -88,7 +88,7 @@
 | 기술 | 선택 근거 |
 |------|----------|
 | Docker Compose | 5 서비스 (backend, frontend, postgres, nginx, certbot) |
-| GitHub Actions | CI 6 jobs (lint, type-check, pytest, build, e2e, security) |
+| GitHub Actions | CI 5 jobs (lint, pytest, build, e2e, docker) |
 | JWT + bcrypt + RBAC | 3역할 (admin/analyst/viewer) 인증·인가 |
 | Prometheus | 9개 메트릭 (/metrics 엔드포인트) |
 
@@ -180,7 +180,7 @@ rag.index_reports(overwrite=True)
 | 테스트 | 272개 (pytest 205 + E2E 67) |
 | 환경영향평가서 원문 | 103건 (526 PDF, 6.3GB, 16개 사업유형) |
 | RAG 청크 | 6,103개 |
-| 벌크 협의 데이터 | 9,973건 |
+| 벌크 협의 데이터 | 9,996건 |
 | 실연동 공공 API | 16종 (34종 승인) |
 | 규칙 YAML | 77개 (19개 도메인) |
 | 유사사례 | 89건 (18개 유형) |

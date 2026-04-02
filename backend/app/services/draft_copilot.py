@@ -16,9 +16,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from openai import AsyncOpenAI
-
 from backend.app.core.config import settings
+from backend.app.core.llm_client import get_llm_client, get_llm_model, get_provider_name
 from backend.app.services.pattern_advisor import PatternAdvisor
 from backend.app.services.report_rag import ReportRAG
 
@@ -195,7 +194,7 @@ class DraftCopilot:
         risk_cards = risk_cards or []
         regulations = regulations or []
 
-        if not settings.OPENROUTER_API_KEY:
+        if get_llm_client() is None:
             return await self.generate_section(
                 section_id, project_info, risk_cards, regulations,
             )
@@ -886,14 +885,14 @@ class DraftCopilot:
         return "\n".join(prompt_parts)
 
     async def _call_llm(self, prompt: str) -> str:
-        """OpenRouter API를 통해 DeepSeek을 호출한다."""
+        """LLM API를 호출하여 초안 텍스트를 생성한다."""
+        client = get_llm_client()
+        if client is None:
+            return f"[LLM 키 미설정] {get_provider_name()} API 키를 확인하세요.\n\n규칙 기반 초안으로 대체합니다."
         try:
-            client = AsyncOpenAI(
-                api_key=settings.OPENROUTER_API_KEY,
-                base_url="https://openrouter.ai/api/v1",
-            )
             response = await client.chat.completions.create(
-                model=settings.LLM_MODEL,
+                model=get_llm_model(),
+                max_tokens=4096,
                 messages=[
                     {
                         "role": "system",
@@ -908,7 +907,7 @@ class DraftCopilot:
             )
             return response.choices[0].message.content or ""
         except Exception as exc:
-            logger.exception("Draft LLM 호출 실패: %s", exc)
+            logger.exception("Draft LLM 호출 실패 (%s): %s", get_provider_name(), exc)
             return f"[LLM 호출 실패] {exc}\n\n규칙 기반 초안으로 대체합니다."
 
     # ──────────────────────────────────────────────

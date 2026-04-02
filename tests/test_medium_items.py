@@ -295,10 +295,8 @@ async def test_llm_interpret_with_mock_api():
     mock_client = MagicMock()
     mock_client.chat = mock_chat
 
-    with patch("backend.app.services.llm_interpreter.settings") as mock_settings, \
-         patch("backend.app.services.llm_interpreter.AsyncOpenAI", return_value=mock_client):
-        mock_settings.OPENROUTER_API_KEY = "test-key-123"
-        mock_settings.LLM_MODEL = "deepseek/deepseek-chat"
+    with patch("backend.app.services.llm_interpreter.get_llm_client", return_value=mock_client), \
+         patch("backend.app.services.llm_interpreter.get_llm_model", return_value="gemini-2.5-flash"):
         result = await interp.interpret(risk_cards=_RISK_CARDS, regulation_matches=_REG_MATCHES)
 
     assert result["interpretation"] == "이 사업은 환경적으로 높은 리스크를 가지고 있습니다."

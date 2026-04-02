@@ -62,9 +62,15 @@ data/screenings/
 data/new/
 data/e2e_results/
 
-# Ad-hoc test scripts (root level)
+# Ad-hoc test scripts and results (root level)
 test_api_*.py
 test_api_*.txt
+test_results/
+test_results_v2/
+test_results.txt
+run_tests.py
+run_tests_final.py
+tmp/
 
 # Temporary analysis files
 data/bulk/analysis/_type_check.txt

@@ -45,8 +45,8 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     if (res.status === 401 && typeof window !== "undefined") {
       localStorage.removeItem("access_token");
       localStorage.removeItem("refresh_token");
-      window.location.href = "/login";
-      throw new ApiError(401, "인증이 만료되었습니다.");
+      // 인증 비활성화 상태에서는 리다이렉트 하지 않음
+      // window.location.href = "/login";
     }
 
     if (!res.ok) {

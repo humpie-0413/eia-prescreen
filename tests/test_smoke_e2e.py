@@ -240,19 +240,17 @@ def test_checklist_generator_with_risks(checklist_gen: ChecklistGenerator):
 
 @pytest.mark.asyncio
 async def test_llm_interpreter_no_key_returns_error():
-    """OPENROUTER_API_KEY 미설정 시 에러 메시지 반환 (crash 없음)."""
-    import asyncio
+    """LLM API 키 미설정 시 에러 메시지 반환 (crash 없음)."""
     from unittest.mock import patch
     from backend.app.services.llm_interpreter import LLMInterpreter
 
     interp = LLMInterpreter()
-    with patch("backend.app.services.llm_interpreter.settings") as mock_settings:
-        mock_settings.OPENROUTER_API_KEY = ""
-        mock_settings.LLM_MODEL = "deepseek/deepseek-chat"
+    with patch("backend.app.services.llm_interpreter.get_llm_client", return_value=None), \
+         patch("backend.app.services.llm_interpreter.get_provider_name", return_value="Gemini (gemini-2.5-flash)"):
         result = await interp.interpret(risk_cards=_SAMPLE_RISKS, regulation_matches=_SAMPLE_REGS)
 
     assert "interpretation" in result
-    assert "OPENROUTER_API_KEY" in result["interpretation"]
+    assert "API 키" in result["interpretation"]
     assert result["ai_generated"] == "AI 생성"
     assert result["disclaimer"] == "이 해석은 참고용이며 법적 효력이 없습니다"
 
