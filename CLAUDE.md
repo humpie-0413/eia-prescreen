@@ -427,7 +427,6 @@ eia-prescreen/
 ### LLM 프로바이더 현황 (V4)
 - 기본: Google Gemini 2.5 Flash (무료, llm_client.py 팩토리)
 - 대안: OpenRouter DeepSeek V3 (LLM_PROVIDER 환경변수 전환)
-- ⚠️ JWT 인증 임시 해제 중 (테스트용, 코드 유지)
 
 실행 문서: docs/FINAL_EXECUTION_PLAN.md
 풀테스트: docs/FULL_TYPE_TEST_34.md
